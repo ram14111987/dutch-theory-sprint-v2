@@ -1,0 +1,16 @@
+css
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+  color: black;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 18px;
+}
