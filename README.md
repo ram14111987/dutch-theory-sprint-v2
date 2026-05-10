@@ -1,4 +1,30 @@
-# React + Vite
+# Dutch Theory Sprint v2
+
+A React + Vite scaffold for practicing Dutch driving theory.
+
+Routing uses `react-router-dom`'s `HashRouter`, so all routes live under `#/`.
+
+## Routes
+
+- `#/` — home (study modes, modules, progress placeholder)
+- `#/modules` — list of all modules
+- `#/modules/:slug` — module detail (lessons + Start quiz when available)
+- `#/lessons/:slug` — single lesson
+- `#/quiz/:slug` — in-memory randomized 5-question quiz (Phase 2; only `signs` is enabled)
+- `#/quiz/:slug/results` — quiz results page
+
+## Quiz scaffold (Phase 2)
+
+The signs module ships with an in-memory quiz. From the home page or modules
+list, open "Road signs and markings" and click **Start quiz** (or visit
+`#/quiz/signs`). Each session is a fresh randomized 5-question set drawn from
+`src/content/questions/signs.json`. Answers, scoring, and the results page are
+ephemeral — nothing is persisted.
+
+Pure quiz logic lives in `src/quiz/{engine,selection,scoring}.js` and has no
+React imports.
+
+## React + Vite template notes
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

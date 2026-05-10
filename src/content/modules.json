@@ -1,0 +1,56 @@
+[
+  {
+    "id": "signs",
+    "slug": "signs",
+    "title": "Road signs and markings",
+    "description": "Recognize the most important Dutch traffic signs, road markings, and what they require you to do.",
+    "lessonSlugs": ["signs-warning"],
+    "quizEnabled": true,
+    "questionBankId": "signs"
+  },
+  {
+    "id": "priority",
+    "slug": "priority",
+    "title": "Priority and junctions",
+    "description": "Right of way at intersections, roundabouts, and shared spaces.",
+    "lessonSlugs": [],
+    "quizEnabled": false,
+    "questionBankId": null
+  },
+  {
+    "id": "hazard-perception",
+    "slug": "hazard-perception",
+    "title": "Hazard perception",
+    "description": "Spotting risks early and reacting safely in changing traffic situations.",
+    "lessonSlugs": [],
+    "quizEnabled": false,
+    "questionBankId": null
+  },
+  {
+    "id": "speed-stopping",
+    "slug": "speed-stopping",
+    "title": "Speed and stopping distance",
+    "description": "Speed limits, reaction time, braking distance, and total stopping distance.",
+    "lessonSlugs": [],
+    "quizEnabled": false,
+    "questionBankId": null
+  },
+  {
+    "id": "vehicle-knowledge",
+    "slug": "vehicle-knowledge",
+    "title": "Vehicle knowledge and safety",
+    "description": "Tyres, lights, loads, and basic checks before and during driving.",
+    "lessonSlugs": [],
+    "quizEnabled": false,
+    "questionBankId": null
+  },
+  {
+    "id": "special-users",
+    "slug": "special-users",
+    "title": "Special road users and situations",
+    "description": "Cyclists, mopeds, pedestrians, trams, emergency vehicles, and tricky situations.",
+    "lessonSlugs": [],
+    "quizEnabled": false,
+    "questionBankId": null
+  }
+]

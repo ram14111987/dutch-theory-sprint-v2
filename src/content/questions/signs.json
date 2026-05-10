@@ -1,0 +1,202 @@
+[
+  {
+    "id": "signs-001",
+    "moduleId": "signs",
+    "lessonId": "signs-warning",
+    "topicTags": ["warning-signs", "shape"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "What does a red triangular sign with a point at the top usually indicate in the Netherlands?",
+    "choices": [
+      { "id": "a", "text": "A prohibition" },
+      { "id": "b", "text": "A warning of a hazard ahead" },
+      { "id": "c", "text": "A mandatory direction" },
+      { "id": "d", "text": "An informational sign" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Triangular signs with a red border are warning signs and alert you to a hazard ahead.",
+      "examTip": "Shape and colour tell you the category before you even read the symbol."
+    }
+  },
+  {
+    "id": "signs-002",
+    "moduleId": "signs",
+    "lessonId": "signs-prohibitory",
+    "topicTags": ["prohibition", "shape"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A round sign with a red border and a white background generally means:",
+    "choices": [
+      { "id": "a", "text": "Mandatory action" },
+      { "id": "b", "text": "Warning" },
+      { "id": "c", "text": "Prohibition" },
+      { "id": "d", "text": "Information about a service" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Round signs with a red border are prohibitory: they tell you what you may not do.",
+      "examTip": "Red borders almost always restrict you. Blue rounds, by contrast, give a mandatory instruction."
+    }
+  },
+  {
+    "id": "signs-003",
+    "moduleId": "signs",
+    "lessonId": "signs-mandatory",
+    "topicTags": ["mandatory", "colour"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "What does a round blue sign typically indicate?",
+    "choices": [
+      { "id": "a", "text": "A prohibition" },
+      { "id": "b", "text": "A mandatory action or direction" },
+      { "id": "c", "text": "A general warning" },
+      { "id": "d", "text": "End of a restriction" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Round blue signs are mandatory: they oblige you to follow the indicated action or direction.",
+      "examTip": "Compare with rectangular blue signs, which are informational rather than mandatory."
+    }
+  },
+  {
+    "id": "signs-004",
+    "moduleId": "signs",
+    "lessonId": "signs-priority",
+    "topicTags": ["priority", "intersection"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You see a yellow diamond-shaped sign with a white border. What does it mean?",
+    "choices": [
+      { "id": "a", "text": "End of priority road" },
+      { "id": "b", "text": "Priority road" },
+      { "id": "c", "text": "Give way ahead" },
+      { "id": "d", "text": "No through road" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "The yellow diamond is the priority-road sign: traffic on this road has priority at intersections until cancelled.",
+      "examTip": "The same sign with a black diagonal stripe means the priority road ends."
+    }
+  },
+  {
+    "id": "signs-005",
+    "moduleId": "signs",
+    "lessonId": "signs-priority",
+    "topicTags": ["priority", "give-way"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "An inverted (point-down) triangle with a red border at an intersection means:",
+    "choices": [
+      { "id": "a", "text": "Stop completely before entering" },
+      { "id": "b", "text": "You have priority" },
+      { "id": "c", "text": "Give way to traffic on the crossing road" },
+      { "id": "d", "text": "No entry" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "The inverted triangle is the give-way (B6) sign: yield to traffic on the crossing road, but you do not have to stop if it is clear.",
+      "examTip": "If the sign were octagonal and red (STOP), you would have to come to a full stop even with no traffic."
+    }
+  },
+  {
+    "id": "signs-006",
+    "moduleId": "signs",
+    "lessonId": "signs-prohibitory",
+    "topicTags": ["no-entry", "prohibition"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A round red sign with a single horizontal white bar means:",
+    "choices": [
+      { "id": "a", "text": "No entry for vehicular traffic in this direction" },
+      { "id": "b", "text": "Road closed to all users" },
+      { "id": "c", "text": "End of all restrictions" },
+      { "id": "d", "text": "No stopping" }
+    ],
+    "correctChoiceIds": ["a"],
+    "explanation": {
+      "short": "This is the C2 sign: no entry for drivers in that direction, often marking a one-way street from the wrong end.",
+      "examTip": "Pedestrians and sometimes cyclists may still be allowed; check additional plates underneath."
+    }
+  },
+  {
+    "id": "signs-007",
+    "moduleId": "signs",
+    "lessonId": "signs-speed",
+    "topicTags": ["speed-limit", "prohibition"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A round white sign with a red border showing the number 50 means:",
+    "choices": [
+      { "id": "a", "text": "Recommended speed 50 km/h" },
+      { "id": "b", "text": "Maximum speed 50 km/h" },
+      { "id": "c", "text": "Minimum speed 50 km/h" },
+      { "id": "d", "text": "End of 50 km/h zone" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A red-bordered round speed sign sets the maximum legal speed on that road.",
+      "examTip": "Minimum speed is shown on a blue round sign; recommended speed on a rectangular sign."
+    }
+  },
+  {
+    "id": "signs-008",
+    "moduleId": "signs",
+    "lessonId": "signs-markings",
+    "topicTags": ["road-markings", "lines"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "What does a continuous white line in the centre of the road mean?",
+    "choices": [
+      { "id": "a", "text": "You may overtake if it is safe" },
+      { "id": "b", "text": "You may not cross or straddle the line" },
+      { "id": "c", "text": "Edge of the road" },
+      { "id": "d", "text": "Cycle lane boundary" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A solid centre line may not be crossed or straddled, except in narrowly defined situations such as avoiding an obstacle.",
+      "examTip": "A broken line allows overtaking; a combination line follows the rule on your own side."
+    }
+  },
+  {
+    "id": "signs-009",
+    "moduleId": "signs",
+    "lessonId": "signs-markings",
+    "topicTags": ["road-markings", "shark-teeth"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Triangular markings on the road pointing toward you (\"shark's teeth\") mean:",
+    "choices": [
+      { "id": "a", "text": "Pedestrian crossing ahead" },
+      { "id": "b", "text": "You must give way to traffic on the crossing road" },
+      { "id": "c", "text": "Speed bump ahead" },
+      { "id": "d", "text": "End of cycle path" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Shark's teeth indicate that you must yield to crossing traffic, even if no give-way sign is visible.",
+      "examTip": "They often appear at exits of roundabouts and where cycle paths cross a road."
+    }
+  },
+  {
+    "id": "signs-010",
+    "moduleId": "signs",
+    "lessonId": "signs-information",
+    "topicTags": ["information", "colour"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A rectangular blue sign in the Netherlands generally provides:",
+    "choices": [
+      { "id": "a", "text": "A warning" },
+      { "id": "b", "text": "A prohibition" },
+      { "id": "c", "text": "Information or guidance" },
+      { "id": "d", "text": "An end-of-restriction marker" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Rectangular blue signs are informational: parking, one-way streets, route guidance, and similar.",
+      "examTip": "Round blue signs are mandatory; rectangular blue signs only inform."
+    }
+  }
+]

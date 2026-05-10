@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "signs-warning",
+    "moduleSlug": "signs",
+    "title": "Warning signs",
+    "summary": "How to recognize Dutch warning signs by their shape and colour, and what they require you to do.",
+    "sections": [
+      {
+        "heading": "Shape and colour",
+        "body": "Warning signs in the Netherlands are triangular with a red border and a white background. The point of the triangle faces up. The red border tells you the sign is part of the warning category before you've even read the symbol inside."
+      },
+      {
+        "heading": "Common examples",
+        "body": "Examples include warnings for a sharp bend, a slippery road, road works, children, cyclists crossing, and uneven road surfaces. The pictogram inside the triangle tells you exactly which hazard to expect."
+      },
+      {
+        "heading": "What to do",
+        "body": "A warning sign does not give a hard rule like a prohibition or mandatory sign. It tells you to adjust your speed and attention so you can react safely if the hazard appears. Slow down, scan further ahead, and be ready to brake."
+      }
+    ]
+  }
+]
