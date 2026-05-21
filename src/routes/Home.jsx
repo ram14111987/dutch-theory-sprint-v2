@@ -1,11 +1,27 @@
 import { useCallback, useState } from 'react';
-import { studyModes, getAllModules } from '../content/index.js';
+import { Link } from 'react-router-dom';
+import { studyModes, getAllModules, getQuestionsForModule, hasQuiz } from '../content/index.js';
 import ModuleCard from '../components/ModuleCard.jsx';
-import { getGlobalStats, resetAll } from '../storage/progressStore.js';
+import {
+  getGlobalStats,
+  resetAll,
+  getAttemptsForModule,
+} from '../storage/progressStore.js';
+import { getMistakeCount } from '../quiz/mistakes.js';
+
+function computeMistakeTotal(modules) {
+  let total = 0;
+  for (const m of modules) {
+    if (!hasQuiz(m.slug)) continue;
+    total += getMistakeCount(getAttemptsForModule(m.slug), getQuestionsForModule(m.slug));
+  }
+  return total;
+}
 
 function Home() {
   const modules = getAllModules();
   const [stats, setStats] = useState(() => getGlobalStats());
+  const [mistakeTotal, setMistakeTotal] = useState(() => computeMistakeTotal(modules));
 
   const handleReset = useCallback(() => {
     const ok = typeof window !== 'undefined'
@@ -14,7 +30,8 @@ function Home() {
     if (!ok) return;
     resetAll();
     setStats(getGlobalStats());
-  }, []);
+    setMistakeTotal(computeMistakeTotal(modules));
+  }, [modules]);
 
   const weakestModule = stats.weakestModuleSlug
     ? modules.find((m) => m.slug === stats.weakestModuleSlug)
@@ -47,12 +64,36 @@ function Home() {
         </div>
 
         <div className="card-grid">
-          {studyModes.map((mode) => (
-            <article className="card" key={mode}>
-              <h3>{mode}</h3>
-              <p>Structured practice flow for focused exam preparation.</p>
-            </article>
-          ))}
+          {studyModes.map((mode) => {
+            if (mode === 'Mistake Review') {
+              const enabled = mistakeTotal > 0;
+              return (
+                <article className="card" key={mode}>
+                  <h3>{mode}</h3>
+                  <p>
+                    {enabled
+                      ? `${mistakeTotal} question${mistakeTotal === 1 ? '' : 's'} waiting based on your latest answers.`
+                      : 'Take a quiz first — questions you miss will appear here so you can practice them again.'}
+                  </p>
+                  {enabled ? (
+                    <Link to="/review" className="card__link">
+                      Start Mistake Review
+                    </Link>
+                  ) : (
+                    <span className="card__link" style={{ opacity: 0.5 }} aria-disabled="true">
+                      Nothing to review yet
+                    </span>
+                  )}
+                </article>
+              );
+            }
+            return (
+              <article className="card" key={mode}>
+                <h3>{mode}</h3>
+                <p>Structured practice flow for focused exam preparation.</p>
+              </article>
+            );
+          })}
         </div>
       </section>
 

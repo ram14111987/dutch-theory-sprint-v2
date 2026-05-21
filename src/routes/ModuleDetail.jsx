@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
-import { getModuleBySlug, getLessonsForModule, hasQuiz } from '../content/index.js';
-import { getModuleStats } from '../storage/progressStore.js';
+import { getModuleBySlug, getLessonsForModule, getQuestionsForModule, hasQuiz } from '../content/index.js';
+import { getModuleStats, getAttemptsForModule } from '../storage/progressStore.js';
+import { getMistakeCount, REVIEW_SESSION_CAP } from '../quiz/mistakes.js';
 import LessonCard from '../components/LessonCard.jsx';
 
 function ModuleDetail() {
@@ -24,6 +25,10 @@ function ModuleDetail() {
   const moduleStats = getModuleStats(mod.slug);
   const hasAttempts = moduleStats.attemptCount > 0;
   const ctaLabel = hasAttempts ? 'Retry quiz' : 'Start quiz';
+  const mistakeCount = quizAvailable
+    ? getMistakeCount(getAttemptsForModule(mod.slug), getQuestionsForModule(mod.slug))
+    : 0;
+  const reviewCount = Math.min(mistakeCount, REVIEW_SESSION_CAP);
 
   return (
     <>
@@ -40,9 +45,20 @@ function ModuleDetail() {
         </div>
 
         {quizAvailable && (
-          <Link to={`/quiz/${mod.slug}`} className="btn btn--primary">
-            {ctaLabel}
-          </Link>
+          <div className="results-page__actions">
+            <Link to={`/quiz/${mod.slug}`} className="btn btn--primary">
+              {ctaLabel}
+            </Link>
+            {mistakeCount > 0 ? (
+              <Link to={`/review/${mod.slug}`} className="btn">
+                Review mistakes ({reviewCount})
+              </Link>
+            ) : (
+              <button type="button" className="btn" disabled title="No mistakes to review yet">
+                Review mistakes (0)
+              </button>
+            )}
+          </div>
         )}
       </section>
 

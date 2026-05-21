@@ -1,13 +1,13 @@
 import { useContext, useMemo } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useLocation, useParams } from 'react-router-dom';
 import { getModuleBySlug, getQuestionsForModule } from '../content/index.js';
 import { performanceLabel, isAnswerCorrect } from '../quiz/scoring.js';
 import { ResultContext } from '../quiz/ResultContext.js';
 import { getLatestAttempt } from '../storage/progressStore.js';
 import ResultSummary from '../components/ResultSummary.jsx';
 
-function hydrateFromAttempt(slug) {
-  const attempt = getLatestAttempt(slug);
+function hydrateFromAttempt(slug, mode) {
+  const attempt = getLatestAttempt(slug, mode ? { mode } : undefined);
   if (!attempt) return null;
   const bank = getQuestionsForModule(slug);
   const byId = new Map(bank.map((q) => [q.id, q]));
@@ -25,6 +25,7 @@ function hydrateFromAttempt(slug) {
   }
   return {
     moduleSlug: slug,
+    mode: attempt.mode === 'review' ? 'review' : 'quiz',
     questions,
     answers,
     correct: typeof attempt.correct === 'number' ? attempt.correct : 0,
@@ -36,25 +37,43 @@ function hydrateFromAttempt(slug) {
 
 function Results() {
   const { slug } = useParams();
+  const location = useLocation();
+  const isReview = location.pathname.startsWith('/review/');
   const { result } = useContext(ResultContext);
   const mod = getModuleBySlug(slug);
 
   const effective = useMemo(() => {
-    if (result && result.moduleSlug === slug) return result;
-    return hydrateFromAttempt(slug);
-  }, [result, slug]);
+    if (
+      result &&
+      result.moduleSlug === slug &&
+      (result.mode === 'review') === isReview
+    ) {
+      return result;
+    }
+    return hydrateFromAttempt(slug, isReview ? 'review' : 'quiz');
+  }, [result, slug, isReview]);
 
   if (!effective || !effective.questions.length) {
     return (
       <section className="panel results-page">
         <div className="panel__header">
+          {isReview && <p className="eyebrow">Mistake Review</p>}
           <h2>No results to show</h2>
-          <p>Start a quiz to see your results here.</p>
+          <p>
+            {isReview
+              ? 'Finish a review session to see your results here.'
+              : 'Start a quiz to see your results here.'}
+          </p>
         </div>
         <div className="results-page__actions">
-          {mod && (
+          {mod && !isReview && (
             <Link to={`/quiz/${mod.slug}`} className="btn btn--primary">
               Start quiz
+            </Link>
+          )}
+          {mod && isReview && (
+            <Link to={`/review/${mod.slug}`} className="btn btn--primary">
+              Start review
             </Link>
           )}
           <Link
@@ -74,6 +93,7 @@ function Results() {
   return (
     <section className="panel results-page">
       <header className="results-page__header">
+        {isReview && <p className="eyebrow">Mistake Review</p>}
         <p className="eyebrow">Results · {mod ? mod.title : slug}</p>
         <h2>{label}</h2>
       </header>
@@ -116,12 +136,23 @@ function Results() {
       </div>
 
       <div className="results-page__actions">
-        <Link to={`/quiz/${slug}`} className="btn btn--primary">
-          Retry quiz
-        </Link>
+        {isReview ? (
+          <Link to={`/review/${slug}`} className="btn btn--primary">
+            Review again
+          </Link>
+        ) : (
+          <Link to={`/quiz/${slug}`} className="btn btn--primary">
+            Retry quiz
+          </Link>
+        )}
         <Link to={`/modules/${slug}`} className="btn">
           Back to module
         </Link>
+        {isReview && (
+          <Link to="/review" className="btn btn--ghost">
+            Back to Mistake Review
+          </Link>
+        )}
       </div>
     </section>
   );

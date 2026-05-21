@@ -15,11 +15,18 @@ import Lesson from './routes/Lesson.jsx';
 import NotFound from './routes/NotFound.jsx';
 import Quiz from './routes/Quiz.jsx';
 import Results from './routes/Results.jsx';
+import Review from './routes/Review.jsx';
+import ReviewIndex from './routes/ReviewIndex.jsx';
 import { ResultContext } from './quiz/ResultContext.js';
 
 function QuizWithFreshKey() {
   const location = useLocation();
   return <Quiz key={location.pathname} />;
+}
+
+function ReviewWithFreshKey() {
+  const location = useLocation();
+  return <Review key={location.pathname} />;
 }
 
 function App() {
@@ -37,6 +44,9 @@ function App() {
             <Route path="lessons/:slug" element={<Lesson />} />
             <Route path="quiz/:slug" element={<QuizWithFreshKey />} />
             <Route path="quiz/:slug/results" element={<Results />} />
+            <Route path="review" element={<ReviewIndex />} />
+            <Route path="review/:slug" element={<ReviewWithFreshKey />} />
+            <Route path="review/:slug/results" element={<Results />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

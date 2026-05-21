@@ -98,9 +98,13 @@ export function recordAttempt(attempt) {
   const slug = attempt.moduleSlug;
   const list = state.attemptsByModule[slug] ? state.attemptsByModule[slug].slice() : [];
   list.push(attempt);
-  // Keep only the last ATTEMPTS_PER_MODULE_CAP attempts.
-  const trimmed = list.slice(-ATTEMPTS_PER_MODULE_CAP);
-  state.attemptsByModule[slug] = trimmed;
+  // Cap per mode so review attempts can't evict the quiz history that
+  // backs completed-module status (and vice versa).
+  const quizAttempts = list.filter(isQuizAttempt).slice(-ATTEMPTS_PER_MODULE_CAP);
+  const reviewAttempts = list.filter(isReviewAttempt).slice(-ATTEMPTS_PER_MODULE_CAP);
+  const keep = new Set([...quizAttempts, ...reviewAttempts]);
+  // Preserve overall chronological order.
+  state.attemptsByModule[slug] = list.filter((a) => keep.has(a));
   return saveAll(state);
 }
 
@@ -109,14 +113,39 @@ export function getAttemptsForModule(slug) {
   return state.attemptsByModule[slug] ? state.attemptsByModule[slug].slice() : [];
 }
 
-export function getLatestAttempt(slug) {
-  const list = getAttemptsForModule(slug);
-  if (!list.length) return null;
-  return list[list.length - 1];
+// Attempts without an explicit mode are legacy v1 quiz attempts.
+function isQuizAttempt(a) {
+  return !a.mode || a.mode === 'quiz';
 }
 
+function isReviewAttempt(a) {
+  return a && a.mode === 'review';
+}
+
+export function getQuizAttemptsForModule(slug) {
+  return getAttemptsForModule(slug).filter(isQuizAttempt);
+}
+
+export function getReviewAttemptsForModule(slug) {
+  return getAttemptsForModule(slug).filter(isReviewAttempt);
+}
+
+export function getLatestAttempt(slug, { mode } = {}) {
+  const list = getAttemptsForModule(slug);
+  const filtered = mode
+    ? list.filter((a) => (mode === 'quiz' ? isQuizAttempt(a) : a.mode === mode))
+    : list;
+  if (!filtered.length) return null;
+  return filtered[filtered.length - 1];
+}
+
+// Stats reported here describe the user's quiz progress on a module —
+// completed status and best percentage are computed from quiz attempts
+// only, matching Phase 3 semantics. Review attempts are tracked
+// separately and do not change module completion.
 export function getModuleStats(slug) {
-  const attempts = getAttemptsForModule(slug);
+  const allAttempts = getAttemptsForModule(slug);
+  const attempts = allAttempts.filter(isQuizAttempt);
   if (!attempts.length) {
     return {
       slug,
@@ -128,9 +157,13 @@ export function getModuleStats(slug) {
     };
   }
   let best = 0;
-  const seenQuestions = new Set();
   for (const a of attempts) {
     if (typeof a.percentage === 'number' && a.percentage > best) best = a.percentage;
+  }
+  // distinctQuestions counts every question the user has answered in any
+  // mode (quiz or review) so review practice contributes to that stat.
+  const seenQuestions = new Set();
+  for (const a of allAttempts) {
     if (Array.isArray(a.perQuestion)) {
       for (const pq of a.perQuestion) {
         if (pq && pq.questionId) seenQuestions.add(pq.questionId);
