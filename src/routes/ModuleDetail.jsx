@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { getModuleBySlug, getLessonsForModule, hasQuiz } from '../content/index.js';
+import { getModuleStats } from '../storage/progressStore.js';
 import LessonCard from '../components/LessonCard.jsx';
 
 function ModuleDetail() {
@@ -20,6 +21,9 @@ function ModuleDetail() {
 
   const lessons = getLessonsForModule(mod.slug);
   const quizAvailable = hasQuiz(mod.slug);
+  const moduleStats = getModuleStats(mod.slug);
+  const hasAttempts = moduleStats.attemptCount > 0;
+  const ctaLabel = hasAttempts ? 'Retry quiz' : 'Start quiz';
 
   return (
     <>
@@ -28,11 +32,16 @@ function ModuleDetail() {
           <p className="eyebrow">Module</p>
           <h2>{mod.title}</h2>
           <p>{mod.description}</p>
+          {quizAvailable && hasAttempts && (
+            <p className="eyebrow" style={{ marginTop: 12, opacity: 1 }}>
+              Best: {moduleStats.bestPercentage}% · {moduleStats.attemptCount} attempt{moduleStats.attemptCount === 1 ? '' : 's'}
+            </p>
+          )}
         </div>
 
         {quizAvailable && (
           <Link to={`/quiz/${mod.slug}`} className="btn btn--primary">
-            Start quiz
+            {ctaLabel}
           </Link>
         )}
       </section>

@@ -1,16 +1,50 @@
-import { useContext } from 'react';
+import { useContext, useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { getModuleBySlug } from '../content/index.js';
+import { getModuleBySlug, getQuestionsForModule } from '../content/index.js';
 import { performanceLabel, isAnswerCorrect } from '../quiz/scoring.js';
 import { ResultContext } from '../quiz/ResultContext.js';
+import { getLatestAttempt } from '../storage/progressStore.js';
 import ResultSummary from '../components/ResultSummary.jsx';
+
+function hydrateFromAttempt(slug) {
+  const attempt = getLatestAttempt(slug);
+  if (!attempt) return null;
+  const bank = getQuestionsForModule(slug);
+  const byId = new Map(bank.map((q) => [q.id, q]));
+  const questions = [];
+  const answers = {};
+  if (Array.isArray(attempt.perQuestion)) {
+    for (const pq of attempt.perQuestion) {
+      const q = byId.get(pq.questionId);
+      if (!q) continue; // safely skip unknown IDs
+      questions.push(q);
+      if (pq.selectedChoiceId != null) {
+        answers[q.id] = pq.selectedChoiceId;
+      }
+    }
+  }
+  return {
+    moduleSlug: slug,
+    questions,
+    answers,
+    correct: typeof attempt.correct === 'number' ? attempt.correct : 0,
+    total: typeof attempt.total === 'number' ? attempt.total : questions.length,
+    percentage: typeof attempt.percentage === 'number' ? attempt.percentage : 0,
+    hydrated: true,
+  };
+}
 
 function Results() {
   const { slug } = useParams();
   const { result } = useContext(ResultContext);
   const mod = getModuleBySlug(slug);
 
-  if (!result || result.moduleSlug !== slug) {
+  const effective = useMemo(() => {
+    if (result && result.moduleSlug === slug) return result;
+    return hydrateFromAttempt(slug);
+  }, [result, slug]);
+
+  if (!effective || !effective.questions.length) {
     return (
       <section className="panel results-page">
         <div className="panel__header">
@@ -34,7 +68,7 @@ function Results() {
     );
   }
 
-  const { correct, total, percentage, questions, answers } = result;
+  const { correct, total, percentage, questions, answers } = effective;
   const label = performanceLabel(percentage);
 
   return (

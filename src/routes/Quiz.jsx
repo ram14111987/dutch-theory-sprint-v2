@@ -11,6 +11,7 @@ import {
 } from '../quiz/engine.js';
 import { scoreSession } from '../quiz/scoring.js';
 import { ResultContext } from '../quiz/ResultContext.js';
+import { recordAttempt, makeAttemptId } from '../storage/progressStore.js';
 import QuestionCard from '../components/QuestionCard.jsx';
 import QuizProgress from '../components/QuizProgress.jsx';
 
@@ -67,6 +68,20 @@ function Quiz() {
   const handleNext = () => {
     if (last) {
       const score = scoreSession(session.questions, session.answers);
+      const attempt = {
+        id: makeAttemptId(),
+        moduleSlug: mod.slug,
+        finishedAt: new Date().toISOString(),
+        correct: score.correct,
+        total: score.total,
+        percentage: score.percentage,
+        perQuestion: score.details.map((d) => ({
+          questionId: d.questionId,
+          selectedChoiceId: d.selectedChoiceId,
+          correct: d.correct,
+        })),
+      };
+      recordAttempt(attempt);
       setResult({
         moduleSlug: mod.slug,
         questions: session.questions,

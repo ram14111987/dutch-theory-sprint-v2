@@ -1,8 +1,43 @@
+import { useCallback, useState } from 'react';
 import { studyModes, getAllModules } from '../content/index.js';
 import ModuleCard from '../components/ModuleCard.jsx';
+import { getGlobalStats, resetAll } from '../storage/progressStore.js';
 
 function Home() {
   const modules = getAllModules();
+  const [stats, setStats] = useState(() => getGlobalStats());
+
+  const handleReset = useCallback(() => {
+    const ok = typeof window !== 'undefined'
+      ? window.confirm('Reset all progress? This clears every recorded attempt. This cannot be undone.')
+      : true;
+    if (!ok) return;
+    resetAll();
+    setStats(getGlobalStats());
+  }, []);
+
+  const weakestModule = stats.weakestModuleSlug
+    ? modules.find((m) => m.slug === stats.weakestModuleSlug)
+    : null;
+
+  const completedSlugs = new Set(
+    stats.perModule.filter((s) => s.completed).map((s) => s.slug),
+  );
+  const nextQuizModule = modules.find(
+    (m) => m.quizEnabled && !completedSlugs.has(m.slug),
+  );
+
+  let recommendedText;
+  if (stats.totalAttempts === 0) {
+    recommendedText = 'Start with Road signs and markings';
+  } else if (weakestModule && stats.weakestBestPercentage < 80) {
+    recommendedText = `Practice ${weakestModule.title}`;
+  } else if (nextQuizModule) {
+    recommendedText = `Try ${nextQuizModule.title}`;
+  } else {
+    recommendedText = 'All available quizzes mastered — great work!';
+  }
+
   return (
     <>
       <section className="panel">
@@ -37,29 +72,50 @@ function Home() {
       <section className="panel">
         <div className="panel__header">
           <h2>Your Progress</h2>
-          <p>A simple placeholder for the future mastery system.</p>
+          <p>Tracked locally in your browser.</p>
         </div>
 
         <div className="card-grid">
           <article className="card">
             <h3>Completed Modules</h3>
-            <p>0 of {modules.length} completed</p>
+            <p>
+              {stats.completedModules} of {modules.length} completed
+            </p>
           </article>
 
           <article className="card">
             <h3>Questions Practiced</h3>
-            <p>0 answered so far</p>
+            <p>
+              {stats.distinctQuestions === 0
+                ? '0 answered so far'
+                : `${stats.distinctQuestions} distinct answered`}
+            </p>
           </article>
 
           <article className="card">
             <h3>Weakest Area</h3>
-            <p>Not enough data yet</p>
+            <p>
+              {weakestModule
+                ? `${weakestModule.title} (best ${stats.weakestBestPercentage}%)`
+                : 'Not enough data yet'}
+            </p>
           </article>
 
           <article className="card">
             <h3>Recommended Next Step</h3>
-            <p>Start with Road Signs and Markings</p>
+            <p>{recommendedText}</p>
           </article>
+        </div>
+
+        <div className="results-page__actions" style={{ marginTop: 20 }}>
+          <button
+            type="button"
+            className="btn btn--ghost"
+            onClick={handleReset}
+            disabled={stats.totalAttempts === 0}
+          >
+            Reset progress
+          </button>
         </div>
       </section>
     </>
