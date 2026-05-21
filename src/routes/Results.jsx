@@ -39,10 +39,17 @@ function Results() {
   const { slug } = useParams();
   const location = useLocation();
   const isReview = location.pathname.startsWith('/review/');
+  const isSprint = location.pathname.startsWith('/sprint');
   const { result } = useContext(ResultContext);
-  const mod = getModuleBySlug(slug);
+  const mod = slug ? getModuleBySlug(slug) : null;
 
   const effective = useMemo(() => {
+    if (isSprint) {
+      // Sprint results live only in the in-memory ResultContext — there
+      // is no synthetic sprint module to hydrate from on refresh.
+      if (result && result.mode === 'sprint') return result;
+      return null;
+    }
     if (
       result &&
       result.moduleSlug === slug &&
@@ -51,22 +58,30 @@ function Results() {
       return result;
     }
     return hydrateFromAttempt(slug, isReview ? 'review' : 'quiz');
-  }, [result, slug, isReview]);
+  }, [result, slug, isReview, isSprint]);
 
   if (!effective || !effective.questions.length) {
     return (
       <section className="panel results-page">
         <div className="panel__header">
+          {isSprint && <p className="eyebrow">Quick Sprint</p>}
           {isReview && <p className="eyebrow">Mistake Review</p>}
           <h2>No results to show</h2>
           <p>
-            {isReview
+            {isSprint
+              ? 'Finish a Quick Sprint to see your results here.'
+              : isReview
               ? 'Finish a review session to see your results here.'
               : 'Start a quiz to see your results here.'}
           </p>
         </div>
         <div className="results-page__actions">
-          {mod && !isReview && (
+          {isSprint && (
+            <Link to="/sprint" className="btn btn--primary">
+              Start Quick Sprint
+            </Link>
+          )}
+          {mod && !isReview && !isSprint && (
             <Link to={`/quiz/${mod.slug}`} className="btn btn--primary">
               Start quiz
             </Link>
@@ -93,8 +108,14 @@ function Results() {
   return (
     <section className="panel results-page">
       <header className="results-page__header">
+        {isSprint && <p className="eyebrow">Quick Sprint</p>}
         {isReview && <p className="eyebrow">Mistake Review</p>}
-        <p className="eyebrow">Results · {mod ? mod.title : slug}</p>
+        <p className="eyebrow">
+          Results · {isSprint ? 'Quick Sprint' : mod ? mod.title : slug}
+        </p>
+        {isSprint && effective.timedOut && (
+          <p className="eyebrow eyebrow--dark">Submitted on timeout</p>
+        )}
         <h2>{label}</h2>
       </header>
 
@@ -136,7 +157,11 @@ function Results() {
       </div>
 
       <div className="results-page__actions">
-        {isReview ? (
+        {isSprint ? (
+          <Link to="/sprint" className="btn btn--primary">
+            New Quick Sprint
+          </Link>
+        ) : isReview ? (
           <Link to={`/review/${slug}`} className="btn btn--primary">
             Review again
           </Link>
@@ -145,9 +170,16 @@ function Results() {
             Retry quiz
           </Link>
         )}
-        <Link to={`/modules/${slug}`} className="btn">
-          Back to module
-        </Link>
+        {!isSprint && (
+          <Link to={`/modules/${slug}`} className="btn">
+            Back to module
+          </Link>
+        )}
+        {isSprint && (
+          <Link to="/" className="btn">
+            Back home
+          </Link>
+        )}
         {isReview && (
           <Link to="/review" className="btn btn--ghost">
             Back to Mistake Review

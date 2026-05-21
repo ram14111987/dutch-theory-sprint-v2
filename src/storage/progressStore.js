@@ -98,11 +98,12 @@ export function recordAttempt(attempt) {
   const slug = attempt.moduleSlug;
   const list = state.attemptsByModule[slug] ? state.attemptsByModule[slug].slice() : [];
   list.push(attempt);
-  // Cap per mode so review attempts can't evict the quiz history that
-  // backs completed-module status (and vice versa).
+  // Cap per mode so attempts in one mode can't evict the history that
+  // backs another (quiz history backs completed status, etc.).
   const quizAttempts = list.filter(isQuizAttempt).slice(-ATTEMPTS_PER_MODULE_CAP);
   const reviewAttempts = list.filter(isReviewAttempt).slice(-ATTEMPTS_PER_MODULE_CAP);
-  const keep = new Set([...quizAttempts, ...reviewAttempts]);
+  const sprintAttempts = list.filter(isSprintAttempt).slice(-ATTEMPTS_PER_MODULE_CAP);
+  const keep = new Set([...quizAttempts, ...reviewAttempts, ...sprintAttempts]);
   // Preserve overall chronological order.
   state.attemptsByModule[slug] = list.filter((a) => keep.has(a));
   return saveAll(state);
@@ -122,12 +123,20 @@ function isReviewAttempt(a) {
   return a && a.mode === 'review';
 }
 
+function isSprintAttempt(a) {
+  return a && a.mode === 'sprint';
+}
+
 export function getQuizAttemptsForModule(slug) {
   return getAttemptsForModule(slug).filter(isQuizAttempt);
 }
 
 export function getReviewAttemptsForModule(slug) {
   return getAttemptsForModule(slug).filter(isReviewAttempt);
+}
+
+export function getSprintAttemptsForModule(slug) {
+  return getAttemptsForModule(slug).filter(isSprintAttempt);
 }
 
 export function getLatestAttempt(slug, { mode } = {}) {

@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { studyModes, getAllModules, getQuestionsForModule, hasQuiz } from '../content/index.js';
+import { studyModes, getAllModules, getAllQuizQuestions, getQuestionsForModule, hasQuiz } from '../content/index.js';
 import ModuleCard from '../components/ModuleCard.jsx';
 import {
   getGlobalStats,
@@ -22,6 +22,7 @@ function Home() {
   const modules = getAllModules();
   const [stats, setStats] = useState(() => getGlobalStats());
   const [mistakeTotal, setMistakeTotal] = useState(() => computeMistakeTotal(modules));
+  const sprintPoolSize = getAllQuizQuestions().length;
 
   const handleReset = useCallback(() => {
     const ok = typeof window !== 'undefined'
@@ -87,10 +88,35 @@ function Home() {
                 </article>
               );
             }
+            if (mode === 'Quick Sprint') {
+              const enabled = sprintPoolSize > 0;
+              return (
+                <article className="card" key={mode}>
+                  <h3>{mode}</h3>
+                  <p>
+                    {enabled
+                      ? '10 questions, 120 seconds. Mixed from every quiz-enabled module.'
+                      : 'No quiz-enabled modules yet — Quick Sprint will unlock once questions are available.'}
+                  </p>
+                  {enabled ? (
+                    <Link to="/sprint" className="card__link">
+                      Start Quick Sprint
+                    </Link>
+                  ) : (
+                    <span className="card__link" style={{ opacity: 0.5 }} aria-disabled="true">
+                      Coming soon
+                    </span>
+                  )}
+                </article>
+              );
+            }
             return (
               <article className="card" key={mode}>
                 <h3>{mode}</h3>
-                <p>Structured practice flow for focused exam preparation.</p>
+                <p>Coming soon — structured practice flow for focused exam preparation.</p>
+                <span className="card__link" style={{ opacity: 0.5 }} aria-disabled="true">
+                  Coming soon
+                </span>
               </article>
             );
           })}

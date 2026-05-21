@@ -56,3 +56,19 @@ export function hasQuiz(moduleSlug) {
   const mod = getModuleBySlug(moduleSlug);
   return Boolean(mod && mod.quizEnabled && getQuestionsForModule(moduleSlug).length > 0);
 }
+
+// Returns a flat list of { question, moduleSlug, moduleTitle } entries
+// pulled from every quiz-enabled module. Used by Quick Sprint to build a
+// pooled question set without losing the source-module info needed to
+// persist attempts by their original module.
+export function getAllQuizQuestions() {
+  const pool = [];
+  for (const mod of modules) {
+    if (!mod.quizEnabled) continue;
+    const questions = getQuestionsForModule(mod.slug);
+    for (const q of questions) {
+      pool.push({ question: q, moduleSlug: mod.slug, moduleTitle: mod.title });
+    }
+  }
+  return pool;
+}

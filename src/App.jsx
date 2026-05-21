@@ -17,6 +17,7 @@ import Quiz from './routes/Quiz.jsx';
 import Results from './routes/Results.jsx';
 import Review from './routes/Review.jsx';
 import ReviewIndex from './routes/ReviewIndex.jsx';
+import Sprint from './routes/Sprint.jsx';
 import { ResultContext } from './quiz/ResultContext.js';
 
 function QuizWithFreshKey() {
@@ -27,6 +28,11 @@ function QuizWithFreshKey() {
 function ReviewWithFreshKey() {
   const location = useLocation();
   return <Review key={location.pathname} />;
+}
+
+function SprintWithFreshKey() {
+  const location = useLocation();
+  return <Sprint key={location.pathname} />;
 }
 
 function App() {
@@ -47,6 +53,8 @@ function App() {
             <Route path="review" element={<ReviewIndex />} />
             <Route path="review/:slug" element={<ReviewWithFreshKey />} />
             <Route path="review/:slug/results" element={<Results />} />
+            <Route path="sprint" element={<SprintWithFreshKey />} />
+            <Route path="sprint/results" element={<Results />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

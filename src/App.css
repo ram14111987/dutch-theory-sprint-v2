@@ -470,3 +470,35 @@ body {
   flex-wrap: wrap;
   margin-top: 24px;
 }
+.sprint-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.sprint-timer {
+  display: inline-flex;
+  align-items: center;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.sprint-timer--low {
+  background: #fef2f2;
+  color: #b91c1c;
+  border-color: #fecaca;
+}
+
+.sprint-timesup {
+  margin: 12px 0 8px 0;
+  font-size: 32px;
+  color: #b91c1c;
+}

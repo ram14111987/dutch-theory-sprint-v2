@@ -12,6 +12,8 @@ Routing uses `react-router-dom`'s `HashRouter`, so all routes live under `#/`.
 - `#/lessons/:slug` — single lesson
 - `#/quiz/:slug` — in-memory randomized 5-question quiz (Phase 2; only `signs` is enabled)
 - `#/quiz/:slug/results` — quiz results page
+- `#/sprint` — Quick Sprint: 10 mixed questions, 120-second countdown (Phase 5)
+- `#/sprint/results` — Quick Sprint results page
 
 ## Quiz scaffold (Phase 2)
 
@@ -52,6 +54,35 @@ Quiz results are persisted locally so progress survives reloads.
 
 The store lives in `src/storage/progressStore.js`. It is pure JS with no React
 imports and is kept outside `src/quiz/*.js`.
+
+## Quick Sprint (Phase 5)
+
+Quick Sprint is a fast, mixed-topic warm-up.
+
+- **Size:** 10 questions per sprint.
+- **Timer:** 120 seconds, driven by elapsed wall time (`startedAt + Date.now()`)
+  so the countdown does not drift if the tab is briefly throttled.
+- **Question pool:** every quiz-enabled module's question bank, gathered via
+  `getAllQuizQuestions()` in `src/content/index.js`. The pool auto-expands as
+  more modules flip `quizEnabled: true` — no Sprint-side change required.
+- **Dedup:** questions are deduplicated by id within a sprint (first occurrence
+  wins) before shuffling.
+- **Timeout:** when the timer hits zero the sprint auto-submits. Unanswered
+  questions count as incorrect. A brief "Time's up" state shows before routing
+  to results. A guarded `finalize()` ensures timeout and manual finish cannot
+  double-submit.
+- **Persistence:** sprint attempts are saved with `mode: 'sprint'` and tagged by
+  **source module** (not a synthetic sprint slug) — one stored attempt per
+  source module touched, sharing a `finishedAt` timestamp. Schema stays at
+  version 1.
+- **Progress impact:** sprint attempts do **not** count toward completed-module
+  status or best normal quiz score. They **do** contribute to *distinct
+  questions practiced* and feed Mistake Review through the same
+  latest-answer-wins derivation used by quiz and review attempts.
+- **Coming soon:** Topic Deep Dive and Mock Exam remain placeholders.
+
+Pure sprint logic lives in `src/quiz/sprint.js` (question selection, timing,
+scoring) and has no React or storage imports.
 
 ## React + Vite template notes
 
