@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "priority-basic-rules",
+    "moduleSlug": "priority",
+    "title": "Basic priority rules",
+    "summary": "The default rules that decide who goes first when no sign or marking says otherwise.",
+    "sections": [
+      {
+        "heading": "Equal roads",
+        "body": "When two roads of equal status meet and no sign, marking, or traffic light governs the junction, traffic coming from the right has priority. This applies whether the driver on the right is a car, a moped, or a cyclist on the road."
+      },
+      {
+        "heading": "Turning at a junction",
+        "body": "If you turn left or right at a junction, you must give way to oncoming traffic going straight on, and to pedestrians and cyclists already crossing the road you turn into."
+      },
+      {
+        "heading": "When signs override the default",
+        "body": "Signs and markings always override the default. A give-way triangle, a STOP sign, shark's teeth, or a priority-road diamond tell you the rule that applies here, regardless of who is coming from the right."
+      }
+    ]
+  },
+  {
+    "slug": "priority-intersections",
+    "moduleSlug": "priority",
+    "title": "Signed intersections",
+    "summary": "How priority works at junctions with signs, markings, or traffic lights.",
+    "sections": [
+      {
+        "heading": "Give way and stop",
+        "body": "An inverted triangle requires you to yield to crossing traffic but you may roll through if it is clear. A STOP sign requires a complete stop at the line before you assess the crossing road."
+      },
+      {
+        "heading": "Priority roads",
+        "body": "On a priority road (yellow diamond), you keep priority over crossing roads at each junction until the sign is cancelled. Shark's teeth on the crossing road confirm where the other driver must yield."
+      },
+      {
+        "heading": "Traffic lights override signs",
+        "body": "An active traffic light overrules priority signs. Green means you may proceed when safe, but you still yield to traffic and pedestrians already legally on the junction. Flashing amber means the light is out of service; fall back to the signs."
+      }
+    ]
+  },
+  {
+    "slug": "priority-roundabouts",
+    "moduleSlug": "priority",
+    "title": "Roundabouts",
+    "summary": "Priority on entering, on the ring, and on leaving a roundabout.",
+    "sections": [
+      {
+        "heading": "Entering",
+        "body": "On almost every Dutch roundabout, traffic already on the ring has priority over traffic entering. Shark's teeth at the entry confirm that you must yield."
+      },
+      {
+        "heading": "Cyclists on the ring",
+        "body": "Inside a built-up area, cyclists on a ring cycle path usually have priority over cars entering and leaving. Outside built-up areas, cyclists on the surrounding path more often have to yield. Read the shark's teeth at the cycle crossing to be sure."
+      },
+      {
+        "heading": "Leaving the roundabout",
+        "body": "Indicate to the right just before your exit. When leaving, give way to pedestrians and to cyclists crossing the exit if their cycle path has priority."
+      }
+    ]
+  },
+  {
+    "slug": "priority-special-users",
+    "moduleSlug": "priority",
+    "title": "Pedestrians, cyclists, trams, and emergency vehicles",
+    "summary": "Priority for vulnerable users and for vehicles with special rights.",
+    "sections": [
+      {
+        "heading": "Pedestrian crossings",
+        "body": "At a marked zebra crossing, pedestrians who are crossing or clearly about to cross have priority. Slow early enough that you can stop without alarming them."
+      },
+      {
+        "heading": "Cyclists and mopeds",
+        "body": "Cyclists and moped riders on a cycle path that crosses your road have priority where shark's teeth point at you. When turning across a cycle path you have just been driving alongside, give way to cyclists going straight on."
+      },
+      {
+        "heading": "Trams and emergency vehicles",
+        "body": "Trams generally have priority over other road traffic, including over traffic coming from the right, unless a sign or signal says otherwise. Emergency vehicles using sirens and blue lights always have priority; pull aside safely and stop if needed."
+      }
+    ]
+  }
+]

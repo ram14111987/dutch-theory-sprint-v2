@@ -1,6 +1,10 @@
 import modules from './modules.json';
 import signsLessons from './lessons/signs.json';
 import signsQuestions from './questions/signs.json';
+import priorityLessons from './lessons/priority.json';
+import priorityQuestions from './questions/priority.json';
+import speedStoppingLessons from './lessons/speed-stopping.json';
+import speedStoppingQuestions from './questions/speed-stopping.json';
 
 export const studyModes = [
   'Quick Sprint',
@@ -11,10 +15,14 @@ export const studyModes = [
 
 const lessonsByModuleSlug = {
   signs: signsLessons,
+  priority: priorityLessons,
+  'speed-stopping': speedStoppingLessons,
 };
 
 const questionBanks = {
   signs: signsQuestions,
+  priority: priorityQuestions,
+  'speed-stopping': speedStoppingQuestions,
 };
 
 function allLessons() {

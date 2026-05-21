@@ -18,5 +18,105 @@
         "body": "A warning sign does not give a hard rule like a prohibition or mandatory sign. It tells you to adjust your speed and attention so you can react safely if the hazard appears. Slow down, scan further ahead, and be ready to brake."
       }
     ]
+  },
+  {
+    "slug": "signs-prohibitory",
+    "moduleSlug": "signs",
+    "title": "Prohibitory signs",
+    "summary": "Round signs with a red border that restrict what you may do on the road.",
+    "sections": [
+      {
+        "heading": "Shape and colour",
+        "body": "Prohibitory signs are round with a red border and a white (or sometimes blue) background. The red border is the visual cue that the sign forbids or restricts something — entry, overtaking, parking, or a vehicle category."
+      },
+      {
+        "heading": "Common examples",
+        "body": "Typical prohibitions include no entry for vehicular traffic, no overtaking, no stopping, closed to motor vehicles, and category-specific bans such as no trucks or no mopeds."
+      },
+      {
+        "heading": "When the rule ends",
+        "body": "A prohibition applies from the sign onward until it is explicitly cancelled by an end-of-restriction sign, an intersection, or a built-up area boundary that overrides the rule."
+      }
+    ]
+  },
+  {
+    "slug": "signs-mandatory",
+    "moduleSlug": "signs",
+    "title": "Mandatory and informational signs",
+    "summary": "Round blue signs that oblige an action, and rectangular blue signs that only inform.",
+    "sections": [
+      {
+        "heading": "Round blue: mandatory",
+        "body": "Round signs with a solid blue background and a white symbol are mandatory: they tell you what you must do — follow a direction arrow, use a cycle path, take the roundabout, keep a minimum speed."
+      },
+      {
+        "heading": "Rectangular blue: informational",
+        "body": "Rectangular blue signs only inform or guide: parking, one-way streets, built-up area boundaries, services, and route numbers. They do not impose a mandatory action by themselves."
+      },
+      {
+        "heading": "Sub-plates",
+        "body": "A smaller plate under either sign can narrow or extend its meaning — vehicle categories, days and hours, distance to the situation, or exceptions for residents and cyclists. Always read sign and sub-plate together."
+      }
+    ]
+  },
+  {
+    "slug": "signs-priority",
+    "moduleSlug": "signs",
+    "title": "Priority signs",
+    "summary": "Signs that tell you who has the right of way at intersections.",
+    "sections": [
+      {
+        "heading": "Priority road",
+        "body": "A yellow diamond with a white border marks a priority road: traffic on this road has priority over traffic on crossing roads until the sign is cancelled by an end-of-priority variant with a diagonal stripe."
+      },
+      {
+        "heading": "Give way and stop",
+        "body": "An inverted triangle with a red border requires you to yield to crossing traffic, but you may roll through if it is clear. A red octagonal STOP sign requires you to come to a full stop before the line, every time, even when no other traffic is visible."
+      },
+      {
+        "heading": "Priority over oncoming traffic",
+        "body": "Rectangular signs with paired arrows show priority on a narrowing road: one direction must wait for the other. Read the colour of the arrows — the red arrow yields."
+      }
+    ]
+  },
+  {
+    "slug": "signs-speed",
+    "moduleSlug": "signs",
+    "title": "Speed limit signs",
+    "summary": "How maximum, minimum, recommended, and zone speed limits are signed.",
+    "sections": [
+      {
+        "heading": "Maximum speed",
+        "body": "A round white sign with a red border and a number sets the maximum legal speed in km/h. It applies until cancelled by another speed sign, an end-of-restriction sign, or a road category change."
+      },
+      {
+        "heading": "Minimum and recommended speed",
+        "body": "A round blue sign with a number is a minimum speed — you must not drive slower. A square or rectangular sign with a number is only a recommended speed, often shown ahead of a bend."
+      },
+      {
+        "heading": "Zone signs",
+        "body": "A speed sign on a wider rectangular plate with the word zone applies to the whole zone, not just one road. The limit holds until you pass the matching end-of-zone sign."
+      }
+    ]
+  },
+  {
+    "slug": "signs-markings",
+    "moduleSlug": "signs",
+    "title": "Road markings",
+    "summary": "Lines and symbols painted on the road and how they interact with signs.",
+    "sections": [
+      {
+        "heading": "Centre lines",
+        "body": "A broken white line in the centre may be crossed to overtake when safe. A continuous line may not be crossed or straddled except to avoid an obstacle. A combination line follows the rule on your own side."
+      },
+      {
+        "heading": "Give-way markings",
+        "body": "Triangular markings pointing toward you ('shark's teeth') mean you must yield to traffic on the crossing road, even if no give-way sign is present. They are common at roundabout exits and where cycle paths cross."
+      },
+      {
+        "heading": "Edge and lane lines",
+        "body": "A continuous white edge line marks the outer edge of the carriageway; the strip outside it is not a driving lane. Block markings divide lanes and may include arrows that oblige a direction at the next junction."
+      }
+    ]
   }
 ]

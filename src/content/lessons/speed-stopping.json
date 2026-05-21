@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "speed-limits",
+    "moduleSlug": "speed-stopping",
+    "title": "Speed limits",
+    "summary": "Default speed limits for cars in the Netherlands and when they apply.",
+    "sections": [
+      {
+        "heading": "Inside built-up areas",
+        "body": "Inside a built-up area, the default maximum speed for cars is 50 km/h. Many residential zones lower this to 30 km/h, and woonerf (yard) zones to walking pace, roughly 15 km/h."
+      },
+      {
+        "heading": "Outside built-up areas",
+        "body": "On a normal road outside a built-up area, the default maximum for cars is 80 km/h. On an expressway (autoweg) the maximum is 100 km/h."
+      },
+      {
+        "heading": "Motorways",
+        "body": "On a motorway (autosnelweg), the maximum is 130 km/h where signed, otherwise 100 km/h, and during the daytime nationally capped at 100 km/h between 06:00 and 19:00. Always follow the signed limit when it differs from the default."
+      }
+    ]
+  },
+  {
+    "slug": "stopping-distance",
+    "moduleSlug": "speed-stopping",
+    "title": "Reaction, braking, and stopping distance",
+    "summary": "How total stopping distance is built up from reaction distance and braking distance.",
+    "sections": [
+      {
+        "heading": "Reaction distance",
+        "body": "Reaction distance is how far the car travels in the second or so it takes you to notice the hazard and start braking. It grows in proportion to speed: doubling your speed roughly doubles your reaction distance."
+      },
+      {
+        "heading": "Braking distance",
+        "body": "Braking distance is how far the car travels from the moment you fully apply the brakes until it stops. It grows with the square of the speed: doubling your speed roughly quadruples the braking distance."
+      },
+      {
+        "heading": "Total stopping distance",
+        "body": "Total stopping distance is reaction distance plus braking distance. Because braking distance grows much faster than reaction distance, small increases in speed produce large increases in the total distance you need to stop."
+      }
+    ]
+  },
+  {
+    "slug": "conditions-and-following",
+    "moduleSlug": "speed-stopping",
+    "title": "Conditions and following distance",
+    "summary": "How road, weather, vehicle, and traffic conditions change what is a safe speed.",
+    "sections": [
+      {
+        "heading": "Wet, icy, and worn surfaces",
+        "body": "A wet road can roughly double the braking distance compared to dry tarmac; ice and snow can multiply it many times further. Worn tyres and worn brakes add to the effect. Reduce speed before you need to brake, not after."
+      },
+      {
+        "heading": "Visibility and headlights",
+        "body": "In fog, heavy rain, or at night, you must be able to stop within the distance you can see to be clear. Speed limits are upper bounds, not targets — drive at a speed appropriate for visibility."
+      },
+      {
+        "heading": "Following distance",
+        "body": "Keep enough gap to the vehicle in front that you can stop without hitting it. A common rule of thumb is roughly two seconds in good conditions, doubled when the road is wet, and longer still in poor visibility or behind a heavy vehicle."
+      }
+    ]
+  }
+]

@@ -182,7 +182,7 @@
   {
     "id": "signs-010",
     "moduleId": "signs",
-    "lessonId": "signs-information",
+    "lessonId": "signs-mandatory",
     "topicTags": ["information", "colour"],
     "type": "single",
     "difficulty": "easy",
@@ -197,6 +197,206 @@
     "explanation": {
       "short": "Rectangular blue signs are informational: parking, one-way streets, route guidance, and similar.",
       "examTip": "Round blue signs are mandatory; rectangular blue signs only inform."
+    }
+  },
+  {
+    "id": "signs-011",
+    "moduleId": "signs",
+    "lessonId": "signs-warning",
+    "topicTags": ["warning-signs", "behaviour"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You see a warning sign for children. What is the most appropriate response?",
+    "choices": [
+      { "id": "a", "text": "Maintain your speed and stay alert" },
+      { "id": "b", "text": "Brake hard immediately" },
+      { "id": "c", "text": "Reduce speed and be ready to stop" },
+      { "id": "d", "text": "Sound the horn and continue" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Warning signs require you to adjust speed and attention so you can react if the hazard appears.",
+      "examTip": "Warnings are not hard rules but the examiner expects a visible adjustment in speed or scanning."
+    }
+  },
+  {
+    "id": "signs-012",
+    "moduleId": "signs",
+    "lessonId": "signs-prohibitory",
+    "topicTags": ["overtaking", "prohibition"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A round sign with a red border showing a red car alongside a black car means:",
+    "choices": [
+      { "id": "a", "text": "End of overtaking ban" },
+      { "id": "b", "text": "No overtaking by cars" },
+      { "id": "c", "text": "Two-way traffic ahead" },
+      { "id": "d", "text": "Priority over oncoming traffic" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Two cars side-by-side inside a red-bordered circle is the overtaking prohibition for cars.",
+      "examTip": "The same sign with the cars in grey on a grey background marks the end of the ban."
+    }
+  },
+  {
+    "id": "signs-013",
+    "moduleId": "signs",
+    "lessonId": "signs-prohibitory",
+    "topicTags": ["parking", "stopping"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A round blue sign with a single red diagonal stroke means:",
+    "choices": [
+      { "id": "a", "text": "No stopping at all" },
+      { "id": "b", "text": "No parking, but you may stop briefly to load or drop off" },
+      { "id": "c", "text": "Parking allowed" },
+      { "id": "d", "text": "End of parking restriction" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "One diagonal stroke prohibits parking but allows a short stop for loading or letting passengers in or out.",
+      "examTip": "Two crossed strokes mean no stopping at all — neither parking nor a brief halt is permitted."
+    }
+  },
+  {
+    "id": "signs-014",
+    "moduleId": "signs",
+    "lessonId": "signs-mandatory",
+    "topicTags": ["mandatory", "cyclists"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A round blue sign showing a white bicycle means:",
+    "choices": [
+      { "id": "a", "text": "Cyclists are warned of a hazard" },
+      { "id": "b", "text": "Cyclists are forbidden" },
+      { "id": "c", "text": "Compulsory cycle path — cyclists must use it" },
+      { "id": "d", "text": "Optional cycle lane for cyclists" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "A round blue sign with a bicycle marks a compulsory cycle path, which cyclists are required to use.",
+      "examTip": "A rectangular blue sign with a bicycle marks an optional cycle lane, not a compulsory path."
+    }
+  },
+  {
+    "id": "signs-015",
+    "moduleId": "signs",
+    "lessonId": "signs-priority",
+    "topicTags": ["priority", "stop"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "At a red octagonal STOP sign you must:",
+    "choices": [
+      { "id": "a", "text": "Slow down and yield only if other traffic is close" },
+      { "id": "b", "text": "Come to a complete stop, then proceed when safe" },
+      { "id": "c", "text": "Stop only if a police officer is present" },
+      { "id": "d", "text": "Treat it as a give-way sign" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A STOP sign always requires a full stop at the line, even when the crossing road is empty.",
+      "examTip": "Failing to stop fully is one of the most common reasons to fail the practical exam."
+    }
+  },
+  {
+    "id": "signs-016",
+    "moduleId": "signs",
+    "lessonId": "signs-priority",
+    "topicTags": ["priority", "narrowing"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A rectangular sign shows a red arrow pointing up and a smaller black arrow pointing down. What does it mean?",
+    "choices": [
+      { "id": "a", "text": "Two-way traffic ahead" },
+      { "id": "b", "text": "You have priority over oncoming traffic" },
+      { "id": "c", "text": "You must give way to oncoming traffic" },
+      { "id": "d", "text": "End of priority road" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "When your arrow is red on a priority-narrowing sign, you must wait and let oncoming traffic pass first.",
+      "examTip": "Read the colour of your own arrow: red yields, black has priority."
+    }
+  },
+  {
+    "id": "signs-017",
+    "moduleId": "signs",
+    "lessonId": "signs-speed",
+    "topicTags": ["zone-signs", "speed-limit"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A rectangular sign with the word 'zone' under a 30 km/h symbol means:",
+    "choices": [
+      { "id": "a", "text": "The 30 km/h limit only applies on this street" },
+      { "id": "b", "text": "The 30 km/h limit applies in the whole area until an end-of-zone sign" },
+      { "id": "c", "text": "30 km/h is only a recommended speed" },
+      { "id": "d", "text": "30 km/h only applies on weekdays" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A zone sign extends the limit to all roads inside the zone until you pass the matching end-of-zone sign.",
+      "examTip": "An ordinary speed sign without 'zone' only applies until the next intersection or speed sign."
+    }
+  },
+  {
+    "id": "signs-018",
+    "moduleId": "signs",
+    "lessonId": "signs-speed",
+    "topicTags": ["recommended-speed", "advisory"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A square sign with a blue background and a white number such as 70 means:",
+    "choices": [
+      { "id": "a", "text": "Maximum speed 70 km/h" },
+      { "id": "b", "text": "Recommended speed 70 km/h" },
+      { "id": "c", "text": "Minimum speed 70 km/h" },
+      { "id": "d", "text": "End of 70 km/h zone" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A square or rectangular speed sign gives a recommended, not legally enforced, speed — often before a bend.",
+      "examTip": "Maximum speed is round with a red border; minimum speed is round with a solid blue background."
+    }
+  },
+  {
+    "id": "signs-019",
+    "moduleId": "signs",
+    "lessonId": "signs-markings",
+    "topicTags": ["road-markings", "edge-line"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A continuous white line at the outer edge of the carriageway means:",
+    "choices": [
+      { "id": "a", "text": "An extra lane you may drive in when busy" },
+      { "id": "b", "text": "An emergency lane reserved for emergency vehicles only" },
+      { "id": "c", "text": "The edge of the driving surface — the area outside is not a lane" },
+      { "id": "d", "text": "A cycle path" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "A continuous edge line marks where the carriageway ends; the strip beyond it is not a driving lane.",
+      "examTip": "On motorways the hard shoulder is for emergencies only; on other roads the strip outside the edge line is generally for cyclists or pedestrians."
+    }
+  },
+  {
+    "id": "signs-020",
+    "moduleId": "signs",
+    "lessonId": "signs-markings",
+    "topicTags": ["road-markings", "lane-arrows"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Your lane has a white arrow painted on the road pointing only to the right. What must you do?",
+    "choices": [
+      { "id": "a", "text": "You may go straight or turn right" },
+      { "id": "b", "text": "You must turn right at the next junction" },
+      { "id": "c", "text": "You must change lanes immediately" },
+      { "id": "d", "text": "The arrow is only a suggestion" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A directional arrow in a lane is mandatory: you must follow the indicated direction at the next junction.",
+      "examTip": "If the arrow does not match your route, change lanes well before the junction while it is still allowed."
     }
   }
 ]

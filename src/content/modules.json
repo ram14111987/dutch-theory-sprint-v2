@@ -4,7 +4,14 @@
     "slug": "signs",
     "title": "Road signs and markings",
     "description": "Recognize the most important Dutch traffic signs, road markings, and what they require you to do.",
-    "lessonSlugs": ["signs-warning"],
+    "lessonSlugs": [
+      "signs-warning",
+      "signs-prohibitory",
+      "signs-mandatory",
+      "signs-priority",
+      "signs-speed",
+      "signs-markings"
+    ],
     "quizEnabled": true,
     "questionBankId": "signs"
   },
@@ -13,9 +20,14 @@
     "slug": "priority",
     "title": "Priority and junctions",
     "description": "Right of way at intersections, roundabouts, and shared spaces.",
-    "lessonSlugs": [],
-    "quizEnabled": false,
-    "questionBankId": null
+    "lessonSlugs": [
+      "priority-basic-rules",
+      "priority-intersections",
+      "priority-roundabouts",
+      "priority-special-users"
+    ],
+    "quizEnabled": true,
+    "questionBankId": "priority"
   },
   {
     "id": "hazard-perception",
@@ -31,9 +43,13 @@
     "slug": "speed-stopping",
     "title": "Speed and stopping distance",
     "description": "Speed limits, reaction time, braking distance, and total stopping distance.",
-    "lessonSlugs": [],
-    "quizEnabled": false,
-    "questionBankId": null
+    "lessonSlugs": [
+      "speed-limits",
+      "stopping-distance",
+      "conditions-and-following"
+    ],
+    "quizEnabled": true,
+    "questionBankId": "speed-stopping"
   },
   {
     "id": "vehicle-knowledge",
