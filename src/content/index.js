@@ -5,6 +5,12 @@ import priorityLessons from './lessons/priority.json';
 import priorityQuestions from './questions/priority.json';
 import speedStoppingLessons from './lessons/speed-stopping.json';
 import speedStoppingQuestions from './questions/speed-stopping.json';
+import trafficRulesRoadPositionLessons from './lessons/traffic-rules-road-position.json';
+import trafficRulesRoadPositionQuestions from './questions/traffic-rules-road-position.json';
+import hazardAwarenessLessons from './lessons/hazard-awareness.json';
+import hazardAwarenessQuestions from './questions/hazard-awareness.json';
+import parkingStoppingRulesLessons from './lessons/parking-stopping-rules.json';
+import parkingStoppingRulesQuestions from './questions/parking-stopping-rules.json';
 
 export const studyModes = [
   'Quick Sprint',
@@ -17,12 +23,18 @@ const lessonsByModuleSlug = {
   signs: signsLessons,
   priority: priorityLessons,
   'speed-stopping': speedStoppingLessons,
+  'traffic-rules-road-position': trafficRulesRoadPositionLessons,
+  'hazard-awareness': hazardAwarenessLessons,
+  'parking-stopping-rules': parkingStoppingRulesLessons,
 };
 
 const questionBanks = {
   signs: signsQuestions,
   priority: priorityQuestions,
   'speed-stopping': speedStoppingQuestions,
+  'traffic-rules-road-position': trafficRulesRoadPositionQuestions,
+  'hazard-awareness': hazardAwarenessQuestions,
+  'parking-stopping-rules': parkingStoppingRulesQuestions,
 };
 
 function allLessons() {

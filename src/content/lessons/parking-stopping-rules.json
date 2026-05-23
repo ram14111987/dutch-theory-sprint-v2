@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "parking-stopping-where-forbidden",
+    "moduleSlug": "parking-stopping-rules",
+    "title": "Where parking and stopping are forbidden",
+    "summary": "Places where stopping or parking is never allowed, even briefly.",
+    "sections": [
+      {
+        "heading": "Stopping versus parking",
+        "body": "Stopping (stilstaan) means a brief halt to let someone in or out, or to unload immediately. Parking (parkeren) is any halt for longer than that, or as soon as you leave the vehicle. Some places forbid stopping; others forbid only parking."
+      },
+      {
+        "heading": "No stopping at all",
+        "body": "You may not stop on a yellow continuous line along the kerb, on a pedestrian crossing or within 5 metres before it, on a cycle path, in a tunnel, on a level crossing, or on a motorway and expressway except on the marked shoulder."
+      },
+      {
+        "heading": "No parking",
+        "body": "You may not park on a yellow broken line, in front of a driveway, within 5 metres of a junction, within 12 metres of a bus stop sign, on the carriageway alongside another parked vehicle (double parking), or where you would block emergency access."
+      }
+    ]
+  },
+  {
+    "slug": "parking-stopping-paid-and-zones",
+    "moduleSlug": "parking-stopping-rules",
+    "title": "Parking zones, discs and paid parking",
+    "summary": "Blue zones, parking discs, paid parking and parking permits.",
+    "sections": [
+      {
+        "heading": "Blue zone (parkeerschijf)",
+        "body": "A blue line along the kerb means a blue zone: you must display a parking disc set to your arrival time, rounded up to the next half-hour. The maximum stay is shown on the zone sign."
+      },
+      {
+        "heading": "Paid parking",
+        "body": "A 'P + betaald' sign or a meter means you must pay for your stay. Display the ticket clearly behind the windscreen, or use the app/registration system in force in that municipality."
+      },
+      {
+        "heading": "Permit holders",
+        "body": "A 'vergunninghouders' sign restricts spaces to permit holders. A combined sign (paid + permit) lets visitors pay; permit holders park free with their permit visible."
+      }
+    ]
+  },
+  {
+    "slug": "parking-stopping-special-spaces",
+    "moduleSlug": "parking-stopping-rules",
+    "title": "Disabled, EV and other reserved spaces",
+    "summary": "Reserved bays, parking for the disabled, EV charging and loading bays.",
+    "sections": [
+      {
+        "heading": "Disabled parking",
+        "body": "Bays marked with the wheelchair symbol are reserved for holders of a valid Dutch or European disabled card, displayed behind the windscreen. A general 'gehandicapten' bay is for any cardholder; a bay with a number plate on the sign is reserved for that single permit."
+      },
+      {
+        "heading": "Electric vehicle charging bays",
+        "body": "A bay marked 'opladen' under a 'P' sign is reserved for electric vehicles that are actually charging. Once you finish charging, you must move on so others can use the space."
+      },
+      {
+        "heading": "Loading and unloading",
+        "body": "A 'laden en lossen' sign means the bay is reserved for active loading or unloading. You must remain with the vehicle or be visibly handling goods; you may not park there to run an errand."
+      }
+    ]
+  },
+  {
+    "slug": "parking-stopping-parking-position",
+    "moduleSlug": "parking-stopping-rules",
+    "title": "How and where to park correctly",
+    "summary": "Direction of travel, kerb distance, lights and safe doors.",
+    "sections": [
+      {
+        "heading": "Direction of travel",
+        "body": "On a two-way road you must park facing the direction of travel on your side of the road. On a one-way street you may park on either side, but still facing the direction of travel."
+      },
+      {
+        "heading": "Distance from the kerb",
+        "body": "Park as close to the kerb as you safely can, within about 30 cm. Outside built-up areas with no kerb, leave the carriageway entirely and park on the verge where this is allowed."
+      },
+      {
+        "heading": "Lights and doors",
+        "body": "Parking lights are required at night on a road without street lighting and outside built-up areas. Before opening a door, check the mirror and over the shoulder for cyclists; the driver who opens the door is liable for any collision."
+      }
+    ]
+  }
+]

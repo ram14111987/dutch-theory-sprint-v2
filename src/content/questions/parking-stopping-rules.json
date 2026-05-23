@@ -1,0 +1,242 @@
+[
+  {
+    "id": "parking-stopping-rules-001",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": ["definitions"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "What is the legal difference between 'stopping' (stilstaan) and 'parking' (parkeren)?",
+    "choices": [
+      { "id": "a", "text": "There is no legal difference" },
+      { "id": "b", "text": "Stopping is a brief halt to let someone in or out or to unload immediately; longer halts or leaving the vehicle counts as parking" },
+      { "id": "c", "text": "Stopping is only allowed at red lights" },
+      { "id": "d", "text": "Parking is only allowed at meters; stopping is allowed anywhere" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Stopping is a brief halt for immediate boarding or unloading; anything longer is parking.",
+      "examTip": "Some places forbid stopping; others forbid only parking — read the sign."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-002",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": ["yellow-line"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A continuous yellow line along the kerb means:",
+    "choices": [
+      { "id": "a", "text": "Parking is forbidden, but you may stop briefly" },
+      { "id": "b", "text": "Stopping is forbidden, not even to let a passenger out" },
+      { "id": "c", "text": "Paid parking applies" },
+      { "id": "d", "text": "Reserved for residents" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A continuous yellow kerb line forbids stopping entirely.",
+      "examTip": "A broken yellow line forbids only parking; brief stops are still allowed."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-003",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": ["junction"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "How close to a junction may you park?",
+    "choices": [
+      { "id": "a", "text": "Up to the corner itself" },
+      { "id": "b", "text": "No closer than 5 metres" },
+      { "id": "c", "text": "No closer than 12 metres" },
+      { "id": "d", "text": "No closer than 25 metres" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "You may not park within 5 metres of a junction.",
+      "examTip": "12 metres is the rule for bus stops, not junctions."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-004",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": ["bus-stop"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "How far from a bus stop sign must you stay clear when parking?",
+    "choices": [
+      { "id": "a", "text": "5 metres" },
+      { "id": "b", "text": "10 metres" },
+      { "id": "c", "text": "12 metres" },
+      { "id": "d", "text": "25 metres" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "You must stay at least 12 metres clear of a bus stop sign.",
+      "examTip": "This ensures the bus can pull in and out safely."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-005",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": ["pedestrian-crossing"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "How close to a pedestrian crossing may you stop?",
+    "choices": [
+      { "id": "a", "text": "Right at the crossing line" },
+      { "id": "b", "text": "Not within 5 metres before it" },
+      { "id": "c", "text": "Not within 10 metres before it" },
+      { "id": "d", "text": "Stopping there is always permitted" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "You may not stop within 5 metres before a pedestrian crossing.",
+      "examTip": "This rule preserves the sightline for both drivers and pedestrians."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-006",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-paid-and-zones",
+    "topicTags": ["blue-zone"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "What does a blue line along the kerb indicate?",
+    "choices": [
+      { "id": "a", "text": "Bus lane" },
+      { "id": "b", "text": "Disabled-only parking" },
+      { "id": "c", "text": "Blue zone — display a parking disc set to your arrival time" },
+      { "id": "d", "text": "No stopping at any time" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "A blue line marks a blue zone where a parking disc must be displayed.",
+      "examTip": "Round the arrival time up to the next half-hour on the disc."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-007",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-paid-and-zones",
+    "topicTags": ["permit"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A sign reads 'vergunninghouders'. As a visitor without a permit, may you park there?",
+    "choices": [
+      { "id": "a", "text": "Yes, for up to 1 hour" },
+      { "id": "b", "text": "Yes, if you pay at a nearby meter" },
+      { "id": "c", "text": "No, the space is reserved for permit holders" },
+      { "id": "d", "text": "Yes, on Sundays only" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "A 'vergunninghouders' sign reserves the space for permit holders only.",
+      "examTip": "A combined sign with 'betaald' lets visitors pay; permit holders still park free."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-008",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-special-spaces",
+    "topicTags": ["disabled"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A bay shows the wheelchair symbol with no number plate on the sign. Who may use it?",
+    "choices": [
+      { "id": "a", "text": "Any vehicle, briefly" },
+      { "id": "b", "text": "Only the specific permit holder whose plate is shown" },
+      { "id": "c", "text": "Any holder of a valid Dutch or European disabled parking card displaying it" },
+      { "id": "d", "text": "Electric vehicles only" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "A general disabled bay is open to any valid cardholder displaying the card.",
+      "examTip": "A bay with a specific plate on the sign is reserved for that one permit only."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-009",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-special-spaces",
+    "topicTags": ["ev-charging"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You park an electric car in a bay marked 'opladen'. Once charging is finished you should:",
+    "choices": [
+      { "id": "a", "text": "Leave the car there for the rest of the day" },
+      { "id": "b", "text": "Move the car so others can charge" },
+      { "id": "c", "text": "Disconnect the cable but leave the car" },
+      { "id": "d", "text": "Stay only if a permit is displayed" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Charging bays are for vehicles that are actively charging; move on when done.",
+      "examTip": "Leaving a non-charging EV blocks the space and is fineable."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-010",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-special-spaces",
+    "topicTags": ["loading"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A bay is signed 'laden en lossen'. You may park there to:",
+    "choices": [
+      { "id": "a", "text": "Run a quick errand in a shop" },
+      { "id": "b", "text": "Actively load or unload goods, staying with the vehicle" },
+      { "id": "c", "text": "Wait for a passenger for up to 30 minutes" },
+      { "id": "d", "text": "Charge an electric vehicle" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A loading bay is for active loading or unloading only.",
+      "examTip": "You must remain with the vehicle or be visibly handling goods."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-011",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-parking-position",
+    "topicTags": ["direction"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "On a normal two-way street, how must you park your car?",
+    "choices": [
+      { "id": "a", "text": "Facing oncoming traffic on the left kerb" },
+      { "id": "b", "text": "Facing the direction of travel on your side of the road" },
+      { "id": "c", "text": "Either direction, on either side" },
+      { "id": "d", "text": "Only on the side with even house numbers" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "You must park facing the direction of travel on your own side of the road.",
+      "examTip": "On a one-way street you may park on either side, still facing forward."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-012",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-parking-position",
+    "topicTags": ["doors", "cyclists"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Before opening your door after parking, you must:",
+    "choices": [
+      { "id": "a", "text": "Sound the horn to warn cyclists" },
+      { "id": "b", "text": "Open the door quickly to be visible" },
+      { "id": "c", "text": "Check the mirror and look over your shoulder for approaching cyclists" },
+      { "id": "d", "text": "Switch on the hazard lights" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Always check mirror and blind spot before opening the door.",
+      "examTip": "The driver who opens the door is liable for any collision."
+    }
+  }
+]

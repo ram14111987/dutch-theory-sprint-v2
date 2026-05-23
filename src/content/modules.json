@@ -68,5 +68,47 @@
     "lessonSlugs": [],
     "quizEnabled": false,
     "questionBankId": null
+  },
+  {
+    "id": "traffic-rules-road-position",
+    "slug": "traffic-rules-road-position",
+    "title": "Traffic rules and road position",
+    "description": "Keeping right, overtaking, signalling, merging, and how to use cycle, bus and tram lanes.",
+    "lessonSlugs": [
+      "road-position-lane-choice",
+      "road-position-overtaking",
+      "road-position-special-lanes",
+      "road-position-signalling-merging"
+    ],
+    "quizEnabled": true,
+    "questionBankId": "traffic-rules-road-position"
+  },
+  {
+    "id": "hazard-awareness",
+    "slug": "hazard-awareness",
+    "title": "Hazard awareness",
+    "description": "Scanning the road, protecting vulnerable users, weather and visibility, reaction and anticipation.",
+    "lessonSlugs": [
+      "hazard-awareness-scanning",
+      "hazard-awareness-vulnerable-users",
+      "hazard-awareness-weather-visibility",
+      "hazard-awareness-reaction-anticipation"
+    ],
+    "quizEnabled": true,
+    "questionBankId": "hazard-awareness"
+  },
+  {
+    "id": "parking-stopping-rules",
+    "slug": "parking-stopping-rules",
+    "title": "Parking and stopping rules",
+    "description": "Where parking and stopping are forbidden, parking zones, disabled and EV bays, and how to park correctly.",
+    "lessonSlugs": [
+      "parking-stopping-where-forbidden",
+      "parking-stopping-paid-and-zones",
+      "parking-stopping-special-spaces",
+      "parking-stopping-parking-position"
+    ],
+    "quizEnabled": true,
+    "questionBankId": "parking-stopping-rules"
   }
 ]

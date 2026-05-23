@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "hazard-awareness-scanning",
+    "moduleSlug": "hazard-awareness",
+    "title": "Scanning and observation",
+    "summary": "How to read the road early so hazards never surprise you.",
+    "sections": [
+      {
+        "heading": "Look far ahead",
+        "body": "Lift your eyes to the furthest point you can see, not the bumper in front. The further you look, the more time you have to plan. Inside town, scan to the next junction; on a rural road, scan to the next bend."
+      },
+      {
+        "heading": "Use your mirrors regularly",
+        "body": "Glance at the inside mirror roughly every 5 to 8 seconds and again before any change of speed or direction. Knowing what is behind you is part of seeing the whole traffic picture, not just the front."
+      },
+      {
+        "heading": "Check side streets and gaps",
+        "body": "Look into every side street, driveway and gap between parked cars. Pedestrians and cyclists often emerge from places where there is no warning sign."
+      }
+    ]
+  },
+  {
+    "slug": "hazard-awareness-vulnerable-users",
+    "moduleSlug": "hazard-awareness",
+    "title": "Vulnerable road users",
+    "summary": "Cyclists, pedestrians, children and elderly road users you must protect.",
+    "sections": [
+      {
+        "heading": "Cyclists",
+        "body": "Cyclists may wobble, ride two abreast, or change direction without indicating. Give them at least 1 metre of side space (1.5 m where speed is higher) and never overtake just before a bend or a parked car they may swerve around."
+      },
+      {
+        "heading": "Children and the elderly",
+        "body": "Near schools, playgrounds and care homes, expect sudden movements off the kerb. Children may not look. Elderly walkers may cross slowly. Reduce speed before you see a problem, not after."
+      },
+      {
+        "heading": "Pedestrians on rural roads",
+        "body": "On a road with no pavement, pedestrians walk on the left, facing traffic. At dusk or in rain they are very hard to spot — dip your headlights and keep well to your side of the road."
+      }
+    ]
+  },
+  {
+    "slug": "hazard-awareness-weather-visibility",
+    "moduleSlug": "hazard-awareness",
+    "title": "Weather, light and visibility",
+    "summary": "Adjusting to rain, fog, snow, low sun and night driving.",
+    "sections": [
+      {
+        "heading": "Rain and wet roads",
+        "body": "Wet roads roughly double your braking distance. The first rain after a dry spell is the most slippery because dust and oil rise to the surface. Increase following distance and brake earlier and more gently."
+      },
+      {
+        "heading": "Fog",
+        "body": "Use dipped headlights in fog. You may use front fog lights when visibility falls below 200 m, and rear fog lights only when visibility falls below 50 m. Switch rear fog lights off as soon as visibility improves — they dazzle the driver behind you."
+      },
+      {
+        "heading": "Night and low sun",
+        "body": "At night, do not outdrive your headlights — your stopping distance must fit inside the beam you can see. Against low sun, slow down: a dirty windscreen turns a glare into a wall."
+      }
+    ]
+  },
+  {
+    "slug": "hazard-awareness-reaction-anticipation",
+    "moduleSlug": "hazard-awareness",
+    "title": "Reaction, anticipation and safe gaps",
+    "summary": "Reaction time, the 2-second rule, and how anticipation prevents emergency braking.",
+    "sections": [
+      {
+        "heading": "Reaction time",
+        "body": "A healthy alert driver needs about 1 second to react. Tired, distracted or under the influence, reaction time grows quickly. At 50 km/h, 1 second is roughly 14 m before you have even started to brake."
+      },
+      {
+        "heading": "The 2-second rule",
+        "body": "Keep at least 2 seconds gap to the vehicle in front in good conditions. Pick a fixed point ahead (a sign, a tree); when the vehicle in front passes it, you should not pass it until you have counted two. Double this in rain, more in snow or fog."
+      },
+      {
+        "heading": "Anticipation over reaction",
+        "body": "Brake lights ahead, a ball on the pavement, a cyclist looking over their shoulder — these are warnings. Ease off the accelerator and cover the brake before you need it. Good anticipation means you almost never have to brake hard."
+      }
+    ]
+  }
+]

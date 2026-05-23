@@ -1,0 +1,242 @@
+[
+  {
+    "id": "traffic-rules-road-position-001",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-lane-choice",
+    "topicTags": ["keep-right", "lane-choice"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "On a motorway with three lanes in your direction and light traffic, which lane should you normally use?",
+    "choices": [
+      { "id": "a", "text": "The left lane, so you can react to slower traffic" },
+      { "id": "b", "text": "The middle lane, as a compromise" },
+      { "id": "c", "text": "The right lane, returning to it after overtaking" },
+      { "id": "d", "text": "Whichever lane has the smoothest surface" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "You must keep right; the left and middle lanes are for overtaking.",
+      "examTip": "Sitting in the middle lane when the right is free is a classic test failure."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-002",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-lane-choice",
+    "topicTags": ["keep-right", "built-up"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Inside a built-up area with two lanes in your direction, you may:",
+    "choices": [
+      { "id": "a", "text": "Use either lane as suits your route, but not weave between them" },
+      { "id": "b", "text": "Only use the right lane at all times" },
+      { "id": "c", "text": "Drive in the left lane to overtake parked cars on the right" },
+      { "id": "d", "text": "Use the left lane whenever traffic is heavy" }
+    ],
+    "correctChoiceIds": ["a"],
+    "explanation": {
+      "short": "Inside built-up areas you may choose the lane that suits your route, but you must not weave.",
+      "examTip": "The keep-right duty is stricter outside built-up areas and on motorways."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-003",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-overtaking",
+    "topicTags": ["overtaking", "side"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "On which side do you normally overtake another vehicle?",
+    "choices": [
+      { "id": "a", "text": "The right" },
+      { "id": "b", "text": "The left" },
+      { "id": "c", "text": "Whichever side has more space" },
+      { "id": "d", "text": "Only on a wide shoulder" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Overtaking is done on the left.",
+      "examTip": "An exception is a vehicle signalling and turning left — pass it on the right."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-004",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-overtaking",
+    "topicTags": ["overtaking", "forbidden"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Where is overtaking always forbidden?",
+    "choices": [
+      { "id": "a", "text": "On a straight road inside a built-up area" },
+      { "id": "b", "text": "Just before or on a pedestrian crossing" },
+      { "id": "c", "text": "On a road with a broken centre line" },
+      { "id": "d", "text": "When traffic moves at the speed limit" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "You may not overtake on or just before a pedestrian crossing.",
+      "examTip": "The same applies to railway crossings and blind crests."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-005",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-overtaking",
+    "topicTags": ["being-overtaken"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Another driver is overtaking you on a country road. What should you do?",
+    "choices": [
+      { "id": "a", "text": "Accelerate so they cannot pass" },
+      { "id": "b", "text": "Keep your line, easing off if needed to help them complete the move" },
+      { "id": "c", "text": "Move into the oncoming lane to let them by on the right" },
+      { "id": "d", "text": "Flash your headlights repeatedly" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Do not accelerate when being overtaken; ease off if needed to let them finish safely.",
+      "examTip": "Speeding up while being overtaken is dangerous and a serious test fault."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-006",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-special-lanes",
+    "topicTags": ["cycle-lane"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You see a red cycle suggestion lane (broken line) along the carriageway. As a car driver you:",
+    "choices": [
+      { "id": "a", "text": "Must never drive on it under any circumstance" },
+      { "id": "b", "text": "May drive on it when necessary, giving priority to cyclists" },
+      { "id": "c", "text": "Have priority over cyclists because it is part of the road" },
+      { "id": "d", "text": "May park on it freely" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A suggestion lane is part of the carriageway; you may use it when needed but cyclists keep priority.",
+      "examTip": "A solid (separated) cycle path, by contrast, is off-limits to cars."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-007",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-special-lanes",
+    "topicTags": ["bus-lane"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A lane is marked 'LIJNBUS'. May you drive your car in it?",
+    "choices": [
+      { "id": "a", "text": "Yes, when traffic in the other lanes is heavy" },
+      { "id": "b", "text": "Yes, but only between 19:00 and 07:00" },
+      { "id": "c", "text": "No, it is reserved for line buses and other authorised vehicles" },
+      { "id": "d", "text": "Yes, if your car has more than two occupants" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "A lijnbus lane is for line buses, trams and authorised vehicles only.",
+      "examTip": "Cross such a lane only at marked breaks."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-008",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-special-lanes",
+    "topicTags": ["trams"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "May you drive your car on tram tracks set in the road?",
+    "choices": [
+      { "id": "a", "text": "Yes, always — they are part of the road" },
+      { "id": "b", "text": "Only when there is no other safe option and you do not obstruct the tram" },
+      { "id": "c", "text": "Only on Sundays, when fewer trams run" },
+      { "id": "d", "text": "Never under any circumstances" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "You may drive on tram tracks only when no other safe option exists and you do not obstruct the tram.",
+      "examTip": "Trams cannot swerve; leaving them room is a strict duty."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-009",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-signalling-merging",
+    "topicTags": ["signalling"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "When must you indicate?",
+    "choices": [
+      { "id": "a", "text": "Only when changing direction at a junction" },
+      { "id": "b", "text": "Only on motorways" },
+      { "id": "c", "text": "Whenever you change direction or lane, or pull out of a parking space" },
+      { "id": "d", "text": "Only if another road user is visible" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "You must indicate for every change of direction or lane, including pulling out.",
+      "examTip": "Cancel the indicator as soon as the manoeuvre is complete."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-010",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-signalling-merging",
+    "topicTags": ["signalling", "priority"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "By indicating to change lane, you:",
+    "choices": [
+      { "id": "a", "text": "Gain priority over traffic in the target lane" },
+      { "id": "b", "text": "Only announce your intention; you must still yield until safe" },
+      { "id": "c", "text": "Are allowed to move immediately" },
+      { "id": "d", "text": "Make the manoeuvre legal even without checking mirrors" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Signalling announces intent; it does not grant priority.",
+      "examTip": "Always check mirrors and blind spot before moving."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-011",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-signalling-merging",
+    "topicTags": ["merging", "motorway"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are on the acceleration lane joining a motorway. The correct approach is to:",
+    "choices": [
+      { "id": "a", "text": "Stop at the end of the lane and wait for a clear road" },
+      { "id": "b", "text": "Match the speed of motorway traffic, then merge into a gap" },
+      { "id": "c", "text": "Force your way in; motorway drivers must let you in" },
+      { "id": "d", "text": "Cross all lanes immediately to the left-most lane" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Build up to motorway speed on the acceleration lane and merge into a gap.",
+      "examTip": "Drivers already on the motorway are not legally obliged to make room for you."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-012",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-lane-choice",
+    "topicTags": ["keep-right", "motorway"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "After overtaking on a motorway, you should:",
+    "choices": [
+      { "id": "a", "text": "Stay in the left lane until the next junction" },
+      { "id": "b", "text": "Return to the right lane as soon as it is safe" },
+      { "id": "c", "text": "Move to the middle lane and stay there" },
+      { "id": "d", "text": "Reduce speed sharply to let others pass on the right" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Return to the right lane as soon as it is safe to do so.",
+      "examTip": "Using the left lane purely to drive faster is not allowed."
+    }
+  }
+]

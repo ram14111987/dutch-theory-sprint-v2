@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "road-position-lane-choice",
+    "moduleSlug": "traffic-rules-road-position",
+    "title": "Lane choice and keeping right",
+    "summary": "Which lane to use on Dutch roads and the legal duty to keep right.",
+    "sections": [
+      {
+        "heading": "Keep right by default",
+        "body": "On every road with more than one lane in your direction, you must drive in the rightmost lane that is free. The left lane is for overtaking. Sitting in a middle or left lane when the right is free is a common test failure."
+      },
+      {
+        "heading": "Lane choice inside built-up areas",
+        "body": "In a built-up area with two or more lanes in your direction you may pick the lane that best suits your route, but you still keep right where practical. You may not weave between lanes."
+      },
+      {
+        "heading": "Lane choice on motorways",
+        "body": "On a motorway always return to the right lane after overtaking. Slower traffic and lorries belong in the right lane. Using the left lane purely to drive faster is not allowed."
+      }
+    ]
+  },
+  {
+    "slug": "road-position-overtaking",
+    "moduleSlug": "traffic-rules-road-position",
+    "title": "Overtaking rules",
+    "summary": "When you may overtake, on which side, and where it is forbidden.",
+    "sections": [
+      {
+        "heading": "Overtake on the left",
+        "body": "You overtake on the left. The only common exceptions are: passing a vehicle that is signalling and turning left, passing trams (which you may pass on the right where space allows), and slow-moving congestion on a motorway where lanes may legally move at different speeds."
+      },
+      {
+        "heading": "Where overtaking is forbidden",
+        "body": "You may not overtake on or just before a pedestrian crossing, at a railway crossing, in front of a brow of a hill or a blind bend, or where a continuous line or a 'no overtaking' sign applies."
+      },
+      {
+        "heading": "Being overtaken",
+        "body": "If another driver overtakes you, do not accelerate. Keep your line and, if needed, ease off slightly to let them complete the manoeuvre safely."
+      }
+    ]
+  },
+  {
+    "slug": "road-position-special-lanes",
+    "moduleSlug": "traffic-rules-road-position",
+    "title": "Cycle lanes, bus lanes and tram tracks",
+    "summary": "Which special lanes you may use, when, and which are off-limits to cars.",
+    "sections": [
+      {
+        "heading": "Cycle paths and cycle lanes",
+        "body": "A solid cycle path (separate from the road) is for cyclists and mopeds only. A cycle suggestion lane (broken line, often red) is part of the carriageway; you may drive on it when necessary but you must give cyclists priority."
+      },
+      {
+        "heading": "Bus and tram lanes",
+        "body": "A 'bus' or 'lijnbus' lane is reserved for line buses, trams and authorised vehicles. Cars may not drive in it. A 'bus/taxi' marking adds taxis. Cross such a lane only at marked breaks."
+      },
+      {
+        "heading": "Tram tracks",
+        "body": "You may drive on tram tracks only when no other safe option exists and you do not obstruct the tram. Trams cannot swerve, so leaving them room is a strict duty."
+      }
+    ]
+  },
+  {
+    "slug": "road-position-signalling-merging",
+    "moduleSlug": "traffic-rules-road-position",
+    "title": "Signalling, merging and changing lanes",
+    "summary": "How and when to indicate, and how to change lanes or merge safely.",
+    "sections": [
+      {
+        "heading": "When to indicate",
+        "body": "Always indicate when changing direction or lane, pulling out from a parking space, entering or leaving a roundabout, or leaving a motorway. Cancel the signal as soon as the manoeuvre is complete."
+      },
+      {
+        "heading": "Mirror, blind spot, signal, move",
+        "body": "Before changing lane, check the inside and outside mirror, glance over the shoulder to clear the blind spot, then signal, then move. Indicating does not give priority; it only announces your intention."
+      },
+      {
+        "heading": "Merging onto a motorway",
+        "body": "On the acceleration lane, build up to the speed of the traffic on the motorway, then merge into a gap. Drivers already on the motorway are not obliged to make room, but they should help where they safely can."
+      }
+    ]
+  }
+]
