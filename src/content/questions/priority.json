@@ -238,5 +238,85 @@
       "short": "Trams generally have priority over other traffic, including over the right-hand priority rule, unless a sign or signal says otherwise.",
       "examTip": "Trams cannot easily brake or swerve; always assume they keep going."
     }
+  },
+  {
+    "id": "priority-013",
+    "moduleId": "priority",
+    "lessonId": "priority-basic-rules",
+    "topicTags": ["right-of-way", "exit"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You drive out of a car park onto a public road. Who has priority?",
+    "choices": [
+      { "id": "a", "text": "You, because you are already moving" },
+      { "id": "b", "text": "All traffic on the public road" },
+      { "id": "c", "text": "Only traffic coming from your right" },
+      { "id": "d", "text": "Only oncoming traffic" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Leaving a private area (driveway, car park, petrol station) you must give way to all road users.",
+      "examTip": "The same rule applies to leaving a footpath, verge or bicycle path."
+    }
+  },
+  {
+    "id": "priority-014",
+    "moduleId": "priority",
+    "lessonId": "priority-intersections",
+    "topicTags": ["priority-road", "diamond-sign"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A yellow diamond on a white background is shown at the side of the road. What does it mean for you?",
+    "choices": [
+      { "id": "a", "text": "End of priority road" },
+      { "id": "b", "text": "Start of priority road" },
+      { "id": "c", "text": "Give way ahead" },
+      { "id": "d", "text": "No entry for cars" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "The yellow diamond marks the start of a priority road; traffic on side roads must give way to you.",
+      "examTip": "The same diamond with a black bar through it marks the end of the priority road."
+    }
+  },
+  {
+    "id": "priority-015",
+    "moduleId": "priority",
+    "lessonId": "priority-roundabouts",
+    "topicTags": ["roundabout", "turbo"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a multi-lane turbo roundabout you have chosen the correct lane on entry. What should you do once on the ring?",
+    "choices": [
+      { "id": "a", "text": "Change lanes freely to overtake slower cars" },
+      { "id": "b", "text": "Stay in your chosen lane until your exit" },
+      { "id": "c", "text": "Always use the outer lane only" },
+      { "id": "d", "text": "Move to the inner lane just before exiting" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Turbo roundabouts use raised lane separators; you must stay in your lane until the exit you pre-selected.",
+      "examTip": "Picking the wrong entry lane usually means going around again rather than crossing a separator."
+    }
+  },
+  {
+    "id": "priority-016",
+    "moduleId": "priority",
+    "lessonId": "priority-special-users",
+    "topicTags": ["bus", "built-up"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Inside a built-up area a city bus signals to pull away from a stop. What is required of you?",
+    "choices": [
+      { "id": "a", "text": "Accelerate to pass before it moves" },
+      { "id": "b", "text": "Let the bus pull out if you can do so safely" },
+      { "id": "c", "text": "Sound your horn so the bus waits" },
+      { "id": "d", "text": "You always have priority over a bus" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "In built-up areas a bus leaving a stop with its indicator on has priority; brake and let it out if safe.",
+      "examTip": "Outside built-up areas this rule does not apply — the bus must wait for a gap."
+    }
   }
 ]

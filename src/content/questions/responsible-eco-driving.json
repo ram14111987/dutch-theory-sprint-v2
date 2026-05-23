@@ -238,5 +238,85 @@
       "short": "Milieuzones exclude older, more polluting vehicles to improve city air.",
       "examTip": "Each city sets its own exact rules — check signs and city websites."
     }
+  },
+  {
+    "id": "responsible-eco-driving-013",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-fuel-efficient",
+    "topicTags": ["gear", "engine-speed"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "On a flat road in a manual car, what is the most fuel-efficient general rule?",
+    "choices": [
+      { "id": "a", "text": "Stay in low gears at high revs" },
+      { "id": "b", "text": "Shift up early and drive in the highest practical gear" },
+      { "id": "c", "text": "Always use the lowest gear available" },
+      { "id": "d", "text": "Keep the engine speed above 4000 rpm" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "High gear, low revs reduce fuel use and emissions on flat, steady stretches.",
+      "examTip": "Aim to shift up around 2000–2500 rpm in petrol cars and even earlier in diesels."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-014",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-fuel-efficient",
+    "topicTags": ["anticipation", "coasting"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Approaching a red traffic light you can already see ahead, the most eco-friendly action is to:",
+    "choices": [
+      { "id": "a", "text": "Hold full speed and brake hard at the line" },
+      { "id": "b", "text": "Release the accelerator early and roll up in gear so the engine cuts injection" },
+      { "id": "c", "text": "Shift to neutral and coast" },
+      { "id": "d", "text": "Accelerate hoping the light changes" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Lifting off in gear lets modern cars cut fuel injection; you save fuel while slowing down naturally.",
+      "examTip": "Coasting in neutral is less efficient and reduces engine braking control."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-015",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-vehicle-care",
+    "topicTags": ["tyre-pressure", "rolling-resistance"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Tyres that are under-inflated have what main effect on the car?",
+    "choices": [
+      { "id": "a", "text": "Lower fuel consumption" },
+      { "id": "b", "text": "Higher rolling resistance and higher fuel consumption" },
+      { "id": "c", "text": "Better grip in all weather" },
+      { "id": "d", "text": "Longer tyre life" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Under-inflated tyres raise rolling resistance, fuel use and wear, and harm handling.",
+      "examTip": "Check pressures monthly cold, and increase pressure when carrying heavy loads."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-016",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-shared-environment",
+    "topicTags": ["environment-zone", "milieuzone"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You see a sign for a 'milieuzone' (environmental zone) in a Dutch city. What does it mean?",
+    "choices": [
+      { "id": "a", "text": "Free parking for all cars" },
+      { "id": "b", "text": "Only vehicles meeting the local emission rules may enter" },
+      { "id": "c", "text": "Cyclists must dismount" },
+      { "id": "d", "text": "The road is closed at weekends" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Environmental zones bar older, polluting vehicles; the exact rules depend on the city and vehicle category.",
+      "examTip": "Check the sign carefully — diesel cars and trucks usually face stricter rules than petrol cars."
+    }
   }
 ]

@@ -238,5 +238,85 @@
       "short": "Always check mirror and blind spot before opening the door.",
       "examTip": "The driver who opens the door is liable for any collision."
     }
+  },
+  {
+    "id": "parking-stopping-rules-013",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": ["intersection", "distance"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "How close to an intersection may you park where parking is not separately signed?",
+    "choices": [
+      { "id": "a", "text": "Up to the kerb of the intersection" },
+      { "id": "b", "text": "Not within 5 metres of the intersection" },
+      { "id": "c", "text": "Not within 50 metres of the intersection" },
+      { "id": "d", "text": "Anywhere as long as you do not block traffic" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Parking is forbidden within 5 metres of an intersection so other road users can see across it.",
+      "examTip": "The same 5-metre rule applies near pedestrian crossings and bus stops."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-014",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": ["yellow-line", "broken"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A broken yellow line is painted along the kerb. What does it mean?",
+    "choices": [
+      { "id": "a", "text": "No stopping, even briefly" },
+      { "id": "b", "text": "No parking, but stopping (to drop off or pick up) is allowed" },
+      { "id": "c", "text": "Loading bay for trucks only" },
+      { "id": "d", "text": "Reserved for taxis" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Broken yellow line = no parking; a continuous yellow line = no stopping at all.",
+      "examTip": "Remember: continuous = stricter."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-015",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-parking-position",
+    "topicTags": ["direction", "kerb"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "On a two-way road, you should park your car:",
+    "choices": [
+      { "id": "a", "text": "On either side, in either direction" },
+      { "id": "b", "text": "On the right kerb, facing the direction of travel" },
+      { "id": "c", "text": "On the left kerb, facing oncoming traffic" },
+      { "id": "d", "text": "Diagonally across the kerb to save space" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Park on the right-hand side facing the direction you were driving, parallel to the kerb.",
+      "examTip": "Parking against the flow is allowed only in one-way streets where signed."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-016",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-special-spaces",
+    "topicTags": ["disabled-bay", "permit"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "May you park briefly in a disabled bay to load shopping if you do not have a disabled permit?",
+    "choices": [
+      { "id": "a", "text": "Yes, for up to 5 minutes" },
+      { "id": "b", "text": "Yes, if no disabled driver is around" },
+      { "id": "c", "text": "No — disabled bays are reserved at all times for permit holders" },
+      { "id": "d", "text": "Only after 19:00" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Disabled parking bays are reserved 24/7 for vehicles displaying a valid disabled parking permit.",
+      "examTip": "Fines for misuse are high and the vehicle can be towed."
+    }
   }
 ]

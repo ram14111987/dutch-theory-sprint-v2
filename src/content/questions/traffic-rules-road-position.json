@@ -238,5 +238,85 @@
       "short": "Return to the right lane as soon as it is safe to do so.",
       "examTip": "Using the left lane purely to drive faster is not allowed."
     }
+  },
+  {
+    "id": "traffic-rules-road-position-013",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-lane-choice",
+    "topicTags": ["keep-right", "multi-lane"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "On a quiet three-lane motorway with no other traffic around, which lane should you use?",
+    "choices": [
+      { "id": "a", "text": "Whichever you prefer" },
+      { "id": "b", "text": "The right-hand lane" },
+      { "id": "c", "text": "The middle lane to stay flexible" },
+      { "id": "d", "text": "The left-hand lane for a smoother ride" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "You must drive as far right as is practical; the other lanes are for overtaking.",
+      "examTip": "Hogging the middle lane is a common scoring point against learners."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-014",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-overtaking",
+    "topicTags": ["overtaking", "right-side"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a motorway, when may you pass another car on the right (undertaking)?",
+    "choices": [
+      { "id": "a", "text": "Whenever the right lane is empty" },
+      { "id": "b", "text": "Never under any circumstances" },
+      { "id": "c", "text": "In slow-moving lanes of dense traffic, where your lane simply moves faster" },
+      { "id": "d", "text": "Only if you flash your headlights first" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Overtaking on the right is forbidden, but in dense traffic the right-hand lane may legitimately move faster than the lane to its left.",
+      "examTip": "You should not weave between lanes to gain speed — that is overtaking on the right."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-015",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-signalling-merging",
+    "topicTags": ["merging", "zipper"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "One of two lanes ends due to roadworks and traffic is dense. What is the correct technique?",
+    "choices": [
+      { "id": "a", "text": "Merge as early as possible to free up the ending lane" },
+      { "id": "b", "text": "Use both lanes up to the merge point, then merge one-by-one (zipper)" },
+      { "id": "c", "text": "Force your way in as quickly as possible" },
+      { "id": "d", "text": "Stop and wait for police direction" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "The zipper method — using both lanes to the very end and taking turns — keeps traffic flowing best.",
+      "examTip": "Drivers in the through lane should leave a gap for one merging vehicle each."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-016",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-special-lanes",
+    "topicTags": ["bus-lane", "shared"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You see a lane marked 'BUS' with a solid white line on its left. May you drive a private car in it?",
+    "choices": [
+      { "id": "a", "text": "Yes, at any time" },
+      { "id": "b", "text": "No, not in a private car" },
+      { "id": "c", "text": "Only at night" },
+      { "id": "d", "text": "Only if there are no buses in sight" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A lane marked 'BUS' is reserved for buses (and any vehicles signed as exceptions); private cars must stay out.",
+      "examTip": "A separate sign sometimes adds taxis or bicycles — read what is signed."
+    }
   }
 ]

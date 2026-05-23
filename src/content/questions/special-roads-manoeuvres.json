@@ -238,5 +238,85 @@
       "short": "U-turns are forbidden on motorways, expressways, across continuous lines, and where signs forbid them.",
       "examTip": "Even where allowed, you must yield to all traffic before turning."
     }
+  },
+  {
+    "id": "special-roads-manoeuvres-013",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-motorway-expressway",
+    "topicTags": ["motorway", "minimum"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Which vehicles may NOT use a Dutch motorway (autosnelweg)?",
+    "choices": [
+      { "id": "a", "text": "Cars, trucks and buses" },
+      { "id": "b", "text": "Vehicles unable to maintain at least 60 km/h, plus mopeds and bicycles" },
+      { "id": "c", "text": "Any vehicle with a trailer" },
+      { "id": "d", "text": "Foreign-registered cars" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Motorways are off-limits to slow vehicles (<60 km/h capacity), mopeds, bicycles, pedestrians and farm equipment.",
+      "examTip": "The blue sign with two stacked lanes marks the start of a motorway."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-014",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-entering-leaving",
+    "topicTags": ["slip-road", "merge"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You approach the end of a motorway on-ramp. What is the correct technique?",
+    "choices": [
+      { "id": "a", "text": "Stop at the end of the slip road and wait for a long gap" },
+      { "id": "b", "text": "Match the speed of motorway traffic and merge into a gap" },
+      { "id": "c", "text": "Drive on the hard shoulder until it is empty" },
+      { "id": "d", "text": "Force motorway traffic to brake for you" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Use the full length of the slip road to reach motorway speed, then merge smoothly into a gap.",
+      "examTip": "Drivers already on the motorway should make space, but the duty to give way is on the merging driver."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-015",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-tunnels-bridges",
+    "topicTags": ["tunnel", "breakdown"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Your car breaks down inside a long road tunnel. What should you do first?",
+    "choices": [
+      { "id": "a", "text": "Open the bonnet to cool the engine" },
+      { "id": "b", "text": "Switch on hazard lights, move passengers to safety and use an emergency phone" },
+      { "id": "c", "text": "Leave the car and walk back along the tunnel" },
+      { "id": "d", "text": "Continue driving slowly until you exit" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Hazard lights on, evacuate to a safe refuge, then use the tunnel emergency phone — these reach control directly.",
+      "examTip": "Do not turn the engine off if traffic must move past you; keep ventilation running where possible."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-016",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-manoeuvres-basics",
+    "topicTags": ["reversing", "safety"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You need to reverse around a corner on a quiet street. What is the safest approach?",
+    "choices": [
+      { "id": "a", "text": "Rely only on the reversing camera" },
+      { "id": "b", "text": "Look over your shoulder and use mirrors; have a helper if visibility is poor" },
+      { "id": "c", "text": "Use the horn continuously" },
+      { "id": "d", "text": "Reverse as fast as possible to clear the corner" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Direct vision over the shoulder plus mirrors gives you full coverage; a banksman fills any blind spot you cannot see.",
+      "examTip": "If you cannot see the area behind, get out and check before moving."
+    }
   }
 ]

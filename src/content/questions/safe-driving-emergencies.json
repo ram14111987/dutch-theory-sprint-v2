@@ -238,5 +238,85 @@
       "short": "Secure the scene first — an unsafe helper quickly becomes a second casualty.",
       "examTip": "Keep injured people still and warm until professional help arrives."
     }
+  },
+  {
+    "id": "safe-driving-emergencies-013",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-alcohol-drugs-fatigue",
+    "topicTags": ["alcohol", "limit"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "What is the blood-alcohol limit for an experienced Dutch driver (more than 5 years licensed)?",
+    "choices": [
+      { "id": "a", "text": "0.0 ‰" },
+      { "id": "b", "text": "0.2 ‰" },
+      { "id": "c", "text": "0.5 ‰" },
+      { "id": "d", "text": "0.8 ‰" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Experienced drivers: 0.5 ‰ (0.22 mg/L breath). Novice drivers in their first 5 years: 0.2 ‰.",
+      "examTip": "When in doubt — don't drive. Any alcohol slows reactions and judgement."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-014",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-alcohol-drugs-fatigue",
+    "topicTags": ["fatigue", "warning-signs"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Which is an early warning sign that you are too tired to keep driving?",
+    "choices": [
+      { "id": "a", "text": "Yawning, drifting in the lane, missing exits" },
+      { "id": "b", "text": "Bright sunlight" },
+      { "id": "c", "text": "An empty fuel tank" },
+      { "id": "d", "text": "Hot weather alone" }
+    ],
+    "correctChoiceIds": ["a"],
+    "explanation": {
+      "short": "Yawning, drifting, eye-strain and lapses in concentration mean it is time to stop.",
+      "examTip": "Open windows and loud music are not real cures — take a real break."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-015",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-breakdown-accident",
+    "topicTags": ["breakdown", "motorway"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Your car breaks down on the hard shoulder of a motorway. After stopping safely, what is the next step?",
+    "choices": [
+      { "id": "a", "text": "Stay in the car with seat belt on" },
+      { "id": "b", "text": "Put on hazard lights, place the warning triangle ~30 m behind, get everyone out and behind the safety barrier" },
+      { "id": "c", "text": "Open the bonnet and start checking the engine" },
+      { "id": "d", "text": "Walk back along the carriageway to warn drivers" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Hazards on, warning triangle behind the car, everyone out on the verge behind the barrier — then call for help.",
+      "examTip": "Use the emergency lane only as a last resort; never stop there for non-emergency reasons."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-016",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-emergency-vehicles-first-aid",
+    "topicTags": ["accident", "first-aid"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are first at a road accident where someone is unconscious. What is the most important first action?",
+    "choices": [
+      { "id": "a", "text": "Move the victim out of the car immediately" },
+      { "id": "b", "text": "Make the scene safe, then call 112 and check if the person is breathing" },
+      { "id": "c", "text": "Take photos for the insurance" },
+      { "id": "d", "text": "Drive on so as not to block traffic" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Secure the scene (hazards, warning triangle), call 112, then assess breathing and airway.",
+      "examTip": "Move a casualty only when there is an immediate further danger such as fire."
+    }
   }
 ]

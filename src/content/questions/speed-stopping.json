@@ -198,5 +198,125 @@
       "short": "Roughly a two-second gap is the standard guideline in dry conditions.",
       "examTip": "Double the gap on wet roads, and extend it further in poor visibility or behind heavy vehicles."
     }
+  },
+  {
+    "id": "speed-stopping-011",
+    "moduleId": "speed-stopping",
+    "lessonId": "speed-limits",
+    "topicTags": ["motorway", "default-limit"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "What is the standard daytime (06:00–19:00) speed limit on Dutch motorways for cars?",
+    "choices": [
+      { "id": "a", "text": "100 km/h" },
+      { "id": "b", "text": "120 km/h" },
+      { "id": "c", "text": "130 km/h" },
+      { "id": "d", "text": "90 km/h" }
+    ],
+    "correctChoiceIds": ["a"],
+    "explanation": {
+      "short": "Since 2020 the default daytime motorway limit is 100 km/h; higher limits apply only where signed and only at night.",
+      "examTip": "Always obey the signed limit — it overrides the default in either direction."
+    }
+  },
+  {
+    "id": "speed-stopping-012",
+    "moduleId": "speed-stopping",
+    "lessonId": "speed-limits",
+    "topicTags": ["built-up", "default-limit"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You see the rectangular blue sign that marks a built-up area. From that point the default speed limit is:",
+    "choices": [
+      { "id": "a", "text": "30 km/h" },
+      { "id": "b", "text": "50 km/h" },
+      { "id": "c", "text": "60 km/h" },
+      { "id": "d", "text": "80 km/h" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Inside a built-up area the default limit is 50 km/h unless lower limits (30 km/h zones) are signed.",
+      "examTip": "Leaving the area is shown by the same sign with a red diagonal bar — default rises to 80 km/h."
+    }
+  },
+  {
+    "id": "speed-stopping-013",
+    "moduleId": "speed-stopping",
+    "lessonId": "stopping-distance",
+    "topicTags": ["stopping-distance", "components"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Stopping distance is made up of which two parts?",
+    "choices": [
+      { "id": "a", "text": "Engine response and brake force" },
+      { "id": "b", "text": "Reaction distance and braking distance" },
+      { "id": "c", "text": "Acceleration distance and turning distance" },
+      { "id": "d", "text": "Tyre grip and road camber" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Total stopping distance = reaction distance (before the brakes act) + braking distance (while the brakes act).",
+      "examTip": "Fatigue, alcohol and phone use mainly stretch the reaction part, not the brake part."
+    }
+  },
+  {
+    "id": "speed-stopping-014",
+    "moduleId": "speed-stopping",
+    "lessonId": "stopping-distance",
+    "topicTags": ["braking-distance", "speed-effect"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "If you double your speed, the braking distance on dry tarmac becomes roughly:",
+    "choices": [
+      { "id": "a", "text": "Twice as long" },
+      { "id": "b", "text": "Three times as long" },
+      { "id": "c", "text": "Four times as long" },
+      { "id": "d", "text": "Unchanged" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Braking distance grows with the square of speed, so doubling speed roughly quadruples it.",
+      "examTip": "Reaction distance only doubles — but the squared effect on braking is what makes high-speed crashes severe."
+    }
+  },
+  {
+    "id": "speed-stopping-015",
+    "moduleId": "speed-stopping",
+    "lessonId": "conditions-and-following",
+    "topicTags": ["wet-road", "following-distance"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "It is raining and the road surface is wet. How should you adjust your following distance compared to dry conditions?",
+    "choices": [
+      { "id": "a", "text": "Keep it the same" },
+      { "id": "b", "text": "Reduce it slightly to keep up" },
+      { "id": "c", "text": "About double it" },
+      { "id": "d", "text": "Reduce it to one second" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "On a wet road grip drops, so roughly double the two-second guideline to about four seconds.",
+      "examTip": "On ice or hard-packed snow, an even larger gap (eight to ten seconds) is reasonable."
+    }
+  },
+  {
+    "id": "speed-stopping-016",
+    "moduleId": "speed-stopping",
+    "lessonId": "conditions-and-following",
+    "topicTags": ["tailgating", "behaviour"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Another driver is tailgating you on a single-lane road. What is the safest response?",
+    "choices": [
+      { "id": "a", "text": "Brake hard to make them back off" },
+      { "id": "b", "text": "Keep your speed and increase the gap to the car in front" },
+      { "id": "c", "text": "Speed up well above the limit" },
+      { "id": "d", "text": "Wave them past while turning around" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Hold your line, leave more space ahead, and let them overtake when it is safe.",
+      "examTip": "Brake-checking a tailgater is dangerous and may be treated as reckless driving."
+    }
   }
 ]

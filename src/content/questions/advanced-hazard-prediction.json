@@ -238,5 +238,85 @@
       "short": "Tunnel-vision on one hazard makes you miss the next one — keep scanning.",
       "examTip": "Mirror checks during a reaction help you avoid rear-end collisions."
     }
+  },
+  {
+    "id": "advanced-hazard-prediction-013",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-reading-traffic",
+    "topicTags": ["brake-lights", "chain"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You drive on a motorway and notice brake lights flashing two or three cars ahead. What is the best response?",
+    "choices": [
+      { "id": "a", "text": "Maintain speed; only react when the car directly in front brakes" },
+      { "id": "b", "text": "Ease off the accelerator and increase your following distance" },
+      { "id": "c", "text": "Change lanes immediately without checking mirrors" },
+      { "id": "d", "text": "Flash your headlights at the cars ahead" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Reading several cars ahead lets you slow gently before you would otherwise have to brake hard.",
+      "examTip": "This habit is the single biggest cause of avoiding motorway rear-end pile-ups."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-014",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-vulnerable-users",
+    "topicTags": ["cyclists", "right-turn"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You signal to turn right at an urban junction. A cyclist is alongside your car on the right. What is the safest action?",
+    "choices": [
+      { "id": "a", "text": "Turn quickly to get ahead of the cyclist" },
+      { "id": "b", "text": "Wait until the cyclist has cleared the junction, then turn" },
+      { "id": "c", "text": "Sound the horn and continue turning" },
+      { "id": "d", "text": "Squeeze the cyclist toward the kerb" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Right-turn 'dooring' or hooking is a classic killer of cyclists; wait until they are clear or visible well ahead of you.",
+      "examTip": "Always do a final blind-spot check just before initiating the turn."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-015",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-weather-surface",
+    "topicTags": ["aquaplaning", "recovery"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a wet motorway you feel the steering go light and the car begins to aquaplane. What should you do?",
+    "choices": [
+      { "id": "a", "text": "Brake hard and steer sharply" },
+      { "id": "b", "text": "Ease off the accelerator, hold the wheel straight and wait for grip to return" },
+      { "id": "c", "text": "Accelerate to break through the water film" },
+      { "id": "d", "text": "Pull the handbrake" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Smoothly reduce speed and keep the wheel straight; the tyres will regain contact as speed drops.",
+      "examTip": "Good tread depth and lower speed in standing water are the best prevention."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-016",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-decision-making",
+    "topicTags": ["intersection", "blocked-view"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You approach a junction where a parked van blocks your view of crossing traffic. The best policy is to:",
+    "choices": [
+      { "id": "a", "text": "Maintain speed; the other driver must give way" },
+      { "id": "b", "text": "Creep forward slowly until your view is clear, then proceed" },
+      { "id": "c", "text": "Sound the horn and drive through" },
+      { "id": "d", "text": "Close your eyes briefly and hope for the best" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "When your view is blocked, edge forward only as far as needed to see, then decide.",
+      "examTip": "Pedestrians and cyclists may step out from behind the same obstacle — scan low and wide."
+    }
   }
 ]

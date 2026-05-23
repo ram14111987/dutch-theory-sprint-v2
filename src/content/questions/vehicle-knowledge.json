@@ -238,5 +238,85 @@
       "short": "An environmental zone restricts the more polluting vehicles, especially older diesels.",
       "examTip": "Each city sets its own exact rules — check before driving into one."
     }
+  },
+  {
+    "id": "vehicle-knowledge-013",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-tyres-brakes",
+    "topicTags": ["tyres", "tread"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "What is the minimum legal tread depth for a passenger-car tyre in the Netherlands?",
+    "choices": [
+      { "id": "a", "text": "1.0 mm" },
+      { "id": "b", "text": "1.6 mm" },
+      { "id": "c", "text": "2.5 mm" },
+      { "id": "d", "text": "4.0 mm" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Legal minimum is 1.6 mm across the central three-quarters of the tread.",
+      "examTip": "Many manufacturers recommend replacement well above the legal minimum, around 3 mm, especially for winter tyres."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-014",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-lights-visibility",
+    "topicTags": ["headlights", "dipped"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "When must you use dipped headlights instead of side lights only?",
+    "choices": [
+      { "id": "a", "text": "Only at night" },
+      { "id": "b", "text": "Whenever visibility is reduced — dusk, rain, fog or snow — and at night" },
+      { "id": "c", "text": "Only on motorways" },
+      { "id": "d", "text": "Only when other cars do" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Use dipped headlights any time visibility is reduced; side lights alone are not enough for moving traffic.",
+      "examTip": "Most modern cars switch on automatic daytime running lights — those are not the same as dipped beam at night."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-015",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-load-passengers",
+    "topicTags": ["child-seat", "rules"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A child of 3 years old, height 95 cm, must travel in a private car. What is required?",
+    "choices": [
+      { "id": "a", "text": "An adult seat-belt is enough" },
+      { "id": "b", "text": "An approved child restraint suitable for the child's size and weight" },
+      { "id": "c", "text": "The child must sit in the front seat" },
+      { "id": "d", "text": "The child must travel on an adult's lap" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Children under 1.35 m must use an approved child seat or booster suitable for their size and weight.",
+      "examTip": "If the front airbag is active, never put a rear-facing seat in the front."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-016",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-documents-environment",
+    "topicTags": ["apk", "inspection"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "What is the APK?",
+    "choices": [
+      { "id": "a", "text": "An annual road-tax payment" },
+      { "id": "b", "text": "The Dutch periodic vehicle inspection that must be passed for the car to be legal on the road" },
+      { "id": "c", "text": "A driver's licence renewal exam" },
+      { "id": "d", "text": "A type of car insurance" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "The APK (Algemene Periodieke Keuring) is a periodic safety and emissions check; without a valid APK you may not drive on public roads.",
+      "examTip": "For most passenger cars APK is yearly once the car is 4 years old."
+    }
   }
 ]

@@ -238,5 +238,85 @@
       "short": "Signing confirms the facts only; liability is decided by the insurers.",
       "examTip": "Never leave parts blank — fill in or cross out every box."
     }
+  },
+  {
+    "id": "legislation-documents-013",
+    "moduleId": "legislation-documents",
+    "lessonId": "legislation-documents-driving-licence",
+    "topicTags": ["validity", "renewal"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "How long is a category-B (passenger-car) driving licence in the Netherlands normally valid?",
+    "choices": [
+      { "id": "a", "text": "5 years" },
+      { "id": "b", "text": "10 years" },
+      { "id": "c", "text": "15 years" },
+      { "id": "d", "text": "For life" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A category-B licence is valid for 10 years; after 75 a shorter validity applies.",
+      "examTip": "Renewing after expiry without taking action means driving without a valid licence."
+    }
+  },
+  {
+    "id": "legislation-documents-014",
+    "moduleId": "legislation-documents",
+    "lessonId": "legislation-documents-vehicle-papers",
+    "topicTags": ["registration", "kentekencard"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Which document proves who is officially registered as the keeper of a Dutch vehicle?",
+    "choices": [
+      { "id": "a", "text": "The driving licence" },
+      { "id": "b", "text": "The kentekencard (vehicle registration card)" },
+      { "id": "c", "text": "The APK certificate" },
+      { "id": "d", "text": "The insurance green card" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "The kentekencard, issued by the RDW, identifies the registered keeper of the vehicle.",
+      "examTip": "Carry the card while driving — together with your licence and insurance proof."
+    }
+  },
+  {
+    "id": "legislation-documents-015",
+    "moduleId": "legislation-documents",
+    "lessonId": "legislation-documents-alcohol-drugs-law",
+    "topicTags": ["novice-driver", "alcohol"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "What is the blood-alcohol limit for a novice driver in the Netherlands during the first 5 years after passing?",
+    "choices": [
+      { "id": "a", "text": "0.0 ‰" },
+      { "id": "b", "text": "0.2 ‰" },
+      { "id": "c", "text": "0.5 ‰" },
+      { "id": "d", "text": "0.8 ‰" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Novice drivers: 0.2 ‰ (about 0.09 mg/L breath) for the first 5 years; experienced drivers: 0.5 ‰.",
+      "examTip": "The novice limit also applies during the 'begeleid rijden' (2toDrive) period from age 17."
+    }
+  },
+  {
+    "id": "legislation-documents-016",
+    "moduleId": "legislation-documents",
+    "lessonId": "legislation-documents-fines-points",
+    "topicTags": ["fines", "speeding"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Generally, how is the size of a Dutch speeding fine calculated?",
+    "choices": [
+      { "id": "a", "text": "A fixed amount regardless of speed" },
+      { "id": "b", "text": "Higher fines for greater excess over the limit, with bigger steps inside built-up areas" },
+      { "id": "c", "text": "Only based on the driver's income" },
+      { "id": "d", "text": "Always 1000 euro" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Fines scale with how much you exceed the limit and where (built-up vs. outside), with sharply higher amounts above ~30 km/h excess.",
+      "examTip": "Going 30+ km/h over the limit usually triggers a court summons rather than just a fixed fine."
+    }
   }
 ]
