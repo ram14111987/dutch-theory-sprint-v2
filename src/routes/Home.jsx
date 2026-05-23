@@ -88,6 +88,28 @@ function Home() {
                 </article>
               );
             }
+            if (mode === 'Mock Exam') {
+              const enabled = sprintPoolSize > 0;
+              return (
+                <article className="card" key={mode}>
+                  <h3>{mode}</h3>
+                  <p>
+                    {enabled
+                      ? '25 questions drawn from every quiz-enabled module. Pass at 80%.'
+                      : 'No quiz-enabled modules yet — Mock Exam will unlock once questions are available.'}
+                  </p>
+                  {enabled ? (
+                    <Link to="/exam" className="card__link">
+                      Start Mock Exam
+                    </Link>
+                  ) : (
+                    <span className="card__link" style={{ opacity: 0.5 }} aria-disabled="true">
+                      Coming soon
+                    </span>
+                  )}
+                </article>
+              );
+            }
             if (mode === 'Quick Sprint') {
               const enabled = sprintPoolSize > 0;
               return (
