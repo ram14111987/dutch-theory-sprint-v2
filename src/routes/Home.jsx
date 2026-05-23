@@ -110,6 +110,29 @@ function Home() {
                 </article>
               );
             }
+            if (mode === 'Topic Deep Dive') {
+              const topicCount = modules.filter((m) => hasQuiz(m.slug)).length;
+              const enabled = topicCount > 0;
+              return (
+                <article className="card" key={mode}>
+                  <h3>{mode}</h3>
+                  <p>
+                    {enabled
+                      ? `Focus on one module at a time. ${topicCount} topic${topicCount === 1 ? '' : 's'} available.`
+                      : 'No quiz-enabled modules yet — Topic Deep Dive will unlock once questions are available.'}
+                  </p>
+                  {enabled ? (
+                    <Link to="/topics" className="card__link">
+                      Pick a topic
+                    </Link>
+                  ) : (
+                    <span className="card__link" style={{ opacity: 0.5 }} aria-disabled="true">
+                      Coming soon
+                    </span>
+                  )}
+                </article>
+              );
+            }
             if (mode === 'Quick Sprint') {
               const enabled = sprintPoolSize > 0;
               return (

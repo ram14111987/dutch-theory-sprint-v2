@@ -20,6 +20,10 @@ import ReviewIndex from './routes/ReviewIndex.jsx';
 import Sprint from './routes/Sprint.jsx';
 import MockExam from './routes/MockExam.jsx';
 import MockExamResults from './routes/MockExamResults.jsx';
+import TopicIndex from './routes/TopicIndex.jsx';
+import TopicOverview from './routes/TopicOverview.jsx';
+import TopicPractice from './routes/TopicPractice.jsx';
+import TopicResults from './routes/TopicResults.jsx';
 import { ResultContext } from './quiz/ResultContext.js';
 
 function QuizWithFreshKey() {
@@ -40,6 +44,11 @@ function SprintWithFreshKey() {
 function MockExamWithFreshKey() {
   const location = useLocation();
   return <MockExam key={location.pathname} />;
+}
+
+function TopicPracticeWithFreshKey() {
+  const location = useLocation();
+  return <TopicPractice key={location.pathname} />;
 }
 
 function App() {
@@ -64,6 +73,10 @@ function App() {
             <Route path="sprint/results" element={<Results />} />
             <Route path="exam" element={<MockExamWithFreshKey />} />
             <Route path="exam/results" element={<MockExamResults />} />
+            <Route path="topics" element={<TopicIndex />} />
+            <Route path="topics/:slug" element={<TopicOverview />} />
+            <Route path="topics/:slug/practice" element={<TopicPracticeWithFreshKey />} />
+            <Route path="topics/:slug/results" element={<TopicResults />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
