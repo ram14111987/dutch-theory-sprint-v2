@@ -5,6 +5,7 @@ import { performanceLabel, isAnswerCorrect } from '../quiz/scoring.js';
 import { ResultContext } from '../quiz/ResultContext.js';
 import { getLatestAttempt } from '../storage/progressStore.js';
 import ResultSummary from '../components/ResultSummary.jsx';
+import EmptyState from '../components/EmptyState.jsx';
 
 function hydrateFromAttempt(slug, mode) {
   const attempt = getLatestAttempt(slug, mode ? { mode } : undefined);
@@ -61,43 +62,48 @@ function Results() {
   }, [result, slug, isReview, isSprint]);
 
   if (!effective || !effective.questions.length) {
+    const eyebrow = isSprint
+      ? 'Quick Sprint'
+      : isReview
+        ? 'Mistake Review'
+        : 'Quiz';
+    const message = isSprint
+      ? 'Finish a Quick Sprint to see your results here.'
+      : isReview
+        ? 'Finish a review session to see your results here.'
+        : 'Start a quiz to see your results here.';
     return (
       <section className="panel results-page">
-        <div className="panel__header">
-          {isSprint && <p className="eyebrow">Quick Sprint</p>}
-          {isReview && <p className="eyebrow">Mistake Review</p>}
-          <h2>No results to show</h2>
-          <p>
-            {isSprint
-              ? 'Finish a Quick Sprint to see your results here.'
-              : isReview
-              ? 'Finish a review session to see your results here.'
-              : 'Start a quiz to see your results here.'}
-          </p>
-        </div>
-        <div className="results-page__actions">
-          {isSprint && (
-            <Link to="/sprint" className="btn btn--primary">
-              Start Quick Sprint
-            </Link>
-          )}
-          {mod && !isReview && !isSprint && (
-            <Link to={`/quiz/${mod.slug}`} className="btn btn--primary">
-              Start quiz
-            </Link>
-          )}
-          {mod && isReview && (
-            <Link to={`/review/${mod.slug}`} className="btn btn--primary">
-              Start review
-            </Link>
-          )}
-          <Link
-            to={mod ? `/modules/${mod.slug}` : '/'}
-            className="btn"
-          >
-            {mod ? 'Back to module' : 'Back home'}
-          </Link>
-        </div>
+        <EmptyState
+          eyebrow={eyebrow}
+          title="No results to show"
+          message={message}
+          actions={
+            <>
+              {isSprint && (
+                <Link to="/sprint" className="btn btn--primary">
+                  Start Quick Sprint
+                </Link>
+              )}
+              {mod && !isReview && !isSprint && (
+                <Link to={`/quiz/${mod.slug}`} className="btn btn--primary">
+                  Start quiz
+                </Link>
+              )}
+              {mod && isReview && (
+                <Link to={`/review/${mod.slug}`} className="btn btn--primary">
+                  Start review
+                </Link>
+              )}
+              <Link
+                to={mod ? `/modules/${mod.slug}` : '/'}
+                className="btn"
+              >
+                {mod ? 'Back to module' : 'Back home'}
+              </Link>
+            </>
+          }
+        />
       </section>
     );
   }
@@ -108,10 +114,12 @@ function Results() {
   return (
     <section className="panel results-page">
       <header className="results-page__header">
-        {isSprint && <p className="eyebrow">Quick Sprint</p>}
-        {isReview && <p className="eyebrow">Mistake Review</p>}
         <p className="eyebrow">
-          Results · {isSprint ? 'Quick Sprint' : mod ? mod.title : slug}
+          {isSprint
+            ? 'Quick Sprint · Results'
+            : isReview
+              ? `Mistake Review · ${mod ? mod.title : slug}`
+              : `Results · ${mod ? mod.title : slug}`}
         </p>
         {isSprint && effective.timedOut && (
           <p className="eyebrow eyebrow--dark">Submitted on timeout</p>

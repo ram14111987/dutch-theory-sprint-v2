@@ -5,6 +5,7 @@ import {
   getQuestionsForModule,
   hasQuiz,
 } from '../content/index.js';
+import EmptyState from '../components/EmptyState.jsx';
 
 function TopicIndex() {
   const modules = getAllModules();
@@ -19,7 +20,10 @@ function TopicIndex() {
       </div>
 
       {topics.length === 0 ? (
-        <p className="empty-state">No quiz-enabled topics yet.</p>
+        <EmptyState
+          title="No topics available yet"
+          message="Topic Deep Dive will unlock once a module has questions available."
+        />
       ) : (
         <div className="card-grid">
           {topics.map((mod) => {

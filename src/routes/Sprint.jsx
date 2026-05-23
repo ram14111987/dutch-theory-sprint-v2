@@ -12,6 +12,7 @@ import { ResultContext } from '../quiz/ResultContext.js';
 import { recordAttempt, makeAttemptId } from '../storage/progressStore.js';
 import QuestionCard from '../components/QuestionCard.jsx';
 import QuizProgress from '../components/QuizProgress.jsx';
+import EmptyState from '../components/EmptyState.jsx';
 
 const TIMES_UP_LINGER_MS = 900;
 
@@ -90,12 +91,12 @@ function Sprint() {
   if (!entries.length) {
     return (
       <section className="panel">
-        <div className="panel__header">
-          <p className="eyebrow">Quick Sprint</p>
-          <h2>No questions available</h2>
-          <p>Quick Sprint needs at least one quiz-enabled module with questions.</p>
-        </div>
-        <Link to="/" className="btn">Back home</Link>
+        <EmptyState
+          eyebrow="Quick Sprint"
+          title="No questions available"
+          message="Quick Sprint needs at least one quiz-enabled module with questions."
+          actions={<Link to="/" className="btn">Back home</Link>}
+        />
       </section>
     );
   }

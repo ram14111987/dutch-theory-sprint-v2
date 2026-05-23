@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { getAllModules, getQuestionsForModule, hasQuiz } from '../content/index.js';
 import { getAttemptsForModule } from '../storage/progressStore.js';
 import { getMistakeCount, REVIEW_SESSION_CAP } from '../quiz/mistakes.js';
+import EmptyState from '../components/EmptyState.jsx';
 
 function ReviewIndex() {
   const modules = getAllModules();
@@ -27,11 +28,16 @@ function ReviewIndex() {
       </header>
 
       {totalMistakes === 0 ? (
-        <div className="card">
-          <h3>No mistakes to review</h3>
-          <p>Take a quiz first — questions you miss will show up here so you can practice them again.</p>
-          <Link to="/modules" className="card__link">Browse modules</Link>
-        </div>
+        <EmptyState
+          title="No mistakes to review"
+          message="Take a quiz first — questions you miss will show up here so you can practice them again."
+          actions={
+            <>
+              <Link to="/modules" className="btn btn--primary">Browse modules</Link>
+              <Link to="/" className="btn">Back home</Link>
+            </>
+          }
+        />
       ) : (
         <div className="card-grid">
           {rows.map(({ module, count }) => {

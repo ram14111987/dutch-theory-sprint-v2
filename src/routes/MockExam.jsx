@@ -10,6 +10,7 @@ import {
 import { ResultContext } from '../quiz/ResultContext.js';
 import ChoiceList from '../components/ChoiceList.jsx';
 import QuizProgress from '../components/QuizProgress.jsx';
+import EmptyState from '../components/EmptyState.jsx';
 
 function MockExam() {
   const navigate = useNavigate();
@@ -26,12 +27,12 @@ function MockExam() {
   if (!entries.length) {
     return (
       <section className="panel">
-        <div className="panel__header">
-          <p className="eyebrow">Mock Exam</p>
-          <h2>No questions available</h2>
-          <p>Mock Exam needs at least one quiz-enabled module with questions.</p>
-        </div>
-        <Link to="/" className="btn">Back home</Link>
+        <EmptyState
+          eyebrow="Mock Exam"
+          title="No questions available"
+          message="Mock Exam needs at least one quiz-enabled module with questions."
+          actions={<Link to="/" className="btn">Back home</Link>}
+        />
       </section>
     );
   }

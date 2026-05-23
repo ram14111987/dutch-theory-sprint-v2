@@ -9,6 +9,7 @@ import { buildTopicQuestions, scoreTopic } from '../quiz/topic.js';
 import { ResultContext } from '../quiz/ResultContext.js';
 import ChoiceList from '../components/ChoiceList.jsx';
 import QuizProgress from '../components/QuizProgress.jsx';
+import EmptyState from '../components/EmptyState.jsx';
 
 function TopicPractice() {
   const { slug } = useParams();
@@ -28,12 +29,12 @@ function TopicPractice() {
   if (!mod || !hasQuiz(mod.slug) || questions.length === 0) {
     return (
       <section className="panel">
-        <div className="panel__header">
-          <p className="eyebrow">Topic Deep Dive</p>
-          <h2>No questions available</h2>
-          <p>This topic has no quiz questions yet.</p>
-        </div>
-        <Link to="/topics" className="btn">Back to topics</Link>
+        <EmptyState
+          eyebrow="Topic Deep Dive"
+          title="No questions available"
+          message="This topic has no quiz questions yet."
+          actions={<Link to="/topics" className="btn">Back to topics</Link>}
+        />
       </section>
     );
   }

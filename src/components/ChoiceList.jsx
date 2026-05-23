@@ -20,7 +20,9 @@ function ChoiceList({ choices, selectedId, correctIds, submitted, onSelect }) {
               onClick={() => onSelect(choice.id)}
               aria-pressed={isSelected}
             >
-              <span className="choice__letter">{choice.id.toUpperCase()}</span>
+              <span className="choice__letter" aria-hidden="true">
+                {choice.id.toUpperCase()}
+              </span>
               <span className="choice__text">{choice.text}</span>
             </button>
           </li>

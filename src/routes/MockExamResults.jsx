@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ResultContext } from '../quiz/ResultContext.js';
 import { isAnswerCorrect } from '../quiz/scoring.js';
 import ResultSummary from '../components/ResultSummary.jsx';
+import EmptyState from '../components/EmptyState.jsx';
 
 function MockExamResults() {
   const { result } = useContext(ResultContext);
@@ -10,17 +11,19 @@ function MockExamResults() {
   if (!result || result.mode !== 'exam') {
     return (
       <section className="panel results-page">
-        <div className="panel__header">
-          <p className="eyebrow">Mock Exam</p>
-          <h2>No results to show</h2>
-          <p>Finish a Mock Exam to see your results here.</p>
-        </div>
-        <div className="results-page__actions">
-          <Link to="/exam" className="btn btn--primary">
-            Start Mock Exam
-          </Link>
-          <Link to="/" className="btn">Back home</Link>
-        </div>
+        <EmptyState
+          eyebrow="Mock Exam"
+          title="No results to show"
+          message="Finish a Mock Exam to see your results here."
+          actions={
+            <>
+              <Link to="/exam" className="btn btn--primary">
+                Start Mock Exam
+              </Link>
+              <Link to="/" className="btn">Back home</Link>
+            </>
+          }
+        />
       </section>
     );
   }

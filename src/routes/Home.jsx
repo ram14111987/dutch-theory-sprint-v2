@@ -81,7 +81,7 @@ function Home() {
                       Start Mistake Review
                     </Link>
                   ) : (
-                    <span className="card__link" style={{ opacity: 0.5 }} aria-disabled="true">
+                    <span className="card__link--disabled" aria-disabled="true">
                       Nothing to review yet
                     </span>
                   )}
@@ -103,7 +103,7 @@ function Home() {
                       Start Mock Exam
                     </Link>
                   ) : (
-                    <span className="card__link" style={{ opacity: 0.5 }} aria-disabled="true">
+                    <span className="card__link--disabled" aria-disabled="true">
                       Coming soon
                     </span>
                   )}
@@ -126,7 +126,7 @@ function Home() {
                       Pick a topic
                     </Link>
                   ) : (
-                    <span className="card__link" style={{ opacity: 0.5 }} aria-disabled="true">
+                    <span className="card__link--disabled" aria-disabled="true">
                       Coming soon
                     </span>
                   )}
@@ -148,7 +148,7 @@ function Home() {
                       Start Quick Sprint
                     </Link>
                   ) : (
-                    <span className="card__link" style={{ opacity: 0.5 }} aria-disabled="true">
+                    <span className="card__link--disabled" aria-disabled="true">
                       Coming soon
                     </span>
                   )}
@@ -159,7 +159,7 @@ function Home() {
               <article className="card" key={mode}>
                 <h3>{mode}</h3>
                 <p>Coming soon — structured practice flow for focused exam preparation.</p>
-                <span className="card__link" style={{ opacity: 0.5 }} aria-disabled="true">
+                <span className="card__link--disabled" aria-disabled="true">
                   Coming soon
                 </span>
               </article>

@@ -4,6 +4,7 @@ import { getModuleBySlug } from '../content/index.js';
 import { isAnswerCorrect } from '../quiz/scoring.js';
 import { ResultContext } from '../quiz/ResultContext.js';
 import ResultSummary from '../components/ResultSummary.jsx';
+import EmptyState from '../components/EmptyState.jsx';
 
 function TopicResults() {
   const { slug } = useParams();
@@ -16,23 +17,25 @@ function TopicResults() {
   if (!valid) {
     return (
       <section className="panel results-page">
-        <div className="panel__header">
-          <p className="eyebrow">Topic Deep Dive</p>
-          <h2>No results to show</h2>
-          <p>Finish a topic practice session to see your results here.</p>
-        </div>
-        <div className="results-page__actions">
-          {mod ? (
-            <Link to={`/topics/${mod.slug}/practice`} className="btn btn--primary">
-              Start topic practice
-            </Link>
-          ) : (
-            <Link to="/topics" className="btn btn--primary">
-              Pick a topic
-            </Link>
-          )}
-          <Link to="/topics" className="btn">Back to topics</Link>
-        </div>
+        <EmptyState
+          eyebrow="Topic Deep Dive"
+          title="No results to show"
+          message="Finish a topic practice session to see your results here."
+          actions={
+            <>
+              {mod ? (
+                <Link to={`/topics/${mod.slug}/practice`} className="btn btn--primary">
+                  Start topic practice
+                </Link>
+              ) : (
+                <Link to="/topics" className="btn btn--primary">
+                  Pick a topic
+                </Link>
+              )}
+              <Link to="/topics" className="btn">Back to topics</Link>
+            </>
+          }
+        />
       </section>
     );
   }

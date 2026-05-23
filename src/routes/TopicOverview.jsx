@@ -6,6 +6,7 @@ import {
   hasQuiz,
 } from '../content/index.js';
 import LessonCard from '../components/LessonCard.jsx';
+import EmptyState from '../components/EmptyState.jsx';
 
 function TopicOverview() {
   const { slug } = useParams();
@@ -14,12 +15,12 @@ function TopicOverview() {
   if (!mod || !hasQuiz(mod.slug)) {
     return (
       <section className="panel">
-        <div className="panel__header">
-          <p className="eyebrow">Topic Deep Dive</p>
-          <h2>Topic not available</h2>
-          <p>This topic has no quiz questions yet.</p>
-        </div>
-        <Link to="/topics" className="btn">Back to topics</Link>
+        <EmptyState
+          eyebrow="Topic Deep Dive"
+          title="Topic not available"
+          message="This topic has no quiz questions yet."
+          actions={<Link to="/topics" className="btn">Back to topics</Link>}
+        />
       </section>
     );
   }
