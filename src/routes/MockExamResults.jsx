@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { ResultContext } from '../quiz/ResultContext.js';
 import { isAnswerCorrect } from '../quiz/scoring.js';
+import { formatDuration, getMockExamMode } from '../quiz/mockExam.js';
 import ResultSummary from '../components/ResultSummary.jsx';
 import EmptyState from '../components/EmptyState.jsx';
 
@@ -18,7 +19,10 @@ function MockExamResults() {
           actions={
             <>
               <Link to="/exam" className="btn btn--primary">
-                Start Mock Exam
+                Start Practice Mock Exam
+              </Link>
+              <Link to="/exam?mode=realistic" className="btn">
+                Start Realistic Mock Exam
               </Link>
               <Link to="/" className="btn">Back home</Link>
             </>
@@ -34,22 +38,43 @@ function MockExamResults() {
     percentage,
     passed,
     passPercentage,
+    passCorrect,
     questions,
     answers,
+    examMode,
+    durationSeconds,
+    timeUsedSeconds,
+    timedOut,
   } = result;
 
+  const mode = getMockExamMode(examMode);
   const incorrect = questions.filter(
     (q) => !isAnswerCorrect(q, answers[q.id] ?? null),
   );
 
+  const thresholdLine =
+    passCorrect != null
+      ? `Pass threshold: ${passCorrect}/${total} correct. You scored ${correct}/${total} (${percentage}%).`
+      : `Pass threshold: ${passPercentage}%. You scored ${percentage}%.`;
+
+  let timeLine = null;
+  if (durationSeconds) {
+    timeLine = timedOut
+      ? `Time expired after ${formatDuration(durationSeconds)}.`
+      : `Time used: ${formatDuration(timeUsedSeconds)} of ${formatDuration(durationSeconds)}.`;
+  } else if (timeUsedSeconds != null) {
+    timeLine = `Time used: ${formatDuration(timeUsedSeconds)}.`;
+  }
+
+  const restartHref = mode.id === 'realistic' ? '/exam?mode=realistic' : '/exam';
+
   return (
     <section className="panel results-page">
       <header className="results-page__header">
-        <p className="eyebrow">Mock Exam · Results</p>
+        <p className="eyebrow">{mode.label} · Results</p>
         <h2>{passed ? 'Passed' : 'Did not pass'}</h2>
-        <p>
-          Pass threshold: {passPercentage}%. You scored {percentage}%.
-        </p>
+        <p>{thresholdLine}</p>
+        {timeLine && <p>{timeLine}</p>}
       </header>
 
       <ResultSummary correct={correct} total={total} percentage={percentage} />
@@ -95,8 +120,8 @@ function MockExamResults() {
       )}
 
       <div className="results-page__actions">
-        <Link to="/exam" className="btn btn--primary">
-          Restart Mock Exam
+        <Link to={restartHref} className="btn btn--primary">
+          Restart {mode.label}
         </Link>
         <Link to="/" className="btn">Back home</Link>
       </div>

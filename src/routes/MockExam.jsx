@@ -1,38 +1,114 @@
-import { useContext, useMemo, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { getAllQuizQuestions } from '../content/index.js';
 import {
   buildMockExamQuestions,
   scoreMockExam,
-  MOCK_EXAM_SIZE,
-  MOCK_EXAM_PASS_PERCENTAGE,
+  getMockExamMode,
+  remainingSeconds,
+  elapsedSeconds,
+  formatDuration,
 } from '../quiz/mockExam.js';
 import { ResultContext } from '../quiz/ResultContext.js';
 import ChoiceList from '../components/ChoiceList.jsx';
 import QuizProgress from '../components/QuizProgress.jsx';
 import EmptyState from '../components/EmptyState.jsx';
 
+const TIMES_UP_LINGER_MS = 900;
+
 function MockExam() {
   const navigate = useNavigate();
   const { setResult } = useContext(ResultContext);
+  const [searchParams] = useSearchParams();
+  const mode = useMemo(
+    () => getMockExamMode(searchParams.get('mode')),
+    [searchParams],
+  );
 
   const entries = useMemo(() => {
     const pool = getAllQuizQuestions();
-    return buildMockExamQuestions(pool, { size: MOCK_EXAM_SIZE });
-  }, []);
+    return buildMockExamQuestions(pool, { size: mode.size });
+  }, [mode]);
 
+  const [startedAt] = useState(() => Date.now());
+  const finalizedRef = useRef(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState({});
+  const [timesUp, setTimesUp] = useState(false);
+  const [secondsLeft, setSecondsLeft] = useState(() =>
+    mode.durationSeconds
+      ? remainingSeconds(startedAt, mode.durationSeconds)
+      : null,
+  );
+
+  const finalize = useCallback(
+    (opts = {}) => {
+      if (finalizedRef.current) return;
+      finalizedRef.current = true;
+      const score = scoreMockExam(entries, answers, {
+        passPercentage: mode.passPercentage,
+        passCorrect: mode.passCorrect,
+      });
+      const timeUsed = elapsedSeconds(startedAt);
+      setResult({
+        mode: 'exam',
+        examMode: mode.id,
+        questions: entries.map((e) => e.question),
+        answers,
+        correct: score.correct,
+        total: score.total,
+        percentage: score.percentage,
+        passed: score.passed,
+        passPercentage: score.passPercentage,
+        passCorrect: score.passCorrect,
+        durationSeconds: mode.durationSeconds,
+        timeUsedSeconds: opts.timedOut ? mode.durationSeconds : timeUsed,
+        timedOut: Boolean(opts.timedOut),
+      });
+      if (opts.timedOut) {
+        setTimesUp(true);
+        window.setTimeout(() => navigate('/exam/results'), TIMES_UP_LINGER_MS);
+      } else {
+        navigate('/exam/results');
+      }
+    },
+    [entries, answers, mode, navigate, setResult, startedAt],
+  );
+
+  useEffect(() => {
+    if (!entries.length) return undefined;
+    if (!mode.durationSeconds) return undefined;
+    const id = window.setInterval(() => {
+      const left = remainingSeconds(startedAt, mode.durationSeconds);
+      setSecondsLeft(left);
+      if (left === 0 && !finalizedRef.current) {
+        finalize({ timedOut: true });
+      }
+    }, 250);
+    return () => window.clearInterval(id);
+  }, [entries.length, mode.durationSeconds, startedAt, finalize]);
 
   if (!entries.length) {
     return (
       <section className="panel">
         <EmptyState
-          eyebrow="Mock Exam"
+          eyebrow={mode.label}
           title="No questions available"
           message="Mock Exam needs at least one quiz-enabled module with questions."
           actions={<Link to="/" className="btn">Back home</Link>}
         />
+      </section>
+    );
+  }
+
+  if (timesUp) {
+    return (
+      <section className="panel quiz-page">
+        <header className="quiz-page__header">
+          <p className="eyebrow">{mode.label}</p>
+          <h2 className="sprint-timesup">Time's up</h2>
+          <p>Tallying your exam…</p>
+        </header>
       </section>
     );
   }
@@ -45,6 +121,12 @@ function MockExam() {
     (n, e) => (answers[e.question.id] ? n + 1 : n),
     0,
   );
+  const timerLow = secondsLeft != null && secondsLeft <= 60;
+
+  const passLabel =
+    mode.passCorrect != null
+      ? `pass at ${mode.passCorrect}/${mode.size} correct`
+      : `pass at ${mode.passPercentage}%`;
 
   const handleSelect = (choiceId) => {
     setAnswers((prev) => ({ ...prev, [question.id]: choiceId }));
@@ -58,27 +140,22 @@ function MockExam() {
     setCurrentIndex((i) => Math.max(i - 1, 0));
   };
 
-  const handleFinish = () => {
-    const score = scoreMockExam(entries, answers);
-    setResult({
-      mode: 'exam',
-      questions: entries.map((e) => e.question),
-      answers,
-      correct: score.correct,
-      total: score.total,
-      percentage: score.percentage,
-      passed: score.passed,
-      passPercentage: score.passPercentage,
-    });
-    navigate('/exam/results');
-  };
-
   return (
     <section className="panel quiz-page">
       <header className="quiz-page__header">
-        <p className="eyebrow">
-          Mock Exam · pass at {MOCK_EXAM_PASS_PERCENTAGE}%
-        </p>
+        <div className="sprint-header">
+          <p className="eyebrow">
+            {mode.label} · {passLabel}
+          </p>
+          {mode.durationSeconds && (
+            <span
+              className={`sprint-timer${timerLow ? ' sprint-timer--low' : ''}`}
+              aria-live="polite"
+            >
+              {formatDuration(secondsLeft ?? 0)}
+            </span>
+          )}
+        </div>
         <QuizProgress current={currentIndex + 1} total={entries.length} />
         <p className="eyebrow eyebrow--dark">
           Answered {answeredCount} of {entries.length}
@@ -117,7 +194,7 @@ function MockExam() {
             <button
               type="button"
               className="btn btn--primary"
-              onClick={handleFinish}
+              onClick={() => finalize()}
             >
               Finish exam
             </button>

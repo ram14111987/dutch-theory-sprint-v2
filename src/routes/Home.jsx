@@ -95,13 +95,18 @@ function Home() {
                   <h3>{mode}</h3>
                   <p>
                     {enabled
-                      ? '25 questions drawn from every quiz-enabled module. Pass at 80%.'
+                      ? 'Practice: 25 questions, no timer, pass at 80%. Realistic: 50 questions, 30 minutes, pass at 44 correct (CBR rules).'
                       : 'No quiz-enabled modules yet — Mock Exam will unlock once questions are available.'}
                   </p>
                   {enabled ? (
-                    <Link to="/exam" className="card__link">
-                      Start Mock Exam
-                    </Link>
+                    <div className="card__links">
+                      <Link to="/exam" className="card__link">
+                        Start Practice Mock Exam
+                      </Link>
+                      <Link to="/exam?mode=realistic" className="card__link">
+                        Start Realistic Mock Exam
+                      </Link>
+                    </div>
                   ) : (
                     <span className="card__link--disabled" aria-disabled="true">
                       Coming soon
