@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "advanced-hazard-prediction-reading-traffic",
+    "moduleSlug": "advanced-hazard-prediction",
+    "title": "Reading the wider traffic picture",
+    "summary": "Build a mental model of what other road users are likely to do next.",
+    "sections": [
+      {
+        "heading": "Scan in layers",
+        "body": "Look far ahead for the big picture (300 m on a motorway, the next junction in town), then mid-range for likely movement, then close in for immediate threats. Use the mirrors every few seconds to keep the picture complete behind you."
+      },
+      {
+        "heading": "Predict, do not react",
+        "body": "A ball rolling into the road predicts a child. A delivery van with hazard lights predicts a door opening. Parked cars on a busy shopping street predict pedestrians stepping out. Spotting these signs early lets you adjust speed before you have to brake."
+      },
+      {
+        "heading": "Use the eyes of others",
+        "body": "Brake lights two or three cars ahead, dipped beams on at midday, an opened car door — these are all advance warnings. Use them to slow down before you can yet see the cause yourself."
+      }
+    ]
+  },
+  {
+    "slug": "advanced-hazard-prediction-vulnerable-users",
+    "moduleSlug": "advanced-hazard-prediction",
+    "title": "Anticipating vulnerable road users",
+    "summary": "Where cyclists, pedestrians and motorcyclists tend to appear unexpectedly.",
+    "sections": [
+      {
+        "heading": "Cyclists in built-up areas",
+        "body": "Cyclists may swerve to avoid a pothole, an opening door, or a tram rail. They may turn left without a clear hand signal. Always leave space on the right and slow down before a junction where bikes can cross."
+      },
+      {
+        "heading": "Children and elderly pedestrians",
+        "body": "Children are unpredictable and short — they may not see the road over a parked car. Elderly pedestrians may cross slowly or assume traffic will stop. Near schools, playgrounds and care homes, expect the unexpected."
+      },
+      {
+        "heading": "Motorcyclists in your blind spot",
+        "body": "Motorcyclists are easy to miss in a brief mirror glance. Before changing lane on a motorway or before turning left across oncoming traffic, do an extra mirror plus over-the-shoulder check."
+      }
+    ]
+  },
+  {
+    "slug": "advanced-hazard-prediction-weather-surface",
+    "moduleSlug": "advanced-hazard-prediction",
+    "title": "Weather, surface and visibility hazards",
+    "summary": "Subtle changes in conditions that demand earlier action.",
+    "sections": [
+      {
+        "heading": "First rain after dry weather",
+        "body": "After a dry spell, the first rain lifts oil and dust to the surface — grip drops sharply for the first 10–15 minutes. Increase following distance and brake earlier."
+      },
+      {
+        "heading": "Black ice and shaded patches",
+        "body": "Bridges, tunnels exits, and shaded forest roads freeze first. If the dashboard shows close to 0 °C, treat shadows and bridges as potentially icy even if the rest of the road looks dry."
+      },
+      {
+        "heading": "Sun glare and low light",
+        "body": "Low sun in winter and at dawn or dusk blinds you and the drivers facing you. Pedestrians and cyclists can disappear into the glare. Slow down, use the sun visor and clean the windscreen — a dirty screen scatters the glare."
+      }
+    ]
+  },
+  {
+    "slug": "advanced-hazard-prediction-decision-making",
+    "moduleSlug": "advanced-hazard-prediction",
+    "title": "Decision-making under pressure",
+    "summary": "How to choose the safest option when a hazard becomes a real risk.",
+    "sections": [
+      {
+        "heading": "Speed is your reserve",
+        "body": "Most emergencies are solved by having a few km/h in hand. If something looks unsettled ahead — a child near the kerb, a wobbly cyclist — lift off in time. The cost of arriving 2 seconds later is nothing; the cost of a collision is enormous."
+      },
+      {
+        "heading": "Brake or steer?",
+        "body": "If a hazard appears directly in your path and you have time, brake straight. Swerving on a wet road or at speed can lose grip and put you into oncoming traffic. Only steer to avoid if braking will not be enough and there is a clear, safe space."
+      },
+      {
+        "heading": "Mind the second hazard",
+        "body": "Many accidents happen because the driver fixed on the first hazard and missed the second — for example, braking for a cyclist and rear-ending the car in front, or swerving around debris into the next lane. Keep scanning even while reacting."
+      }
+    ]
+  }
+]

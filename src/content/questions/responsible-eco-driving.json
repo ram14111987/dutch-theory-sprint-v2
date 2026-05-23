@@ -1,0 +1,242 @@
+[
+  {
+    "id": "responsible-eco-driving-001",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-fuel-efficient",
+    "topicTags": ["gear-change", "eco"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "To drive economically in a petrol car you should change up:",
+    "choices": [
+      { "id": "a", "text": "Only when the engine struggles" },
+      { "id": "b", "text": "At around 2,500 rpm" },
+      { "id": "c", "text": "Above 4,000 rpm" },
+      { "id": "d", "text": "Only at the speed limit" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Around 2,500 rpm for petrol (and 2,000 rpm for diesel) is fuel-efficient.",
+      "examTip": "Accelerate firmly, change up early — short bursts at high rpm waste fuel."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-002",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-fuel-efficient",
+    "topicTags": ["anticipation", "engine-brake"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "The most fuel-efficient way to slow down for a red light ahead is to:",
+    "choices": [
+      { "id": "a", "text": "Brake hard at the last moment" },
+      { "id": "b", "text": "Keep the throttle on until the line, then brake" },
+      { "id": "c", "text": "Lift off early and let the engine brake the car (motorrem)" },
+      { "id": "d", "text": "Put the car in neutral and coast" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Lifting off early uses engine braking and cuts the fuel supply.",
+      "examTip": "Coasting in neutral is forbidden because you lose engine control of the car."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-003",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-fuel-efficient",
+    "topicTags": ["motorway", "speed"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Compared with driving 120 km/h on the motorway, driving at 100 km/h:",
+    "choices": [
+      { "id": "a", "text": "Uses about the same amount of fuel" },
+      { "id": "b", "text": "Uses noticeably more fuel" },
+      { "id": "c", "text": "Saves about 10–20% in fuel" },
+      { "id": "d", "text": "Damages the engine" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Air resistance grows sharply with speed; 100 vs 120 km/h saves 10–20%.",
+      "examTip": "Less speed also means lower emissions and shorter stopping distance."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-004",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-vehicle-care",
+    "topicTags": ["tyre-pressure"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Driving with under-inflated tyres:",
+    "choices": [
+      { "id": "a", "text": "Saves fuel because the contact patch is bigger" },
+      { "id": "b", "text": "Increases rolling resistance and fuel use" },
+      { "id": "c", "text": "Has no effect on fuel use" },
+      { "id": "d", "text": "Increases grip in all conditions" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Soft tyres roll harder, raising fuel use and wear.",
+      "examTip": "Check pressures cold at least once a month."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-005",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-vehicle-care",
+    "topicTags": ["roof-rack", "load"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You will not use the roof box for the next months. From an eco-driving point of view you should:",
+    "choices": [
+      { "id": "a", "text": "Leave it on — removing it makes no difference" },
+      { "id": "b", "text": "Remove it, because it raises fuel use significantly at speed" },
+      { "id": "c", "text": "Fill it with something heavy so it sits stable" },
+      { "id": "d", "text": "Move it to the back instead" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "An unused roof box increases drag and can add up to 20% fuel use on motorways.",
+      "examTip": "Extra weight in the car also costs fuel — empty the boot of unnecessary items."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-006",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-vehicle-care",
+    "topicTags": ["maintenance"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Which maintenance issue typically raises fuel consumption?",
+    "choices": [
+      { "id": "a", "text": "A clogged air filter" },
+      { "id": "b", "text": "A clean windscreen" },
+      { "id": "c", "text": "New wiper blades" },
+      { "id": "d", "text": "A full washer fluid reservoir" }
+    ],
+    "correctChoiceIds": ["a"],
+    "explanation": {
+      "short": "A blocked air filter forces the engine to work harder and burn more fuel.",
+      "examTip": "Worn plugs and dirty injectors have the same effect — keep service intervals."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-007",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-electric-hybrid",
+    "topicTags": ["regeneration"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "In an electric or hybrid car, the best way to recover energy is to:",
+    "choices": [
+      { "id": "a", "text": "Brake as hard as possible every time" },
+      { "id": "b", "text": "Anticipate and brake gently and earlier" },
+      { "id": "c", "text": "Coast in neutral as much as possible" },
+      { "id": "d", "text": "Switch the system off in town" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Gentle, earlier braking maximises regenerative energy recovery.",
+      "examTip": "Very hard braking still wastes energy as heat through the friction brakes."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-008",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-electric-hybrid",
+    "topicTags": ["ev-range", "winter"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Which factor most reduces the range of an electric car?",
+    "choices": [
+      { "id": "a", "text": "Driving slowly in town" },
+      { "id": "b", "text": "Cold weather combined with motorway speeds and heating" },
+      { "id": "c", "text": "Using the radio" },
+      { "id": "d", "text": "Carrying one passenger" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Cold weather, high speed and cabin heating together drop EV range sharply.",
+      "examTip": "Pre-condition the cabin while still plugged in to save driving range."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-009",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-electric-hybrid",
+    "topicTags": ["charging-bay"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A public charging bay is reserved for:",
+    "choices": [
+      { "id": "a", "text": "Any electric car, charging or not" },
+      { "id": "b", "text": "Electric and hybrid cars that are actually charging" },
+      { "id": "c", "text": "Residents of the street only" },
+      { "id": "d", "text": "Disabled drivers" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Charging bays are only for vehicles that are connected and charging.",
+      "examTip": "Move the car promptly when charging is finished."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-010",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-shared-environment",
+    "topicTags": ["idling"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You expect to wait more than 30 seconds at a closed level crossing. The most eco-friendly action is to:",
+    "choices": [
+      { "id": "a", "text": "Keep the engine running so the car is ready" },
+      { "id": "b", "text": "Switch off the engine while waiting" },
+      { "id": "c", "text": "Rev the engine to warm it up" },
+      { "id": "d", "text": "Reverse a few metres to ease pressure on the brakes" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Idling longer than about 30 seconds uses more fuel than restarting.",
+      "examTip": "Many modern cars have stop-start that does this automatically."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-011",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-shared-environment",
+    "topicTags": ["cyclists", "consideration"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Cyclists are blocking the narrow street ahead and you cannot easily pass. The responsible response is to:",
+    "choices": [
+      { "id": "a", "text": "Sound the horn until they move aside" },
+      { "id": "b", "text": "Drive close behind to encourage them" },
+      { "id": "c", "text": "Stay back at a calm pace and wait for a safe moment" },
+      { "id": "d", "text": "Overtake on the pavement" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Accept losing a few seconds rather than forcing a pass that endangers cyclists.",
+      "examTip": "Calm driving in town is safer, quieter and cleaner."
+    }
+  },
+  {
+    "id": "responsible-eco-driving-012",
+    "moduleId": "responsible-eco-driving",
+    "lessonId": "responsible-eco-driving-shared-environment",
+    "topicTags": ["environmental-zone"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "An environmental zone (milieuzone) in a Dutch city mainly aims to:",
+    "choices": [
+      { "id": "a", "text": "Keep tourists out of the centre" },
+      { "id": "b", "text": "Reduce emissions by excluding the most polluting vehicles" },
+      { "id": "c", "text": "Slow all traffic to 15 km/h" },
+      { "id": "d", "text": "Provide free parking" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Milieuzones exclude older, more polluting vehicles to improve city air.",
+      "examTip": "Each city sets its own exact rules — check signs and city websites."
+    }
+  }
+]

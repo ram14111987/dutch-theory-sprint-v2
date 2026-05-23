@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "responsible-eco-driving-fuel-efficient",
+    "moduleSlug": "responsible-eco-driving",
+    "title": "Fuel-efficient driving technique",
+    "summary": "How driving style affects fuel use, range and emissions.",
+    "sections": [
+      {
+        "heading": "Smooth acceleration and gear changes",
+        "body": "Accelerate firmly but smoothly and change up early — around 2,000 rpm for diesel and 2,500 rpm for petrol. Pulling away in a low gear and over-revving wastes fuel without saving time."
+      },
+      {
+        "heading": "Steady speed and look ahead",
+        "body": "A constant speed uses less fuel than constant accelerating and braking. Look far ahead so you can ease off the throttle in time and let the engine slow the car (motorrem)."
+      },
+      {
+        "heading": "Speed and aerodynamics",
+        "body": "Air resistance grows sharply with speed. Driving 100 km/h instead of 120 km/h on the motorway can save 10–20% fuel. Remove unused roof boxes and bike racks when not in use."
+      }
+    ]
+  },
+  {
+    "slug": "responsible-eco-driving-vehicle-care",
+    "moduleSlug": "responsible-eco-driving",
+    "title": "Vehicle care that saves fuel",
+    "summary": "How maintenance and weight choices keep emissions and costs down.",
+    "sections": [
+      {
+        "heading": "Tyre pressure and condition",
+        "body": "Under-inflated tyres increase rolling resistance and fuel use, and wear faster. Check pressure cold once a month and before long trips. The correct value is on the door pillar or fuel cap."
+      },
+      {
+        "heading": "Weight and load",
+        "body": "Every extra kilo costs fuel. Empty the boot of things you do not need. A full roof rack can add up to 20% to fuel consumption at motorway speed."
+      },
+      {
+        "heading": "Maintenance",
+        "body": "A blocked air filter, worn spark plugs or dirty injectors all raise fuel use and emissions. Keep service intervals and use the recommended grade of oil — a thinner specified oil reduces internal friction."
+      }
+    ]
+  },
+  {
+    "slug": "responsible-eco-driving-electric-hybrid",
+    "moduleSlug": "responsible-eco-driving",
+    "title": "Electric and hybrid driving",
+    "summary": "Specifics for EVs and hybrids: regeneration, range and charging.",
+    "sections": [
+      {
+        "heading": "Regenerative braking",
+        "body": "Electric and hybrid cars recover energy when you lift off or brake gently. Anticipate further ahead and brake earlier and more gently to maximise regeneration; harsh braking still wastes energy as heat."
+      },
+      {
+        "heading": "Range and temperature",
+        "body": "Cold weather, motorway speeds and heating reduce EV range significantly. Pre-conditioning the cabin while still plugged in saves driving range. Plan charging stops on long trips."
+      },
+      {
+        "heading": "Charging on public roads",
+        "body": "Public charging bays are reserved for vehicles that are actually charging. Move the car promptly when charging is finished. Cables must not cross the footway in a way that could trip pedestrians."
+      }
+    ]
+  },
+  {
+    "slug": "responsible-eco-driving-shared-environment",
+    "moduleSlug": "responsible-eco-driving",
+    "title": "Sharing the road and the environment",
+    "summary": "How considerate driving reduces stress, danger and pollution.",
+    "sections": [
+      {
+        "heading": "Idling and stop-start",
+        "body": "Idling for more than about 30 seconds uses more fuel than restarting the engine. Modern cars have stop-start systems that do this automatically. In residential streets, switch off the engine while waiting."
+      },
+      {
+        "heading": "Sharing space with cyclists and pedestrians",
+        "body": "In built-up areas, much of the traffic is on bikes and on foot. Drive at a calm pace, leave room and accept losing a few seconds rather than forcing your way through. Cleaner, quieter driving also benefits everyone living along the street."
+      },
+      {
+        "heading": "Environmental zones and low-emission choices",
+        "body": "Older, more polluting vehicles are excluded from environmental zones in major cities. Choosing a cleaner car, car-sharing or combining trips reduces both costs and emissions, and keeps city air liveable."
+      }
+    ]
+  }
+]

@@ -143,5 +143,47 @@
     ],
     "quizEnabled": true,
     "questionBankId": "parking-stopping-rules"
+  },
+  {
+    "id": "legislation-documents",
+    "slug": "legislation-documents",
+    "title": "Legislation and documents",
+    "description": "Driving licence categories, vehicle papers, alcohol and drug law, fines and accident reporting.",
+    "lessonSlugs": [
+      "legislation-documents-driving-licence",
+      "legislation-documents-vehicle-papers",
+      "legislation-documents-alcohol-drugs-law",
+      "legislation-documents-fines-points"
+    ],
+    "quizEnabled": true,
+    "questionBankId": "legislation-documents"
+  },
+  {
+    "id": "responsible-eco-driving",
+    "slug": "responsible-eco-driving",
+    "title": "Responsible and eco driving",
+    "description": "Fuel-efficient technique, vehicle care, electric and hybrid driving, and sharing the road and environment.",
+    "lessonSlugs": [
+      "responsible-eco-driving-fuel-efficient",
+      "responsible-eco-driving-vehicle-care",
+      "responsible-eco-driving-electric-hybrid",
+      "responsible-eco-driving-shared-environment"
+    ],
+    "quizEnabled": true,
+    "questionBankId": "responsible-eco-driving"
+  },
+  {
+    "id": "advanced-hazard-prediction",
+    "slug": "advanced-hazard-prediction",
+    "title": "Advanced hazard prediction",
+    "description": "Reading the wider traffic picture, anticipating vulnerable users, weather and surface risks, and decisions under pressure.",
+    "lessonSlugs": [
+      "advanced-hazard-prediction-reading-traffic",
+      "advanced-hazard-prediction-vulnerable-users",
+      "advanced-hazard-prediction-weather-surface",
+      "advanced-hazard-prediction-decision-making"
+    ],
+    "quizEnabled": true,
+    "questionBankId": "advanced-hazard-prediction"
   }
 ]

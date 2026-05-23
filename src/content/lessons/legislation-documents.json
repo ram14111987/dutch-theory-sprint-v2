@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "legislation-documents-driving-licence",
+    "moduleSlug": "legislation-documents",
+    "title": "Driving licence categories and validity",
+    "summary": "Which licence you need, how long it is valid, and when extra requirements apply.",
+    "sections": [
+      {
+        "heading": "Categories",
+        "body": "Category B is for passenger cars up to 3,500 kg and up to 8 passenger seats besides the driver. BE adds a trailer over 750 kg. AM is for mopeds. A driver who passes the B exam may tow a small trailer up to 750 kg without BE."
+      },
+      {
+        "heading": "Validity and renewal",
+        "body": "A new B licence is normally valid for 10 years. From age 75, a medical declaration is required at renewal. A licence is not valid if it is expired, lost, or if it has been confiscated by the court."
+      },
+      {
+        "heading": "Beginner drivers (2procent regeling)",
+        "body": "For the first 5 years after passing (7 years if you passed before age 18), a stricter alcohol limit of 0.2‰ applies instead of 0.5‰. A serious offence in this period can lead to loss of the licence."
+      }
+    ]
+  },
+  {
+    "slug": "legislation-documents-vehicle-papers",
+    "moduleSlug": "legislation-documents",
+    "title": "Vehicle registration, insurance and road tax",
+    "summary": "The paperwork that keeps a car legal on Dutch roads.",
+    "sections": [
+      {
+        "heading": "Kentekenbewijs",
+        "body": "The kentekenbewijs (registration certificate) shows who is responsible for the vehicle. As long as your name is on it you pay road tax and are responsible for offences committed with the car. When you sell, transfer the registration at a RDW counter or post office."
+      },
+      {
+        "heading": "Insurance",
+        "body": "At minimum every motor vehicle must have third-party liability insurance (WA). Without valid insurance you may not drive or even park on a public road. The RDW checks this automatically against the register."
+      },
+      {
+        "heading": "Road tax (MRB)",
+        "body": "Road tax is owed by whoever is on the registration on the first day of a tax period. Suspending the registration (schorsen) at the RDW pauses the tax, but the car must then be parked off the public road."
+      }
+    ]
+  },
+  {
+    "slug": "legislation-documents-alcohol-drugs-law",
+    "moduleSlug": "legislation-documents",
+    "title": "Alcohol, drugs and penalty rules",
+    "summary": "The legal limits and what happens when you exceed them.",
+    "sections": [
+      {
+        "heading": "Alcohol limits",
+        "body": "The general limit is 0.5‰ blood alcohol (0.22 mg/l in breath). For drivers in their first 5 years (or 7 years if started under 18) the limit is 0.2‰. Refusing a breath test is treated as exceeding the limit."
+      },
+      {
+        "heading": "Drugs and medicines",
+        "body": "Driving under the influence of illegal drugs is forbidden at any level. Many prescription medicines also affect driving — yellow stickers on the packaging warn of this. The driver is responsible for checking before driving."
+      },
+      {
+        "heading": "Educational measures and EMA/LEMA",
+        "body": "Offenders may be required to follow an educational course about alcohol (EMA, LEMA) or behaviour, at their own expense. Serious or repeat offences lead to invalidation of the licence and a fresh exam."
+      }
+    ]
+  },
+  {
+    "slug": "legislation-documents-fines-points",
+    "moduleSlug": "legislation-documents",
+    "title": "Fines, liability and reporting",
+    "summary": "How traffic fines and accident reporting work in the Netherlands.",
+    "sections": [
+      {
+        "heading": "Administrative fines",
+        "body": "Most minor offences are handled administratively (Wet Mulder) — the fine is sent to the registered owner. Serious offences (high speed, alcohol, dangerous driving) are handled by criminal law and may add a court hearing and a driving ban."
+      },
+      {
+        "heading": "Reporting an accident",
+        "body": "After any accident you must stop and exchange details. If there is injury or significant damage and no agreement is reached, the police must be called. Leaving the scene of an accident is a criminal offence."
+      },
+      {
+        "heading": "Liability and the European accident form",
+        "body": "Fill in the European accident form (schadeformulier) at the scene with the other party. Both sign it; it is not an admission of guilt but a factual record. Your insurer settles liability based on it."
+      }
+    ]
+  }
+]

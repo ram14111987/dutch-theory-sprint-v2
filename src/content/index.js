@@ -17,6 +17,12 @@ import safeDrivingEmergenciesLessons from './lessons/safe-driving-emergencies.js
 import safeDrivingEmergenciesQuestions from './questions/safe-driving-emergencies.json';
 import vehicleKnowledgeLessons from './lessons/vehicle-knowledge.json';
 import vehicleKnowledgeQuestions from './questions/vehicle-knowledge.json';
+import legislationDocumentsLessons from './lessons/legislation-documents.json';
+import legislationDocumentsQuestions from './questions/legislation-documents.json';
+import responsibleEcoDrivingLessons from './lessons/responsible-eco-driving.json';
+import responsibleEcoDrivingQuestions from './questions/responsible-eco-driving.json';
+import advancedHazardPredictionLessons from './lessons/advanced-hazard-prediction.json';
+import advancedHazardPredictionQuestions from './questions/advanced-hazard-prediction.json';
 
 export const studyModes = [
   'Quick Sprint',
@@ -35,6 +41,9 @@ const lessonsByModuleSlug = {
   'special-roads-manoeuvres': specialRoadsManoeuvresLessons,
   'safe-driving-emergencies': safeDrivingEmergenciesLessons,
   'vehicle-knowledge': vehicleKnowledgeLessons,
+  'legislation-documents': legislationDocumentsLessons,
+  'responsible-eco-driving': responsibleEcoDrivingLessons,
+  'advanced-hazard-prediction': advancedHazardPredictionLessons,
 };
 
 const questionBanks = {
@@ -47,6 +56,9 @@ const questionBanks = {
   'special-roads-manoeuvres': specialRoadsManoeuvresQuestions,
   'safe-driving-emergencies': safeDrivingEmergenciesQuestions,
   'vehicle-knowledge': vehicleKnowledgeQuestions,
+  'legislation-documents': legislationDocumentsQuestions,
+  'responsible-eco-driving': responsibleEcoDrivingQuestions,
+  'advanced-hazard-prediction': advancedHazardPredictionQuestions,
 };
 
 function allLessons() {
