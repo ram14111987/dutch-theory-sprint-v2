@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "vehicle-knowledge-tyres-brakes",
+    "moduleSlug": "vehicle-knowledge",
+    "title": "Tyres, brakes and suspension",
+    "summary": "What you need to know to keep your car safe to drive: tread, pressure, brakes and steering.",
+    "sections": [
+      {
+        "heading": "Tyre tread and pressure",
+        "body": "The legal minimum tread depth is 1.6 mm across the central three-quarters of the tyre. Check pressure cold, at least once a month, and use the value on the door pillar or fuel cap. Winter tyres are recommended below about 7 °C."
+      },
+      {
+        "heading": "Brakes",
+        "body": "A brake pedal that feels soft, sinks slowly, or pulls the car to one side indicates a problem — have it checked at once. ABS prevents the wheels locking under hard braking; in an emergency stop, press the pedal firmly and keep steering."
+      },
+      {
+        "heading": "Steering and suspension",
+        "body": "A vibration through the wheel at speed often points to unbalanced tyres or worn suspension. Pulling to one side may mean a soft tyre or wheel alignment problem. Either way, do not ignore it."
+      }
+    ]
+  },
+  {
+    "slug": "vehicle-knowledge-lights-visibility",
+    "moduleSlug": "vehicle-knowledge",
+    "title": "Lights and visibility",
+    "summary": "When and how to use each set of lights, and how to keep your view of the road clear.",
+    "sections": [
+      {
+        "heading": "Dipped, main and fog lights",
+        "body": "Use dipped headlights at night and whenever visibility is reduced (rain, snow, dusk, tunnels). Main beam is only allowed when it will not dazzle other road users. Front fog lights and rear fog lights are only for poor visibility — switch them off when visibility improves."
+      },
+      {
+        "heading": "Hazard warning lights",
+        "body": "Hazard lights warn other road users of an unexpected danger: a sudden traffic jam ahead on a motorway, a breakdown, or being towed. They are not a substitute for indicators, and not a permit to park where parking is forbidden."
+      },
+      {
+        "heading": "Windscreen and mirrors",
+        "body": "Keep the windscreen, side windows and mirrors clean and free of stickers that obstruct your view. Top up washer fluid and replace wiper blades that smear. In winter, clear all snow and ice — not just a peephole."
+      }
+    ]
+  },
+  {
+    "slug": "vehicle-knowledge-load-passengers",
+    "moduleSlug": "vehicle-knowledge",
+    "title": "Load, passengers and child restraints",
+    "summary": "How to carry passengers and cargo safely and legally.",
+    "sections": [
+      {
+        "heading": "Seat belts",
+        "body": "All occupants must wear a seat belt when one is fitted, in any seat. The driver is responsible for passengers under 18 wearing theirs. A belt only protects when it lies flat across the shoulder and hips, with no slack."
+      },
+      {
+        "heading": "Child restraints",
+        "body": "Children under 1.35 m must use an approved child seat or booster suited to their weight and height. Children below 1.35 m may sit in the front only if no other seat is available, and a rear-facing seat must never be used on a seat with an active front airbag."
+      },
+      {
+        "heading": "Carrying loads",
+        "body": "Do not exceed the maximum load on the vehicle plate. Distribute weight low and central, secure it so it cannot shift, and check that lights and number plates remain visible. A load may overhang at the rear by up to 1 metre with a red marker; sideways overhang is not allowed beyond 10 cm either side."
+      }
+    ]
+  },
+  {
+    "slug": "vehicle-knowledge-documents-environment",
+    "moduleSlug": "vehicle-knowledge",
+    "title": "Documents, APK and environment",
+    "summary": "Paperwork you must carry and the environmental rules that apply to your vehicle.",
+    "sections": [
+      {
+        "heading": "Documents to carry",
+        "body": "While driving you must be able to show your driving licence, the vehicle registration certificate (kentekenbewijs or digital equivalent), and proof of valid insurance. Road tax (motorrijtuigenbelasting) and APK status are checked from the registration."
+      },
+      {
+        "heading": "APK and roadworthiness",
+        "body": "A passenger car must pass the periodic vehicle inspection (APK): first after 4 years for petrol/electric (3 for diesel), then every 2 years until it is older, then yearly. Driving without a valid APK is an offence and invalidates insurance cover for many claims."
+      },
+      {
+        "heading": "Environmental zones and emissions",
+        "body": "Many Dutch cities have an environmental zone (milieuzone) that bans older diesel vehicles, shown by a circular zone sign. Idling unnecessarily, leaking oil, or removing emission controls is forbidden. Keep the vehicle well maintained to keep emissions low."
+      }
+    ]
+  }
+]

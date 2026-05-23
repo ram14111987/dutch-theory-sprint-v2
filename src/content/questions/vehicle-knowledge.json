@@ -1,0 +1,242 @@
+[
+  {
+    "id": "vehicle-knowledge-001",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-tyres-brakes",
+    "topicTags": ["tyres", "tread-depth"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "What is the legal minimum tyre tread depth on a passenger car in the Netherlands?",
+    "choices": [
+      { "id": "a", "text": "0.8 mm" },
+      { "id": "b", "text": "1.6 mm" },
+      { "id": "c", "text": "3.0 mm" },
+      { "id": "d", "text": "4.0 mm" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "The legal minimum is 1.6 mm across the central three-quarters of the tyre.",
+      "examTip": "For winter or wet conditions, tread closer to 3–4 mm is much safer."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-002",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-tyres-brakes",
+    "topicTags": ["tyre-pressure"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Tyre pressure should be checked:",
+    "choices": [
+      { "id": "a", "text": "Only at the APK inspection" },
+      { "id": "b", "text": "Only when tyres are hot from driving" },
+      { "id": "c", "text": "At least once a month, with tyres cold" },
+      { "id": "d", "text": "Once a year at the dealer" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Check pressure cold, at least once a month, using the value on the door pillar.",
+      "examTip": "Correct pressure also reduces fuel consumption."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-003",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-tyres-brakes",
+    "topicTags": ["abs", "emergency-braking"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Your car has ABS. In an emergency stop you should:",
+    "choices": [
+      { "id": "a", "text": "Pump the pedal repeatedly" },
+      { "id": "b", "text": "Press the pedal firmly and keep steering" },
+      { "id": "c", "text": "Press the pedal lightly to avoid skidding" },
+      { "id": "d", "text": "Release the brake every time you feel a pulse" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "With ABS, press hard and steer — the system stops the wheels locking.",
+      "examTip": "The pulsing you feel in the pedal is normal ABS operation, not a fault."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-004",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-lights-visibility",
+    "topicTags": ["fog-lights"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "When may you use your rear fog light?",
+    "choices": [
+      { "id": "a", "text": "Whenever it is dark" },
+      { "id": "b", "text": "In rain at night" },
+      { "id": "c", "text": "Only when visibility is reduced to less than about 50 metres" },
+      { "id": "d", "text": "Whenever you are on a motorway" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Rear fog lights are only for severely reduced visibility (under about 50 m).",
+      "examTip": "Switch them off as soon as visibility improves; they dazzle drivers behind you."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-005",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-lights-visibility",
+    "topicTags": ["hazard-lights"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Hazard warning lights may be used to:",
+    "choices": [
+      { "id": "a", "text": "Park briefly where parking is forbidden" },
+      { "id": "b", "text": "Warn following traffic of a sudden traffic jam on the motorway" },
+      { "id": "c", "text": "Indicate that you are turning" },
+      { "id": "d", "text": "Show that you are driving fast" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Use hazard lights to warn of an unexpected danger such as a sudden jam.",
+      "examTip": "They do not give permission to park where parking is otherwise forbidden."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-006",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-lights-visibility",
+    "topicTags": ["windscreen", "winter"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "On a frosty winter morning, before driving you must:",
+    "choices": [
+      { "id": "a", "text": "Clear only a peephole in the windscreen" },
+      { "id": "b", "text": "Clear all windows, mirrors, lights and number plates of snow and ice" },
+      { "id": "c", "text": "Pour hot water over the windscreen" },
+      { "id": "d", "text": "Start driving and let the wipers clear it" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "All windows, mirrors, lights and plates must be clear before you set off.",
+      "examTip": "Snow on the roof can also slide onto your windscreen or onto traffic behind you."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-007",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-load-passengers",
+    "topicTags": ["seat-belts"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Who is responsible for ensuring a 12-year-old passenger wears their seat belt?",
+    "choices": [
+      { "id": "a", "text": "The passenger themselves" },
+      { "id": "b", "text": "The driver" },
+      { "id": "c", "text": "Nobody — at that age it is optional" },
+      { "id": "d", "text": "The owner of the car, even if not driving" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "The driver is responsible for all passengers under 18 wearing seat belts.",
+      "examTip": "Passengers aged 18 or older are responsible for themselves."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-008",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-load-passengers",
+    "topicTags": ["child-seats", "airbag"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You want to put a baby in a rear-facing child seat on the front passenger seat. What must you check?",
+    "choices": [
+      { "id": "a", "text": "That the seat belt is fitted" },
+      { "id": "b", "text": "That the front passenger airbag is switched off" },
+      { "id": "c", "text": "That the child is older than 6 months" },
+      { "id": "d", "text": "Nothing — it is always allowed" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A rear-facing child seat must never be used on a seat with an active front airbag.",
+      "examTip": "Children under 1.35 m should normally travel in the back."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-009",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-load-passengers",
+    "topicTags": ["load", "overhang"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are carrying long planks that stick out behind the car. How far may the load overhang at the rear and what must you do?",
+    "choices": [
+      { "id": "a", "text": "Up to 0.5 m, no marker needed" },
+      { "id": "b", "text": "Up to 1 m, with a red marker at the end" },
+      { "id": "c", "text": "Up to 2 m, no marker needed" },
+      { "id": "d", "text": "No overhang is ever allowed" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Rear overhang up to 1 m is allowed, marked with a red flag or marker board.",
+      "examTip": "Lights and number plate must remain visible, and sideways overhang is not allowed."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-010",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-documents-environment",
+    "topicTags": ["documents"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Which documents must you be able to show when driving in the Netherlands?",
+    "choices": [
+      { "id": "a", "text": "Only your driving licence" },
+      { "id": "b", "text": "Driving licence, vehicle registration and proof of insurance" },
+      { "id": "c", "text": "Passport only" },
+      { "id": "d", "text": "Driving licence and a recent fuel receipt" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Licence, vehicle registration and proof of insurance must be available on request.",
+      "examTip": "Road tax and APK status are checked from the registration record itself."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-011",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-documents-environment",
+    "topicTags": ["apk"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "What is the APK?",
+    "choices": [
+      { "id": "a", "text": "A road tax payment" },
+      { "id": "b", "text": "An insurance policy" },
+      { "id": "c", "text": "The periodic vehicle inspection for roadworthiness" },
+      { "id": "d", "text": "A licence for driving abroad" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "APK is the periodic technical inspection that confirms a vehicle is roadworthy.",
+      "examTip": "Driving without a valid APK is an offence and can invalidate insurance cover."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-012",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-documents-environment",
+    "topicTags": ["environmental-zone"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A circular sign marks the start of an environmental zone (milieuzone). What does this mean?",
+    "choices": [
+      { "id": "a", "text": "All motor traffic is forbidden" },
+      { "id": "b", "text": "Certain older or more polluting vehicles are not allowed in the zone" },
+      { "id": "c", "text": "You must drive with hazard lights on" },
+      { "id": "d", "text": "Free parking is available inside the zone" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "An environmental zone restricts the more polluting vehicles, especially older diesels.",
+      "examTip": "Each city sets its own exact rules — check before driving into one."
+    }
+  }
+]

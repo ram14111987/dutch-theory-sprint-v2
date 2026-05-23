@@ -1,0 +1,242 @@
+[
+  {
+    "id": "special-roads-manoeuvres-001",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-motorway-expressway",
+    "topicTags": ["motorway", "access"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Which vehicle is allowed on a Dutch motorway (autosnelweg)?",
+    "choices": [
+      { "id": "a", "text": "A moped able to do 45 km/h" },
+      { "id": "b", "text": "A car able to sustain at least 60 km/h" },
+      { "id": "c", "text": "A bicycle in good condition" },
+      { "id": "d", "text": "A tractor with a top speed of 40 km/h" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Motorways are only for motor vehicles that can sustain at least 60 km/h.",
+      "examTip": "Mopeds, cyclists, pedestrians and slow traffic are always forbidden on autosnelweg and autoweg."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-002",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-motorway-expressway",
+    "topicTags": ["motorway", "speed"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "There are no extra speed signs. What is the daytime maximum speed on a Dutch motorway between 06:00 and 19:00?",
+    "choices": [
+      { "id": "a", "text": "80 km/h" },
+      { "id": "b", "text": "100 km/h" },
+      { "id": "c", "text": "120 km/h" },
+      { "id": "d", "text": "130 km/h" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "The default daytime motorway limit is 100 km/h; higher limits apply only when signed and outside daytime hours.",
+      "examTip": "On an expressway (autoweg) the maximum is 100 km/h day and night."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-003",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-motorway-expressway",
+    "topicTags": ["shoulder", "breakdown"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "When may you stop on the shoulder (vluchtstrook) of a motorway?",
+    "choices": [
+      { "id": "a", "text": "To check directions on your phone" },
+      { "id": "b", "text": "Only for a real breakdown or emergency" },
+      { "id": "c", "text": "To let a passenger get out" },
+      { "id": "d", "text": "Whenever the road is quiet" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "The shoulder is reserved for genuine breakdowns and emergencies.",
+      "examTip": "Switch on hazard lights and place the warning triangle 30 metres behind the vehicle."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-004",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-entering-leaving",
+    "topicTags": ["merging", "acceleration-lane"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You are on the acceleration lane joining a motorway. What should you do?",
+    "choices": [
+      { "id": "a", "text": "Drive slowly and force traffic to brake for you" },
+      { "id": "b", "text": "Stop at the end of the lane and wait for a gap" },
+      { "id": "c", "text": "Build up to motorway speed, signal left and merge into a gap" },
+      { "id": "d", "text": "Cross straight onto the left lane" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Match the speed of motorway traffic, signal, and merge smoothly.",
+      "examTip": "Traffic already on the motorway has priority, so you fit in around it."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-005",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-entering-leaving",
+    "topicTags": ["exit", "deceleration-lane"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You want to leave the motorway at the next exit. When should you start braking?",
+    "choices": [
+      { "id": "a", "text": "Before signalling, in the right-hand lane" },
+      { "id": "b", "text": "On the main carriageway, well before the exit" },
+      { "id": "c", "text": "Only once you are on the deceleration lane" },
+      { "id": "d", "text": "After the end of the exit lane" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Brake only after moving onto the deceleration lane, so you do not slow traffic behind.",
+      "examTip": "Signal right in good time so others know you are leaving."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-006",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-entering-leaving",
+    "topicTags": ["zipper", "lane-drop"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "The sign 'rijstrook eindigt' warns that your lane is ending. What is the correct way to merge?",
+    "choices": [
+      { "id": "a", "text": "Race to the front and force your way in" },
+      { "id": "b", "text": "Stop and wait for everyone else to pass" },
+      { "id": "c", "text": "Use the zipper principle: take turns one-by-one with the next lane" },
+      { "id": "d", "text": "Drive on the shoulder until past the obstruction" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Where a lane ends, drivers merge one-by-one with the adjacent lane (ritsen).",
+      "examTip": "Merging late but smoothly at the zipper point is fine; merging aggressively is not."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-007",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-tunnels-bridges",
+    "topicTags": ["tunnel", "lights"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You are about to enter a road tunnel in daylight. What must you do with your headlights?",
+    "choices": [
+      { "id": "a", "text": "Switch them off so as not to dazzle others" },
+      { "id": "b", "text": "Use parking lights only" },
+      { "id": "c", "text": "Switch on dipped headlights before entering" },
+      { "id": "d", "text": "Use full beam throughout the tunnel" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "Dipped headlights are required in tunnels, even during the day.",
+      "examTip": "A red cross above your lane means the lane is closed; follow the green arrows instead."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-008",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-tunnels-bridges",
+    "topicTags": ["bridge", "signals"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "At an opening bridge the red lights are flashing and the barrier is coming down. The bridge still looks clear. You should:",
+    "choices": [
+      { "id": "a", "text": "Cross quickly while it is still clear" },
+      { "id": "b", "text": "Stop behind the line and wait until lights are off and barriers fully up" },
+      { "id": "c", "text": "Drive around the barrier on the pavement" },
+      { "id": "d", "text": "Sound the horn and continue" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Flashing red lights and a descending barrier mean stop and wait until both clear.",
+      "examTip": "The same applies at level crossings: never cross while red lights flash."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-009",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-tunnels-bridges",
+    "topicTags": ["level-crossing", "trains"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A train has just passed an unguarded level crossing. You should:",
+    "choices": [
+      { "id": "a", "text": "Cross immediately, since the train has gone" },
+      { "id": "b", "text": "Look both ways and only cross when sure no second train is coming" },
+      { "id": "c", "text": "Sound the horn while crossing" },
+      { "id": "d", "text": "Reverse and find another route" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Trains can come in either direction; always check both ways before crossing.",
+      "examTip": "Trains always have priority — at a level crossing you yield, even without barriers."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-010",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-manoeuvres-basics",
+    "topicTags": ["special-manoeuvres", "right-of-way"],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "While performing a special manoeuvre (such as reversing or leaving a parking spot), you must:",
+    "choices": [
+      { "id": "a", "text": "Be given priority by other traffic" },
+      { "id": "b", "text": "Yield to every other road user, including pedestrians and cyclists" },
+      { "id": "c", "text": "Yield only to motor vehicles" },
+      { "id": "d", "text": "Follow the right-before-left rule" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "During a special manoeuvre you give way to all other road users.",
+      "examTip": "Pulling away from the kerb counts as a special manoeuvre too."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-011",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-manoeuvres-basics",
+    "topicTags": ["reversing", "where-forbidden"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Where is reversing always forbidden?",
+    "choices": [
+      { "id": "a", "text": "In a quiet residential street" },
+      { "id": "b", "text": "On a motorway, expressway or in a tunnel" },
+      { "id": "c", "text": "In a supermarket car park" },
+      { "id": "d", "text": "On a 30 km/h road" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Reversing is forbidden on motorways, expressways and inside tunnels.",
+      "examTip": "If you miss an exit on a motorway, you must drive on to the next one — never reverse."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-012",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-manoeuvres-basics",
+    "topicTags": ["u-turn"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "When is a U-turn forbidden?",
+    "choices": [
+      { "id": "a", "text": "On every 50 km/h road" },
+      { "id": "b", "text": "On a motorway, expressway, or where a continuous line divides the lanes" },
+      { "id": "c", "text": "Only at junctions" },
+      { "id": "d", "text": "Only between 22:00 and 06:00" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "U-turns are forbidden on motorways, expressways, across continuous lines, and where signs forbid them.",
+      "examTip": "Even where allowed, you must yield to all traffic before turning."
+    }
+  }
+]

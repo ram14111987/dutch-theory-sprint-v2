@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "special-roads-motorway-expressway",
+    "moduleSlug": "special-roads-manoeuvres",
+    "title": "Motorways and expressways",
+    "summary": "Rules for autosnelweg (motorway) and autoweg (expressway): access, speeds, lane use, and shoulder rules.",
+    "sections": [
+      {
+        "heading": "Who may use them",
+        "body": "Motorways (rectangular blue sign with a stylised dual carriageway) and expressways (blue car sign) are reserved for motor vehicles that can sustain at least 60 km/h. Mopeds, cyclists, pedestrians, and slow traffic are forbidden."
+      },
+      {
+        "heading": "Speeds and lane use",
+        "body": "On a motorway the daytime maximum is 100 km/h (06:00–19:00); at night and where signs allow it can be 120 or 130 km/h. On an expressway the maximum is 100 km/h. Always keep right; the left lane is for overtaking only."
+      },
+      {
+        "heading": "Shoulder and emergencies",
+        "body": "Driving or stopping on the shoulder (vluchtstrook) is forbidden except for a real breakdown or emergency. If you must stop, leave the vehicle on the right side, switch on hazard lights, and place the warning triangle 30 metres behind."
+      }
+    ]
+  },
+  {
+    "slug": "special-roads-entering-leaving",
+    "moduleSlug": "special-roads-manoeuvres",
+    "title": "Entering and leaving the motorway",
+    "summary": "How to use slip roads, acceleration and deceleration lanes, and how to merge safely.",
+    "sections": [
+      {
+        "heading": "Acceleration lane (invoegstrook)",
+        "body": "On the slip road, build up to the speed of traffic on the motorway. Watch the right-hand mirror, signal left, and merge into a gap. Traffic already on the motorway has priority, but cooperative drivers will make space."
+      },
+      {
+        "heading": "Deceleration lane (uitvoegstrook)",
+        "body": "Leave the motorway by signalling right in good time and moving onto the deceleration lane. Only brake once you are off the main carriageway, so you do not slow traffic behind you."
+      },
+      {
+        "heading": "Lane drops and lane gains",
+        "body": "If your lane ends (rijstrook eindigt), merge in good time using the zipper principle (ritsen): take turns one-by-one with the lane next to you. Never force your way in at the last moment."
+      }
+    ]
+  },
+  {
+    "slug": "special-roads-tunnels-bridges",
+    "moduleSlug": "special-roads-manoeuvres",
+    "title": "Tunnels, bridges and level crossings",
+    "summary": "Special rules for tunnels, opening bridges and railway crossings.",
+    "sections": [
+      {
+        "heading": "Tunnels",
+        "body": "Switch on dipped headlights before entering, even by day. Keep a longer following distance and do not stop or reverse. Follow the green arrows above your lane; a red cross means the lane is closed."
+      },
+      {
+        "heading": "Opening bridges",
+        "body": "Flashing red lights and a closing barrier mean stop behind the line. You must wait until the lights are off and the barriers are fully up before crossing, even if the bridge looks clear."
+      },
+      {
+        "heading": "Level crossings",
+        "body": "At a level crossing, flashing red lights or a closing half-barrier mean stop and wait. Never cross when lights flash, even between two trains. At an unguarded crossing (Andreaskruis), look both ways and yield to trains, which always have priority."
+      }
+    ]
+  },
+  {
+    "slug": "special-roads-manoeuvres-basics",
+    "moduleSlug": "special-roads-manoeuvres",
+    "title": "Reversing, U-turns and special manoeuvres",
+    "summary": "Special manoeuvres where you yield to all other traffic and pedestrians.",
+    "sections": [
+      {
+        "heading": "Special manoeuvres rule",
+        "body": "Reversing, turning around, leaving a driveway or parking spot, and pulling away from the kerb are all 'bijzondere verrichtingen'. While performing them you must yield to every other road user, including pedestrians and cyclists."
+      },
+      {
+        "heading": "Reversing safely",
+        "body": "Look over your shoulder, use mirrors and reverse only as far as necessary. Reversing on a motorway, expressway or in a tunnel is forbidden. If you cannot see clearly, ask a passenger to guide you."
+      },
+      {
+        "heading": "U-turns",
+        "body": "A U-turn is forbidden on a motorway, expressway, where a continuous line divides the lanes, and where signs forbid it. Even where allowed, you must give way to all traffic before starting the turn."
+      }
+    ]
+  }
+]

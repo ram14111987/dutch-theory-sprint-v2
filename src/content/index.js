@@ -11,6 +11,12 @@ import hazardAwarenessLessons from './lessons/hazard-awareness.json';
 import hazardAwarenessQuestions from './questions/hazard-awareness.json';
 import parkingStoppingRulesLessons from './lessons/parking-stopping-rules.json';
 import parkingStoppingRulesQuestions from './questions/parking-stopping-rules.json';
+import specialRoadsManoeuvresLessons from './lessons/special-roads-manoeuvres.json';
+import specialRoadsManoeuvresQuestions from './questions/special-roads-manoeuvres.json';
+import safeDrivingEmergenciesLessons from './lessons/safe-driving-emergencies.json';
+import safeDrivingEmergenciesQuestions from './questions/safe-driving-emergencies.json';
+import vehicleKnowledgeLessons from './lessons/vehicle-knowledge.json';
+import vehicleKnowledgeQuestions from './questions/vehicle-knowledge.json';
 
 export const studyModes = [
   'Quick Sprint',
@@ -26,6 +32,9 @@ const lessonsByModuleSlug = {
   'traffic-rules-road-position': trafficRulesRoadPositionLessons,
   'hazard-awareness': hazardAwarenessLessons,
   'parking-stopping-rules': parkingStoppingRulesLessons,
+  'special-roads-manoeuvres': specialRoadsManoeuvresLessons,
+  'safe-driving-emergencies': safeDrivingEmergenciesLessons,
+  'vehicle-knowledge': vehicleKnowledgeLessons,
 };
 
 const questionBanks = {
@@ -35,6 +44,9 @@ const questionBanks = {
   'traffic-rules-road-position': trafficRulesRoadPositionQuestions,
   'hazard-awareness': hazardAwarenessQuestions,
   'parking-stopping-rules': parkingStoppingRulesQuestions,
+  'special-roads-manoeuvres': specialRoadsManoeuvresQuestions,
+  'safe-driving-emergencies': safeDrivingEmergenciesQuestions,
+  'vehicle-knowledge': vehicleKnowledgeQuestions,
 };
 
 function allLessons() {

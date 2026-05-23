@@ -56,9 +56,42 @@
     "slug": "vehicle-knowledge",
     "title": "Vehicle knowledge and safety",
     "description": "Tyres, lights, loads, and basic checks before and during driving.",
-    "lessonSlugs": [],
-    "quizEnabled": false,
-    "questionBankId": null
+    "lessonSlugs": [
+      "vehicle-knowledge-tyres-brakes",
+      "vehicle-knowledge-lights-visibility",
+      "vehicle-knowledge-load-passengers",
+      "vehicle-knowledge-documents-environment"
+    ],
+    "quizEnabled": true,
+    "questionBankId": "vehicle-knowledge"
+  },
+  {
+    "id": "special-roads-manoeuvres",
+    "slug": "special-roads-manoeuvres",
+    "title": "Special roads and manoeuvres",
+    "description": "Motorways, expressways, tunnels, bridges, level crossings, and special manoeuvres like reversing and U-turns.",
+    "lessonSlugs": [
+      "special-roads-motorway-expressway",
+      "special-roads-entering-leaving",
+      "special-roads-tunnels-bridges",
+      "special-roads-manoeuvres-basics"
+    ],
+    "quizEnabled": true,
+    "questionBankId": "special-roads-manoeuvres"
+  },
+  {
+    "id": "safe-driving-emergencies",
+    "slug": "safe-driving-emergencies",
+    "title": "Safe driving and emergencies",
+    "description": "Alcohol and fatigue, eco-driving, breakdowns, accidents, and how to react to emergency vehicles.",
+    "lessonSlugs": [
+      "safe-driving-alcohol-drugs-fatigue",
+      "safe-driving-eco-economical",
+      "safe-driving-breakdown-accident",
+      "safe-driving-emergency-vehicles-first-aid"
+    ],
+    "quizEnabled": true,
+    "questionBankId": "safe-driving-emergencies"
   },
   {
     "id": "special-users",

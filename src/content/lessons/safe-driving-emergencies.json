@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "safe-driving-alcohol-drugs-fatigue",
+    "moduleSlug": "safe-driving-emergencies",
+    "title": "Alcohol, drugs, medication and fatigue",
+    "summary": "How impairment affects driving and the legal limits that apply in the Netherlands.",
+    "sections": [
+      {
+        "heading": "Alcohol limits",
+        "body": "The legal limit is 0.5 promille (0.22 mg/l breath). For drivers with less than 5 years of experience, and for moped riders under 24, the limit is 0.2 promille (0.088 mg/l). Even small amounts slow reaction time."
+      },
+      {
+        "heading": "Drugs and medication",
+        "body": "Driving under the influence of drugs is forbidden, regardless of amount. Some prescription and over-the-counter medicines (sleep aids, strong painkillers, allergy tablets) carry a yellow sticker warning that they affect driving — do not drive if so."
+      },
+      {
+        "heading": "Fatigue",
+        "body": "Tiredness has effects similar to alcohol: slower reactions, narrower attention, and microsleeps. If you feel drowsy, take a break of at least 15 minutes, drink coffee or get fresh air. Driving on is dangerous."
+      }
+    ]
+  },
+  {
+    "slug": "safe-driving-eco-economical",
+    "moduleSlug": "safe-driving-emergencies",
+    "title": "Eco-driving and economical driving",
+    "summary": "Techniques that reduce fuel use, wear and emissions while keeping you safe.",
+    "sections": [
+      {
+        "heading": "Smooth and early",
+        "body": "Accelerate gently, shift up early (around 2000 rpm for petrol, 1500 rpm for diesel) and look far ahead so you can roll towards traffic lights instead of braking hard. Smooth driving saves fuel and brakes."
+      },
+      {
+        "heading": "Engine off when idle",
+        "body": "Switch the engine off if you expect to wait more than about a minute, for example at a long red light or a level crossing. Modern start-stop systems do this automatically."
+      },
+      {
+        "heading": "Tyres and load",
+        "body": "Underinflated tyres add rolling resistance and use more fuel. A roof box or unnecessary load also increases consumption. Check tyre pressure at least once a month and remove items you do not need."
+      }
+    ]
+  },
+  {
+    "slug": "safe-driving-breakdown-accident",
+    "moduleSlug": "safe-driving-emergencies",
+    "title": "Breakdowns and accidents",
+    "summary": "What to do if your vehicle breaks down or if you are involved in or witness an accident.",
+    "sections": [
+      {
+        "heading": "Breakdown",
+        "body": "Move the vehicle off the carriageway if possible, switch on hazard warning lights, put on a high-visibility vest before stepping out, and place the warning triangle 30 metres behind (100 metres on a motorway). Wait behind the barrier, not next to the car."
+      },
+      {
+        "heading": "At the scene of an accident",
+        "body": "If you are involved or first on scene, stop and help. Make the area safe (hazards, triangle), check for injuries, and call 112 if anyone is hurt or there is significant damage. Do not move injured people unless there is immediate danger."
+      },
+      {
+        "heading": "Exchanging details",
+        "body": "After any collision with another road user or property, you must give your name, address and vehicle registration. Use the European accident form (schadeformulier) to record what happened; do not admit liability on the spot."
+      }
+    ]
+  },
+  {
+    "slug": "safe-driving-emergency-vehicles-first-aid",
+    "moduleSlug": "safe-driving-emergencies",
+    "title": "Emergency vehicles and basic first response",
+    "summary": "How to react to sirens and blue lights, and the basics of helping at the scene.",
+    "sections": [
+      {
+        "heading": "Sirens and blue lights",
+        "body": "An emergency vehicle with both blue flashing lights and a siren always has priority. Pull aside to the right where possible and stop if necessary. Do not brake suddenly or block intersections; make a clear path."
+      },
+      {
+        "heading": "Phone number 112",
+        "body": "112 is the single emergency number for police, fire and ambulance, free from any phone. State the location first, then what has happened and how many people are involved. Stay on the line until the operator releases you."
+      },
+      {
+        "heading": "Helping safely",
+        "body": "Protect yourself before victims: park clear of traffic, switch on hazards and wear a high-visibility vest. Switch off the ignition of crashed vehicles if possible. Comfort injured people and keep them still until professional help arrives."
+      }
+    ]
+  }
+]
