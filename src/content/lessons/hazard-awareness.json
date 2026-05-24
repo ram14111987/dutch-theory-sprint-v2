@@ -7,15 +7,19 @@
     "sections": [
       {
         "heading": "Look far ahead",
-        "body": "Lift your eyes to the furthest point you can see, not the bumper in front. The further you look, the more time you have to plan. Inside town, scan to the next junction; on a rural road, scan to the next bend."
+        "body": "Lift your eyes to the furthest point you can see, not the bumper in front. The further you look, the more time you have to plan. Inside town, scan to the next junction or about 12–15 seconds ahead at city speed; on a rural road, scan to the next bend; on a motorway, look 300 m or more ahead. Eyes glued to the car in front is the single biggest cause of late braking and rear-end collisions."
       },
       {
         "heading": "Use your mirrors regularly",
-        "body": "Glance at the inside mirror roughly every 5 to 8 seconds and again before any change of speed or direction. Knowing what is behind you is part of seeing the whole traffic picture, not just the front."
+        "body": "Glance at the inside mirror roughly every 5 to 8 seconds and again before any change of speed or direction. Knowing what is behind you is part of seeing the whole traffic picture, not just the front. Mirror checks before braking matter as much as before overtaking: a too-close follower means you must brake earlier and more gently. A quick over-the-shoulder check (the 'blind-spot check') is mandatory before changing lane, pulling away, or turning across a cycle path."
       },
       {
         "heading": "Check side streets and gaps",
-        "body": "Look into every side street, driveway and gap between parked cars. Pedestrians and cyclists often emerge from places where there is no warning sign."
+        "body": "Look into every side street, driveway and gap between parked cars. Pedestrians and cyclists often emerge from places where there is no warning sign. The gap between two parked vans is a classic 'invisible pedestrian' trap — a child or shopper can step out and you have no time to brake at 30 km/h, let alone 50. Treat every blind spot ahead as 'someone might be in there' and ease off before you arrive, rather than reacting once you see them."
+      },
+      {
+        "heading": "Scan in a system",
+        "body": "Drivers who scan in a repeating pattern miss less. A simple system is far-mid-near-mirror, repeated every few seconds: the horizon for planning, the middle distance for likely movement, the immediate area for current threats, and the mirror for what is catching up. At every junction, add a left-right-left sweep before you cross. This is the kind of 'active scanning' the exam expects and that real driving instructors mark you on."
       }
     ]
   },
@@ -27,15 +31,19 @@
     "sections": [
       {
         "heading": "Cyclists",
-        "body": "Cyclists may wobble, ride two abreast, or change direction without indicating. Give them at least 1 metre of side space (1.5 m where speed is higher) and never overtake just before a bend or a parked car they may swerve around."
+        "body": "Cyclists may wobble, ride two abreast, or change direction without indicating. Give them at least 1 metre of side space inside town and 1.5 m where speed is higher, and never overtake just before a bend, a junction, or a parked car they may swerve around. Watch for the head-turn over the shoulder — it almost always precedes a left turn even if the rider does not give a hand signal. Speed pedelecs and fast e-bikes can travel at 40–45 km/h and close the gap behind you much quicker than a normal bicycle would."
       },
       {
         "heading": "Children and the elderly",
-        "body": "Near schools, playgrounds and care homes, expect sudden movements off the kerb. Children may not look. Elderly walkers may cross slowly. Reduce speed before you see a problem, not after."
+        "body": "Near schools, playgrounds and care homes, expect sudden movements off the kerb. Children may not look both ways, may chase a ball, and are short enough to be hidden behind a parked car. Elderly walkers may cross slowly or misjudge an approaching car's speed. Reduce speed before you see a problem, not after — the rule is 'see a child, see a problem'."
       },
       {
         "heading": "Pedestrians on rural roads",
-        "body": "On a road with no pavement, pedestrians walk on the left, facing traffic. At dusk or in rain they are very hard to spot — dip your headlights and keep well to your side of the road."
+        "body": "On a road with no pavement, pedestrians walk on the left, facing oncoming traffic, and joggers and runners do the same. At dusk or in rain they are very hard to spot, especially in dark clothing — dip your headlights and keep well to your side of the road. A pedestrian with a dog on a long lead can suddenly be pulled into the road; a horse and rider deserve extra room and no revving. Slow down before passing, do not flash, and only return to the centre once you can see them shrinking in the mirror."
+      },
+      {
+        "heading": "Mopeds, motorcyclists, and assistive users",
+        "body": "Mopeds (snorfiets, bromfiets) and motorcyclists are narrow and easy to miss in a mirror glance — they often sit in the blind spot for several seconds. Add a quick shoulder check before every lane change and every turn across their path. Riders of mobility scooters, blind pedestrians with a white cane, and people with a hand-flag deserve the same patience as cyclists, with extra time to react. As a memory hook: 'narrow, slow, or quiet' all mean 'check twice'."
       }
     ]
   },
@@ -47,15 +55,19 @@
     "sections": [
       {
         "heading": "Rain and wet roads",
-        "body": "Wet roads roughly double your braking distance. The first rain after a dry spell is the most slippery because dust and oil rise to the surface. Increase following distance and brake earlier and more gently."
+        "body": "Wet roads roughly double your braking distance. The first rain after a dry spell is the most slippery because dust and oil rise to the surface; this effect lasts roughly 10–15 minutes. Increase following distance and brake earlier and more gently. Aquaplaning becomes a real risk above about 80 km/h with shallow tread or standing water — if it happens, lift off the accelerator, do not brake hard, and steer straight until you feel grip return."
       },
       {
         "heading": "Fog",
-        "body": "Use dipped headlights in fog. You may use front fog lights when visibility falls below 200 m, and rear fog lights only when visibility falls below 50 m. Switch rear fog lights off as soon as visibility improves — they dazzle the driver behind you."
+        "body": "Use dipped headlights in fog, never main beam — main beam reflects off the droplets and blinds you. You may use front fog lights when visibility falls below 200 m, and rear fog lights only when visibility falls below 50 m. Switch rear fog lights off as soon as visibility improves — they dazzle the driver behind you and can hide your brake lights. In dense fog, open the window briefly to listen for traffic you cannot yet see, and use the right-hand white edge line to keep your lane without staring at oncoming lights."
       },
       {
         "heading": "Night and low sun",
-        "body": "At night, do not outdrive your headlights — your stopping distance must fit inside the beam you can see. Against low sun, slow down: a dirty windscreen turns a glare into a wall."
+        "body": "At night, do not outdrive your headlights — your stopping distance must fit inside the beam you can see. Switch from main to dipped beam when an oncoming vehicle is about 400 m away, and use the right-hand edge line as a guide if you are dazzled. Against low sun, slow down: a dirty windscreen turns a glare into a wall, and pedestrians can disappear inside the bright patch. Keep washer fluid topped up and replace tired wiper blades before winter."
+      },
+      {
+        "heading": "Snow, ice, and cold mornings",
+        "body": "Snow and ice multiply braking distance many times over; on packed snow, treat any braking as light, early, and in a straight line. Bridges, tunnel exits, and shaded forest roads freeze first, even when the rest of the road looks dry — if the dashboard shows close to 0 °C, treat shadows as potentially icy. Clear all windows and the roof before driving — snow that slides forward in a sudden brake can blind you entirely. Cold tyres in the first few kilometres grip noticeably less, which matters most on the first turn out of your driveway on a frosty morning."
       }
     ]
   },
@@ -67,15 +79,19 @@
     "sections": [
       {
         "heading": "Reaction time",
-        "body": "A healthy alert driver needs about 1 second to react. Tired, distracted or under the influence, reaction time grows quickly. At 50 km/h, 1 second is roughly 14 m before you have even started to brake."
+        "body": "A healthy alert driver needs about 1 second to react. Tired, distracted or under the influence, reaction time grows quickly — fatigue can have a similar effect to alcohol. At 50 km/h, 1 second is roughly 14 m before you have even started to brake; at 100 km/h, almost 28 m. Phone use is the modern equivalent of drink driving for reaction time: even a hands-free call measurably slows you, which is why texting is so dangerous it is treated as a serious offence."
       },
       {
         "heading": "The 2-second rule",
-        "body": "Keep at least 2 seconds gap to the vehicle in front in good conditions. Pick a fixed point ahead (a sign, a tree); when the vehicle in front passes it, you should not pass it until you have counted two. Double this in rain, more in snow or fog."
+        "body": "Keep at least 2 seconds gap to the vehicle in front in good conditions. Pick a fixed point ahead (a sign, a tree, a shadow); when the vehicle in front passes it, you should not pass it until you have counted 'one-thousand-and-one, one-thousand-and-two'. Double this in rain, more in snow or fog, and add extra time behind a heavy vehicle whose driver cannot see you in their mirrors. If a tailgater pushes into your gap, slow gradually to recreate the gap in front rather than trying to outrun them."
       },
       {
         "heading": "Anticipation over reaction",
-        "body": "Brake lights ahead, a ball on the pavement, a cyclist looking over their shoulder — these are warnings. Ease off the accelerator and cover the brake before you need it. Good anticipation means you almost never have to brake hard."
+        "body": "Brake lights ahead, a ball on the pavement, a cyclist looking over their shoulder — these are warnings. Ease off the accelerator and cover the brake before you need it. Good anticipation means you almost never have to brake hard, which saves fuel, brake wear, and the risk of a rear-end collision. Look for clues at every level: at body language (a pedestrian's foot at the kerb), at vehicle behaviour (a van slowing without indicating may be looking for a number), and at the environment (a wet shaded patch in winter)."
+      },
+      {
+        "heading": "Distraction, fatigue, and emotion",
+        "body": "Anything that pulls your attention off the road shortens the effective gap you have left. A phone call, eating, fiddling with the radio, or an emotional argument all show up as slower reactions in tests. Plan the route and the music before you move off, set the phone to silent or 'driving mode', and break for 15 minutes every two hours on a long trip. If you catch yourself yawning, missing exits, or drifting in the lane, that is the warning sign — pull over and rest before, not after, the close call."
       }
     ]
   }

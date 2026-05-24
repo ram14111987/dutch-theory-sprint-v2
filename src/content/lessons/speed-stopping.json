@@ -7,15 +7,19 @@
     "sections": [
       {
         "heading": "Inside built-up areas",
-        "body": "Inside a built-up area, the default maximum speed for cars is 50 km/h. Many residential zones lower this to 30 km/h, and woonerf (yard) zones to walking pace, roughly 15 km/h."
+        "body": "Inside a built-up area, the default maximum speed for cars is 50 km/h. The built-up area begins at the white-on-blue place-name sign (H1) and ends at the red-bar version (H2). Many residential zones lower this to 30 km/h, and a woonerf (yard / 'living street') zone to walking pace — about 15 km/h — where pedestrians and children playing have priority over traffic. Around schools and at zone entries you will see the zone sign with the new limit; the limit applies until a cancellation sign or a new zone begins."
       },
       {
         "heading": "Outside built-up areas",
-        "body": "On a normal road outside a built-up area, the default maximum for cars is 80 km/h. On an expressway (autoweg) the maximum is 100 km/h."
+        "body": "On a normal road outside a built-up area, the default maximum for cars is 80 km/h. On an expressway (autoweg, white car on blue sign) the maximum is 100 km/h. On narrow rural roads with no centre line, the legal limit may still be 80 km/h, but a safe speed is often far lower — the rule is always to drive 'no faster than is responsible for the conditions'. A trailer or caravan typically lowers your maximum to 90 km/h on motorways and 80 km/h on autoweg, regardless of the signed limit for cars."
       },
       {
         "heading": "Motorways",
-        "body": "On a motorway (autosnelweg), the maximum is 130 km/h where signed, otherwise 100 km/h, and during the daytime nationally capped at 100 km/h between 06:00 and 19:00. Always follow the signed limit when it differs from the default."
+        "body": "On a motorway (autosnelweg), the maximum is 130 km/h where signed, otherwise 100 km/h. Nationally, between 06:00 and 19:00, cars are capped at 100 km/h regardless of higher signed limits — the higher limit only applies at night. Always follow the signed limit when it differs from the default, including matrix signs above the lane that can lower the limit for incidents, queues, or roadworks. A red cross above your lane means the lane is closed: change lane in good time."
+      },
+      {
+        "heading": "Special cases and penalties",
+        "body": "In roadworks zones, the temporary signs override every other limit until a cancellation sign. A 'maximum advised' sign (round blue with white number, J20) is a recommendation, not a fine — but driving faster than the advice in poor conditions can still count as careless driving. New drivers in their first five years receive a stricter alcohol limit (0.2‰) and accumulate points faster. As a memory hook, the four typical Dutch limits stack neatly: 30 zone, 50 town, 80 rural, 100 daytime motorway."
       }
     ]
   },
@@ -27,15 +31,19 @@
     "sections": [
       {
         "heading": "Reaction distance",
-        "body": "Reaction distance is how far the car travels in the second or so it takes you to notice the hazard and start braking. It grows in proportion to speed: doubling your speed roughly doubles your reaction distance."
+        "body": "Reaction distance is how far the car travels in the second or so it takes you to notice the hazard and start braking. A simple rule of thumb is reaction distance in metres ≈ (speed in km/h ÷ 10) × 3 — so at 50 km/h you cover roughly 15 m before the brakes even bite. It grows in proportion to speed: doubling your speed roughly doubles your reaction distance. Tiredness, alcohol, phone use, and even loud conversation can easily double the reaction time itself, so two seconds of reaction at 50 km/h becomes nearly 30 m."
       },
       {
         "heading": "Braking distance",
-        "body": "Braking distance is how far the car travels from the moment you fully apply the brakes until it stops. It grows with the square of the speed: doubling your speed roughly quadruples the braking distance."
+        "body": "Braking distance is how far the car travels from the moment you fully apply the brakes until it stops. It grows with the square of the speed: doubling your speed roughly quadruples the braking distance. A useful approximation on a dry road is (speed ÷ 10)² ÷ 2 metres — so 50 km/h is about 12 m, 100 km/h about 50 m. Cold tyres, worn pads, a heavily loaded car, or a downhill slope all push the distance up; ABS shortens it on most surfaces but never makes it shorter than physics allows."
       },
       {
         "heading": "Total stopping distance",
-        "body": "Total stopping distance is reaction distance plus braking distance. Because braking distance grows much faster than reaction distance, small increases in speed produce large increases in the total distance you need to stop."
+        "body": "Total stopping distance is reaction distance plus braking distance. Because braking distance grows much faster than reaction distance, small increases in speed produce large increases in the total distance you need to stop. Going from 50 to 60 km/h adds about 30% more total distance, not 20%. The exam often asks you to compare stopping distances at two speeds — remember that the square law dominates above roughly 50 km/h."
+      },
+      {
+        "heading": "Worked examples and memory hooks",
+        "body": "At 50 km/h on a dry road: about 15 m reaction + 12 m braking ≈ 27 m total. At 100 km/h: about 30 m reaction + 50 m braking ≈ 80 m. On a wet road, double the braking distance; on snow or ice, treat it as three to ten times longer. A handy way to remember: 'double the speed, quadruple the brake, but the reaction only doubles' — and the wet road doubles the braking part again."
       }
     ]
   },
@@ -47,15 +55,19 @@
     "sections": [
       {
         "heading": "Wet, icy, and worn surfaces",
-        "body": "A wet road can roughly double the braking distance compared to dry tarmac; ice and snow can multiply it many times further. Worn tyres and worn brakes add to the effect. Reduce speed before you need to brake, not after."
+        "body": "A wet road can roughly double the braking distance compared to dry tarmac; ice and snow can multiply it many times further. The first 10–15 minutes of rain after a dry spell are the most slippery, because dust and oil rise to the surface before being washed away. Worn tyres (below 1.6 mm tread, or hardened from age) and worn brakes add to the effect, and aquaplaning becomes a risk above about 80 km/h on a wet road with shallow tread. Reduce speed before you need to brake, not after — braking on a slippery surface is itself a risk."
       },
       {
         "heading": "Visibility and headlights",
-        "body": "In fog, heavy rain, or at night, you must be able to stop within the distance you can see to be clear. Speed limits are upper bounds, not targets — drive at a speed appropriate for visibility."
+        "body": "In fog, heavy rain, or at night, you must be able to stop within the distance you can see to be clear. Speed limits are upper bounds, not targets — drive at a speed appropriate for visibility. Use dipped beams in poor daytime visibility; front fog lights are allowed when visibility drops below 200 m, and rear fog lights only below 50 m. Switch rear fog lights off as soon as visibility improves, because they dazzle the driver behind you and can hide your brake lights."
       },
       {
         "heading": "Following distance",
-        "body": "Keep enough gap to the vehicle in front that you can stop without hitting it. A common rule of thumb is roughly two seconds in good conditions, doubled when the road is wet, and longer still in poor visibility or behind a heavy vehicle."
+        "body": "Keep enough gap to the vehicle in front that you can stop without hitting it. A common rule of thumb is roughly two seconds in good conditions, doubled to four seconds when the road is wet, and longer still in poor visibility or behind a heavy vehicle whose driver cannot see you in their mirrors. The two-second method: as the vehicle in front passes a fixed point (a sign, a bridge shadow), count 'one-thousand-and-one, one-thousand-and-two' before you reach the same point. Behind a lorry or bus, leave more — both because their braking is shorter than yours and because their bulk blocks your view of what is happening ahead."
+      },
+      {
+        "heading": "Vehicle, load, and driver factors",
+        "body": "A loaded boot, a roof box, or a trailer all extend stopping distance and change how the car balances when you brake. Cold tyres in the first few kilometres grip noticeably less; the difference matters most when leaving home on a frosty morning. Tiredness lengthens reaction time more than alcohol at the same dose, and a 30-minute break with caffeine is the only proven short-term fix. Modern aids like ABS, ESP, and emergency-brake assist help control the car, but they do not shorten the underlying physics — they only stop you wasting distance through bad braking."
       }
     ]
   }
