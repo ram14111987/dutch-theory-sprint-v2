@@ -1,102 +1,98 @@
 # Dutch Theory Sprint v2
 
-A React + Vite scaffold for practicing Dutch driving theory.
+A React + Vite single-page app for practicing the Dutch (CBR) car driving theory exam. All data lives in the browser — there is no backend, account, sync, or analytics.
+
+**Status:** v1.0.0. Phase 0 through Phase 13 are complete and pushed to `main`.
+
+## Content
+
+- **12 quiz-enabled modules** (plus 2 placeholder modules — `hazard-perception` and `special-users` — that intentionally have no quiz yet)
+- **49 total lessons**
+- **196 total questions** across the quiz-enabled modules
+
+All content (modules, lessons, questions) is bundled JSON under `src/content/`.
+
+## Study modes
+
+| Mode | Route | Size | Timer | Pass | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Normal quiz | `#/quiz/:slug` | 5 questions | none | ≥ 80% best attempt completes a module | Per-module, randomized from that module's bank |
+| Mistake Review | `#/review`, `#/review/:slug` | up to 10 | none | informational | Drawn only from questions you previously answered wrong (latest-answer-wins) |
+| Quick Sprint | `#/sprint` | 10 mixed | 120 s | informational | Mixed pool across all quiz-enabled modules; unanswered = incorrect on timeout |
+| Topic Deep Dive | `#/topics`, `#/topics/:slug`, `#/topics/:slug/practice` | per-topic | none | informational | Focused practice for a single module's full bank |
+| Practice Mock Exam | `#/exam?mode=practice` | 25 | none | ≥ 80% | Mixed pool across modules |
+| Realistic Mock Exam | `#/exam?mode=realistic` | 50 | 30 minutes | ≥ 44 correct | CBR-style: 50 questions / 30 min / 44 to pass |
 
 Routing uses `react-router-dom`'s `HashRouter`, so all routes live under `#/`.
 
+## Install and run
+
+Requires Node.js 18+ (Node 20+ recommended).
+
+```bash
+npm install
+npm run dev       # start Vite dev server with HMR
+npm run build     # production build to dist/
+npm run preview   # preview the production build
+npm run lint      # run ESLint
+```
+
+Open the URL Vite prints (usually `http://localhost:5173`).
+
 ## Routes
 
-- `#/` — home (study modes, modules, progress placeholder)
-- `#/modules` — list of all modules
-- `#/modules/:slug` — module detail (lessons + Start quiz when available)
+- `#/` — home (study modes, modules, progress summary)
+- `#/modules`, `#/modules/:slug` — module list and detail
 - `#/lessons/:slug` — single lesson
-- `#/quiz/:slug` — in-memory randomized 5-question quiz (Phase 2; only `signs` is enabled)
-- `#/quiz/:slug/results` — quiz results page
-- `#/sprint` — Quick Sprint: 10 mixed questions, 120-second countdown (Phase 5)
-- `#/sprint/results` — Quick Sprint results page
+- `#/quiz/:slug`, `#/quiz/:slug/results` — normal quiz
+- `#/review`, `#/review/:slug`, `#/review/:slug/results` — Mistake Review
+- `#/sprint`, `#/sprint/results` — Quick Sprint
+- `#/topics`, `#/topics/:slug`, `#/topics/:slug/practice`, `#/topics/:slug/results` — Topic Deep Dive
+- `#/exam`, `#/exam/results` — Mock Exam (practice or realistic via `?mode=`)
 
-## Quiz scaffold (Phase 2)
+## Progress and persistence
 
-The signs module ships with an in-memory quiz. From the home page or modules
-list, open "Road signs and markings" and click **Start quiz** (or visit
-`#/quiz/signs`). Each session is a fresh randomized 5-question set drawn from
-`src/content/questions/signs.json`. Answers, scoring, and the results page are
-ephemeral — nothing is persisted.
-
-Pure quiz logic lives in `src/quiz/{engine,selection,scoring}.js` and has no
-React imports.
-
-## Progress and persistence (Phase 3)
-
-Quiz results are persisted locally so progress survives reloads.
+Quiz, sprint, review, topic, and mock-exam attempts are persisted locally so progress survives reloads.
 
 - **Storage:** `window.localStorage` under the key `dts.v1.progress`.
-- **Schema version:** `1`. If a stored payload has a different version or
-  fails to parse, it is treated as empty and replaced on the next write.
-- **Privacy:** All data lives in the user's browser. Nothing is uploaded; there
-  is no backend, sync, account, or analytics.
-- **What is stored:** Per-module attempts, each with `id`, `moduleSlug`,
-  `finishedAt`, `correct`, `total`, `percentage`, and a per-question
-  breakdown (`questionId`, `selectedChoiceId`, `correct`).
-- **Retention:** The most recent **20 attempts per module** are kept; older
-  ones are dropped on write.
-- **Aggregates** (completed count, distinct questions practiced, weakest
-  area, best %, attempt count) are derived from attempts on read — there is
-  no separate aggregate write path.
-- **Completion threshold:** A module is "completed" when its best attempt is
-  ≥ **80%**.
-- **Reset:** The Home page has a **Reset progress** button (with confirm)
-  that clears all attempts globally. There is no per-module reset.
-- **Fallback:** If `localStorage` is unavailable, throws on read/write, or
-  hits a quota error, the store transparently falls back to an in-memory copy
-  for the rest of the session. Progress will appear to work normally but will
-  not persist across reloads.
+- **Schema version:** `1`. A different version or unparseable payload is treated as empty and replaced on next write.
+- **Privacy:** All data lives in the user's browser. Nothing is uploaded; there is no backend, sync, account, or analytics.
+- **What is stored:** Per-module attempts with `id`, `moduleSlug`, `mode`, `finishedAt`, `correct`, `total`, `percentage`, and a per-question breakdown (`questionId`, `selectedChoiceId`, `correct`).
+- **Retention:** The most recent **20 attempts per module** are kept; older ones are dropped on write.
+- **Aggregates** (completed count, distinct questions practiced, weakest area, best %, attempt count) are derived from attempts on read.
+- **Completion threshold:** A module is "completed" when its best normal-quiz attempt is ≥ **80%**.
+- **Reset:** The Home page has a **Reset progress** button (with confirm) that clears all attempts globally. No per-module reset.
+- **Fallback:** If `localStorage` is unavailable, throws, or hits quota, the store transparently falls back to an in-memory copy for the rest of the session.
 
-The store lives in `src/storage/progressStore.js`. It is pure JS with no React
-imports and is kept outside `src/quiz/*.js`.
+The store lives in `src/storage/progressStore.js` — pure JS, no React imports, kept outside `src/quiz/*.js`.
 
-## Quick Sprint (Phase 5)
+## Mode-specific behavior notes
 
-Quick Sprint is a fast, mixed-topic warm-up.
+- **Sprint** uses elapsed wall time (`startedAt + Date.now()`) so the countdown does not drift if the tab is throttled. Sprint attempts are tagged by **source module** (one stored attempt per source module touched in a sprint) and share a `finishedAt`. Sprint attempts do **not** count toward completed-module status or best normal-quiz score, but they **do** contribute to distinct questions practiced and feed Mistake Review.
+- **Mistake Review** derives the wrong-question pool using latest-answer-wins across all attempt modes.
+- **Mock Exam — Realistic** auto-submits on timeout; unanswered questions count as incorrect. A guarded finalize prevents double-submit.
+- **Topic Deep Dive** practices a single module's full question bank without affecting the normal-quiz completion threshold.
 
-- **Size:** 10 questions per sprint.
-- **Timer:** 120 seconds, driven by elapsed wall time (`startedAt + Date.now()`)
-  so the countdown does not drift if the tab is briefly throttled.
-- **Question pool:** every quiz-enabled module's question bank, gathered via
-  `getAllQuizQuestions()` in `src/content/index.js`. The pool auto-expands as
-  more modules flip `quizEnabled: true` — no Sprint-side change required.
-- **Dedup:** questions are deduplicated by id within a sprint (first occurrence
-  wins) before shuffling.
-- **Timeout:** when the timer hits zero the sprint auto-submits. Unanswered
-  questions count as incorrect. A brief "Time's up" state shows before routing
-  to results. A guarded `finalize()` ensures timeout and manual finish cannot
-  double-submit.
-- **Persistence:** sprint attempts are saved with `mode: 'sprint'` and tagged by
-  **source module** (not a synthetic sprint slug) — one stored attempt per
-  source module touched, sharing a `finishedAt` timestamp. Schema stays at
-  version 1.
-- **Progress impact:** sprint attempts do **not** count toward completed-module
-  status or best normal quiz score. They **do** contribute to *distinct
-  questions practiced* and feed Mistake Review through the same
-  latest-answer-wins derivation used by quiz and review attempts.
-- **Coming soon:** Topic Deep Dive and Mock Exam remain placeholders.
+Pure logic for each mode lives in `src/quiz/` (`engine.js`, `selection.js`, `scoring.js`, `sprint.js`, `topic.js`, `mistakes.js`, `mockExam.js`) and has no React or storage imports.
 
-Pure sprint logic lives in `src/quiz/sprint.js` (question selection, timing,
-scoring) and has no React or storage imports.
+## Known limitations (v1)
 
-## React + Vite template notes
+- No accounts, login, sync, or cloud backup — clearing browser storage clears all progress.
+- No images, audio, or video in lessons or questions.
+- Two placeholder modules (`hazard-perception`, `special-users`) have no lessons or quiz yet.
+- No localization — UI and content are English-only.
+- No automated test suite. Verification is via lint, build, and the [manual QA checklist](docs/manual-qa-checklist.md).
+- No PWA / offline install manifest. Works offline once loaded only because the SPA bundle is small and static.
+- No analytics or telemetry of any kind.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Documentation
 
-Currently, two official plugins are available:
+- [`docs/manual-qa-checklist.md`](docs/manual-qa-checklist.md) — pre-release manual QA checklist
+- [`docs/release-notes-v1.md`](docs/release-notes-v1.md) — v1.0.0 release notes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech stack
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19 + Vite 8
+- `react-router-dom` 7 (HashRouter)
+- ESLint 10 with `eslint-plugin-react-hooks` and `eslint-plugin-react-refresh`
+- No CSS framework — plain CSS in `src/App.css` and `src/index.css`
