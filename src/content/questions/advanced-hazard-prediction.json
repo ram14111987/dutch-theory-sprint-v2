@@ -3,17 +3,34 @@
     "id": "advanced-hazard-prediction-001",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-reading-traffic",
-    "topicTags": ["scanning", "anticipation"],
+    "topicTags": [
+      "scanning",
+      "anticipation"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "On a motorway you should look ahead for the big picture about:",
     "choices": [
-      { "id": "a", "text": "30 metres" },
-      { "id": "b", "text": "100 metres" },
-      { "id": "c", "text": "300 metres or more" },
-      { "id": "d", "text": "Only as far as your headlights reach by day" }
+      {
+        "id": "a",
+        "text": "30 metres"
+      },
+      {
+        "id": "b",
+        "text": "100 metres"
+      },
+      {
+        "id": "c",
+        "text": "300 metres or more"
+      },
+      {
+        "id": "d",
+        "text": "Only as far as your headlights reach by day"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Scan 300 m+ ahead on a motorway so you have time to react to trouble.",
       "examTip": "Combine far, mid and near scanning with regular mirror checks."
@@ -23,19 +40,36 @@
     "id": "advanced-hazard-prediction-002",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-reading-traffic",
-    "topicTags": ["prediction", "children"],
+    "topicTags": [
+      "prediction",
+      "children"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "A ball rolls onto the road from between parked cars. You should:",
     "choices": [
-      { "id": "a", "text": "Drive on at the same speed — there is nothing there yet" },
-      { "id": "b", "text": "Sound the horn and continue" },
-      { "id": "c", "text": "Lift off and prepare to brake for a child" },
-      { "id": "d", "text": "Swerve sharply into the other lane" }
+      {
+        "id": "a",
+        "text": "Drive on at the same speed \u2014 there is nothing there yet"
+      },
+      {
+        "id": "b",
+        "text": "Sound the horn and continue"
+      },
+      {
+        "id": "c",
+        "text": "Lift off and prepare to brake for a child"
+      },
+      {
+        "id": "d",
+        "text": "Swerve sharply into the other lane"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
-      "short": "A ball predicts a child — slow down and be ready to stop.",
+      "short": "A ball predicts a child \u2014 slow down and be ready to stop.",
       "examTip": "Anticipating saves a hard brake or a collision later."
     }
   },
@@ -43,19 +77,35 @@
     "id": "advanced-hazard-prediction-003",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-reading-traffic",
-    "topicTags": ["brake-lights"],
+    "topicTags": [
+      "brake-lights"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You see brake lights three cars ahead on the motorway. You should:",
     "choices": [
-      { "id": "a", "text": "Ignore them — only the car directly ahead matters" },
-      { "id": "b", "text": "Ease off the throttle and prepare to brake" },
-      { "id": "c", "text": "Change lane immediately" },
-      { "id": "d", "text": "Switch on hazard lights" }
+      {
+        "id": "a",
+        "text": "Ignore them \u2014 only the car directly ahead matters"
+      },
+      {
+        "id": "b",
+        "text": "Ease off the throttle and prepare to brake"
+      },
+      {
+        "id": "c",
+        "text": "Change lane immediately"
+      },
+      {
+        "id": "d",
+        "text": "Switch on hazard lights"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
-      "short": "Brake lights ahead are an early warning — react before the car directly in front brakes.",
+      "short": "Brake lights ahead are an early warning \u2014 react before the car directly in front brakes.",
       "examTip": "Use hazard lights only if a sudden traffic jam forms behind you."
     }
   },
@@ -63,19 +113,36 @@
     "id": "advanced-hazard-prediction-004",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-vulnerable-users",
-    "topicTags": ["cyclists", "junctions"],
+    "topicTags": [
+      "cyclists",
+      "junctions"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Approaching a junction in town with a cycle path on the right, you should:",
     "choices": [
-      { "id": "a", "text": "Speed up to clear the junction quickly" },
-      { "id": "b", "text": "Slow down and check carefully for cyclists, including from the right" },
-      { "id": "c", "text": "Sound the horn so cyclists know you are coming" },
-      { "id": "d", "text": "Move to the middle of the road" }
+      {
+        "id": "a",
+        "text": "Speed up to clear the junction quickly"
+      },
+      {
+        "id": "b",
+        "text": "Slow down and check carefully for cyclists, including from the right"
+      },
+      {
+        "id": "c",
+        "text": "Sound the horn so cyclists know you are coming"
+      },
+      {
+        "id": "d",
+        "text": "Move to the middle of the road"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
-      "short": "Cyclists may appear from the right or swerve — slow down and look.",
+      "short": "Cyclists may appear from the right or swerve \u2014 slow down and look.",
       "examTip": "Cyclists from the right on a cycle path normally have priority."
     }
   },
@@ -83,17 +150,34 @@
     "id": "advanced-hazard-prediction-005",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-vulnerable-users",
-    "topicTags": ["children", "schools"],
+    "topicTags": [
+      "children",
+      "schools"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You are driving past a primary school at the end of the school day. You should:",
     "choices": [
-      { "id": "a", "text": "Drive at the normal speed limit" },
-      { "id": "b", "text": "Slow well below the limit and expect unpredictable behaviour" },
-      { "id": "c", "text": "Use the horn continuously" },
-      { "id": "d", "text": "Drive close to the kerb to feel safer" }
+      {
+        "id": "a",
+        "text": "Drive at the normal speed limit"
+      },
+      {
+        "id": "b",
+        "text": "Slow well below the limit and expect unpredictable behaviour"
+      },
+      {
+        "id": "c",
+        "text": "Use the horn continuously"
+      },
+      {
+        "id": "d",
+        "text": "Drive close to the kerb to feel safer"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Children are unpredictable and short; slow well below the limit near schools.",
       "examTip": "Watch for kids stepping between parked cars."
@@ -103,19 +187,36 @@
     "id": "advanced-hazard-prediction-006",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-vulnerable-users",
-    "topicTags": ["motorcyclists", "blind-spot"],
+    "topicTags": [
+      "motorcyclists",
+      "blind-spot"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Before changing lane on the motorway, the most important extra check for motorcyclists is:",
     "choices": [
-      { "id": "a", "text": "A glance in the rear-view mirror only" },
-      { "id": "b", "text": "An over-the-shoulder check of the blind spot" },
-      { "id": "c", "text": "Switching on the radio" },
-      { "id": "d", "text": "Sounding the horn" }
+      {
+        "id": "a",
+        "text": "A glance in the rear-view mirror only"
+      },
+      {
+        "id": "b",
+        "text": "An over-the-shoulder check of the blind spot"
+      },
+      {
+        "id": "c",
+        "text": "Switching on the radio"
+      },
+      {
+        "id": "d",
+        "text": "Sounding the horn"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
-      "short": "Motorcyclists hide easily in the blind spot — always shoulder-check before changing lane.",
+      "short": "Motorcyclists hide easily in the blind spot \u2014 always shoulder-check before changing lane.",
       "examTip": "Combine mirror + indicator + shoulder check, in that order."
     }
   },
@@ -123,17 +224,34 @@
     "id": "advanced-hazard-prediction-007",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-weather-surface",
-    "topicTags": ["wet-road", "first-rain"],
+    "topicTags": [
+      "wet-road",
+      "first-rain"
+    ],
     "type": "single",
     "difficulty": "medium",
-    "stem": "It starts to rain after several dry weeks. Compared with a normal wet road, the first 10–15 minutes are:",
+    "stem": "It starts to rain after several dry weeks. Compared with a normal wet road, the first 10\u201315 minutes are:",
     "choices": [
-      { "id": "a", "text": "Safer, because there is less standing water" },
-      { "id": "b", "text": "About the same in grip" },
-      { "id": "c", "text": "More slippery, because oil and dust are lifted to the surface" },
-      { "id": "d", "text": "Drier in the wheel tracks" }
+      {
+        "id": "a",
+        "text": "Safer, because there is less standing water"
+      },
+      {
+        "id": "b",
+        "text": "About the same in grip"
+      },
+      {
+        "id": "c",
+        "text": "More slippery, because oil and dust are lifted to the surface"
+      },
+      {
+        "id": "d",
+        "text": "Drier in the wheel tracks"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "First rain after a dry spell creates an extra slippery film of oil and dust.",
       "examTip": "Increase following distance and brake earlier."
@@ -143,37 +261,70 @@
     "id": "advanced-hazard-prediction-008",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-weather-surface",
-    "topicTags": ["ice", "bridges"],
+    "topicTags": [
+      "ice",
+      "bridges"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Near freezing point, which part of the road is most likely to be icy even when the rest looks dry?",
     "choices": [
-      { "id": "a", "text": "A bridge or shaded patch" },
-      { "id": "b", "text": "A south-facing slope in full sun" },
-      { "id": "c", "text": "The middle of a wide motorway" },
-      { "id": "d", "text": "A petrol station forecourt" }
+      {
+        "id": "a",
+        "text": "A bridge or shaded patch"
+      },
+      {
+        "id": "b",
+        "text": "A south-facing slope in full sun"
+      },
+      {
+        "id": "c",
+        "text": "The middle of a wide motorway"
+      },
+      {
+        "id": "d",
+        "text": "A petrol station forecourt"
+      }
     ],
-    "correctChoiceIds": ["a"],
+    "correctChoiceIds": [
+      "a"
+    ],
     "explanation": {
       "short": "Bridges and shadows freeze first because cold air gets to them from below or never warms them.",
-      "examTip": "Watch the temperature display close to 0 °C."
+      "examTip": "Watch the temperature display close to 0 \u00b0C."
     }
   },
   {
     "id": "advanced-hazard-prediction-009",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-weather-surface",
-    "topicTags": ["sun-glare"],
+    "topicTags": [
+      "sun-glare"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You are driving towards a low winter sun and the windscreen is dirty. The main risk is that:",
     "choices": [
-      { "id": "a", "text": "Other drivers will overtake you" },
-      { "id": "b", "text": "The dirt scatters the light and hides pedestrians and cyclists in the glare" },
-      { "id": "c", "text": "The car will overheat" },
-      { "id": "d", "text": "The fuel will evaporate" }
+      {
+        "id": "a",
+        "text": "Other drivers will overtake you"
+      },
+      {
+        "id": "b",
+        "text": "The dirt scatters the light and hides pedestrians and cyclists in the glare"
+      },
+      {
+        "id": "c",
+        "text": "The car will overheat"
+      },
+      {
+        "id": "d",
+        "text": "The fuel will evaporate"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "A dirty screen scatters low sun glare and can completely hide people on the road.",
       "examTip": "Clean the screen, use the sun visor, and slow down."
@@ -183,17 +334,34 @@
     "id": "advanced-hazard-prediction-010",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-decision-making",
-    "topicTags": ["braking", "speed-reserve"],
+    "topicTags": [
+      "braking",
+      "speed-reserve"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You see a wobbly cyclist 50 m ahead on a narrow road. The best first response is to:",
     "choices": [
-      { "id": "a", "text": "Maintain speed and pass quickly" },
-      { "id": "b", "text": "Lift off in time so you have speed in hand if they swerve" },
-      { "id": "c", "text": "Sound the horn until they stabilise" },
-      { "id": "d", "text": "Flash the headlights" }
+      {
+        "id": "a",
+        "text": "Maintain speed and pass quickly"
+      },
+      {
+        "id": "b",
+        "text": "Lift off in time so you have speed in hand if they swerve"
+      },
+      {
+        "id": "c",
+        "text": "Sound the horn until they stabilise"
+      },
+      {
+        "id": "d",
+        "text": "Flash the headlights"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Having a few km/h in hand solves most cyclist surprises without drama.",
       "examTip": "Arriving 2 seconds later costs nothing; a collision costs everything."
@@ -203,17 +371,33 @@
     "id": "advanced-hazard-prediction-011",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-decision-making",
-    "topicTags": ["brake-vs-steer"],
+    "topicTags": [
+      "brake-vs-steer"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "At 80 km/h on a wet road a hazard appears in your lane. As a rule, you should:",
     "choices": [
-      { "id": "a", "text": "Brake straight if you have time, only steer if braking will not be enough" },
-      { "id": "b", "text": "Always swerve into the opposite lane" },
-      { "id": "c", "text": "Always swerve onto the verge" },
-      { "id": "d", "text": "Pull the handbrake" }
+      {
+        "id": "a",
+        "text": "Brake straight if you have time, only steer if braking will not be enough"
+      },
+      {
+        "id": "b",
+        "text": "Always swerve into the opposite lane"
+      },
+      {
+        "id": "c",
+        "text": "Always swerve onto the verge"
+      },
+      {
+        "id": "d",
+        "text": "Pull the handbrake"
+      }
     ],
-    "correctChoiceIds": ["a"],
+    "correctChoiceIds": [
+      "a"
+    ],
     "explanation": {
       "short": "On a wet road, brake straight; swerving may lose grip and create a worse situation.",
       "examTip": "Only steer to avoid when there is a clear, safe space."
@@ -223,19 +407,35 @@
     "id": "advanced-hazard-prediction-012",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-decision-making",
-    "topicTags": ["second-hazard"],
+    "topicTags": [
+      "second-hazard"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "While focusing fully on a cyclist ahead, many drivers cause an accident by:",
     "choices": [
-      { "id": "a", "text": "Driving too slowly afterwards" },
-      { "id": "b", "text": "Missing a second hazard, such as a car braking in front" },
-      { "id": "c", "text": "Using the indicator" },
-      { "id": "d", "text": "Checking the mirrors" }
+      {
+        "id": "a",
+        "text": "Driving too slowly afterwards"
+      },
+      {
+        "id": "b",
+        "text": "Missing a second hazard, such as a car braking in front"
+      },
+      {
+        "id": "c",
+        "text": "Using the indicator"
+      },
+      {
+        "id": "d",
+        "text": "Checking the mirrors"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
-      "short": "Tunnel-vision on one hazard makes you miss the next one — keep scanning.",
+      "short": "Tunnel-vision on one hazard makes you miss the next one \u2014 keep scanning.",
       "examTip": "Mirror checks during a reaction help you avoid rear-end collisions."
     }
   },
@@ -243,17 +443,34 @@
     "id": "advanced-hazard-prediction-013",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-reading-traffic",
-    "topicTags": ["brake-lights", "chain"],
+    "topicTags": [
+      "brake-lights",
+      "chain"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You drive on a motorway and notice brake lights flashing two or three cars ahead. What is the best response?",
     "choices": [
-      { "id": "a", "text": "Maintain speed; only react when the car directly in front brakes" },
-      { "id": "b", "text": "Ease off the accelerator and increase your following distance" },
-      { "id": "c", "text": "Change lanes immediately without checking mirrors" },
-      { "id": "d", "text": "Flash your headlights at the cars ahead" }
+      {
+        "id": "a",
+        "text": "Maintain speed; only react when the car directly in front brakes"
+      },
+      {
+        "id": "b",
+        "text": "Ease off the accelerator and increase your following distance"
+      },
+      {
+        "id": "c",
+        "text": "Change lanes immediately without checking mirrors"
+      },
+      {
+        "id": "d",
+        "text": "Flash your headlights at the cars ahead"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Reading several cars ahead lets you slow gently before you would otherwise have to brake hard.",
       "examTip": "This habit is the single biggest cause of avoiding motorway rear-end pile-ups."
@@ -263,17 +480,34 @@
     "id": "advanced-hazard-prediction-014",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-vulnerable-users",
-    "topicTags": ["cyclists", "right-turn"],
+    "topicTags": [
+      "cyclists",
+      "right-turn"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You signal to turn right at an urban junction. A cyclist is alongside your car on the right. What is the safest action?",
     "choices": [
-      { "id": "a", "text": "Turn quickly to get ahead of the cyclist" },
-      { "id": "b", "text": "Wait until the cyclist has cleared the junction, then turn" },
-      { "id": "c", "text": "Sound the horn and continue turning" },
-      { "id": "d", "text": "Squeeze the cyclist toward the kerb" }
+      {
+        "id": "a",
+        "text": "Turn quickly to get ahead of the cyclist"
+      },
+      {
+        "id": "b",
+        "text": "Wait until the cyclist has cleared the junction, then turn"
+      },
+      {
+        "id": "c",
+        "text": "Sound the horn and continue turning"
+      },
+      {
+        "id": "d",
+        "text": "Squeeze the cyclist toward the kerb"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Right-turn 'dooring' or hooking is a classic killer of cyclists; wait until they are clear or visible well ahead of you.",
       "examTip": "Always do a final blind-spot check just before initiating the turn."
@@ -283,17 +517,34 @@
     "id": "advanced-hazard-prediction-015",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-weather-surface",
-    "topicTags": ["aquaplaning", "recovery"],
+    "topicTags": [
+      "aquaplaning",
+      "recovery"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "On a wet motorway you feel the steering go light and the car begins to aquaplane. What should you do?",
     "choices": [
-      { "id": "a", "text": "Brake hard and steer sharply" },
-      { "id": "b", "text": "Ease off the accelerator, hold the wheel straight and wait for grip to return" },
-      { "id": "c", "text": "Accelerate to break through the water film" },
-      { "id": "d", "text": "Pull the handbrake" }
+      {
+        "id": "a",
+        "text": "Brake hard and steer sharply"
+      },
+      {
+        "id": "b",
+        "text": "Ease off the accelerator, hold the wheel straight and wait for grip to return"
+      },
+      {
+        "id": "c",
+        "text": "Accelerate to break through the water film"
+      },
+      {
+        "id": "d",
+        "text": "Pull the handbrake"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Smoothly reduce speed and keep the wheel straight; the tyres will regain contact as speed drops.",
       "examTip": "Good tread depth and lower speed in standing water are the best prevention."
@@ -303,20 +554,192 @@
     "id": "advanced-hazard-prediction-016",
     "moduleId": "advanced-hazard-prediction",
     "lessonId": "advanced-hazard-prediction-decision-making",
-    "topicTags": ["intersection", "blocked-view"],
+    "topicTags": [
+      "intersection",
+      "blocked-view"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You approach a junction where a parked van blocks your view of crossing traffic. The best policy is to:",
     "choices": [
-      { "id": "a", "text": "Maintain speed; the other driver must give way" },
-      { "id": "b", "text": "Creep forward slowly until your view is clear, then proceed" },
-      { "id": "c", "text": "Sound the horn and drive through" },
-      { "id": "d", "text": "Close your eyes briefly and hope for the best" }
+      {
+        "id": "a",
+        "text": "Maintain speed; the other driver must give way"
+      },
+      {
+        "id": "b",
+        "text": "Creep forward slowly until your view is clear, then proceed"
+      },
+      {
+        "id": "c",
+        "text": "Sound the horn and drive through"
+      },
+      {
+        "id": "d",
+        "text": "Close your eyes briefly and hope for the best"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "When your view is blocked, edge forward only as far as needed to see, then decide.",
-      "examTip": "Pedestrians and cyclists may step out from behind the same obstacle — scan low and wide."
+      "examTip": "Pedestrians and cyclists may step out from behind the same obstacle \u2014 scan low and wide."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-017",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-reading-traffic",
+    "topicTags": [
+      "scenario",
+      "brake-lights",
+      "chain",
+      "anticipation"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Driving in town at 50 km/h, you notice brake lights flash on two cars ahead. The car directly in front of you has not braked yet. What is the safest immediate action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Wait until the car in front brakes, then react"
+      },
+      {
+        "id": "b",
+        "text": "Ease off the accelerator and cover the brake now"
+      },
+      {
+        "id": "c",
+        "text": "Accelerate to overtake before the queue forms"
+      },
+      {
+        "id": "d",
+        "text": "Sound your horn to warn other drivers"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Brake lights further up are an early warning; preparing now avoids a late, hard brake later.",
+      "examTip": "'I expect \u2014 I prepare' beats 'I see \u2014 I brake' \u2014 anticipation is the key skill the exam tests."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-018",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-vulnerable-users",
+    "topicTags": [
+      "scenario",
+      "lorry",
+      "right-turn",
+      "blind-spot"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are stopped at a red light, intending to turn right. A lorry pulls alongside you on your left, also indicating right. The light turns green. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Turn at the same time as the lorry \u2014 you both indicated"
+      },
+      {
+        "id": "b",
+        "text": "Accelerate to clear the junction before the lorry"
+      },
+      {
+        "id": "c",
+        "text": "Hold back and let the lorry complete the turn first"
+      },
+      {
+        "id": "d",
+        "text": "Sound your horn so the lorry waits"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Lorries have a large right blind spot; any cyclist between you and the lorry is invisible to the lorry driver.",
+      "examTip": "Never sit alongside a long vehicle at a junction where it could turn across you."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-019",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-weather-surface",
+    "topicTags": [
+      "scenario",
+      "aquaplaning",
+      "motorway"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a motorway at 100 km/h in heavy rain, the steering suddenly feels light and the car begins to aquaplane. What is the correct response?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Brake hard to stop quickly"
+      },
+      {
+        "id": "b",
+        "text": "Steer sharply to find dry tarmac"
+      },
+      {
+        "id": "c",
+        "text": "Lift off the accelerator, keep the wheel straight, and wait for grip"
+      },
+      {
+        "id": "d",
+        "text": "Pull the handbrake to slow the car"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "During aquaplaning, lift off, keep the wheel straight, and let the car slow until the tyres grip again.",
+      "examTip": "Braking or steering during aquaplaning loses control \u2014 'lift, straight, wait, slow'."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-020",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-decision-making",
+    "topicTags": [
+      "scenario",
+      "animal",
+      "brake-vs-steer",
+      "rural"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a dry rural road at 80 km/h, a small animal runs onto the road about 30 m ahead. There is oncoming traffic in the other lane and a ditch on your right. What is the safest decision?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Swerve into the oncoming lane to avoid the animal"
+      },
+      {
+        "id": "b",
+        "text": "Swerve into the right-hand ditch"
+      },
+      {
+        "id": "c",
+        "text": "Brake hard in a straight line, accepting that you may hit the animal"
+      },
+      {
+        "id": "d",
+        "text": "Accelerate to pass the animal before it moves further"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Brake straight in your own lane; swerving risks a head-on collision or losing the car off the road.",
+      "examTip": "Brake first, steer only if braking alone is not enough and there is a clear, safe space to steer into."
     }
   }
 ]

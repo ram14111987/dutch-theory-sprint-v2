@@ -3,17 +3,34 @@
     "id": "priority-001",
     "moduleId": "priority",
     "lessonId": "priority-basic-rules",
-    "topicTags": ["right-of-way", "default-rule"],
+    "topicTags": [
+      "right-of-way",
+      "default-rule"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Two roads of equal status meet with no signs, markings, or traffic lights. Who has priority?",
     "choices": [
-      { "id": "a", "text": "The car coming from the left" },
-      { "id": "b", "text": "The car coming from the right" },
-      { "id": "c", "text": "The car going straight on" },
-      { "id": "d", "text": "The car that arrived first" }
+      {
+        "id": "a",
+        "text": "The car coming from the left"
+      },
+      {
+        "id": "b",
+        "text": "The car coming from the right"
+      },
+      {
+        "id": "c",
+        "text": "The car going straight on"
+      },
+      {
+        "id": "d",
+        "text": "The car that arrived first"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Without signs or markings, traffic coming from the right has priority at an equal-road junction.",
       "examTip": "This rule covers cyclists and mopeds on the road too, not just cars."
@@ -23,37 +40,71 @@
     "id": "priority-002",
     "moduleId": "priority",
     "lessonId": "priority-basic-rules",
-    "topicTags": ["turning", "oncoming"],
+    "topicTags": [
+      "turning",
+      "oncoming"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You want to turn left at a junction. An oncoming car is going straight on. What must you do?",
     "choices": [
-      { "id": "a", "text": "Turn quickly because you arrived first" },
-      { "id": "b", "text": "Give way to the oncoming car" },
-      { "id": "c", "text": "Sound the horn and turn" },
-      { "id": "d", "text": "Turn only if the oncoming car flashes its headlights" }
+      {
+        "id": "a",
+        "text": "Turn quickly because you arrived first"
+      },
+      {
+        "id": "b",
+        "text": "Give way to the oncoming car"
+      },
+      {
+        "id": "c",
+        "text": "Sound the horn and turn"
+      },
+      {
+        "id": "d",
+        "text": "Turn only if the oncoming car flashes its headlights"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "When turning left, you must yield to oncoming traffic going straight on.",
-      "examTip": "Flashing headlights from another driver is not a legal sign of priority — never base a turn on it."
+      "examTip": "Flashing headlights from another driver is not a legal sign of priority \u2014 never base a turn on it."
     }
   },
   {
     "id": "priority-003",
     "moduleId": "priority",
     "lessonId": "priority-basic-rules",
-    "topicTags": ["turning", "pedestrians"],
+    "topicTags": [
+      "turning",
+      "pedestrians"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You are turning right into a side street. A pedestrian is already crossing the side street. You should:",
     "choices": [
-      { "id": "a", "text": "Continue — you have priority because you are turning" },
-      { "id": "b", "text": "Sound your horn so the pedestrian hurries" },
-      { "id": "c", "text": "Give way to the pedestrian" },
-      { "id": "d", "text": "Stop only if the pedestrian is in your lane" }
+      {
+        "id": "a",
+        "text": "Continue \u2014 you have priority because you are turning"
+      },
+      {
+        "id": "b",
+        "text": "Sound your horn so the pedestrian hurries"
+      },
+      {
+        "id": "c",
+        "text": "Give way to the pedestrian"
+      },
+      {
+        "id": "d",
+        "text": "Stop only if the pedestrian is in your lane"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "When turning, you give way to pedestrians already crossing the road you turn into.",
       "examTip": "The same rule applies to cyclists going straight on along the road you are leaving."
@@ -63,17 +114,34 @@
     "id": "priority-004",
     "moduleId": "priority",
     "lessonId": "priority-intersections",
-    "topicTags": ["give-way", "intersection"],
+    "topicTags": [
+      "give-way",
+      "intersection"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You approach a junction with an inverted red-bordered triangle. The crossing road is empty. You must:",
     "choices": [
-      { "id": "a", "text": "Stop completely at the line" },
-      { "id": "b", "text": "Yield to crossing traffic, but you may roll through if it is clear" },
-      { "id": "c", "text": "Continue at normal speed because you are alone" },
-      { "id": "d", "text": "Wait for an oncoming car before crossing" }
+      {
+        "id": "a",
+        "text": "Stop completely at the line"
+      },
+      {
+        "id": "b",
+        "text": "Yield to crossing traffic, but you may roll through if it is clear"
+      },
+      {
+        "id": "c",
+        "text": "Continue at normal speed because you are alone"
+      },
+      {
+        "id": "d",
+        "text": "Wait for an oncoming car before crossing"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "A give-way sign requires you to yield, not necessarily to stop fully.",
       "examTip": "If a STOP sign were used instead, you would have to stop completely even when the road is empty."
@@ -83,17 +151,34 @@
     "id": "priority-005",
     "moduleId": "priority",
     "lessonId": "priority-intersections",
-    "topicTags": ["traffic-lights", "priority"],
+    "topicTags": [
+      "traffic-lights",
+      "priority"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "A traffic light shows green and a priority-road sign points toward your road. A car has not yet cleared the junction. You should:",
     "choices": [
-      { "id": "a", "text": "Drive on at speed — green and priority both favour you" },
-      { "id": "b", "text": "Stop and wait until the light turns amber" },
-      { "id": "c", "text": "Give way to the car that is still legally on the junction" },
-      { "id": "d", "text": "Sound your horn and continue" }
+      {
+        "id": "a",
+        "text": "Drive on at speed \u2014 green and priority both favour you"
+      },
+      {
+        "id": "b",
+        "text": "Stop and wait until the light turns amber"
+      },
+      {
+        "id": "c",
+        "text": "Give way to the car that is still legally on the junction"
+      },
+      {
+        "id": "d",
+        "text": "Sound your horn and continue"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "A green light or priority does not let you push into a junction that is not yet clear; yield to road users already on it.",
       "examTip": "Examiners watch for drivers who treat green as an absolute right of way."
@@ -103,17 +188,34 @@
     "id": "priority-006",
     "moduleId": "priority",
     "lessonId": "priority-intersections",
-    "topicTags": ["traffic-lights", "failure"],
+    "topicTags": [
+      "traffic-lights",
+      "failure"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "A traffic light at a junction is flashing amber. What does this mean for you?",
     "choices": [
-      { "id": "a", "text": "Treat the light as red and stop" },
-      { "id": "b", "text": "Treat the light as green and continue" },
-      { "id": "c", "text": "The light is out of service; follow the priority signs and markings" },
-      { "id": "d", "text": "Reverse and find another route" }
+      {
+        "id": "a",
+        "text": "Treat the light as red and stop"
+      },
+      {
+        "id": "b",
+        "text": "Treat the light as green and continue"
+      },
+      {
+        "id": "c",
+        "text": "The light is out of service; follow the priority signs and markings"
+      },
+      {
+        "id": "d",
+        "text": "Reverse and find another route"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Flashing amber means the signal is not active; you fall back to the priority signs at the junction.",
       "examTip": "If no priority signs are present either, the default 'priority from the right' rule applies."
@@ -123,17 +225,34 @@
     "id": "priority-007",
     "moduleId": "priority",
     "lessonId": "priority-roundabouts",
-    "topicTags": ["roundabout", "entering"],
+    "topicTags": [
+      "roundabout",
+      "entering"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You are about to enter a typical Dutch roundabout with shark's teeth at the entry. Who has priority?",
     "choices": [
-      { "id": "a", "text": "You, because you are about to enter" },
-      { "id": "b", "text": "Traffic already on the ring" },
-      { "id": "c", "text": "Cars on your right approaching the same roundabout" },
-      { "id": "d", "text": "Whoever arrives at the give-way line first" }
+      {
+        "id": "a",
+        "text": "You, because you are about to enter"
+      },
+      {
+        "id": "b",
+        "text": "Traffic already on the ring"
+      },
+      {
+        "id": "c",
+        "text": "Cars on your right approaching the same roundabout"
+      },
+      {
+        "id": "d",
+        "text": "Whoever arrives at the give-way line first"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "On almost all Dutch roundabouts, traffic on the ring has priority over traffic entering.",
       "examTip": "Shark's teeth at the entry confirm the give-way duty."
@@ -143,37 +262,71 @@
     "id": "priority-008",
     "moduleId": "priority",
     "lessonId": "priority-roundabouts",
-    "topicTags": ["roundabout", "cyclists"],
+    "topicTags": [
+      "roundabout",
+      "cyclists"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Inside a built-up area you leave a roundabout with a ring cycle path. A cyclist on the cycle path is approaching from your left. What is the most likely correct action?",
     "choices": [
-      { "id": "a", "text": "Accelerate to clear the exit before the cyclist" },
-      { "id": "b", "text": "Give way to the cyclist on the cycle path" },
-      { "id": "c", "text": "You always have priority because you are in a car" },
-      { "id": "d", "text": "Stop in the middle of the roundabout" }
+      {
+        "id": "a",
+        "text": "Accelerate to clear the exit before the cyclist"
+      },
+      {
+        "id": "b",
+        "text": "Give way to the cyclist on the cycle path"
+      },
+      {
+        "id": "c",
+        "text": "You always have priority because you are in a car"
+      },
+      {
+        "id": "d",
+        "text": "Stop in the middle of the roundabout"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "In built-up areas, cyclists on the ring cycle path of a roundabout usually have priority over cars entering and leaving.",
-      "examTip": "Check the shark's teeth at the cycle crossing — they point at whoever must yield."
+      "examTip": "Check the shark's teeth at the cycle crossing \u2014 they point at whoever must yield."
     }
   },
   {
     "id": "priority-009",
     "moduleId": "priority",
     "lessonId": "priority-roundabouts",
-    "topicTags": ["roundabout", "indicators"],
+    "topicTags": [
+      "roundabout",
+      "indicators"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "When should you indicate when leaving a single-lane roundabout?",
     "choices": [
-      { "id": "a", "text": "Always indicate to the left while on the ring" },
-      { "id": "b", "text": "Indicate to the right just before your exit" },
-      { "id": "c", "text": "There is no need to indicate on a roundabout" },
-      { "id": "d", "text": "Indicate only if pedestrians are present" }
+      {
+        "id": "a",
+        "text": "Always indicate to the left while on the ring"
+      },
+      {
+        "id": "b",
+        "text": "Indicate to the right just before your exit"
+      },
+      {
+        "id": "c",
+        "text": "There is no need to indicate on a roundabout"
+      },
+      {
+        "id": "d",
+        "text": "Indicate only if pedestrians are present"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Signal right just before the exit so other road users can predict you are leaving.",
       "examTip": "Failing to indicate at the exit is a common scoring point against learner drivers."
@@ -183,19 +336,36 @@
     "id": "priority-010",
     "moduleId": "priority",
     "lessonId": "priority-special-users",
-    "topicTags": ["pedestrians", "zebra"],
+    "topicTags": [
+      "pedestrians",
+      "zebra"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "At a marked zebra crossing, a pedestrian is clearly about to step onto the road. You should:",
     "choices": [
-      { "id": "a", "text": "Maintain speed because they have not yet stepped on" },
-      { "id": "b", "text": "Slow down and let them cross" },
-      { "id": "c", "text": "Sound the horn so they wait" },
-      { "id": "d", "text": "Stop only if other cars are stopping" }
+      {
+        "id": "a",
+        "text": "Maintain speed because they have not yet stepped on"
+      },
+      {
+        "id": "b",
+        "text": "Slow down and let them cross"
+      },
+      {
+        "id": "c",
+        "text": "Sound the horn so they wait"
+      },
+      {
+        "id": "d",
+        "text": "Stop only if other cars are stopping"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
-      "short": "Pedestrians crossing or clearly about to cross at a zebra have priority — let them cross.",
+      "short": "Pedestrians crossing or clearly about to cross at a zebra have priority \u2014 let them cross.",
       "examTip": "Brake early and smoothly so they feel safe to cross, not pressured by your approach."
     }
   },
@@ -203,37 +373,71 @@
     "id": "priority-011",
     "moduleId": "priority",
     "lessonId": "priority-special-users",
-    "topicTags": ["emergency-vehicles", "yield"],
+    "topicTags": [
+      "emergency-vehicles",
+      "yield"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "An emergency vehicle with blue lights and sirens approaches from behind on a busy two-lane road. You should:",
     "choices": [
-      { "id": "a", "text": "Stop dead in your lane immediately" },
-      { "id": "b", "text": "Speed up to stay ahead of it" },
-      { "id": "c", "text": "Move aside safely and, if necessary, stop to let it pass" },
-      { "id": "d", "text": "Ignore it — it must overtake you" }
+      {
+        "id": "a",
+        "text": "Stop dead in your lane immediately"
+      },
+      {
+        "id": "b",
+        "text": "Speed up to stay ahead of it"
+      },
+      {
+        "id": "c",
+        "text": "Move aside safely and, if necessary, stop to let it pass"
+      },
+      {
+        "id": "d",
+        "text": "Ignore it \u2014 it must overtake you"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Emergency vehicles with sirens and blue lights have priority; make room safely and stop if you must.",
-      "examTip": "Do not brake sharply or stop unpredictably — give other drivers room to react too."
+      "examTip": "Do not brake sharply or stop unpredictably \u2014 give other drivers room to react too."
     }
   },
   {
     "id": "priority-012",
     "moduleId": "priority",
     "lessonId": "priority-special-users",
-    "topicTags": ["tram", "priority"],
+    "topicTags": [
+      "tram",
+      "priority"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Outside of specific signed exceptions, a tram approaches an unsignalled junction at the same time as you from your right. Who has priority?",
     "choices": [
-      { "id": "a", "text": "You, because you are a car" },
-      { "id": "b", "text": "The tram, in almost every case" },
-      { "id": "c", "text": "Whoever started across first" },
-      { "id": "d", "text": "Neither — both must stop" }
+      {
+        "id": "a",
+        "text": "You, because you are a car"
+      },
+      {
+        "id": "b",
+        "text": "The tram, in almost every case"
+      },
+      {
+        "id": "c",
+        "text": "Whoever started across first"
+      },
+      {
+        "id": "d",
+        "text": "Neither \u2014 both must stop"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Trams generally have priority over other traffic, including over the right-hand priority rule, unless a sign or signal says otherwise.",
       "examTip": "Trams cannot easily brake or swerve; always assume they keep going."
@@ -243,17 +447,34 @@
     "id": "priority-013",
     "moduleId": "priority",
     "lessonId": "priority-basic-rules",
-    "topicTags": ["right-of-way", "exit"],
+    "topicTags": [
+      "right-of-way",
+      "exit"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You drive out of a car park onto a public road. Who has priority?",
     "choices": [
-      { "id": "a", "text": "You, because you are already moving" },
-      { "id": "b", "text": "All traffic on the public road" },
-      { "id": "c", "text": "Only traffic coming from your right" },
-      { "id": "d", "text": "Only oncoming traffic" }
+      {
+        "id": "a",
+        "text": "You, because you are already moving"
+      },
+      {
+        "id": "b",
+        "text": "All traffic on the public road"
+      },
+      {
+        "id": "c",
+        "text": "Only traffic coming from your right"
+      },
+      {
+        "id": "d",
+        "text": "Only oncoming traffic"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Leaving a private area (driveway, car park, petrol station) you must give way to all road users.",
       "examTip": "The same rule applies to leaving a footpath, verge or bicycle path."
@@ -263,17 +484,34 @@
     "id": "priority-014",
     "moduleId": "priority",
     "lessonId": "priority-intersections",
-    "topicTags": ["priority-road", "diamond-sign"],
+    "topicTags": [
+      "priority-road",
+      "diamond-sign"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "A yellow diamond on a white background is shown at the side of the road. What does it mean for you?",
     "choices": [
-      { "id": "a", "text": "End of priority road" },
-      { "id": "b", "text": "Start of priority road" },
-      { "id": "c", "text": "Give way ahead" },
-      { "id": "d", "text": "No entry for cars" }
+      {
+        "id": "a",
+        "text": "End of priority road"
+      },
+      {
+        "id": "b",
+        "text": "Start of priority road"
+      },
+      {
+        "id": "c",
+        "text": "Give way ahead"
+      },
+      {
+        "id": "d",
+        "text": "No entry for cars"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "The yellow diamond marks the start of a priority road; traffic on side roads must give way to you.",
       "examTip": "The same diamond with a black bar through it marks the end of the priority road."
@@ -283,17 +521,34 @@
     "id": "priority-015",
     "moduleId": "priority",
     "lessonId": "priority-roundabouts",
-    "topicTags": ["roundabout", "turbo"],
+    "topicTags": [
+      "roundabout",
+      "turbo"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "On a multi-lane turbo roundabout you have chosen the correct lane on entry. What should you do once on the ring?",
     "choices": [
-      { "id": "a", "text": "Change lanes freely to overtake slower cars" },
-      { "id": "b", "text": "Stay in your chosen lane until your exit" },
-      { "id": "c", "text": "Always use the outer lane only" },
-      { "id": "d", "text": "Move to the inner lane just before exiting" }
+      {
+        "id": "a",
+        "text": "Change lanes freely to overtake slower cars"
+      },
+      {
+        "id": "b",
+        "text": "Stay in your chosen lane until your exit"
+      },
+      {
+        "id": "c",
+        "text": "Always use the outer lane only"
+      },
+      {
+        "id": "d",
+        "text": "Move to the inner lane just before exiting"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Turbo roundabouts use raised lane separators; you must stay in your lane until the exit you pre-selected.",
       "examTip": "Picking the wrong entry lane usually means going around again rather than crossing a separator."
@@ -303,20 +558,191 @@
     "id": "priority-016",
     "moduleId": "priority",
     "lessonId": "priority-special-users",
-    "topicTags": ["bus", "built-up"],
+    "topicTags": [
+      "bus",
+      "built-up"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Inside a built-up area a city bus signals to pull away from a stop. What is required of you?",
     "choices": [
-      { "id": "a", "text": "Accelerate to pass before it moves" },
-      { "id": "b", "text": "Let the bus pull out if you can do so safely" },
-      { "id": "c", "text": "Sound your horn so the bus waits" },
-      { "id": "d", "text": "You always have priority over a bus" }
+      {
+        "id": "a",
+        "text": "Accelerate to pass before it moves"
+      },
+      {
+        "id": "b",
+        "text": "Let the bus pull out if you can do so safely"
+      },
+      {
+        "id": "c",
+        "text": "Sound your horn so the bus waits"
+      },
+      {
+        "id": "d",
+        "text": "You always have priority over a bus"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "In built-up areas a bus leaving a stop with its indicator on has priority; brake and let it out if safe.",
-      "examTip": "Outside built-up areas this rule does not apply — the bus must wait for a gap."
+      "examTip": "Outside built-up areas this rule does not apply \u2014 the bus must wait for a gap."
+    }
+  },
+  {
+    "id": "priority-017",
+    "moduleId": "priority",
+    "lessonId": "priority-basic-rules",
+    "topicTags": [
+      "scenario",
+      "right-of-way",
+      "private-land"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are driving down a normal town street. From a petrol station on your right, a car edges out into your lane. There are no signs or markings. What is the correct decision?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Let the car go \u2014 it is coming from your right, so it has priority"
+      },
+      {
+        "id": "b",
+        "text": "Continue at your speed \u2014 you have priority because the car is leaving private land"
+      },
+      {
+        "id": "c",
+        "text": "Stop completely and wave the car out"
+      },
+      {
+        "id": "d",
+        "text": "Accelerate to clear the area quickly"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A vehicle leaving private land (driveway, car park, petrol station) has no priority, even if it comes from the right.",
+      "examTip": "Stay alert and be ready to brake, but legally you keep priority."
+    }
+  },
+  {
+    "id": "priority-018",
+    "moduleId": "priority",
+    "lessonId": "priority-intersections",
+    "topicTags": [
+      "scenario",
+      "priority-road",
+      "turning",
+      "cyclists"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are on a priority road (yellow diamond, sign B1) and want to turn right at a junction. A cyclist is going straight on next to you on a parallel cycle path with no separate shark's teeth at the cycle crossing. What is the correct action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Turn first \u2014 you are on the priority road"
+      },
+      {
+        "id": "b",
+        "text": "Sound your horn and turn"
+      },
+      {
+        "id": "c",
+        "text": "Give way to the cyclist going straight on, then turn"
+      },
+      {
+        "id": "d",
+        "text": "Stop completely in the middle of the junction"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Priority on the road does not override your duty to give way to cyclists going straight on across the road you turn into.",
+      "examTip": "The 'right hook' is one of the most-tested CBR scenarios \u2014 always check the cycle path before turning right."
+    }
+  },
+  {
+    "id": "priority-019",
+    "moduleId": "priority",
+    "lessonId": "priority-roundabouts",
+    "topicTags": [
+      "scenario",
+      "roundabout",
+      "cyclists",
+      "built-up"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are about to enter a built-up area roundabout. Shark's teeth are painted at your entry. A car is approaching on the ring from your left and a cyclist on the ring cycle path is approaching the crossing in front of you. In what order do you yield?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Enter first \u2014 you arrived first"
+      },
+      {
+        "id": "b",
+        "text": "Yield to the ring car only \u2014 cyclists must wait"
+      },
+      {
+        "id": "c",
+        "text": "Yield to the ring car and to the cyclist, then enter"
+      },
+      {
+        "id": "d",
+        "text": "Yield to the cyclist only \u2014 cars on the ring must let you in"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Inside built-up areas, cyclists on the ring cycle path usually have priority; combined with ring traffic priority, you yield to both.",
+      "examTip": "Shark's teeth at your entry confirm you yield \u2014 order: ring traffic first, then ring cyclists."
+    }
+  },
+  {
+    "id": "priority-020",
+    "moduleId": "priority",
+    "lessonId": "priority-special-users",
+    "topicTags": [
+      "scenario",
+      "emergency-vehicle",
+      "red-light"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are stopped at a red light. An ambulance approaches from behind with sirens and blue lights, but there is no legal space to move out of the way without crossing the red light. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Drive through the red light to let the ambulance pass"
+      },
+      {
+        "id": "b",
+        "text": "Mount the cycle path to clear the lane"
+      },
+      {
+        "id": "c",
+        "text": "Stay where you are \u2014 make room only within what is legal"
+      },
+      {
+        "id": "d",
+        "text": "Reverse to give the ambulance space"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "You must only make space within what is legal \u2014 never run a red light or drive onto a cycle path, even for an emergency vehicle.",
+      "examTip": "If you cannot legally move aside, stay still \u2014 the ambulance driver expects this."
     }
   }
 ]

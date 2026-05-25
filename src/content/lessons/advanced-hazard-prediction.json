@@ -7,19 +7,23 @@
     "sections": [
       {
         "heading": "Scan in layers",
-        "body": "Look far ahead for the big picture (300 m on a motorway, the next junction in town), then mid-range for likely movement, then close in for immediate threats. Use the mirrors every few seconds to keep the picture complete behind you. A typical pattern is far → mid → near → mirror, repeated, with extra mirror checks before any change of speed or direction. Drivers who scan in a fixed rhythm miss far less than drivers who only look where the eye is drawn."
+        "body": "Look far ahead for the big picture (300 m on a motorway, the next junction in town), then mid-range for likely movement, then close in for immediate threats. Use the mirrors every few seconds to keep the picture complete behind you. A typical pattern is far → mid → near → mirror, repeated, with extra mirror checks before any change of speed or direction. Drivers who scan in a fixed rhythm miss far less than drivers who only look where the eye is drawn. The CBR hazard-perception part of the exam consistently rewards candidates who pick the earliest cue, not the most obvious one."
       },
       {
         "heading": "Predict, do not react",
-        "body": "A ball rolling into the road predicts a child. A delivery van with hazard lights predicts a door opening. Parked cars on a busy shopping street predict pedestrians stepping out. Spotting these signs early lets you adjust speed before you have to brake. The shift from 'I see — I brake' to 'I expect — I prepare' is what separates a hazard-aware driver from a merely competent one, and it is exactly the skill the hazard-perception part of the exam is designed to test."
+        "body": "A ball rolling into the road predicts a child. A delivery van with hazard lights predicts a door opening. Parked cars on a busy shopping street predict pedestrians stepping out. Spotting these signs early lets you adjust speed before you have to brake. The shift from 'I see — I brake' to 'I expect — I prepare' is what separates a hazard-aware driver from a merely competent one. In the exam, the correct answer is usually the action you take before the obvious hazard appears, not after."
       },
       {
         "heading": "Use the eyes of others",
-        "body": "Brake lights two or three cars ahead, dipped beams on at midday, an opened car door — these are all advance warnings. Use them to slow down before you can yet see the cause yourself. A cyclist turning their head, a pedestrian leaning forward at the kerb, a driver glancing into a mirror — all telegraph what comes next. Treat the road as a stream of information about other people's intentions, not just as a set of fixed obstacles."
+        "body": "Brake lights two or three cars ahead, dipped beams on at midday (often signalling reduced visibility or a funeral procession), an opened car door — these are all advance warnings. Use them to slow down before you can yet see the cause yourself. A cyclist turning their head, a pedestrian leaning forward at the kerb, a driver glancing into a mirror — all telegraph what comes next. Treat the road as a stream of information about other people's intentions, not just as a set of fixed obstacles."
       },
       {
-        "heading": "Patterns and traps",
-        "body": "Some patterns repeat so often they are worth learning by heart. A queue in the next lane often hides a pedestrian stepping out between the stopped cars. A van or bus stopped ahead means someone may step out from behind it. A line of brake lights climbing toward you on the motorway means slow rapidly and switch on the hazard lights yourself once stopped. The classic 'second hazard' trap — fixating on the first risk and missing the second — is responsible for many serious crashes."
+        "heading": "Common patterns and exam traps",
+        "body": "Some patterns repeat so often they are worth learning by heart. A queue in the next lane often hides a pedestrian stepping out between the stopped cars. A van or bus stopped ahead means someone may step out from behind it. A line of brake lights climbing toward you on the motorway means slow rapidly and switch on the hazard lights yourself once stopped. The classic 'second hazard' trap — fixating on the first risk and missing the second — is responsible for many serious crashes and is a frequent exam scenario. Trap: assuming the first risk you spotted is the one being asked about."
+      },
+      {
+        "heading": "Scenario walkthrough",
+        "body": "You are driving in town at 50 km/h. Two cars ahead of you, brake lights come on briefly. The car directly in front does not brake yet. What to do: the brake lights ahead are an early warning that something is happening you cannot see — slow now, do not wait for the car in front to react. The exam-correct decision is to ease off the accelerator and cover the brake immediately. If you wait until the car in front brakes, you are already late by one full reaction time."
       }
     ]
   },
@@ -31,11 +35,11 @@
     "sections": [
       {
         "heading": "Cyclists in built-up areas",
-        "body": "Cyclists may swerve to avoid a pothole, an opening door, or a tram rail. They may turn left without a clear hand signal, especially older riders and children. Always leave space on the right and slow down before a junction where bikes can cross. Watch for the 'head-turn' over the shoulder — it almost always precedes a manoeuvre. Cargo bikes and bikes with child seats have a longer stopping distance and a wider swing through corners than they look like they should."
+        "body": "Cyclists may swerve to avoid a pothole, an opening door, or a tram rail. They may turn left without a clear hand signal, especially older riders and children. Always leave space on the right and slow down before a junction where bikes can cross. Watch for the 'head-turn' over the shoulder — it almost always precedes a manoeuvre and is one of the most reliable CBR cues for 'cyclist about to turn'. Cargo bikes and bikes with child seats have a longer stopping distance and a wider swing through corners than they look like they should."
       },
       {
         "heading": "Children and elderly pedestrians",
-        "body": "Children are unpredictable and short — they may not see the road over a parked car. Elderly pedestrians may cross slowly or assume traffic will stop. Near schools, playgrounds and care homes, expect the unexpected. A child running along the pavement chasing another child is one of the highest-risk pedestrian patterns in town. Slow down before you see the problem, and make eye contact with anyone near the kerb."
+        "body": "Children are unpredictable and short — they may not see the road over a parked car. Elderly pedestrians may cross slowly or assume traffic will stop. Near schools, playgrounds and care homes, expect the unexpected. A child running along the pavement chasing another child is one of the highest-risk pedestrian patterns in town. Slow down before you see the problem, and make eye contact with anyone near the kerb. The exam-correct decision when a ball or pet appears is always 'brake — a child or owner will follow'."
       },
       {
         "heading": "Motorcyclists in your blind spot",
@@ -43,7 +47,11 @@
       },
       {
         "heading": "Right-turn and parked-car traps",
-        "body": "The 'right hook' — turning right across a cyclist who is going straight on alongside you — is one of the most dangerous urban manoeuvres for cyclists. Before turning right, check the mirror, glance over the right shoulder, and only turn when you can see the cycle path is clear. The 'dooring' risk — opening a car door into a passing cyclist — is best managed with the so-called Dutch reach: open with your far hand, which naturally turns your body and head to look behind. A bus or lorry's right blind spot is large; never sit alongside one at a junction."
+        "body": "The 'right hook' — turning right across a cyclist who is going straight on alongside you — is one of the most dangerous urban manoeuvres for cyclists and a frequent CBR scenario. Before turning right, check the mirror, glance over the right shoulder, and only turn when you can see the cycle path is clear. The 'dooring' risk — opening a car door into a passing cyclist — is best managed with the Dutch reach: open with your far hand, which naturally turns your body and head to look behind. A bus or lorry's right blind spot is large; never sit alongside one at a junction."
+      },
+      {
+        "heading": "Scenario walkthrough",
+        "body": "You are stopped at a red light, intending to turn right. A lorry pulls up alongside you on your left, also indicating right. The light turns green. What to do: do not start the turn at the same time as the lorry. The lorry's right blind spot is large, and any cyclist between you and the lorry is invisible to the lorry driver — in the exam this is a classic dooring/right-hook setup. The CBR-correct decision is to hold back, let the lorry complete the turn first, and only then turn yourself."
       }
     ]
   },
@@ -55,19 +63,23 @@
     "sections": [
       {
         "heading": "First rain after dry weather",
-        "body": "After a dry spell, the first rain lifts oil and dust to the surface — grip drops sharply for the first 10–15 minutes. Increase following distance and brake earlier. Painted road markings, manhole covers, and tram rails become particularly slippery in this window, especially for two-wheelers. Standing water on a long straight raises the risk of aquaplaning above about 80 km/h; if the steering goes light, lift off the throttle and steer straight rather than braking."
+        "body": "After a dry spell, the first rain lifts oil and dust to the surface — grip drops sharply for the first 10–15 minutes. Increase following distance and brake earlier. Painted road markings, manhole covers, and tram rails become particularly slippery in this window, especially for two-wheelers. Standing water on a long straight raises the risk of aquaplaning above about 80 km/h; if the steering goes light, lift off the throttle and steer straight rather than braking. The CBR-correct action when aquaplaning is named is always 'lift off, do not brake, steer straight'."
       },
       {
         "heading": "Black ice and shaded patches",
-        "body": "Bridges, tunnel exits, and shaded forest roads freeze first. If the dashboard shows close to 0 °C, treat shadows and bridges as potentially icy even if the rest of the road looks dry. Black ice is invisible — it gives the road a faintly shiny, wet look without splash. If you suspect ice, brake gently in a straight line and avoid sudden steering. Early winter mornings after a clear night are the highest-risk time, even when the air is well above freezing."
+        "body": "Bridges, tunnel exits, and shaded forest roads freeze first. If the dashboard shows close to 0 °C, treat shadows and bridges as potentially icy even if the rest of the road looks dry. Black ice is invisible — it gives the road a faintly shiny, wet look without splash. If you suspect ice, brake gently in a straight line and avoid sudden steering. Early winter mornings after a clear night are the highest-risk time, even when the air is well above freezing. Exam trap: assuming +2 °C or +3 °C is 'safe' — surface temperature can still be below 0."
       },
       {
         "heading": "Sun glare and low light",
-        "body": "Low sun in winter and at dawn or dusk blinds you and the drivers facing you. Pedestrians and cyclists can disappear into the glare, especially against a wet road that mirrors the sun back at you. Slow down, use the sun visor and clean the windscreen — a dirty screen scatters the glare. A pair of polarised sunglasses helps cut reflected glare from wet tarmac, but make sure you can still read instrument displays through them."
+        "body": "Low sun in winter and at dawn or dusk blinds you and the drivers facing you. Pedestrians and cyclists can disappear into the glare, especially against a wet road that mirrors the sun back at you. Slow down, use the sun visor and clean the windscreen — a dirty screen scatters the glare. A pair of polarised sunglasses helps cut reflected glare from wet tarmac, but make sure you can still read instrument displays through them. When dazzled, follow the right-hand edge line until vision returns."
       },
       {
-        "heading": "Wind, debris, and seasonal hazards",
-        "body": "Strong side winds on a bridge, open polder, or motorway exit can push a light car or a high-sided vehicle sideways — both hands on the wheel and an early gap to the lane edge let you correct without overreacting. After a storm, watch for branches, wet leaves, and gravel on bends, all of which sharply reduce grip. In autumn, wet leaves on shaded asphalt are nearly as slippery as ice; in spring, mud and tractor tracks on rural roads are the equivalent. The memory hook: 'if it covers the road, treat it like ice'."
+        "heading": "Wind, debris, and common exam traps",
+        "body": "Strong side winds on a bridge, open polder, or motorway exit can push a light car or a high-sided vehicle sideways — both hands on the wheel and an early gap to the lane edge let you correct without overreacting. After a storm, watch for branches, wet leaves, and gravel on bends, all of which sharply reduce grip. Trap one: braking hard when aquaplaning. Trap two: assuming dry tarmac means no ice on bridges in winter. Trap three: keeping main beam in fog. Trap four: ignoring wet leaves because they 'look harmless'. Memory hook: 'if it covers the road, treat it like ice'."
+      },
+      {
+        "heading": "Scenario walkthrough",
+        "body": "You are on the motorway at 100 km/h in heavy rain. Suddenly the steering feels light and unresponsive — the car is aquaplaning. What to do: do not brake; do not steer sharply. Lift off the accelerator, keep the wheel pointing straight, and let the car slow on its own until you feel the tyres grip again. Only then check the mirror and gradually slow further. The CBR-correct sequence is 'lift, straight, wait, slow' — braking or swerving during aquaplaning is the wrong answer."
       }
     ]
   },
@@ -79,19 +91,23 @@
     "sections": [
       {
         "heading": "Speed is your reserve",
-        "body": "Most emergencies are solved by having a few km/h in hand. If something looks unsettled ahead — a child near the kerb, a wobbly cyclist, a stationary vehicle on the hard shoulder — lift off in time. The cost of arriving two seconds later is nothing; the cost of a collision is enormous. Defensive drivers think of speed as a 'budget' that they keep some of in reserve, rather than spending all the way up to the limit."
+        "body": "Most emergencies are solved by having a few km/h in hand. If something looks unsettled ahead — a child near the kerb, a wobbly cyclist, a stationary vehicle on the hard shoulder — lift off in time. The cost of arriving two seconds later is nothing; the cost of a collision is enormous. Defensive drivers think of speed as a 'budget' that they keep some of in reserve, rather than spending all the way up to the limit. The CBR-style answer to 'something looks unsettled' is almost always 'reduce speed and prepare to stop'."
       },
       {
         "heading": "Brake or steer?",
-        "body": "If a hazard appears directly in your path and you have time, brake straight. Swerving on a wet road or at speed can lose grip and put you into oncoming traffic. Only steer to avoid if braking will not be enough and there is a clear, safe space to steer into. Modern ABS lets you keep steering control while braking hard — keep both hands on the wheel and look where you want the car to go, not at the obstacle itself."
+        "body": "If a hazard appears directly in your path and you have time, brake straight. Swerving on a wet road or at speed can lose grip and put you into oncoming traffic or off the road. Only steer to avoid if braking will not be enough and there is a clear, safe space to steer into. Modern ABS lets you keep steering control while braking hard — keep both hands on the wheel and look where you want the car to go, not at the obstacle itself. The exam-correct default is brake first, steer only if braking alone is not enough."
       },
       {
         "heading": "Mind the second hazard",
-        "body": "Many accidents happen because the driver fixed on the first hazard and missed the second — for example, braking for a cyclist and being rear-ended by the car behind, or swerving around debris into the next lane and meeting an overtaking motorbike. Keep scanning even while reacting. As a rule of thumb: after the brake, the next glance is the mirror, then forward again — 'react, check, plan'."
+        "body": "Many accidents happen because the driver fixed on the first hazard and missed the second — for example, braking for a cyclist and being rear-ended by the car behind, or swerving around debris into the next lane and meeting an overtaking motorbike. Keep scanning even while reacting. As a rule of thumb: after the brake, the next glance is the mirror, then forward again — 'react, check, plan'. CBR scenarios often test this by hiding a second hazard immediately after the first."
       },
       {
-        "heading": "After the close call",
-        "body": "When you have had a near miss, the adrenaline keeps your reactions sharp but also narrows your attention. Slow down a little, breathe out, and reset the scan pattern — that is exactly the moment a second incident is most likely. If you are genuinely shaken, find a safe place to stop for a few minutes before continuing. The most experienced drivers treat a near miss as free training: ask 'what cue did I miss, and how would I spot it earlier next time?', and the same close call is less likely to find you again."
+        "heading": "Common exam traps in emergency decisions",
+        "body": "Trap one: swerving as the first response. Brake first; swerve only if braking will not work. Trap two: braking hard for a small obstacle (a fallen branch, a plastic bag) when a follower is close — caused rear-ends are still your problem. Trap three: assuming flashing your lights or sounding the horn gives you the right to keep going. They warn, they do not authorise. Trap four: not switching on hazard lights once stopped in a queue on a motorway — the exam expects hazards on as soon as you stop in traffic."
+      },
+      {
+        "heading": "Scenario walkthrough",
+        "body": "On a dry rural road at 80 km/h, a small animal runs onto the road 30 m ahead. There is oncoming traffic in the other lane and a ditch on your right. What to do: brake straight in your own lane. Swerving into the oncoming lane risks a head-on collision (far worse than hitting a small animal), and the ditch on the right could roll the car. The CBR-correct decision is to brake hard while keeping the wheel straight, accept that you may hit the animal, and keep both hands on the wheel through the stop."
       }
     ]
   }

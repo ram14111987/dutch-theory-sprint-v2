@@ -3,17 +3,34 @@
     "id": "speed-stopping-001",
     "moduleId": "speed-stopping",
     "lessonId": "speed-limits",
-    "topicTags": ["speed-limit", "built-up"],
+    "topicTags": [
+      "speed-limit",
+      "built-up"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "What is the default maximum speed for a car inside a built-up area where no signs say otherwise?",
     "choices": [
-      { "id": "a", "text": "30 km/h" },
-      { "id": "b", "text": "50 km/h" },
-      { "id": "c", "text": "70 km/h" },
-      { "id": "d", "text": "80 km/h" }
+      {
+        "id": "a",
+        "text": "30 km/h"
+      },
+      {
+        "id": "b",
+        "text": "50 km/h"
+      },
+      {
+        "id": "c",
+        "text": "70 km/h"
+      },
+      {
+        "id": "d",
+        "text": "80 km/h"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Inside a built-up area, the default maximum for cars is 50 km/h.",
       "examTip": "Many residential and shopping streets are signed at 30 km/h, which overrides the default."
@@ -23,17 +40,34 @@
     "id": "speed-stopping-002",
     "moduleId": "speed-stopping",
     "lessonId": "speed-limits",
-    "topicTags": ["speed-limit", "rural"],
+    "topicTags": [
+      "speed-limit",
+      "rural"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Outside a built-up area on a normal road, what is the default maximum speed for a car?",
     "choices": [
-      { "id": "a", "text": "60 km/h" },
-      { "id": "b", "text": "70 km/h" },
-      { "id": "c", "text": "80 km/h" },
-      { "id": "d", "text": "100 km/h" }
+      {
+        "id": "a",
+        "text": "60 km/h"
+      },
+      {
+        "id": "b",
+        "text": "70 km/h"
+      },
+      {
+        "id": "c",
+        "text": "80 km/h"
+      },
+      {
+        "id": "d",
+        "text": "100 km/h"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "On normal roads outside a built-up area, the default for cars is 80 km/h.",
       "examTip": "Expressways (autoweg) raise this to 100 km/h; motorways higher still where signed."
@@ -43,17 +77,34 @@
     "id": "speed-stopping-003",
     "moduleId": "speed-stopping",
     "lessonId": "speed-limits",
-    "topicTags": ["motorway", "daytime"],
+    "topicTags": [
+      "motorway",
+      "daytime"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "On a Dutch motorway with no signed exception, what is the maximum speed for a car between 06:00 and 19:00?",
     "choices": [
-      { "id": "a", "text": "80 km/h" },
-      { "id": "b", "text": "100 km/h" },
-      { "id": "c", "text": "120 km/h" },
-      { "id": "d", "text": "130 km/h" }
+      {
+        "id": "a",
+        "text": "80 km/h"
+      },
+      {
+        "id": "b",
+        "text": "100 km/h"
+      },
+      {
+        "id": "c",
+        "text": "120 km/h"
+      },
+      {
+        "id": "d",
+        "text": "130 km/h"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Between 06:00 and 19:00, cars are capped at 100 km/h on motorways unless a sign says otherwise.",
       "examTip": "Outside daytime hours, the limit follows the signed value, which is often 120 or 130 km/h."
@@ -63,17 +114,34 @@
     "id": "speed-stopping-004",
     "moduleId": "speed-stopping",
     "lessonId": "speed-limits",
-    "topicTags": ["woonerf", "residential"],
+    "topicTags": [
+      "woonerf",
+      "residential"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "In a woonerf (residential yard zone), what speed must you drive at?",
     "choices": [
-      { "id": "a", "text": "30 km/h" },
-      { "id": "b", "text": "50 km/h" },
-      { "id": "c", "text": "Walking pace, roughly 15 km/h" },
-      { "id": "d", "text": "Any reasonable speed" }
+      {
+        "id": "a",
+        "text": "30 km/h"
+      },
+      {
+        "id": "b",
+        "text": "50 km/h"
+      },
+      {
+        "id": "c",
+        "text": "Walking pace, roughly 15 km/h"
+      },
+      {
+        "id": "d",
+        "text": "Any reasonable speed"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "In a woonerf you must drive at walking pace, roughly 15 km/h, and yield to pedestrians using the whole street.",
       "examTip": "Pedestrians, and especially playing children, have priority over vehicles in a woonerf."
@@ -83,17 +151,34 @@
     "id": "speed-stopping-005",
     "moduleId": "speed-stopping",
     "lessonId": "stopping-distance",
-    "topicTags": ["reaction-distance", "speed"],
+    "topicTags": [
+      "reaction-distance",
+      "speed"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "If you double your speed, what happens to the reaction distance (assuming the same reaction time)?",
     "choices": [
-      { "id": "a", "text": "It stays roughly the same" },
-      { "id": "b", "text": "It roughly doubles" },
-      { "id": "c", "text": "It roughly quadruples" },
-      { "id": "d", "text": "It is halved" }
+      {
+        "id": "a",
+        "text": "It stays roughly the same"
+      },
+      {
+        "id": "b",
+        "text": "It roughly doubles"
+      },
+      {
+        "id": "c",
+        "text": "It roughly quadruples"
+      },
+      {
+        "id": "d",
+        "text": "It is halved"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Reaction distance grows in proportion to speed, so doubling speed roughly doubles it.",
       "examTip": "Reaction distance is fixed by your reaction time; only braking distance grows with the square of speed."
@@ -103,17 +188,34 @@
     "id": "speed-stopping-006",
     "moduleId": "speed-stopping",
     "lessonId": "stopping-distance",
-    "topicTags": ["braking-distance", "speed"],
+    "topicTags": [
+      "braking-distance",
+      "speed"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "If you double your speed, what happens to the braking distance on the same road and tyres?",
     "choices": [
-      { "id": "a", "text": "It stays the same" },
-      { "id": "b", "text": "It roughly doubles" },
-      { "id": "c", "text": "It roughly quadruples" },
-      { "id": "d", "text": "It is halved" }
+      {
+        "id": "a",
+        "text": "It stays the same"
+      },
+      {
+        "id": "b",
+        "text": "It roughly doubles"
+      },
+      {
+        "id": "c",
+        "text": "It roughly quadruples"
+      },
+      {
+        "id": "d",
+        "text": "It is halved"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Braking distance grows with the square of speed, so doubling speed roughly quadruples it.",
       "examTip": "This is why a small increase from 50 to 60 km/h adds far more stopping distance than it looks."
@@ -123,77 +225,145 @@
     "id": "speed-stopping-007",
     "moduleId": "speed-stopping",
     "lessonId": "stopping-distance",
-    "topicTags": ["stopping-distance", "components"],
+    "topicTags": [
+      "stopping-distance",
+      "components"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Total stopping distance is best described as:",
     "choices": [
-      { "id": "a", "text": "Braking distance only" },
-      { "id": "b", "text": "Reaction distance only" },
-      { "id": "c", "text": "Reaction distance plus braking distance" },
-      { "id": "d", "text": "Twice the reaction distance" }
+      {
+        "id": "a",
+        "text": "Braking distance only"
+      },
+      {
+        "id": "b",
+        "text": "Reaction distance only"
+      },
+      {
+        "id": "c",
+        "text": "Reaction distance plus braking distance"
+      },
+      {
+        "id": "d",
+        "text": "Twice the reaction distance"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Total stopping distance is the sum of how far you travel while reacting and how far you travel while braking.",
-      "examTip": "Both components grow with speed, but braking grows much faster — so high speeds dominate the total."
+      "examTip": "Both components grow with speed, but braking grows much faster \u2014 so high speeds dominate the total."
     }
   },
   {
     "id": "speed-stopping-008",
     "moduleId": "speed-stopping",
     "lessonId": "conditions-and-following",
-    "topicTags": ["wet-road", "braking"],
+    "topicTags": [
+      "wet-road",
+      "braking"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Compared to a dry road, what is the most realistic effect of a wet road on braking distance?",
     "choices": [
-      { "id": "a", "text": "No noticeable change" },
-      { "id": "b", "text": "It can roughly double" },
-      { "id": "c", "text": "It is halved" },
-      { "id": "d", "text": "It only matters above 100 km/h" }
+      {
+        "id": "a",
+        "text": "No noticeable change"
+      },
+      {
+        "id": "b",
+        "text": "It can roughly double"
+      },
+      {
+        "id": "c",
+        "text": "It is halved"
+      },
+      {
+        "id": "d",
+        "text": "It only matters above 100 km/h"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "A wet road can roughly double braking distance compared to dry tarmac.",
-      "examTip": "Worn tyres make the effect worse — reduce speed in advance rather than relying on hard braking."
+      "examTip": "Worn tyres make the effect worse \u2014 reduce speed in advance rather than relying on hard braking."
     }
   },
   {
     "id": "speed-stopping-009",
     "moduleId": "speed-stopping",
     "lessonId": "conditions-and-following",
-    "topicTags": ["fog", "visibility"],
+    "topicTags": [
+      "fog",
+      "visibility"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "In dense fog, how should you choose your speed?",
     "choices": [
-      { "id": "a", "text": "Drive at the signed limit because it is the legal speed" },
-      { "id": "b", "text": "Drive slowly enough to stop within the distance you can see to be clear" },
-      { "id": "c", "text": "Drive faster to leave the fog quickly" },
-      { "id": "d", "text": "Drive at half the signed limit regardless" }
+      {
+        "id": "a",
+        "text": "Drive at the signed limit because it is the legal speed"
+      },
+      {
+        "id": "b",
+        "text": "Drive slowly enough to stop within the distance you can see to be clear"
+      },
+      {
+        "id": "c",
+        "text": "Drive faster to leave the fog quickly"
+      },
+      {
+        "id": "d",
+        "text": "Drive at half the signed limit regardless"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Your speed must always let you stop within the distance you can see to be clear, even well below the signed limit.",
-      "examTip": "Speed limits are upper bounds — conditions can require a much lower speed."
+      "examTip": "Speed limits are upper bounds \u2014 conditions can require a much lower speed."
     }
   },
   {
     "id": "speed-stopping-010",
     "moduleId": "speed-stopping",
     "lessonId": "conditions-and-following",
-    "topicTags": ["following-distance", "rule"],
+    "topicTags": [
+      "following-distance",
+      "rule"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "In dry conditions, what is a common rule of thumb for safe following distance behind the car in front?",
     "choices": [
-      { "id": "a", "text": "Half a second" },
-      { "id": "b", "text": "About two seconds" },
-      { "id": "c", "text": "Ten metres at any speed" },
-      { "id": "d", "text": "Close enough to read the number plate" }
+      {
+        "id": "a",
+        "text": "Half a second"
+      },
+      {
+        "id": "b",
+        "text": "About two seconds"
+      },
+      {
+        "id": "c",
+        "text": "Ten metres at any speed"
+      },
+      {
+        "id": "d",
+        "text": "Close enough to read the number plate"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Roughly a two-second gap is the standard guideline in dry conditions.",
       "examTip": "Double the gap on wet roads, and extend it further in poor visibility or behind heavy vehicles."
@@ -203,57 +373,108 @@
     "id": "speed-stopping-011",
     "moduleId": "speed-stopping",
     "lessonId": "speed-limits",
-    "topicTags": ["motorway", "default-limit"],
+    "topicTags": [
+      "motorway",
+      "default-limit"
+    ],
     "type": "single",
     "difficulty": "easy",
-    "stem": "What is the standard daytime (06:00–19:00) speed limit on Dutch motorways for cars?",
+    "stem": "What is the standard daytime (06:00\u201319:00) speed limit on Dutch motorways for cars?",
     "choices": [
-      { "id": "a", "text": "100 km/h" },
-      { "id": "b", "text": "120 km/h" },
-      { "id": "c", "text": "130 km/h" },
-      { "id": "d", "text": "90 km/h" }
+      {
+        "id": "a",
+        "text": "100 km/h"
+      },
+      {
+        "id": "b",
+        "text": "120 km/h"
+      },
+      {
+        "id": "c",
+        "text": "130 km/h"
+      },
+      {
+        "id": "d",
+        "text": "90 km/h"
+      }
     ],
-    "correctChoiceIds": ["a"],
+    "correctChoiceIds": [
+      "a"
+    ],
     "explanation": {
       "short": "Since 2020 the default daytime motorway limit is 100 km/h; higher limits apply only where signed and only at night.",
-      "examTip": "Always obey the signed limit — it overrides the default in either direction."
+      "examTip": "Always obey the signed limit \u2014 it overrides the default in either direction."
     }
   },
   {
     "id": "speed-stopping-012",
     "moduleId": "speed-stopping",
     "lessonId": "speed-limits",
-    "topicTags": ["built-up", "default-limit"],
+    "topicTags": [
+      "built-up",
+      "default-limit"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You see the rectangular blue sign that marks a built-up area. From that point the default speed limit is:",
     "choices": [
-      { "id": "a", "text": "30 km/h" },
-      { "id": "b", "text": "50 km/h" },
-      { "id": "c", "text": "60 km/h" },
-      { "id": "d", "text": "80 km/h" }
+      {
+        "id": "a",
+        "text": "30 km/h"
+      },
+      {
+        "id": "b",
+        "text": "50 km/h"
+      },
+      {
+        "id": "c",
+        "text": "60 km/h"
+      },
+      {
+        "id": "d",
+        "text": "80 km/h"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Inside a built-up area the default limit is 50 km/h unless lower limits (30 km/h zones) are signed.",
-      "examTip": "Leaving the area is shown by the same sign with a red diagonal bar — default rises to 80 km/h."
+      "examTip": "Leaving the area is shown by the same sign with a red diagonal bar \u2014 default rises to 80 km/h."
     }
   },
   {
     "id": "speed-stopping-013",
     "moduleId": "speed-stopping",
     "lessonId": "stopping-distance",
-    "topicTags": ["stopping-distance", "components"],
+    "topicTags": [
+      "stopping-distance",
+      "components"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Stopping distance is made up of which two parts?",
     "choices": [
-      { "id": "a", "text": "Engine response and brake force" },
-      { "id": "b", "text": "Reaction distance and braking distance" },
-      { "id": "c", "text": "Acceleration distance and turning distance" },
-      { "id": "d", "text": "Tyre grip and road camber" }
+      {
+        "id": "a",
+        "text": "Engine response and brake force"
+      },
+      {
+        "id": "b",
+        "text": "Reaction distance and braking distance"
+      },
+      {
+        "id": "c",
+        "text": "Acceleration distance and turning distance"
+      },
+      {
+        "id": "d",
+        "text": "Tyre grip and road camber"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Total stopping distance = reaction distance (before the brakes act) + braking distance (while the brakes act).",
       "examTip": "Fatigue, alcohol and phone use mainly stretch the reaction part, not the brake part."
@@ -263,37 +484,71 @@
     "id": "speed-stopping-014",
     "moduleId": "speed-stopping",
     "lessonId": "stopping-distance",
-    "topicTags": ["braking-distance", "speed-effect"],
+    "topicTags": [
+      "braking-distance",
+      "speed-effect"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "If you double your speed, the braking distance on dry tarmac becomes roughly:",
     "choices": [
-      { "id": "a", "text": "Twice as long" },
-      { "id": "b", "text": "Three times as long" },
-      { "id": "c", "text": "Four times as long" },
-      { "id": "d", "text": "Unchanged" }
+      {
+        "id": "a",
+        "text": "Twice as long"
+      },
+      {
+        "id": "b",
+        "text": "Three times as long"
+      },
+      {
+        "id": "c",
+        "text": "Four times as long"
+      },
+      {
+        "id": "d",
+        "text": "Unchanged"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Braking distance grows with the square of speed, so doubling speed roughly quadruples it.",
-      "examTip": "Reaction distance only doubles — but the squared effect on braking is what makes high-speed crashes severe."
+      "examTip": "Reaction distance only doubles \u2014 but the squared effect on braking is what makes high-speed crashes severe."
     }
   },
   {
     "id": "speed-stopping-015",
     "moduleId": "speed-stopping",
     "lessonId": "conditions-and-following",
-    "topicTags": ["wet-road", "following-distance"],
+    "topicTags": [
+      "wet-road",
+      "following-distance"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "It is raining and the road surface is wet. How should you adjust your following distance compared to dry conditions?",
     "choices": [
-      { "id": "a", "text": "Keep it the same" },
-      { "id": "b", "text": "Reduce it slightly to keep up" },
-      { "id": "c", "text": "About double it" },
-      { "id": "d", "text": "Reduce it to one second" }
+      {
+        "id": "a",
+        "text": "Keep it the same"
+      },
+      {
+        "id": "b",
+        "text": "Reduce it slightly to keep up"
+      },
+      {
+        "id": "c",
+        "text": "About double it"
+      },
+      {
+        "id": "d",
+        "text": "Reduce it to one second"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "On a wet road grip drops, so roughly double the two-second guideline to about four seconds.",
       "examTip": "On ice or hard-packed snow, an even larger gap (eight to ten seconds) is reasonable."
@@ -303,20 +558,190 @@
     "id": "speed-stopping-016",
     "moduleId": "speed-stopping",
     "lessonId": "conditions-and-following",
-    "topicTags": ["tailgating", "behaviour"],
+    "topicTags": [
+      "tailgating",
+      "behaviour"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Another driver is tailgating you on a single-lane road. What is the safest response?",
     "choices": [
-      { "id": "a", "text": "Brake hard to make them back off" },
-      { "id": "b", "text": "Keep your speed and increase the gap to the car in front" },
-      { "id": "c", "text": "Speed up well above the limit" },
-      { "id": "d", "text": "Wave them past while turning around" }
+      {
+        "id": "a",
+        "text": "Brake hard to make them back off"
+      },
+      {
+        "id": "b",
+        "text": "Keep your speed and increase the gap to the car in front"
+      },
+      {
+        "id": "c",
+        "text": "Speed up well above the limit"
+      },
+      {
+        "id": "d",
+        "text": "Wave them past while turning around"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Hold your line, leave more space ahead, and let them overtake when it is safe.",
       "examTip": "Brake-checking a tailgater is dangerous and may be treated as reckless driving."
+    }
+  },
+  {
+    "id": "speed-stopping-017",
+    "moduleId": "speed-stopping",
+    "lessonId": "speed-limits",
+    "topicTags": [
+      "scenario",
+      "motorway",
+      "daytime-cap"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "At 14:00 on a clear, dry day you drive on a Dutch motorway where the signed maximum is 130 km/h. What is your legal maximum speed?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "130 km/h, because that is the signed maximum"
+      },
+      {
+        "id": "b",
+        "text": "120 km/h"
+      },
+      {
+        "id": "c",
+        "text": "100 km/h, because of the daytime cap between 06:00 and 19:00"
+      },
+      {
+        "id": "d",
+        "text": "80 km/h"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Between 06:00 and 19:00 cars are capped at 100 km/h regardless of higher signed limits.",
+      "examTip": "The 130 km/h sign only applies at night \u2014 100 km/h is the legal max during the day."
+    }
+  },
+  {
+    "id": "speed-stopping-018",
+    "moduleId": "speed-stopping",
+    "lessonId": "stopping-distance",
+    "topicTags": [
+      "scenario",
+      "braking-distance",
+      "wet-road"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a dry road at 50 km/h your braking distance is about 12 m. You drive the same route at the same speed in heavy rain. Roughly what is the braking distance now?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "About 12 m \u2014 speed has not changed"
+      },
+      {
+        "id": "b",
+        "text": "About 24 m \u2014 wet roads roughly double braking distance"
+      },
+      {
+        "id": "c",
+        "text": "About 6 m \u2014 water lubricates the brakes"
+      },
+      {
+        "id": "d",
+        "text": "About 50 m \u2014 wet roads quadruple braking distance"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Wet roads roughly double the braking distance; reaction distance is unchanged.",
+      "examTip": "Doubling speed quadruples braking; wet roads double the braking part again."
+    }
+  },
+  {
+    "id": "speed-stopping-019",
+    "moduleId": "speed-stopping",
+    "lessonId": "conditions-and-following",
+    "topicTags": [
+      "scenario",
+      "following-distance",
+      "rain",
+      "lorry"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "It has just started raining after a dry week. You are following a lorry at 80 km/h with a 2-second gap. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Keep the 2-second gap \u2014 it is correct for any speed"
+      },
+      {
+        "id": "b",
+        "text": "Drop back to at least 4 seconds because of wet road and lorry's blocked view"
+      },
+      {
+        "id": "c",
+        "text": "Move closer to use the lorry as a windbreak"
+      },
+      {
+        "id": "d",
+        "text": "Overtake immediately \u2014 the first rain is always brief"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "First-rain conditions roughly double braking distance; behind a heavy vehicle, leave even more gap.",
+      "examTip": "Wet: double the gap to 4 seconds; behind a lorry, add more because their bulk blocks your view ahead."
+    }
+  },
+  {
+    "id": "speed-stopping-020",
+    "moduleId": "speed-stopping",
+    "lessonId": "conditions-and-following",
+    "topicTags": [
+      "scenario",
+      "fog",
+      "fog-lights"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are driving in fog. Visibility drops to about 40 m. Which lights may you legally use?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Main beam only \u2014 to cut through the fog"
+      },
+      {
+        "id": "b",
+        "text": "Dipped headlights and front fog lights only"
+      },
+      {
+        "id": "c",
+        "text": "Dipped headlights, front fog lights, and rear fog lights"
+      },
+      {
+        "id": "d",
+        "text": "Hazard lights while driving"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Front fog lights below 200 m visibility; rear fog lights only below 50 m. At 40 m visibility both are allowed.",
+      "examTip": "Switch rear fog lights off as soon as visibility improves \u2014 they dazzle the driver behind you."
     }
   }
 ]

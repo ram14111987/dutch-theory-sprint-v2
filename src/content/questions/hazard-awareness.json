@@ -3,17 +3,34 @@
     "id": "hazard-awareness-001",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-scanning",
-    "topicTags": ["scanning", "observation"],
+    "topicTags": [
+      "scanning",
+      "observation"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Where should you mainly focus your eyes while driving on an open road?",
     "choices": [
-      { "id": "a", "text": "On the bumper of the car ahead" },
-      { "id": "b", "text": "On the road markings just in front of your car" },
-      { "id": "c", "text": "As far ahead as you can clearly see" },
-      { "id": "d", "text": "On your speedometer" }
+      {
+        "id": "a",
+        "text": "On the bumper of the car ahead"
+      },
+      {
+        "id": "b",
+        "text": "On the road markings just in front of your car"
+      },
+      {
+        "id": "c",
+        "text": "As far ahead as you can clearly see"
+      },
+      {
+        "id": "d",
+        "text": "On your speedometer"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Look as far ahead as you can; this gives you the most time to plan.",
       "examTip": "Short-sighted looking causes late reactions and is a frequent test fault."
@@ -23,19 +40,35 @@
     "id": "hazard-awareness-002",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-scanning",
-    "topicTags": ["mirrors"],
+    "topicTags": [
+      "mirrors"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "How often should you glance at your interior mirror in normal driving?",
     "choices": [
-      { "id": "a", "text": "Only when braking" },
-      { "id": "b", "text": "Roughly every 5 to 8 seconds and before every change of speed or direction" },
-      { "id": "c", "text": "Only when you suspect someone is following you" },
-      { "id": "d", "text": "Only on motorways" }
+      {
+        "id": "a",
+        "text": "Only when braking"
+      },
+      {
+        "id": "b",
+        "text": "Roughly every 5 to 8 seconds and before every change of speed or direction"
+      },
+      {
+        "id": "c",
+        "text": "Only when you suspect someone is following you"
+      },
+      {
+        "id": "d",
+        "text": "Only on motorways"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
-      "short": "Glance at the mirror roughly every 5–8 seconds and before each speed or direction change.",
+      "short": "Glance at the mirror roughly every 5\u20138 seconds and before each speed or direction change.",
       "examTip": "Examiners specifically watch your mirror-use rhythm."
     }
   },
@@ -43,17 +76,34 @@
     "id": "hazard-awareness-003",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-scanning",
-    "topicTags": ["scanning", "side-streets"],
+    "topicTags": [
+      "scanning",
+      "side-streets"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You drive past a row of parked cars on a residential street. The greatest hidden hazard is:",
     "choices": [
-      { "id": "a", "text": "A police speed trap behind the cars" },
-      { "id": "b", "text": "An oil patch on the road surface" },
-      { "id": "c", "text": "A pedestrian or child stepping out between cars" },
-      { "id": "d", "text": "A puncture from a piece of glass" }
+      {
+        "id": "a",
+        "text": "A police speed trap behind the cars"
+      },
+      {
+        "id": "b",
+        "text": "An oil patch on the road surface"
+      },
+      {
+        "id": "c",
+        "text": "A pedestrian or child stepping out between cars"
+      },
+      {
+        "id": "d",
+        "text": "A puncture from a piece of glass"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "A pedestrian or child emerging between parked cars is the classic hidden hazard.",
       "examTip": "Reduce speed and increase distance from the kerb when passing parked rows."
@@ -63,19 +113,35 @@
     "id": "hazard-awareness-004",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-vulnerable-users",
-    "topicTags": ["cyclists"],
+    "topicTags": [
+      "cyclists"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "How much sideways space should you give a cyclist when overtaking inside a built-up area?",
     "choices": [
-      { "id": "a", "text": "At least 1 metre" },
-      { "id": "b", "text": "About 30 cm — the same as parking" },
-      { "id": "c", "text": "Whatever the lane width allows" },
-      { "id": "d", "text": "No gap is required if you sound the horn" }
+      {
+        "id": "a",
+        "text": "At least 1 metre"
+      },
+      {
+        "id": "b",
+        "text": "About 30 cm \u2014 the same as parking"
+      },
+      {
+        "id": "c",
+        "text": "Whatever the lane width allows"
+      },
+      {
+        "id": "d",
+        "text": "No gap is required if you sound the horn"
+      }
     ],
-    "correctChoiceIds": ["a"],
+    "correctChoiceIds": [
+      "a"
+    ],
     "explanation": {
-      "short": "Give cyclists at least 1 metre of side space — 1.5 m where speed is higher.",
+      "short": "Give cyclists at least 1 metre of side space \u2014 1.5 m where speed is higher.",
       "examTip": "Cyclists may wobble or swerve around a parked car; expect it."
     }
   },
@@ -83,17 +149,34 @@
     "id": "hazard-awareness-005",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-vulnerable-users",
-    "topicTags": ["children", "school"],
+    "topicTags": [
+      "children",
+      "school"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You approach a school zone at the end of the school day. You should:",
     "choices": [
-      { "id": "a", "text": "Maintain speed because children are supervised" },
-      { "id": "b", "text": "Reduce speed early and expect sudden movements off the kerb" },
-      { "id": "c", "text": "Use the horn to warn children to keep back" },
-      { "id": "d", "text": "Stop fully at every junction" }
+      {
+        "id": "a",
+        "text": "Maintain speed because children are supervised"
+      },
+      {
+        "id": "b",
+        "text": "Reduce speed early and expect sudden movements off the kerb"
+      },
+      {
+        "id": "c",
+        "text": "Use the horn to warn children to keep back"
+      },
+      {
+        "id": "d",
+        "text": "Stop fully at every junction"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Reduce speed early near schools; children may step out unexpectedly.",
       "examTip": "Anticipate before you see the hazard, not after."
@@ -103,17 +186,34 @@
     "id": "hazard-awareness-006",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-vulnerable-users",
-    "topicTags": ["pedestrians", "rural"],
+    "topicTags": [
+      "pedestrians",
+      "rural"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "On a rural road with no pavement, on which side do pedestrians walk?",
     "choices": [
-      { "id": "a", "text": "On the right, with the traffic" },
-      { "id": "b", "text": "On the left, facing oncoming traffic" },
-      { "id": "c", "text": "Down the centre of the road" },
-      { "id": "d", "text": "They are not allowed to walk on such roads" }
+      {
+        "id": "a",
+        "text": "On the right, with the traffic"
+      },
+      {
+        "id": "b",
+        "text": "On the left, facing oncoming traffic"
+      },
+      {
+        "id": "c",
+        "text": "Down the centre of the road"
+      },
+      {
+        "id": "d",
+        "text": "They are not allowed to walk on such roads"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Pedestrians walk on the left, facing oncoming traffic, so they can see vehicles.",
       "examTip": "Dip headlights and keep well to your side of the road at dusk."
@@ -123,17 +223,33 @@
     "id": "hazard-awareness-007",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-weather-visibility",
-    "topicTags": ["rain"],
+    "topicTags": [
+      "rain"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "When is a road typically most slippery after a dry spell?",
     "choices": [
-      { "id": "a", "text": "After several hours of heavy rain has washed it clean" },
-      { "id": "b", "text": "During the first minutes of rain after a long dry period" },
-      { "id": "c", "text": "Only when temperatures fall below freezing" },
-      { "id": "d", "text": "Only on motorways" }
+      {
+        "id": "a",
+        "text": "After several hours of heavy rain has washed it clean"
+      },
+      {
+        "id": "b",
+        "text": "During the first minutes of rain after a long dry period"
+      },
+      {
+        "id": "c",
+        "text": "Only when temperatures fall below freezing"
+      },
+      {
+        "id": "d",
+        "text": "Only on motorways"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "First rain after a dry spell lifts oil and dust to the surface, making the road most slippery.",
       "examTip": "Increase following distance and brake earlier as soon as drops start."
@@ -143,37 +259,70 @@
     "id": "hazard-awareness-008",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-weather-visibility",
-    "topicTags": ["fog", "lights"],
+    "topicTags": [
+      "fog",
+      "lights"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "When may you switch on your rear fog light?",
     "choices": [
-      { "id": "a", "text": "Whenever it is raining" },
-      { "id": "b", "text": "Only when visibility is less than 50 metres" },
-      { "id": "c", "text": "At any time on a motorway" },
-      { "id": "d", "text": "Only between dusk and dawn" }
+      {
+        "id": "a",
+        "text": "Whenever it is raining"
+      },
+      {
+        "id": "b",
+        "text": "Only when visibility is less than 50 metres"
+      },
+      {
+        "id": "c",
+        "text": "At any time on a motorway"
+      },
+      {
+        "id": "d",
+        "text": "Only between dusk and dawn"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Rear fog lights are allowed only when visibility falls below 50 m.",
-      "examTip": "Switch them off as soon as visibility improves — they dazzle the driver behind you."
+      "examTip": "Switch them off as soon as visibility improves \u2014 they dazzle the driver behind you."
     }
   },
   {
     "id": "hazard-awareness-009",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-weather-visibility",
-    "topicTags": ["night"],
+    "topicTags": [
+      "night"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "What does 'do not outdrive your headlights' mean?",
     "choices": [
-      { "id": "a", "text": "Always use full beam on unlit roads" },
-      { "id": "b", "text": "Your stopping distance must fit inside the area you can see lit" },
-      { "id": "c", "text": "Only drive at night with two headlights working" },
-      { "id": "d", "text": "Avoid braking once you have switched on the headlights" }
+      {
+        "id": "a",
+        "text": "Always use full beam on unlit roads"
+      },
+      {
+        "id": "b",
+        "text": "Your stopping distance must fit inside the area you can see lit"
+      },
+      {
+        "id": "c",
+        "text": "Only drive at night with two headlights working"
+      },
+      {
+        "id": "d",
+        "text": "Avoid braking once you have switched on the headlights"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Your stopping distance must fit inside the beam you can see; otherwise slow down.",
       "examTip": "On unlit rural roads this often means well below the legal limit."
@@ -183,17 +332,33 @@
     "id": "hazard-awareness-010",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-reaction-anticipation",
-    "topicTags": ["reaction-time"],
+    "topicTags": [
+      "reaction-time"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Roughly how long does an alert, healthy driver need to react to an unexpected hazard?",
     "choices": [
-      { "id": "a", "text": "About 0.1 second" },
-      { "id": "b", "text": "About 1 second" },
-      { "id": "c", "text": "About 3 seconds" },
-      { "id": "d", "text": "Reaction is instant once you see the hazard" }
+      {
+        "id": "a",
+        "text": "About 0.1 second"
+      },
+      {
+        "id": "b",
+        "text": "About 1 second"
+      },
+      {
+        "id": "c",
+        "text": "About 3 seconds"
+      },
+      {
+        "id": "d",
+        "text": "Reaction is instant once you see the hazard"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Alert drivers need roughly 1 second to react before braking even starts.",
       "examTip": "Tired, distracted or impaired drivers need noticeably longer."
@@ -203,17 +368,33 @@
     "id": "hazard-awareness-011",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-reaction-anticipation",
-    "topicTags": ["following-distance"],
+    "topicTags": [
+      "following-distance"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "In good conditions, what is the minimum recommended time-gap to the vehicle in front?",
     "choices": [
-      { "id": "a", "text": "0.5 second" },
-      { "id": "b", "text": "1 second" },
-      { "id": "c", "text": "2 seconds" },
-      { "id": "d", "text": "5 seconds" }
+      {
+        "id": "a",
+        "text": "0.5 second"
+      },
+      {
+        "id": "b",
+        "text": "1 second"
+      },
+      {
+        "id": "c",
+        "text": "2 seconds"
+      },
+      {
+        "id": "d",
+        "text": "5 seconds"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Keep at least a 2-second gap in good conditions.",
       "examTip": "Double the gap in rain; increase further in snow or fog."
@@ -223,19 +404,35 @@
     "id": "hazard-awareness-012",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-reaction-anticipation",
-    "topicTags": ["anticipation"],
+    "topicTags": [
+      "anticipation"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You see a ball roll into the road from between parked cars. The safest response is to:",
     "choices": [
-      { "id": "a", "text": "Continue at speed; balls do not damage cars" },
-      { "id": "b", "text": "Brake sharply only if you see the child" },
-      { "id": "c", "text": "Ease off, cover the brake, and be ready to stop for a child" },
-      { "id": "d", "text": "Swerve into the oncoming lane" }
+      {
+        "id": "a",
+        "text": "Continue at speed; balls do not damage cars"
+      },
+      {
+        "id": "b",
+        "text": "Brake sharply only if you see the child"
+      },
+      {
+        "id": "c",
+        "text": "Ease off, cover the brake, and be ready to stop for a child"
+      },
+      {
+        "id": "d",
+        "text": "Swerve into the oncoming lane"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
-      "short": "Treat a ball as a warning that a child may follow — ease off and cover the brake.",
+      "short": "Treat a ball as a warning that a child may follow \u2014 ease off and cover the brake.",
       "examTip": "Anticipating like this means you almost never have to brake hard."
     }
   },
@@ -243,37 +440,71 @@
     "id": "hazard-awareness-013",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-scanning",
-    "topicTags": ["scanning", "mirrors"],
+    "topicTags": [
+      "scanning",
+      "mirrors"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "How often should you glance in your mirrors while driving on an open road?",
     "choices": [
-      { "id": "a", "text": "Only before braking" },
-      { "id": "b", "text": "Roughly every 5–8 seconds and before every manoeuvre" },
-      { "id": "c", "text": "Only when overtaking" },
-      { "id": "d", "text": "Once per minute is enough" }
+      {
+        "id": "a",
+        "text": "Only before braking"
+      },
+      {
+        "id": "b",
+        "text": "Roughly every 5\u20138 seconds and before every manoeuvre"
+      },
+      {
+        "id": "c",
+        "text": "Only when overtaking"
+      },
+      {
+        "id": "d",
+        "text": "Once per minute is enough"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Regular mirror checks every few seconds keep your picture of traffic behind you fresh.",
-      "examTip": "Mirrors–signal–manoeuvre is the standard sequence examiners look for."
+      "examTip": "Mirrors\u2013signal\u2013manoeuvre is the standard sequence examiners look for."
     }
   },
   {
     "id": "hazard-awareness-014",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-vulnerable-users",
-    "topicTags": ["children", "schools"],
+    "topicTags": [
+      "children",
+      "schools"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You pass a primary school just before 8:30 in the morning. Several children are on the pavement. What should you do?",
     "choices": [
-      { "id": "a", "text": "Maintain speed and use the horn" },
-      { "id": "b", "text": "Reduce speed and watch for children stepping into the road" },
-      { "id": "c", "text": "Move to the centre of the road" },
-      { "id": "d", "text": "Stop and wave them across" }
+      {
+        "id": "a",
+        "text": "Maintain speed and use the horn"
+      },
+      {
+        "id": "b",
+        "text": "Reduce speed and watch for children stepping into the road"
+      },
+      {
+        "id": "c",
+        "text": "Move to the centre of the road"
+      },
+      {
+        "id": "d",
+        "text": "Stop and wave them across"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Children act unpredictably near schools; lower your speed and cover the brake.",
       "examTip": "The same care applies after school and around sport clubs and playgrounds."
@@ -283,40 +514,229 @@
     "id": "hazard-awareness-015",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-weather-visibility",
-    "topicTags": ["fog", "lights"],
+    "topicTags": [
+      "fog",
+      "lights"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Visibility drops to about 50 metres in dense fog. Which lights should you use?",
     "choices": [
-      { "id": "a", "text": "High beam to see further" },
-      { "id": "b", "text": "Dipped headlights and front fog lights; rear fog light is allowed" },
-      { "id": "c", "text": "Hazard warning lights only" },
-      { "id": "d", "text": "Side lights only" }
+      {
+        "id": "a",
+        "text": "High beam to see further"
+      },
+      {
+        "id": "b",
+        "text": "Dipped headlights and front fog lights; rear fog light is allowed"
+      },
+      {
+        "id": "c",
+        "text": "Hazard warning lights only"
+      },
+      {
+        "id": "d",
+        "text": "Side lights only"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Use dipped beam (high beam reflects in fog), front fog lights as needed, and the rear fog light only when visibility is under 50 m.",
-      "examTip": "Switch the rear fog off the moment visibility improves — it dazzles drivers behind you."
+      "examTip": "Switch the rear fog off the moment visibility improves \u2014 it dazzles drivers behind you."
     }
   },
   {
     "id": "hazard-awareness-016",
     "moduleId": "hazard-awareness",
     "lessonId": "hazard-awareness-reaction-anticipation",
-    "topicTags": ["anticipation", "parked-cars"],
+    "topicTags": [
+      "anticipation",
+      "parked-cars"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You drive along a row of parked cars in a residential street. Which is the most useful clue that a car may be about to pull out?",
     "choices": [
-      { "id": "a", "text": "Brake lights or exhaust smoke" },
-      { "id": "b", "text": "A clean windscreen" },
-      { "id": "c", "text": "Empty roof racks" },
-      { "id": "d", "text": "Number plate colour" }
+      {
+        "id": "a",
+        "text": "Brake lights or exhaust smoke"
+      },
+      {
+        "id": "b",
+        "text": "A clean windscreen"
+      },
+      {
+        "id": "c",
+        "text": "Empty roof racks"
+      },
+      {
+        "id": "d",
+        "text": "Number plate colour"
+      }
     ],
-    "correctChoiceIds": ["a"],
+    "correctChoiceIds": [
+      "a"
+    ],
     "explanation": {
       "short": "Brake lights, exhaust fumes, front wheels turned outward and a driver in the seat all signal a possible pull-out.",
       "examTip": "Open doors and pedestrians arriving with keys are other early warnings."
+    }
+  },
+  {
+    "id": "hazard-awareness-017",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-vulnerable-users",
+    "topicTags": [
+      "scenario",
+      "parked-van",
+      "children",
+      "anticipation"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Inside town at 50 km/h you approach a parked ice-cream van on your right, with children visible nearby. A cyclist is following close behind you. What is the safest action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Keep your speed \u2014 the children are on the pavement, not the road"
+      },
+      {
+        "id": "b",
+        "text": "Slow well before the van and check the mirror so the cyclist sees you brake early"
+      },
+      {
+        "id": "c",
+        "text": "Sound your horn to warn the children"
+      },
+      {
+        "id": "d",
+        "text": "Swerve into the oncoming lane to give the van extra clearance"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Children near a parked van are a high-risk hazard; slow early and warn the follower with brake lights, not the horn.",
+      "examTip": "Anticipate the hidden pedestrian \u2014 do not wait until a child steps out."
+    }
+  },
+  {
+    "id": "hazard-awareness-018",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-weather-visibility",
+    "topicTags": [
+      "scenario",
+      "ice",
+      "bridge",
+      "winter"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a winter morning the dashboard shows +2 \u00b0C. You approach a bridge in a shaded valley. The road looks dry. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Maintain speed \u2014 +2 \u00b0C is above freezing, so no risk"
+      },
+      {
+        "id": "b",
+        "text": "Brake hard just before the bridge to test grip"
+      },
+      {
+        "id": "c",
+        "text": "Slow before the bridge and avoid sudden braking or steering on it"
+      },
+      {
+        "id": "d",
+        "text": "Use main beam to see the bridge surface"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Bridges and shaded patches freeze first; +2 \u00b0C is well within the surface-ice risk window.",
+      "examTip": "Treat shadowed tarmac and bridges in winter as potentially icy, even when the rest of the road looks dry."
+    }
+  },
+  {
+    "id": "hazard-awareness-019",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-reaction-anticipation",
+    "topicTags": [
+      "scenario",
+      "following-distance",
+      "cut-in",
+      "lorry"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are on a wet motorway following a lorry at 80 km/h with a 4-second gap. A car cuts into the gap between you and the lorry. What is the best response?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Flash your headlights and accelerate to close the gap behind"
+      },
+      {
+        "id": "b",
+        "text": "Brake hard immediately to teach the driver a lesson"
+      },
+      {
+        "id": "c",
+        "text": "Ease off gently to reopen at least 4 seconds to the new car ahead"
+      },
+      {
+        "id": "d",
+        "text": "Overtake on the right to get past the car"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Restore the gap by dropping back, not by braking hard or accelerating.",
+      "examTip": "Tailgaters and cut-ins are managed by widening the gap in front of you \u2014 never by closing it."
+    }
+  },
+  {
+    "id": "hazard-awareness-020",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-scanning",
+    "topicTags": [
+      "scenario",
+      "scanning",
+      "shopping-street"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a busy shopping street at 30 km/h you see: a traffic light in the distance turning amber, a bus pulling out of a stop ahead, a pedestrian at the kerb on your right, and a cyclist closing in your mirror. Which is the correct way to handle the picture?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Focus only on the traffic light \u2014 it is the legal control"
+      },
+      {
+        "id": "b",
+        "text": "Treat all four as active hazards and adjust speed early"
+      },
+      {
+        "id": "c",
+        "text": "Ignore the cyclist behind \u2014 what is ahead matters more"
+      },
+      {
+        "id": "d",
+        "text": "Speed up to clear the bus before it pulls out"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Active scanning means tracking far, mid, near and mirror at the same time; all four cues matter.",
+      "examTip": "The CBR hazard-perception part rewards drivers who name multiple early cues, not just the most obvious one."
     }
   }
 ]

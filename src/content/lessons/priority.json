@@ -6,20 +6,24 @@
     "summary": "The default rules that decide who goes first when no sign or marking says otherwise.",
     "sections": [
       {
-        "heading": "Equal roads",
-        "body": "When two roads of equal status meet and no sign, marking, or traffic light governs the junction, traffic coming from the right has priority. This applies whether the driver on the right is a car, a moped on the road, or a cyclist on the road — not just other cars. The rule holds even when the road from the right looks smaller or less important; appearance does not change the law. The simple memory hook is: 'no sign, no light, look right'. Pay extra care in residential 30 km/h zones, where junctions are usually unsigned and priority from the right is the default."
+        "heading": "The default rule",
+        "body": "When two roads of equal status meet and no sign, marking, or traffic light governs the junction, traffic coming from the right has priority. The CBR-style way to read it: 'no sign, no light, no marking → look right'. It applies whether the driver on the right is a car, a moped on the road, or a cyclist on the road — not just other cars. The rule holds even when the road from the right looks smaller or less important; appearance does not change the law. Watch for this in residential 30 km/h zones, where junctions are usually unsigned and priority from the right is the default."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "Before applying any rule, scan in this order: signs (give-way, stop, priority road), then road markings (shark's teeth, stop line), then traffic lights, and only then road shape and direction. In the exam, candidates lose marks by jumping straight to 'priority from the right' without first checking whether a sign or marking overrules it. Painted markings on the tarmac are the most reliable on-the-spot clue, because they are right where the conflict happens. If you see shark's teeth pointing at you, you give way — regardless of what direction other traffic comes from."
       },
       {
         "heading": "Turning at a junction",
-        "body": "If you turn left or right at a junction, you must give way to oncoming traffic going straight on, and to pedestrians and cyclists already crossing the road you turn into. A left turn is the more dangerous of the two because you cross the path of oncoming traffic and any cycle path on the far side. Be especially alert to cyclists and mopeds approaching from behind on your right when you turn right — they often appear to come 'out of nowhere'. Make eye contact with vulnerable users where you can, and never speed up to 'beat' an oncoming car."
+        "body": "If you turn left or right at a junction, you must give way to oncoming traffic going straight on, and to pedestrians and cyclists already crossing the road you turn into. A left turn is more dangerous because you cross the path of oncoming traffic and any cycle path on the far side. When turning right, watch for cyclists and mopeds approaching from behind on your right — the classic right-hook collision. Make eye contact with vulnerable users where you can, and never speed up to 'beat' an oncoming car. The safest decision is always: yield, even if you technically have priority."
       },
       {
-        "heading": "When signs override the default",
-        "body": "Signs and markings always override the default priority-from-the-right rule. A give-way triangle (B6), a STOP sign (B7), shark's teeth painted on the road, or a priority-road diamond (B1) tell you the rule that applies here, regardless of who is coming from the right. A priority road keeps its priority until you see a cancellation sign (B2), or until the diamond simply stops appearing at a clearly different junction type. When in doubt, the painted markings on the tarmac are the most reliable on-the-spot clue, because they are right where the conflict happens."
+        "heading": "Exceptions and exam traps",
+        "body": "Two traps catch many candidates. First: a car exiting a driveway, car park, petrol station, footpath, or any other 'uitrit' is leaving private land and has no priority over anyone — even if it comes from your right. Second: when you reverse, turn around, or move off from the kerb, you must give way to all other road users, including the driver behind you. A third trap: trams generally hold priority over right-from-right at unsigned junctions. Treat 'leaving private land' and 'manoeuvring' as 'I yield to everyone' and you will avoid the classic mistakes."
       },
       {
-        "heading": "Common exam traps",
-        "body": "Two traps catch many candidates. First: a car exiting a driveway, car park, petrol station, or footpath is leaving private land and has no priority over anyone — even if it comes from your right. Second: when you reverse, turn around, or move off from the kerb, you must give way to all other road users, including the driver behind you. Treat both situations as 'I yield to everyone' and you will avoid the classic mistakes."
+        "heading": "Scenario walkthrough",
+        "body": "You approach a quiet residential 30 km/h junction with no signs and no markings. A car appears from your right, a cyclist from your left, and a child stands at the kerb on the corner. What to do: scan signs (none), markings (none), then apply priority from the right — the car from your right has priority. The cyclist from the left does not, but you still slow because the child at the kerb might step into the road. The CBR-correct answer is to yield to the car on the right and continue to anticipate the child; do not assume the cyclist will stop just because they have no priority."
       }
     ]
   },
@@ -30,20 +34,24 @@
     "summary": "How priority works at junctions with signs, markings, or traffic lights.",
     "sections": [
       {
-        "heading": "Give way and stop",
-        "body": "An inverted triangle (B6) requires you to yield to crossing traffic, but you may roll through the line if the road is genuinely clear. A STOP sign (B7) requires a complete stop at the line before you assess the crossing road, even if you can already see it is empty — wheels must actually stop turning. Shark's teeth painted on the road repeat the give-way message at the exact point where you must yield. Pulling onto the line and then easing forward to see better is allowed; pulling across the line without stopping at a STOP sign is an automatic fail on the exam."
+        "heading": "Give way and stop signs",
+        "body": "An inverted triangle (B6) requires you to yield to crossing traffic, but you may roll through the line if the road is genuinely clear. A STOP sign (B7) requires a complete stop at the line before you assess the crossing road, even when you can already see it is empty — wheels must actually stop turning. Shark's teeth painted on the road repeat the give-way message at the exact point where you must yield. In the exam, failing to actually stop at a B7 line is treated as an automatic fail; rolling through a B6 when the road is clear is not."
       },
       {
-        "heading": "Priority roads",
-        "body": "On a priority road (yellow diamond, sign B1), you keep priority over crossing roads at each junction until the sign is cancelled with a crossed-out diamond (B2). Shark's teeth on the crossing road confirm where the other driver must yield. Priority on the road does not exempt you from the normal rules when turning: you still give way to pedestrians and to cyclists going straight on across the road you turn into. Roundabouts and traffic-light junctions can interrupt the priority road temporarily — read each junction on its own merits."
+        "heading": "Priority roads and what to notice",
+        "body": "On a priority road (yellow diamond, sign B1), you keep priority over crossing roads at each junction until the sign is cancelled with a crossed-out diamond (B2). Shark's teeth on the crossing road confirm where the other driver must yield. The CBR-style check on every approach is: 'am I still on the diamond?' — and at exit points, confirm by looking for shark's teeth on the side road, not just by the absence of a cancellation sign. Priority on the road does not exempt you from the normal rules when turning: you still give way to pedestrians and to cyclists going straight on across the road you turn into."
       },
       {
         "heading": "Traffic lights override signs",
-        "body": "An active traffic light overrules priority signs and the priority-from-the-right rule. Green means you may proceed when safe, but you still yield to traffic and pedestrians already legally on the junction, and to emergency vehicles. Flashing amber (or no lights at all) means the light is out of service; fall back to the signs and markings, and if there are none, to priority from the right. A solid amber means stop unless you are so close that stopping safely is impossible."
+        "body": "An active traffic light overrules priority signs and the priority-from-the-right rule. Green means you may proceed when safe, but you still yield to traffic and pedestrians already legally on the junction, and to emergency vehicles. Flashing amber (or no lights at all) means the light is out of service; fall back to the signs and markings, and if there are none, to priority from the right. A solid amber means stop unless you are so close that stopping safely is impossible. The hierarchy from highest to lowest is: officer > traffic light > sign > marking > general rule."
       },
       {
-        "heading": "Officers and special signals",
-        "body": "Hand signals from a traffic officer (verkeersregelaar or police) override everything else — signs, markings, and lights. An officer holding an arm up means stop; an arm pointed at you usually means proceed in the direction shown. Tram signals, bus-lane signals, and lane-control signals above a motorway lane have their own meanings and also override the underlying rules. The hierarchy from highest to lowest is: officer > traffic light > sign > marking > general rule."
+        "heading": "Common exam traps",
+        "body": "Trap one: a green light does not give you the right to ignore pedestrians who are still finishing their crossing on a phased pedestrian light. Trap two: when turning across a cycle path that runs parallel to your road, the cycle light may still be green even if your light is amber — and the cyclist keeps priority. Trap three: at a junction with both a give-way triangle and a separate cyclist crossing, you yield to both crossing traffic and the cyclist, in that order. The exam often combines two of these traps in a single question to test whether candidates apply the full hierarchy."
+      },
+      {
+        "heading": "Scenario walkthrough",
+        "body": "You approach a junction on a priority road (yellow diamond) and want to turn right. A cyclist is going straight on alongside you on a parallel cycle path with no separate shark's teeth at the cycle crossing. The traffic light is green. What to do: the priority road and green light cover crossing motor traffic, but they do not override your duty to give way to the cyclist going straight on across the road you turn into. The safest decision: indicate right early, slow, glance over the right shoulder, and let the cyclist clear before completing the turn."
       }
     ]
   },
@@ -54,20 +62,24 @@
     "summary": "Priority on entering, on the ring, and on leaving a roundabout.",
     "sections": [
       {
-        "heading": "Entering",
-        "body": "On almost every Dutch roundabout, traffic already on the ring has priority over traffic entering. Shark's teeth at the entry confirm that you must yield. The rare exception is an older 'turbo' or rural design where the entry has priority, which is then explicitly marked — if there are no shark's teeth at the entry, look very carefully for the actual signs. You do not need to indicate when entering a roundabout, only when leaving it."
+        "heading": "The rule on entry",
+        "body": "On almost every Dutch roundabout, traffic already on the ring has priority over traffic entering. Shark's teeth at the entry confirm that you must yield. The rare exception is an older 'turbo' or rural design where the entry has priority — explicitly marked with either the absence of shark's teeth at the entry or with priority signs pointing into the ring. Never indicate on entry; indicators are only used to signal your exit. The CBR-style first check is always: 'shark's teeth at my entry?' — if yes, yield; if no, look for the actual signs."
       },
       {
         "heading": "Cyclists on the ring",
-        "body": "Inside a built-up area, cyclists on a ring cycle path usually have priority over cars entering and leaving the roundabout. Outside built-up areas, cyclists on the surrounding path more often have to yield to cars. Read the shark's teeth at the cycle crossing to be sure: teeth pointing at the cyclist means the cyclist yields, teeth pointing at the car means the car yields. When the rule is unclear, slow down and assume the cyclist has priority — it is the safer default."
+        "body": "Inside a built-up area, cyclists on a ring cycle path usually have priority over cars entering and leaving. Outside built-up areas, cyclists on the surrounding path more often have to yield to cars. Read the shark's teeth at the cycle crossing: teeth pointing at the cyclist means the cyclist yields, teeth pointing at the car means the car yields. When the rule is unclear, slow down and assume the cyclist has priority — it is the safer default and the answer the exam expects in ambiguous town scenarios."
       },
       {
         "heading": "Leaving the roundabout",
-        "body": "Indicate to the right just before your exit, never during the entry. When leaving, give way to pedestrians on a zebra crossing across the exit and to cyclists crossing the exit if their cycle path has priority. Stay in your lane until you actually leave; do not cut across a parallel lane on a two-lane roundabout. On a two-lane roundabout, the inside lane is normally for going more than halfway around, and the outside lane for the first exits — but always read the lane arrows on the approach."
+        "body": "Indicate to the right just before your exit, never during the entry. When leaving, give way to pedestrians on a zebra crossing across the exit and to cyclists crossing the exit where their cycle path has priority. Stay in your lane until you actually leave; do not cut across a parallel lane on a two-lane roundabout. The most-marked exam mistake on a roundabout is failing to indicate at the exit — even if you went straight on, the exit requires a right indicator."
       },
       {
-        "heading": "Lane choice and trams",
-        "body": "Choose your lane before you enter, based on the lane arrows painted on the approach. If you are continuing more than halfway around, the inside lane is usually correct; for the first exit, the outside lane. Trams on a roundabout keep their normal priority over other traffic unless a sign or signal says otherwise — never block tram rails while waiting to enter. Long vehicles such as lorries and buses may need to swing wide; give them room and never overtake one on a roundabout."
+        "heading": "Lane choice, trams and common traps",
+        "body": "Choose your lane before you enter, based on the lane arrows painted on the approach. The inside lane is usually for going more than halfway around; the outside lane for the first exits. Trams on a roundabout keep their normal priority over other traffic unless a sign or signal says otherwise — never block tram rails while waiting to enter. Common exam trap: assuming that 'right has priority' applies at a roundabout. It does not — the ring's priority over entries overrules the right-from-right default."
+      },
+      {
+        "heading": "Scenario walkthrough",
+        "body": "You are about to enter a built-up area roundabout. Shark's teeth are painted at your entry. A car is coming around the ring from your left, a cyclist is on the ring cycle path approaching the crossing in front of you, and another car is waiting to enter from the opposite side. What to do: the shark's teeth mean you yield to the ring car first, then to the cyclist (built-up area, cyclist on the ring usually has priority), and only enter when both are clear. The other entering car is not your priority concern; the order is ring traffic and cyclists first."
       }
     ]
   },
@@ -79,19 +91,23 @@
     "sections": [
       {
         "heading": "Pedestrian crossings",
-        "body": "At a marked zebra crossing, pedestrians who are crossing or clearly about to cross have priority. 'Clearly about to cross' includes someone standing at the kerb waiting, looking at the traffic — not only someone already stepping onto the road. Slow early enough that you can stop without alarming them, and never wave a pedestrian across, because they may step out in front of a vehicle in the next lane. Blind pedestrians with a white cane and guide dogs always have priority, even away from a zebra."
+        "body": "At a marked zebra crossing, pedestrians who are crossing or clearly about to cross have priority. 'Clearly about to cross' includes someone standing at the kerb waiting, looking at the traffic — not only someone already stepping onto the road. Slow early enough that you can stop without alarming them, and never wave a pedestrian across, because they may step out in front of a vehicle in the next lane. Blind pedestrians with a white cane and guide dogs always have priority, even away from a zebra. The CBR-correct answer is almost always: 'slow down and prepare to stop'."
       },
       {
         "heading": "Cyclists and mopeds",
-        "body": "Cyclists and moped riders on a cycle path that crosses your road have priority where shark's teeth point at you. When turning across a cycle path you have just been driving alongside, give way to cyclists going straight on — this is one of the most common causes of right-turn collisions. Be aware that fast e-bikes and speed pedelecs may approach much quicker than they look, and that mopeds on the road from your right still get the normal priority from the right. Open your door with your far hand (the 'Dutch reach') so you naturally turn and look for cyclists before opening."
+        "body": "Cyclists and moped riders on a cycle path that crosses your road have priority where shark's teeth point at you. When turning across a cycle path you have just been driving alongside, give way to cyclists going straight on — this is one of the most common causes of right-turn collisions and a frequent exam scenario. Fast e-bikes and speed pedelecs may approach much quicker than they look. Mopeds (snorfiets) on the road from your right still get the normal priority from the right. Use the Dutch reach (open the door with your far hand) to naturally check for cyclists before opening."
       },
       {
         "heading": "Trams and emergency vehicles",
         "body": "Trams generally have priority over other road traffic, including over traffic coming from the right, unless a sign or signal says otherwise. Never block tram rails, even when waiting in a queue. Emergency vehicles using sirens and blue lights ('optical and acoustic signals') always have priority; pull aside safely and stop if needed, but do not break a red light or drive onto a cycle path to make way — only make space within what is legal. Without sirens and lights an emergency vehicle is a normal vehicle and follows the same rules as you."
       },
       {
-        "heading": "Buses leaving a stop and other quirks",
-        "body": "Inside a built-up area, a bus that is signalling to pull out of a stop has priority — you must slow down and let it merge. Outside a built-up area this rule does not apply. Funeral processions and military columns may pass as a single unit: do not cut into them. Disabled-person vehicles with a hand-flag or special markings deserve the same patience as other vulnerable users, and a horse-and-rider on the road behaves more like a vulnerable user than a vehicle — pass slowly, widely, and without revving."
+        "heading": "Common exam traps",
+        "body": "Trap one: assuming a bus pulling out of a stop always has priority. Inside a built-up area it does (when it indicates), outside the built-up area it does not. Trap two: assuming a pedestrian on the pavement walking towards a zebra has priority. They only have priority once they are clearly about to cross. Trap three: assuming emergency vehicles have priority even without sirens and lights — without them, they are normal vehicles. Trap four: assuming you can drive onto a cycle path or red light to make way for an ambulance — you cannot."
+      },
+      {
+        "heading": "Scenario walkthrough",
+        "body": "Inside town, you are following a city bus that has stopped at a bus stop. Its right indicator comes on and the driver checks the mirror. Behind you a car is closing in. What to do: the bus inside the built-up area has priority to rejoin traffic when it indicates. Slow gradually, leave space, and let the bus pull out — you do not race past or hold your speed. Watch your mirror so that the car behind sees your brake lights early and can also slow. The CBR-correct decision is to yield to the bus and signal your braking clearly."
       }
     ]
   }
