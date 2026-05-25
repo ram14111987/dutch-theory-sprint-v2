@@ -318,5 +318,85 @@
       "short": "Direct vision over the shoulder plus mirrors gives you full coverage; a banksman fills any blind spot you cannot see.",
       "examTip": "If you cannot see the area behind, get out and check before moving."
     }
+  },
+  {
+    "id": "special-roads-manoeuvres-017",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-motorway-expressway",
+    "topicTags": ["scenario", "shoulder", "breakdown"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Your car develops a fault on the motorway and you must stop on the shoulder. What is the safest sequence after pulling over?",
+    "choices": [
+      { "id": "a", "text": "Stay in the car with hazard lights on and call for help" },
+      { "id": "b", "text": "Hazard lights on, everyone out via the passenger side over the barrier, warning triangle 30 m behind, then call for help" },
+      { "id": "c", "text": "Walk back along the carriageway to warn drivers" },
+      { "id": "d", "text": "Open the bonnet immediately and try a roadside repair" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Get everyone out on the passenger side, over the safety barrier, and place the warning triangle about 30 m behind before calling.",
+      "examTip": "Standing between the car and live traffic on a motorway is one of the deadliest things you can do."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-018",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-entering-leaving",
+    "topicTags": ["scenario", "merging", "acceleration-lane"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are on a short acceleration lane joining a busy motorway. Traffic in the right-hand lane is at 100 km/h and there is no obvious gap as you reach the end of the lane. What should you do?",
+    "choices": [
+      { "id": "a", "text": "Stop at the end of the lane and wait for a gap" },
+      { "id": "b", "text": "Match the motorway speed, signal and merge into a gap; cooperative drivers will often ease off" },
+      { "id": "c", "text": "Cross onto the shoulder and continue from there" },
+      { "id": "d", "text": "Brake hard halfway down the lane to let traffic clear" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Build to motorway speed on the slip road and merge into a gap — stopping creates a serious rear-end hazard.",
+      "examTip": "Traffic already on the motorway has priority, but Dutch drivers commonly open a gap if you signal early."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-019",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-tunnels-bridges",
+    "topicTags": ["scenario", "level-crossing"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You approach a railway level crossing. The red lights start flashing just as you arrive, but the half-barrier is still up. What must you do?",
+    "choices": [
+      { "id": "a", "text": "Cross quickly before the barrier comes down" },
+      { "id": "b", "text": "Stop behind the line and wait until the lights stop and the barrier is fully up" },
+      { "id": "c", "text": "Edge forward to see the train coming" },
+      { "id": "d", "text": "Reverse to clear space for the barrier" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Flashing red lights mean stop regardless of the barrier — a train is on its way.",
+      "examTip": "Never assume the train has passed; a second train can come from the other direction."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-020",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-manoeuvres-basics",
+    "topicTags": ["scenario", "reversing", "pedestrians"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are reversing out of a perpendicular parking bay into a busy shopping street. A pedestrian walks behind your car and a cyclist approaches from the right. Who has priority?",
+    "choices": [
+      { "id": "a", "text": "You — you started the manoeuvre first" },
+      { "id": "b", "text": "The pedestrian and the cyclist — reversing is a special manoeuvre and you yield to all road users" },
+      { "id": "c", "text": "Only the pedestrian" },
+      { "id": "d", "text": "Only the cyclist" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "During a special manoeuvre (bijzondere verrichting) you yield to every other road user, including pedestrians and cyclists.",
+      "examTip": "There is no \"I was here first\" defence during reversing or leaving a parking spot."
+    }
   }
 ]

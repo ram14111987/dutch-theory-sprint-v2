@@ -318,5 +318,85 @@
       "short": "Disabled parking bays are reserved 24/7 for vehicles displaying a valid disabled parking permit.",
       "examTip": "Fines for misuse are high and the vehicle can be towed."
     }
+  },
+  {
+    "id": "parking-stopping-rules-017",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": ["scenario", "school", "zigzag"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are dropping your child at school. The kerb outside has yellow zigzag markings and you would only stop for ten seconds. Is this allowed?",
+    "choices": [
+      { "id": "a", "text": "Yes — brief stops on zigzags are allowed" },
+      { "id": "b", "text": "Yes — anywhere is allowed for under one minute" },
+      { "id": "c", "text": "No — yellow school zigzags forbid even brief stopping during school hours" },
+      { "id": "d", "text": "Only if you keep the engine running" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "School zigzag markings prohibit stopping during school hours — park elsewhere and walk the last metres.",
+      "examTip": "Sight-lines for crossing children depend on these markings being clear."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-018",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-paid-and-zones",
+    "topicTags": ["scenario", "blue-zone", "disc"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You arrive at a blue zone bay at 14:08 with a 60-minute maximum. To what time must you set your parking disc?",
+    "choices": [
+      { "id": "a", "text": "14:00, the previous hour" },
+      { "id": "b", "text": "14:08, your actual arrival time" },
+      { "id": "c", "text": "14:30, the next half-hour after arrival" },
+      { "id": "d", "text": "15:08, one hour after arrival" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "In a blue zone, set the disc to the next half-hour after you actually arrive — 14:30 in this case.",
+      "examTip": "You must leave by 15:30; resetting the disc without moving the car is a fine."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-019",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-special-spaces",
+    "topicTags": ["scenario", "ev-charging"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You drive an electric car. You finished charging at a public charging bay 30 minutes ago and the bay is busy at this hour. What is the correct action?",
+    "choices": [
+      { "id": "a", "text": "Stay parked — the bay is yours until you leave" },
+      { "id": "b", "text": "Move the car to a normal parking bay so others can charge" },
+      { "id": "c", "text": "Restart the charging session for a few minutes to reset the timer" },
+      { "id": "d", "text": "Block the bay with a barrier to reserve it" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "EV charging bays are for vehicles that are actively charging — once full, move on.",
+      "examTip": "Many cities apply an idle fee or fine for blocking a charger after charging has ended."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-020",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-parking-position",
+    "topicTags": ["scenario", "door", "cyclist"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You have parked at the kerb in a busy city street. Before opening the driver's door, what should you do?",
+    "choices": [
+      { "id": "a", "text": "Open quickly to avoid blocking traffic" },
+      { "id": "b", "text": "Check the mirror and look over the shoulder for cyclists, then open with the far hand (Dutch reach)" },
+      { "id": "c", "text": "Sound the horn first" },
+      { "id": "d", "text": "Open the door wide so cyclists see it from a distance" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "The Dutch reach forces a shoulder twist that helps you see an approaching cyclist before opening.",
+      "examTip": "The driver who opens the door is liable for any collision with a passing cyclist."
+    }
   }
 ]

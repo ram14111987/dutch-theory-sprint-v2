@@ -318,5 +318,85 @@
       "short": "The APK (Algemene Periodieke Keuring) is a periodic safety and emissions check; without a valid APK you may not drive on public roads.",
       "examTip": "For most passenger cars APK is yearly once the car is 4 years old."
     }
+  },
+  {
+    "id": "vehicle-knowledge-017",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-tyres-brakes",
+    "topicTags": ["scenario", "tyres", "wet"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "It has been dry for two weeks. A sudden rain shower starts as you are driving on a busy main road. What should you do?",
+    "choices": [
+      { "id": "a", "text": "Maintain speed; rain only matters in heavy downpours" },
+      { "id": "b", "text": "Slow down and increase following distance — the first rain is the most slippery" },
+      { "id": "c", "text": "Switch on hazard lights and continue at normal speed" },
+      { "id": "d", "text": "Drive faster to clear the wet road quickly" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "The first 10–15 minutes of rain after a dry spell lifts oil and dust to the surface and grip drops sharply.",
+      "examTip": "In the wet, the 2-second rule becomes a 4-second rule."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-018",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-lights-visibility",
+    "topicTags": ["scenario", "lights", "dusk"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "It is dusk and starting to drizzle. Your daytime running lights are on. Are you fully lit for the conditions?",
+    "choices": [
+      { "id": "a", "text": "Yes — DRLs are enough at dusk" },
+      { "id": "b", "text": "No — DRLs do not light the rear; switch on dipped headlights" },
+      { "id": "c", "text": "No — switch on main beam to be safe" },
+      { "id": "d", "text": "No — switch on rear fog lights only" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "DRLs light only the front. At dusk and in rain you need dipped beam so your tail-lights are on for the driver behind.",
+      "examTip": "When visibility drops, dipped beam is almost always the correct choice."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-019",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-load-passengers",
+    "topicTags": ["scenario", "child-seat", "airbag"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You need to fit a rear-facing child seat for a 9-month-old baby. All rear seats are occupied by other children under 1.35 m, so only the front passenger seat is available, and it has an active airbag. What must you do?",
+    "choices": [
+      { "id": "a", "text": "Fit the rear-facing seat in front; the airbag adds extra protection" },
+      { "id": "b", "text": "Switch off the front passenger airbag before fitting the rear-facing seat" },
+      { "id": "c", "text": "Place the baby on a lap belt with an adult instead" },
+      { "id": "d", "text": "Place the baby in the boot in their carrier" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "A rear-facing seat must never be used in a seat with an active airbag — deactivate the airbag first.",
+      "examTip": "On most cars the front airbag has a key switch in the glovebox or on the dashboard side."
+    }
+  },
+  {
+    "id": "vehicle-knowledge-020",
+    "moduleId": "vehicle-knowledge",
+    "lessonId": "vehicle-knowledge-documents-environment",
+    "topicTags": ["scenario", "milieuzone", "diesel"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You drive an older diesel car that does not meet the milieuzone emission standard in Utrecht. You need to deliver something a few streets inside the zone. What is the correct decision?",
+    "choices": [
+      { "id": "a", "text": "Drive into the zone — short trips are exempt" },
+      { "id": "b", "text": "Park outside the zone and walk, cycle or take public transport for the last stretch" },
+      { "id": "c", "text": "Drive in but switch off the engine at red lights to compensate" },
+      { "id": "d", "text": "Cover the rear number plate so you are not photographed" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "There is no short-trip exemption — entering the milieuzone with a non-compliant vehicle is a per-day fine.",
+      "examTip": "Covering or obscuring a number plate is itself a serious offence."
+    }
   }
 ]

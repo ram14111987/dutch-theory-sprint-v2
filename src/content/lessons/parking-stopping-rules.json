@@ -6,16 +6,24 @@
     "summary": "Places where stopping or parking is never allowed, even briefly.",
     "sections": [
       {
-        "heading": "Stopping versus parking",
-        "body": "Stopping (stilstaan) means a brief halt to let someone in or out, or to unload immediately. Parking (parkeren) is any halt for longer than that, or as soon as you leave the vehicle. Some places forbid stopping; others forbid only parking."
+        "heading": "Stopping vs parking — the difference matters",
+        "body": "Dutch law distinguishes 'stilstaan' (stopping) from 'parkeren' (parking). Stopping is a brief halt to let someone in or out, or to load/unload immediately and continuously. Parking is any halt that goes beyond that, and it begins the instant you leave the vehicle. This distinction matters because some places forbid even stopping, while others only forbid parking. If a sign says no stopping, you may not even pause to set the sat-nav. If it says no parking, you may briefly let a passenger out but you may not walk away."
       },
       {
         "heading": "No stopping at all",
-        "body": "You may not stop on a yellow continuous line along the kerb, on a pedestrian crossing or within 5 metres before it, on a cycle path, in a tunnel, on a level crossing, or on a motorway and expressway except on the marked shoulder."
+        "body": "You may never stop on a yellow continuous (solid) kerb line, on a pedestrian crossing or within 5 metres before it, on a cycle path or cycle lane, on a level crossing, in a tunnel, on a motorway (autosnelweg) or expressway (autoweg) except on the marked shoulder for a genuine emergency, on the carriageway of a road with the C1 'no entry' sign, or anywhere a 'no stopping' sign (E2) is shown. A school yellow zigzag pattern also bans stopping during school hours. Stopping briefly 'just to drop my child off' on a school zigzag is the classic fine."
       },
       {
-        "heading": "No parking",
-        "body": "You may not park on a yellow broken line, in front of a driveway, within 5 metres of a junction, within 12 metres of a bus stop sign, on the carriageway alongside another parked vehicle (double parking), or where you would block emergency access."
+        "heading": "No parking — distances to remember",
+        "body": "Even where stopping is allowed, parking may not be. You may not park: on a yellow broken (dashed) kerb line, in front of a driveway (even briefly), within 5 metres of a junction in either direction, within 12 metres of a bus stop sign (H-pole), on the carriageway alongside another parked vehicle (double parking), on a bridge, on a sharp bend or just before/after one where you reduce visibility, in front of a fire hydrant, in front of mailboxes used by the public, or where you would block emergency access. The 5 m / 12 m / 1 m (driveway clearance) numbers are favourite CBR exam values."
+      },
+      {
+        "heading": "Common exam traps",
+        "body": "Trap one: confusing the yellow solid line (no stopping) with the yellow dashed line (no parking only). Trap two: parking 'just a metre' past a bus-stop H-pole — you must be 12 metres clear. Trap three: stopping on a pedestrian crossing to let someone out 'because the road is quiet'. Trap four: parking on a pavement because there is no kerb line — pavements are for pedestrians, not cars. Trap five: stopping on the shoulder of a motorway because you need to check a map; the shoulder is for emergencies and breakdowns only."
+      },
+      {
+        "heading": "Scenario walkthrough",
+        "body": "It is 08:20 on a school morning. Your child's school is on a quiet residential street with yellow zigzag markings outside. You think 'I'll just drop her off and go'. The CBR-correct decision is to stop in the next legal bay or side street and walk the last 50 metres — the yellow zigzag prohibits even brief stopping during school hours, and the rule exists precisely to keep sight-lines clear for crossing children. The fine is high, and the safety cost is real."
       }
     ]
   },
@@ -26,16 +34,24 @@
     "summary": "Blue zones, parking discs, paid parking and parking permits.",
     "sections": [
       {
-        "heading": "Blue zone (parkeerschijf)",
-        "body": "A blue line along the kerb means a blue zone: you must display a parking disc set to your arrival time, rounded up to the next half-hour. The maximum stay is shown on the zone sign."
+        "heading": "Blue zone (parkeerschijfzone)",
+        "body": "A blue line along the kerb, or a blue 'P' sign with a parking-disc symbol, marks a blue zone. You must display a parking disc (parkeerschijf) behind the windscreen, set to your arrival time rounded up to the next half-hour. The maximum stay is shown on the zone sign — typically 30, 60 or 120 minutes. The disc must be set when you arrive, not on a return trip; resetting it without leaving the bay is treated as a fine offence. Outside the hours printed on the sign, the zone usually does not apply, but always check — Saturday evening rules differ city by city."
       },
       {
-        "heading": "Paid parking",
-        "body": "A 'P + betaald' sign or a meter means you must pay for your stay. Display the ticket clearly behind the windscreen, or use the app/registration system in force in that municipality."
+        "heading": "Paid parking (betaald parkeren)",
+        "body": "A 'P + betaald' sign or a meter means you must pay for your stay. Display the printed ticket behind the windscreen so the time stamp is visible from outside, or use the municipality's parking app linked to your number plate. With an app there is nothing on the dashboard — enforcement scans the plate. Always end the session when you leave; leaving it running wastes money but does not protect you from a fine if the plate was missed at start. Paid hours typically run from 09:00 to 21:00 weekdays and may differ at weekends — check the small print on the meter."
       },
       {
-        "heading": "Permit holders",
-        "body": "A 'vergunninghouders' sign restricts spaces to permit holders. A combined sign (paid + permit) lets visitors pay; permit holders park free with their permit visible."
+        "heading": "Permit holders (vergunninghouders)",
+        "body": "A 'vergunninghouders' sign restricts bays to permit holders, usually residents of that neighbourhood. The permit (often a sticker or a digital registration) must be visible or registered against the plate. A combined sign 'betaald parkeren + vergunninghouders' lets visitors pay normally; permit holders park free with their permit. Parking in a permit-only space without a permit is one of the most common fines in Dutch cities and is enforced by plate-scanning cars. Outside permit hours (e.g. evenings or weekends, when shown), the bay may be free for all."
+      },
+      {
+        "heading": "Common exam traps and the disc rules",
+        "body": "Trap one: setting the disc to your real arrival time (10:07) instead of rounding up to the next half-hour (10:30). Trap two: 'I was only 5 minutes over' — the maximum stay is absolute, not a guideline. Trap three: paying with the app and forgetting that the bay you parked in is permit-only at the time you arrived. Trap four: leaving without ending the app session — wasted money, no extra protection. Trap five: assuming Saturday equals 'free' — many city centres charge Saturday all day. When in doubt, read the small text under the P sign."
+      },
+      {
+        "heading": "Scenario walkthrough",
+        "body": "You arrive at a shopping street at 11:17 in a blue zone with a 60-minute maximum, and a sign saying 'maandag t/m zaterdag 09:00–18:00'. Correct action: set your disc to 11:30 (next half-hour after arrival). Leave by 12:30 at the latest. If you return at 12:25 and reset the disc to 12:30 without moving the car, that is a fine — to stay longer you must drive away and re-park in a different bay (and even then enforcement can challenge a 'fake' move)."
       }
     ]
   },
@@ -47,15 +63,23 @@
     "sections": [
       {
         "heading": "Disabled parking",
-        "body": "Bays marked with the wheelchair symbol are reserved for holders of a valid Dutch or European disabled card, displayed behind the windscreen. A general 'gehandicapten' bay is for any cardholder; a bay with a number plate on the sign is reserved for that single permit."
+        "body": "Bays marked with the wheelchair symbol on the sign and/or painted on the surface are reserved for holders of a valid Dutch (gehandicaptenparkeerkaart) or European disabled parking card. The card must be displayed face-up behind the windscreen so the photo and expiry date are visible from outside. A general 'gehandicapten' bay is open to any cardholder; a bay with a specific number plate printed on the sign is reserved for that single permit only. Misuse is a high fine and the vehicle can be towed. There is no 'just 5 minutes' exception, even for shopping or loading."
       },
       {
         "heading": "Electric vehicle charging bays",
-        "body": "A bay marked 'opladen' under a 'P' sign is reserved for electric vehicles that are actually charging. Once you finish charging, you must move on so others can use the space."
+        "body": "A bay marked with the 'opladen' sign under a 'P' is reserved for electric vehicles that are actively charging. Once charging is complete, the vehicle must move on so others can use the space — many cities issue 'idle fees' or fines for blocking a finished charge. A non-electric vehicle parked there gets a fine and may be towed. Some chargers have a maximum stay (e.g. 4 hours) regardless of state of charge. Plug-in hybrids may use the bay only when actually charging, not just for parking convenience."
       },
       {
-        "heading": "Loading and unloading",
-        "body": "A 'laden en lossen' sign means the bay is reserved for active loading or unloading. You must remain with the vehicle or be visibly handling goods; you may not park there to run an errand."
+        "heading": "Loading and unloading bays",
+        "body": "A 'laden en lossen' sign means the bay is reserved for active loading or unloading of goods. You must remain with the vehicle or be visibly carrying goods to and from it — popping into a shop to do unrelated business is not 'loading'. Loading bays may have time restrictions printed on the sign (e.g. 07:00–11:00) outside which normal parking rules apply. Taxis have their own reserved bays (taxi stand sign) where you may not stop or park at all unless you are a taxi on duty."
+      },
+      {
+        "heading": "Common exam traps",
+        "body": "Trap one: 'just 2 minutes to grab milk' in a disabled bay — there is no time exception. Trap two: a plug-in hybrid blocking a charging bay without the cable connected. Trap three: parking in a 'laden en lossen' bay to run a shop errand. Trap four: not displaying the disabled card face-up — enforcement cannot read what they cannot see. Trap five: assuming a number-plate sign is decorative — those bays are for one specific permit only. The exam tests whether you know that 'reserved' truly means reserved."
+      },
+      {
+        "heading": "Scenario walkthrough",
+        "body": "You are running 3 minutes late and the only nearby space is a disabled bay; you do not have a permit. You see no disabled person around. Correct action: do not park there, even briefly. The reservation is 24/7, the fine is high, and the moral cost — a disabled driver arriving with nowhere to park — is the real reason the rule exists. Park legally further away and walk; that is the answer the CBR expects every time."
       }
     ]
   },
@@ -67,15 +91,23 @@
     "sections": [
       {
         "heading": "Direction of travel",
-        "body": "On a two-way road you must park facing the direction of travel on your side of the road. On a one-way street you may park on either side, but still facing the direction of travel."
+        "body": "On a two-way road you must park facing the direction of travel on your side of the road — never on the left, facing oncoming traffic. On a one-way street you may park on either side, but still facing the legal direction of travel. Parking against the direction of travel is illegal and a frequent fine, partly because reflectors at night only work when the car is facing forward — a wrong-way-parked car looks invisible to other drivers in the dark."
       },
       {
         "heading": "Distance from the kerb",
-        "body": "Park as close to the kerb as you safely can, within about 30 cm. Outside built-up areas with no kerb, leave the carriageway entirely and park on the verge where this is allowed."
+        "body": "Park as close to the kerb as you safely can, within about 30 cm. Wider than that and you obstruct the carriageway and other parked traffic; closer than that and you risk scraping the wheel and damaging tyre sidewalls. Outside built-up areas with no kerb, leave the carriageway completely and park on the verge if local rules allow it, with the wheels off the carriageway. Never park half on the pavement unless a sign (E8) or street design explicitly permits it — pavements are for pedestrians."
       },
       {
-        "heading": "Lights and doors",
-        "body": "Parking lights are required at night on a road without street lighting and outside built-up areas. Before opening a door, check the mirror and over the shoulder for cyclists; the driver who opens the door is liable for any collision."
+        "heading": "Lights, handbrake and stopping the engine",
+        "body": "Parking lights are required at night on a road without street lighting and outside built-up areas. On a lit urban road they are optional. Always apply the handbrake firmly, leave the car in first gear (or reverse on a downhill, or 'P' in an automatic), and switch off the engine — idling to keep the heater running is forbidden. On a hill, turn the front wheels toward the kerb pointing downhill, and away from the kerb pointing uphill: if the brakes fail, the car rolls into the kerb instead of into traffic."
+      },
+      {
+        "heading": "Safe doors (the 'Dutch reach')",
+        "body": "Before opening any door — driver or passenger — check the mirror, look over the shoulder, and only then open. The Dutch reach is using the far hand (right hand for the driver) to open the door, because it forces a shoulder-twist and a glance toward the rear at the same time. The driver is liable for any collision with a cyclist or moped caused by a door swung carelessly into their path, no matter who opened it. Teach passengers the same habit — a back-seat door catches a cyclist just as effectively as a front one."
+      },
+      {
+        "heading": "Common exam traps and a scenario",
+        "body": "Trap one: parking against the direction of travel because 'the space is there'. Trap two: half on the pavement without an E8 sign permitting it. Trap three: leaving an automatic in 'D' instead of 'P' on the slope. Trap four: opening the driver's door without checking the mirror, dooring a cyclist. Trap five: idling the engine while parked to keep warm. Scenario: you parked on a downhill street in your manual car. Correct setup: handbrake firmly applied, gear lever in reverse (or first), front wheels turned toward the kerb, engine off, mirror check before you and any passenger open a door."
       }
     ]
   }

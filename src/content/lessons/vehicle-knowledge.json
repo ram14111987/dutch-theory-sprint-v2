@@ -6,16 +6,24 @@
     "summary": "What you need to know to keep your car safe to drive: tread, pressure, brakes and steering.",
     "sections": [
       {
-        "heading": "Tyre tread and pressure",
-        "body": "The legal minimum tread depth is 1.6 mm across the central three-quarters of the tyre. Check pressure cold, at least once a month, and use the value on the door pillar or fuel cap. Winter tyres are recommended below about 7 °C."
+        "heading": "Tyre tread and why it matters",
+        "body": "The legal minimum tread depth in the Netherlands is 1.6 mm across the central three-quarters of every tyre. Below that, the tyre cannot push water out from under itself and aquaplaning risk rises sharply. In practice most safety guides recommend replacing tyres at about 3 mm in summer and 4 mm on winter tyres, well before the legal limit. Uneven wear has a story to tell: wear in the middle only means over-inflation, wear on both shoulders means under-inflation, and wear on one side means an alignment problem. The CBR exam treats 1.6 mm as the hard legal line, but expects you to know that worn tyres double or triple your stopping distance in the wet."
       },
       {
-        "heading": "Brakes",
-        "body": "A brake pedal that feels soft, sinks slowly, or pulls the car to one side indicates a problem — have it checked at once. ABS prevents the wheels locking under hard braking; in an emergency stop, press the pedal firmly and keep steering."
+        "heading": "Tyre pressure",
+        "body": "Check pressure cold (before driving more than a few kilometres), at least once a month, and always before a long trip. The correct value is on the door pillar, fuel cap or owner's manual — not the value moulded into the tyre, which is the maximum. Under-inflation increases rolling resistance, raises fuel use, makes the car feel vague in corners and can overheat the sidewall until it fails. Over-inflation reduces the contact patch and shortens grip in braking and cornering. Add roughly 0.2 bar above the standard value when fully loaded or on a motorway trip. A tyre that loses pressure repeatedly is leaking — do not just keep topping it up."
       },
       {
-        "heading": "Steering and suspension",
-        "body": "A vibration through the wheel at speed often points to unbalanced tyres or worn suspension. Pulling to one side may mean a soft tyre or wheel alignment problem. Either way, do not ignore it."
+        "heading": "Winter tyres and seasonal choice",
+        "body": "Winter tyres are recommended below about 7 °C, because summer-tyre rubber goes hard and grip drops sharply. They have a deeper, blockier tread and the 3PMSF snowflake symbol on the sidewall. All-season tyres are a compromise and acceptable in the mild Dutch climate, but a dedicated winter tyre still outperforms them on snow and ice. If you fit winter tyres, fit all four — mixing types front and rear makes the car unpredictable. Worked example: a sudden cold snap drops the night temperature to −2 °C; a summer tyre on a frosty bridge can take twice the distance to stop compared with a winter tyre at the same speed."
+      },
+      {
+        "heading": "Brakes — what to feel and what to do",
+        "body": "A healthy brake pedal feels firm, pushes back evenly, and stops the car in a straight line. Warning signs that demand immediate inspection: a soft pedal that travels too far, a pedal that slowly sinks while you hold it at a light, the car pulling left or right under braking, a squeal that does not go away after the first few stops, a grinding noise (metal on metal), or the ABS warning light staying on. ABS prevents the wheels locking — in an emergency stop you press the pedal firmly and keep steering; the pulsing under your foot is normal. Do not 'pump' the brakes on an ABS car. Engine braking on long descents saves the brakes from overheating; once they fade, recovery takes minutes."
+      },
+      {
+        "heading": "Steering, suspension and common exam traps",
+        "body": "A vibration through the steering wheel at 80–100 km/h usually means unbalanced wheels; a vibration only under braking points to warped discs. Pulling to one side may be a soft tyre, a sticking caliper, or alignment off after hitting a pothole. A clunk over bumps suggests a worn suspension joint and must be checked. Exam traps: (1) thinking 1.6 mm is 'safe' rather than the legal minimum — at that depth wet stopping is much longer; (2) ignoring a slowly sinking pedal because the car still stops; (3) topping up a leaking tyre week after week instead of fixing it; (4) pumping the brakes on an ABS car in an emergency. Scenario: at 100 km/h the wheel shakes only above 90 km/h — book a wheel balance, do not just slow down to mask the symptom."
       }
     ]
   },
@@ -26,16 +34,24 @@
     "summary": "When and how to use each set of lights, and how to keep your view of the road clear.",
     "sections": [
       {
-        "heading": "Dipped, main and fog lights",
-        "body": "Use dipped headlights at night and whenever visibility is reduced (rain, snow, dusk, tunnels). Main beam is only allowed when it will not dazzle other road users. Front fog lights and rear fog lights are only for poor visibility — switch them off when visibility improves."
+        "heading": "Dipped, main and daytime lights",
+        "body": "Use dipped headlights at night and any time visibility is reduced: rain, snow, dusk, heavy cloud, and inside tunnels even when the tunnel feels bright. Daytime running lights (DRL) are now standard but they only light the front, not the rear — in rain or low cloud you still need dipped beam so your tail-lights are on. Main beam (groot licht) gives you the longest view at night on unlit roads, but you must dip it well before it could dazzle: about 400 m for oncoming traffic, less for a vehicle you are catching up. Inside built-up areas with street lighting, main beam is generally not appropriate."
       },
       {
-        "heading": "Hazard warning lights",
-        "body": "Hazard lights warn other road users of an unexpected danger: a sudden traffic jam ahead on a motorway, a breakdown, or being towed. They are not a substitute for indicators, and not a permit to park where parking is forbidden."
+        "heading": "Fog lights — the exact rule",
+        "body": "Front fog lights (mistlampen voor) may be used when visibility falls below 200 m. Rear fog lights (mistlamp achter) may be used only when visibility falls below 50 m. Switch the rear fog light off as soon as visibility improves, because at any reasonable distance it is far brighter than a normal tail-light and can hide your brake lights from the driver behind. Using rear fog lights when it is not dense enough is a common fine and an easy CBR question. Never use main beam in fog — the droplets reflect the light straight back into your eyes."
       },
       {
-        "heading": "Windscreen and mirrors",
-        "body": "Keep the windscreen, side windows and mirrors clean and free of stickers that obstruct your view. Top up washer fluid and replace wiper blades that smear. In winter, clear all snow and ice — not just a peephole."
+        "heading": "Hazard lights — and when not to use them",
+        "body": "Hazard warning lights (alarmlichten) warn other road users of an unexpected danger: a sudden queue on a motorway behind you, a breakdown, an accident, or while being towed. On a Dutch motorway, switching on hazard lights briefly as you brake for the back of a queue is the correct cue to the driver behind. Hazard lights are not a substitute for indicators — you cannot signal a turn with them — and they do not give you permission to park where parking is forbidden ('I am only stopping a minute' is not a legal defence). Once you move with the traffic again, switch them off."
+      },
+      {
+        "heading": "Windscreen, mirrors and washer system",
+        "body": "Keep the windscreen, all side windows and mirrors clean and free of stickers or decorations that obstruct your view. The driver is responsible for the windscreen being clear: snow, ice, condensation, and bird droppings must be removed completely, not just a peephole. Top up the washer fluid with a winter mix below freezing, otherwise the lines can ice up. Replace wiper blades that smear, judder or leave streaks — typically every 12 months. In winter, lift the wipers off the screen overnight to avoid them freezing to the glass. A dirty windscreen plus low sun turns the smears into a wall of glare."
+      },
+      {
+        "heading": "Common exam traps and a scenario",
+        "body": "Trap one: leaving rear fog lights on after visibility improves. Trap two: using main beam in fog because it 'looks brighter'. Trap three: relying on DRLs in rain instead of switching on dipped beam (rear lights stay off). Trap four: clearing only a small patch of windscreen ice and driving off. Trap five: using hazard lights to justify parking on a yellow line. Scenario: dusk in October, light drizzle, the road looks fine. Correct action: dipped beam on, not DRL only — this turns on the rear lights so the driver behind can judge your speed. As visibility improves, switch off any fog lights."
       }
     ]
   },
@@ -46,16 +62,24 @@
     "summary": "How to carry passengers and cargo safely and legally.",
     "sections": [
       {
-        "heading": "Seat belts",
-        "body": "All occupants must wear a seat belt when one is fitted, in any seat. The driver is responsible for passengers under 18 wearing theirs. A belt only protects when it lies flat across the shoulder and hips, with no slack."
+        "heading": "Seat belts — who, where, why",
+        "body": "All occupants must wear a seat belt where one is fitted, in any seat. The driver is responsible for passengers under 18 wearing theirs; for adults, each person is liable for their own fine, but the driver still gets a fine for the under-18s. A belt only protects when it lies flat across the shoulder and hips, with no slack and no twist; a coat or thick fleece under the belt creates the same dangerous slack. Pregnant women wear the belt with the lap part under the bump and the diagonal between the breasts. Holding a child in your arms is not a substitute for a child seat — at 50 km/h a 10 kg toddler effectively weighs hundreds of kilograms in a crash."
       },
       {
-        "heading": "Child restraints",
-        "body": "Children under 1.35 m must use an approved child seat or booster suited to their weight and height. Children below 1.35 m may sit in the front only if no other seat is available, and a rear-facing seat must never be used on a seat with an active front airbag."
+        "heading": "Child restraints — the 1.35 m rule",
+        "body": "Children under 1.35 m must use an approved child seat or booster suited to their weight and height. Children below 1.35 m may sit in the front only if there is no rear seat available or all rear seats are occupied by other children under 1.35 m. A rear-facing seat must never be used in a seat with an active front airbag — the airbag deploys at hundreds of km/h directly into the back of the child's head. If the front seat has an airbag, disable it (key switch) before fitting a rear-facing seat there. Above 1.35 m, a normal seat belt is sufficient regardless of age, but a booster up to about 12 years old is still safer."
       },
       {
-        "heading": "Carrying loads",
-        "body": "Do not exceed the maximum load on the vehicle plate. Distribute weight low and central, secure it so it cannot shift, and check that lights and number plates remain visible. A load may overhang at the rear by up to 1 metre with a red marker; sideways overhang is not allowed beyond 10 cm either side."
+        "heading": "Carrying loads safely",
+        "body": "Never exceed the maximum permitted mass on the vehicle plate. Distribute weight low and central — heavy items high up or far to one side make the car roll more in corners and lengthen braking. Secure every load so it cannot shift: even on a short trip a loose toolbox in the boot becomes a missile in an emergency stop. Check that number plates, lights and indicators remain visible. A load may overhang at the rear by up to 1 metre, marked with a red flag by day and a red light at night; sideways overhang beyond 10 cm either side of the vehicle is not allowed. On a roof rack, the load weight counts against the maximum permitted mass and significantly raises the centre of gravity."
+      },
+      {
+        "heading": "Trailers, bikes and tow rules",
+        "body": "Pulling a trailer with a category B licence is allowed up to 750 kg trailer mass, or up to 3,500 kg combined mass under the BE rules. Anything heavier requires a BE licence. Trailer brakes are required above about 750 kg. Towing speeds in the Netherlands are lower than for a solo car: typically 90 km/h on a motorway and 80 km/h on most other roads, unless signs indicate lower. A bike rack on the back must not obscure the number plate or lights — fit a duplicate plate and light board if needed. The driver is responsible for the security and visibility of anything attached to the car."
+      },
+      {
+        "heading": "Common exam traps and a scenario",
+        "body": "Trap one: fitting a rear-facing baby seat in front of an active airbag. Trap two: assuming a child over 1.35 m needs a booster — they do not. Trap three: 'just to the supermarket' as an excuse for an unsecured load. Trap four: a roof box raising the centre of gravity and you keeping your normal cornering speed. Trap five: a bike rack covering the number plate. Scenario: you are taking a friend's 9-year-old (1.30 m tall) on the school run. Correct action: child seat or booster in the rear, normal seat belt routed through it; never simply 'just the belt' until they reach 1.35 m."
       }
     ]
   },
@@ -66,16 +90,24 @@
     "summary": "Paperwork you must carry and the environmental rules that apply to your vehicle.",
     "sections": [
       {
-        "heading": "Documents to carry",
-        "body": "While driving you must be able to show your driving licence, the vehicle registration certificate (kentekenbewijs or digital equivalent), and proof of valid insurance. Road tax (motorrijtuigenbelasting) and APK status are checked from the registration."
+        "heading": "What you must be able to show",
+        "body": "While driving you must be able to show on demand: your driving licence, the vehicle registration certificate (kentekenbewijs — physical card or the digital equivalent through the RDW), and evidence of valid third-party insurance (WA). The Dutch state checks road tax (motorrijtuigenbelasting) and APK status electronically against the registration plate, so the paper sticker is no longer required, but the underlying obligations are. Driving without valid insurance is a serious offence with high fines and an automatic insurance-fund claim against you for any damage you cause."
       },
       {
-        "heading": "APK and roadworthiness",
-        "body": "A passenger car must pass the periodic vehicle inspection (APK): first after 4 years for petrol/electric (3 for diesel), then every 2 years until it is older, then yearly. Driving without a valid APK is an offence and invalidates insurance cover for many claims."
+        "heading": "APK — when and what",
+        "body": "The APK (Algemene Periodieke Keuring) is the mandatory periodic vehicle inspection. For a normal petrol or electric passenger car the schedule is: first inspection after 4 years, then every 2 years up to age 8, then yearly. For diesel passenger cars the first APK is at 3 years. The inspection covers brakes, steering, suspension, lights, tyres, emissions, body corrosion and identification. A vehicle without a valid APK may not be driven on public roads (even to and from the test station beyond limited exceptions) and the insurance can refuse to pay damages on a non-APK vehicle. Always keep the inspection date in your calendar — the RDW will not always remind you."
       },
       {
-        "heading": "Environmental zones and emissions",
-        "body": "Many Dutch cities have an environmental zone (milieuzone) that bans older diesel vehicles, shown by a circular zone sign. Idling unnecessarily, leaking oil, or removing emission controls is forbidden. Keep the vehicle well maintained to keep emissions low."
+        "heading": "Environmental zones and emission rules",
+        "body": "Many Dutch cities operate an environmental zone (milieuzone), shown by a circular blue zone sign with 'milieuzone' written under it. The zone bans older diesel vehicles below a given Euro standard; lighter restrictions apply to petrol vehicles in 'zero-emission zones' planned in central districts of large cities. Entering with a non-compliant vehicle triggers a fine per day. Idling unnecessarily is forbidden — switch off if you will be stopped for more than a minute outside traffic. Leaking oil and fuel, and removing or tampering with emission controls (DPF, catalytic converter, AdBlue system), are offences regardless of where you drive."
+      },
+      {
+        "heading": "Electric and hybrid specifics",
+        "body": "An electric vehicle is exempt from road tax to 2024 and pays a reduced rate after, depending on policy. EV-specific rules: at a charging bay (P + 'opladen' sign), you must actually be charging — once charging is complete, you must move on. Block-charging an idle car can attract a fine and a tow. The 12 V auxiliary battery in an EV still needs a healthy charge; if the car has not moved for weeks, do not assume the high-voltage battery keeps it topped up. Regenerative braking does most of the slowing in normal driving, but the friction brakes still need use occasionally to stay rust-free."
+      },
+      {
+        "heading": "Common exam traps and a scenario",
+        "body": "Trap one: thinking the digital kentekenbewijs replaces the obligation to be able to show insurance — it does not. Trap two: assuming the APK reminder will always reach you by post. Trap three: entering a milieuzone with an older diesel because 'it's only a few streets'. Trap four: idling for several minutes outside school waiting to pick up children. Trap five: an EV blocking a charging bay after charging finished. Scenario: you have just bought a 2014 diesel car and plan to drive into Utrecht's centre. Correct action: check the milieuzone level for that city against the vehicle's Euro class before you drive; if not compliant, park outside the zone and take public transport in."
       }
     ]
   }

@@ -928,5 +928,157 @@
       "short": "Reading the traffic stream beyond the car in front gives you crucial extra seconds — start reacting before the driver ahead does.",
       "examTip": "Looking through the windows of the car in front is a CBR-recommended scanning habit."
     }
+  },
+  {
+    "id": "hazard-awareness-026",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-scanning",
+    "topicTags": [
+      "scenario",
+      "scanning",
+      "parked-cars"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are driving at 30 km/h along a residential street lined with parked cars. Between two parked vans on your right you notice a ball roll into the road. What is the safest response?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Maintain speed; a ball cannot damage your car"
+      },
+      {
+        "id": "b",
+        "text": "Brake firmly and prepare for a child to follow the ball"
+      },
+      {
+        "id": "c",
+        "text": "Sound the horn and continue at the same speed"
+      },
+      {
+        "id": "d",
+        "text": "Swerve into the oncoming lane to give a wider berth"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A ball into the road predicts a child running after it — slow firmly and be ready to stop.",
+      "examTip": "CBR scenarios use the ball-then-child pattern often; the correct answer is always to brake."
+    }
+  },
+  {
+    "id": "hazard-awareness-027",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-vulnerable-users",
+    "topicTags": [
+      "scenario",
+      "cyclist",
+      "turning"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are about to turn right at a junction. A cyclist on the cycle path to your right is travelling straight ahead at the same speed as you. What must you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Turn first, because cars have priority over cyclists"
+      },
+      {
+        "id": "b",
+        "text": "Stop and let the cyclist go straight on before you turn"
+      },
+      {
+        "id": "c",
+        "text": "Speed up to clear the turn before the cyclist arrives"
+      },
+      {
+        "id": "d",
+        "text": "Sound the horn to make the cyclist slow down"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A straight-going cyclist on a parallel cycle path has priority when you turn right across their line.",
+      "examTip": "Always do a final blind-spot check over the right shoulder before turning right across a cycle path."
+    }
+  },
+  {
+    "id": "hazard-awareness-028",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-weather-visibility",
+    "topicTags": [
+      "scenario",
+      "fog",
+      "lights"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are driving on a rural road. Visibility drops in patchy fog to about 80 metres. Which lights may you use?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Main beam, to see further into the fog"
+      },
+      {
+        "id": "b",
+        "text": "Dipped headlights and front fog lights; rear fog lights are not yet allowed"
+      },
+      {
+        "id": "c",
+        "text": "Dipped headlights, plus front and rear fog lights"
+      },
+      {
+        "id": "d",
+        "text": "Hazard lights only"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Below 200 m you may use front fog lights; rear fog lights are only allowed below 50 m.",
+      "examTip": "Main beam in fog reflects off the droplets and dazzles you — never use it."
+    }
+  },
+  {
+    "id": "hazard-awareness-029",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-reaction-anticipation",
+    "topicTags": [
+      "scenario",
+      "tailgater",
+      "following-distance"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a 100 km/h motorway in the rain, a driver behind you sits very close to your rear bumper. What is the safest action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Brake firmly to teach them a lesson"
+      },
+      {
+        "id": "b",
+        "text": "Speed up to escape them"
+      },
+      {
+        "id": "c",
+        "text": "Ease off gently to enlarge the gap in front, so any braking can be gradual"
+      },
+      {
+        "id": "d",
+        "text": "Switch on rear fog lights to dazzle them"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Open extra space ahead so you never need a hard brake — the tailgater needs the longer gap, not you.",
+      "examTip": "In wet conditions extend the 2-second rule to 4 seconds; a tailgater means you need even more."
+    }
   }
 ]

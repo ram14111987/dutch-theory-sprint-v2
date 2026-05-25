@@ -6,16 +6,24 @@
     "summary": "Rules for autosnelweg (motorway) and autoweg (expressway): access, speeds, lane use, and shoulder rules.",
     "sections": [
       {
-        "heading": "Who may use them",
-        "body": "Motorways (rectangular blue sign with a stylised dual carriageway) and expressways (blue car sign) are reserved for motor vehicles that can sustain at least 60 km/h. Mopeds, cyclists, pedestrians, and slow traffic are forbidden."
+        "heading": "Recognising the road — and who may use it",
+        "body": "A motorway (autosnelweg) is shown by the rectangular blue sign with a stylised dual carriageway and is reserved for motor vehicles capable of sustaining at least 60 km/h. An expressway (autoweg) is shown by the blue car-on-rectangle sign and is also restricted to faster motor vehicles. Mopeds, cyclists, pedestrians, agricultural vehicles, and any vehicle that cannot reach 60 km/h are forbidden. Learner drivers may use motorways with an instructor in a car with dual controls. Entering a motorway from a slip road but at 50 km/h because you are timid is itself dangerous — bring the speed up properly before merging."
       },
       {
-        "heading": "Speeds and lane use",
-        "body": "On a motorway the daytime maximum is 100 km/h (06:00–19:00); at night and where signs allow it can be 120 or 130 km/h. On an expressway the maximum is 100 km/h. Always keep right; the left lane is for overtaking only."
+        "heading": "Speed limits and lane use",
+        "body": "On a Dutch motorway, the daytime maximum is 100 km/h (06:00–19:00). Outside those hours it can be 120 or 130 km/h where signs allow. On an expressway the maximum is 100 km/h. Variable speed signs above the lanes always overrule the general limit. Lane discipline: always keep right, the left lane is for overtaking only. Holding the middle lane unnecessarily ('lane hogging') is itself a fine, even if you are at the limit, because it pushes faster traffic into multiple lane changes. After overtaking, return to the right as soon as it is safe."
       },
       {
-        "heading": "Shoulder and emergencies",
-        "body": "Driving or stopping on the shoulder (vluchtstrook) is forbidden except for a real breakdown or emergency. If you must stop, leave the vehicle on the right side, switch on hazard lights, and place the warning triangle 30 metres behind."
+        "heading": "Following distance and braking",
+        "body": "At 100 km/h the 2-second rule means a gap of about 56 metres; in rain double it to 4 seconds (≈110 m). Painted dashes on the road are spaced to help judge this. Brake lights ahead are not the cue to brake — they are the cue to lift off. Look through the windows of the car in front to read brake lights two and three cars ahead; this gives you several extra seconds. If you see a queue forming, switch on hazard lights briefly as you slow, then off once the driver behind you has clearly seen them. Tailgating at motorway speeds is the single most common cause of multi-vehicle pile-ups."
+      },
+      {
+        "heading": "The shoulder (vluchtstrook) and emergencies",
+        "body": "Driving or stopping on the shoulder is forbidden except for a real breakdown or emergency. If you must stop: pull as far onto the shoulder as you can, switch on the hazard lights, get everyone out on the passenger (right) side and over the safety barrier, and place the warning triangle about 30 metres behind the vehicle. On a busy motorway, do not stand between the car and oncoming traffic to use a phone — the verge is far safer. Where a 'plus lane' (spitsstrook) opens with an overhead green arrow, the shoulder becomes a normal driving lane until the next exit. Red cross above means closed; obey immediately."
+      },
+      {
+        "heading": "Common exam traps and a scenario",
+        "body": "Trap one: assuming 130 km/h applies all day — daytime is 100 km/h regardless. Trap two: cruising in the middle lane on an empty motorway. Trap three: stopping on the shoulder for a phone call. Trap four: ignoring a red cross because 'the lane looks empty'. Trap five: entering the motorway too slowly because the slip road felt short. Scenario: at 11:00 you join a 3-lane motorway through the slip road, traffic is moderate at 95 km/h. Correct action: accelerate on the slip road to about 95 km/h, signal left, merge into a gap in the right-hand lane, and only move further left to overtake — not as a default."
       }
     ]
   },
@@ -26,16 +34,24 @@
     "summary": "How to use slip roads, acceleration and deceleration lanes, and how to merge safely.",
     "sections": [
       {
-        "heading": "Acceleration lane (invoegstrook)",
-        "body": "On the slip road, build up to the speed of traffic on the motorway. Watch the right-hand mirror, signal left, and merge into a gap. Traffic already on the motorway has priority, but cooperative drivers will make space."
+        "heading": "The acceleration lane (invoegstrook)",
+        "body": "On the slip road, build up speed steadily so that by the end of the acceleration lane you are close to the speed of traffic in the right-hand motorway lane. Use the right-hand mirror, signal left, do a brief blind-spot check over the right shoulder, and merge into a gap. Traffic already on the motorway has priority — the rule is yours to find the gap, not theirs to brake for you. Cooperative drivers will often ease off to open a gap; thank them with a quick hazard-light flash or a wave. Never stop on the acceleration lane unless traffic ahead has stopped."
       },
       {
-        "heading": "Deceleration lane (uitvoegstrook)",
-        "body": "Leave the motorway by signalling right in good time and moving onto the deceleration lane. Only brake once you are off the main carriageway, so you do not slow traffic behind you."
+        "heading": "The deceleration lane (uitvoegstrook)",
+        "body": "Leave the motorway by signalling right in good time (about 3 seconds before the lane begins), then moving onto the deceleration lane while still at motorway speed. Only brake once you are off the main carriageway, so you do not slow traffic behind you. The exit lane often curves and the advised speed (yellow sign with a number) is genuine — it accounts for the curve, not just the surface. A common mistake is to leave braking until on the curve, then panic-brake and lose grip. Plan exits earlier on rainy days."
       },
       {
-        "heading": "Lane drops and lane gains",
-        "body": "If your lane ends (rijstrook eindigt), merge in good time using the zipper principle (ritsen): take turns one-by-one with the lane next to you. Never force your way in at the last moment."
+        "heading": "Lane drops and lane gains — the zipper (ritsen)",
+        "body": "When your lane ends ('rijstrook eindigt' sign or chevrons), you use the zipper principle (ritsen): traffic from the ending lane and the continuing lane take turns one for one, all the way to the merge point. Stay in your lane until just before the merge point — moving over early causes a phantom jam further back. The driver in the continuing lane should make space; the driver in the ending lane should not force their way in. When a new lane opens to the right, traffic from the right side has no priority — merging traffic still gives way to those already there."
+      },
+      {
+        "heading": "Junctions, weaving lanes and intersections (knooppunt)",
+        "body": "At a motorway interchange (knooppunt) you may have a 'weaving lane' where traffic entering and exiting share the same lane briefly. Choose your lane early using the overhead direction signs; do not cross from the second lane to the exit at the last moment. Where two motorways merge, the rule is the same as a normal acceleration lane: the lane that ends gives way. On Dutch motorways the overhead signs are colour-coded — blue text on white background for the next exit, white text on blue for through traffic — so a glance up early prevents last-second lane changes."
+      },
+      {
+        "heading": "Common exam traps and a scenario",
+        "body": "Trap one: stopping at the end of the acceleration lane because there is no gap. Trap two: braking on the motorway before reaching the deceleration lane, and slowing the traffic behind. Trap three: merging too early at a lane-drop and creating a queue. Trap four: assuming the new lane on the right gives you priority. Trap five: changing lanes across solid white lines at a junction. Scenario: you are on the right lane of a motorway and your exit is the next one with a 70 km/h advisory. Correct action: signal right about 3 seconds before the deceleration lane, move onto the deceleration lane at motorway speed, then brake down to 70 once you are off the main carriageway, well before the curve."
       }
     ]
   },
@@ -47,15 +63,23 @@
     "sections": [
       {
         "heading": "Tunnels",
-        "body": "Switch on dipped headlights before entering, even by day. Keep a longer following distance and do not stop or reverse. Follow the green arrows above your lane; a red cross means the lane is closed."
+        "body": "Switch on dipped headlights before entering, even by day — the tunnel interior is much darker than the bright entrance, and your eyes need help adjusting. Keep a longer following distance than on an open road; in some long tunnels the recommended gap is shown by floor markings. Do not stop or reverse inside a tunnel except in a real emergency. Follow the green arrows over your lane; a red cross means the lane is closed and you must leave it. In a fire or breakdown, switch on hazards, leave the engine running (this powers the ventilation), get out and walk to the nearest emergency exit shown by the green running-man signs."
       },
       {
-        "heading": "Opening bridges",
-        "body": "Flashing red lights and a closing barrier mean stop behind the line. You must wait until the lights are off and the barriers are fully up before crossing, even if the bridge looks clear."
+        "heading": "Opening bridges (basculebrug, ophaalbrug)",
+        "body": "Many Dutch bridges open for shipping. The signal sequence is: yellow light flashing → no new vehicles should cross, finish your crossing if already on; red lights flashing and barrier coming down → stop behind the line; barrier down, red lights continuing → wait. Never cross under a closing barrier or 'race the lights'. When the bridge has reopened the barrier rises completely and the lights stop — only then may you cross. Some bridges open on a schedule (sign with hours), others on demand for boats — assume the latter and obey the signals every time."
       },
       {
-        "heading": "Level crossings",
-        "body": "At a level crossing, flashing red lights or a closing half-barrier mean stop and wait. Never cross when lights flash, even between two trains. At an unguarded crossing (Andreaskruis), look both ways and yield to trains, which always have priority."
+        "heading": "Level crossings (spoorwegovergang)",
+        "body": "At a level crossing, flashing red lights or a closing half-barrier mean stop and wait. Never cross when the lights flash, even between two trains — trains can run in either direction and a second one is often hidden by the first. At an unguarded crossing (Andreaskruis only, no lights or barriers), you must look both ways, listen, and yield to trains, which always have priority. Never start to cross unless you are sure you can clear the tracks completely without stopping. If your car stalls on the tracks: get out immediately, push the SOS button or call the emergency number on the trackside post (the number identifies the crossing), and move well clear."
+      },
+      {
+        "heading": "Common exam traps",
+        "body": "Trap one: not switching on dipped beam before a daytime tunnel. Trap two: crossing a level crossing 'because the train has gone' while the lights still flash. Trap three: stopping on a level crossing because the lights ahead are red. Trap four: ignoring the yellow flashing phase at a bridge and 'just making it'. Trap five: reversing inside a tunnel because you missed the exit. The exam treats all of these as serious safety errors, not minor lapses."
+      },
+      {
+        "heading": "Scenario walkthrough",
+        "body": "You approach a level crossing and the lights start flashing red just as you arrive. The half-barrier is still up. Correct action: stop behind the line. Even though the barrier is up, the flashing red means a train is coming and you must not cross. Wait for the lights to stop and the barrier (if fitted) to be fully up before moving. Do not creep forward to 'see' the train — visibility from the line is by design adequate, and creeping forward puts you inside the crossing if the barrier comes down."
       }
     ]
   },
@@ -66,16 +90,24 @@
     "summary": "Special manoeuvres where you yield to all other traffic and pedestrians.",
     "sections": [
       {
-        "heading": "Special manoeuvres rule",
-        "body": "Reversing, turning around, leaving a driveway or parking spot, and pulling away from the kerb are all 'bijzondere verrichtingen'. While performing them you must yield to every other road user, including pedestrians and cyclists."
+        "heading": "What counts as a 'bijzondere verrichting'",
+        "body": "Special manoeuvres (bijzondere verrichtingen) are the actions where you are doing something other than driving normally along the road. They include: reversing, turning around (U-turn or three-point turn), leaving a driveway or parking spot, pulling away from the kerb, and crossing a pavement or cycle path to enter or leave a property. While performing any of these, you must yield to every other road user, including pedestrians, cyclists and mopeds — there is no 'I had the line first' defence. The rule is absolute and the CBR practical exam tests it explicitly."
       },
       {
         "heading": "Reversing safely",
-        "body": "Look over your shoulder, use mirrors and reverse only as far as necessary. Reversing on a motorway, expressway or in a tunnel is forbidden. If you cannot see clearly, ask a passenger to guide you."
+        "body": "Before reversing, walk around the back of the car if possible — children and small obstacles often disappear from the camera and mirrors. Look over your right shoulder (turn your body, not just your head), use the mirrors and the rear camera as a supplement, and reverse only as far as you genuinely need to. Reverse at walking pace; the wheels respond very quickly at low speed. Reversing on a motorway, expressway or in a tunnel is forbidden — if you miss an exit, take the next one. If your view is poor (van, trailer, parked traffic), ask a passenger to act as a banksman outside the vehicle."
       },
       {
-        "heading": "U-turns",
-        "body": "A U-turn is forbidden on a motorway, expressway, where a continuous line divides the lanes, and where signs forbid it. Even where allowed, you must give way to all traffic before starting the turn."
+        "heading": "U-turns and three-point turns",
+        "body": "A U-turn is forbidden on a motorway, on an expressway, where a continuous (solid) white line divides the lanes, where the sign C1 (no entry) or C7/C8 (no U-turn) applies, and wherever signs explicitly forbid it. Even where allowed, you must yield to all traffic, both oncoming and from behind, before you start the turn. On a narrow road, a three-point turn (forward, reverse, forward) is safer than a single U-turn and the exam often tests it as a manoeuvre — signal, mirror, blind-spot check at each phase. Never start a turn 'hoping' a gap will appear; wait for it."
+      },
+      {
+        "heading": "Pulling away and parking up",
+        "body": "Pulling away from the kerb is a special manoeuvre: yield to all traffic on the road. The sequence is mirror, signal, blind-spot check over the left shoulder, then move only when a clear gap is genuinely there. Parking up at the kerb is the reverse: signal in good time, mirror check (especially for cyclists on the right), brake gently and stop parallel within 30 cm of the kerb. Stop the engine, apply the handbrake, and use the Dutch reach when opening any door. Half the dooring incidents in Dutch cities involve back-seat passengers — remind them every time."
+      },
+      {
+        "heading": "Common exam traps and a scenario",
+        "body": "Trap one: thinking that because you are 'already moving' when leaving a driveway, other traffic must yield to you. Trap two: a U-turn over a continuous centre line because the road looks clear. Trap three: reversing on a motorway because you missed an exit. Trap four: pulling away from the kerb without a blind-spot check, into the path of a cyclist. Trap five: doing a quick 3-point turn on a school street during pick-up time. Scenario: you have parked in a perpendicular bay and need to reverse out into a busy shopping street. Correct action: walk around the car first if possible, then reverse slowly, yielding to every passing car, cyclist and pedestrian; you have no priority during the manoeuvre, regardless of how long you have been waiting."
       }
     ]
   }
