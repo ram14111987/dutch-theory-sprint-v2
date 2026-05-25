@@ -3,17 +3,34 @@
     "id": "safe-driving-emergencies-001",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-alcohol-drugs-fatigue",
-    "topicTags": ["alcohol", "limits"],
+    "topicTags": [
+      "alcohol",
+      "limits"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You have had your driving licence for 3 years. What is the legal alcohol limit for you in the Netherlands?",
     "choices": [
-      { "id": "a", "text": "0.2 promille" },
-      { "id": "b", "text": "0.5 promille" },
-      { "id": "c", "text": "0.8 promille" },
-      { "id": "d", "text": "There is no limit if you feel fine" }
+      {
+        "id": "a",
+        "text": "0.2 promille"
+      },
+      {
+        "id": "b",
+        "text": "0.5 promille"
+      },
+      {
+        "id": "c",
+        "text": "0.8 promille"
+      },
+      {
+        "id": "d",
+        "text": "There is no limit if you feel fine"
+      }
     ],
-    "correctChoiceIds": ["a"],
+    "correctChoiceIds": [
+      "a"
+    ],
     "explanation": {
       "short": "Drivers with less than 5 years' experience are limited to 0.2 promille.",
       "examTip": "After 5 years the general limit of 0.5 promille applies."
@@ -23,17 +40,34 @@
     "id": "safe-driving-emergencies-002",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-alcohol-drugs-fatigue",
-    "topicTags": ["medication", "yellow-sticker"],
+    "topicTags": [
+      "medication",
+      "yellow-sticker"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Your medicine has a yellow warning sticker on the box. What does this mean for driving?",
     "choices": [
-      { "id": "a", "text": "It is safe to drive at any time" },
-      { "id": "b", "text": "The medicine can affect your driving — do not drive" },
-      { "id": "c", "text": "You may only drive within the city" },
-      { "id": "d", "text": "You may drive if you take half the dose" }
+      {
+        "id": "a",
+        "text": "It is safe to drive at any time"
+      },
+      {
+        "id": "b",
+        "text": "The medicine can affect your driving — do not drive"
+      },
+      {
+        "id": "c",
+        "text": "You may only drive within the city"
+      },
+      {
+        "id": "d",
+        "text": "You may drive if you take half the dose"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "A yellow sticker warns the medicine impairs driving; do not drive while taking it.",
       "examTip": "Check the package leaflet or ask your pharmacist if you are unsure."
@@ -43,17 +77,33 @@
     "id": "safe-driving-emergencies-003",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-alcohol-drugs-fatigue",
-    "topicTags": ["fatigue"],
+    "topicTags": [
+      "fatigue"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You feel sleepy on a long drive. What is the safest action?",
     "choices": [
-      { "id": "a", "text": "Open a window and drive faster" },
-      { "id": "b", "text": "Turn up the music and keep going" },
-      { "id": "c", "text": "Take a break of at least 15 minutes, with coffee or fresh air" },
-      { "id": "d", "text": "Take stronger painkillers to feel alert" }
+      {
+        "id": "a",
+        "text": "Open a window and drive faster"
+      },
+      {
+        "id": "b",
+        "text": "Turn up the music and keep going"
+      },
+      {
+        "id": "c",
+        "text": "Take a break of at least 15 minutes, with coffee or fresh air"
+      },
+      {
+        "id": "d",
+        "text": "Take stronger painkillers to feel alert"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "A real break is the only effective answer to tiredness.",
       "examTip": "Fatigue impairs reaction time as much as alcohol — never drive on through it."
@@ -63,17 +113,34 @@
     "id": "safe-driving-emergencies-004",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-eco-economical",
-    "topicTags": ["eco-driving", "shifting"],
+    "topicTags": [
+      "eco-driving",
+      "shifting"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "For economical driving in a petrol car, you should generally shift up:",
     "choices": [
-      { "id": "a", "text": "Around 1000 rpm" },
-      { "id": "b", "text": "Around 2000 rpm" },
-      { "id": "c", "text": "Around 3500 rpm" },
-      { "id": "d", "text": "Only at the red line" }
+      {
+        "id": "a",
+        "text": "Around 1000 rpm"
+      },
+      {
+        "id": "b",
+        "text": "Around 2000 rpm"
+      },
+      {
+        "id": "c",
+        "text": "Around 3500 rpm"
+      },
+      {
+        "id": "d",
+        "text": "Only at the red line"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Shifting up around 2000 rpm in a petrol car (1500 rpm in diesel) is the eco-driving sweet spot.",
       "examTip": "Looking far ahead lets you roll smoothly instead of braking and accelerating."
@@ -83,17 +150,34 @@
     "id": "safe-driving-emergencies-005",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-eco-economical",
-    "topicTags": ["idle", "engine-off"],
+    "topicTags": [
+      "idle",
+      "engine-off"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You expect to wait at a closed level crossing for more than a minute. To save fuel you should:",
     "choices": [
-      { "id": "a", "text": "Keep the engine running in neutral" },
-      { "id": "b", "text": "Switch the engine off" },
-      { "id": "c", "text": "Rev the engine occasionally" },
-      { "id": "d", "text": "Switch on all lights" }
+      {
+        "id": "a",
+        "text": "Keep the engine running in neutral"
+      },
+      {
+        "id": "b",
+        "text": "Switch the engine off"
+      },
+      {
+        "id": "c",
+        "text": "Rev the engine occasionally"
+      },
+      {
+        "id": "d",
+        "text": "Switch on all lights"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "If you expect to wait longer than about a minute, switch the engine off.",
       "examTip": "Many modern cars do this automatically with a start-stop system."
@@ -103,17 +187,34 @@
     "id": "safe-driving-emergencies-006",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-eco-economical",
-    "topicTags": ["tyres", "fuel-consumption"],
+    "topicTags": [
+      "tyres",
+      "fuel-consumption"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Which of these increases fuel consumption?",
     "choices": [
-      { "id": "a", "text": "Correctly inflated tyres" },
-      { "id": "b", "text": "A clean, empty boot" },
-      { "id": "c", "text": "Underinflated tyres and a roof box you do not need" },
-      { "id": "d", "text": "Shifting up early" }
+      {
+        "id": "a",
+        "text": "Correctly inflated tyres"
+      },
+      {
+        "id": "b",
+        "text": "A clean, empty boot"
+      },
+      {
+        "id": "c",
+        "text": "Underinflated tyres and a roof box you do not need"
+      },
+      {
+        "id": "d",
+        "text": "Shifting up early"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Low tyre pressure and unnecessary loads both raise consumption.",
       "examTip": "Check tyre pressure at least once a month."
@@ -123,17 +224,34 @@
     "id": "safe-driving-emergencies-007",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-breakdown-accident",
-    "topicTags": ["breakdown", "triangle"],
+    "topicTags": [
+      "breakdown",
+      "triangle"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Your car has broken down on the shoulder of a motorway. Where do you place the warning triangle?",
     "choices": [
-      { "id": "a", "text": "Directly behind the car" },
-      { "id": "b", "text": "About 30 metres behind the car" },
-      { "id": "c", "text": "About 100 metres behind the car" },
-      { "id": "d", "text": "On the roof of the car" }
+      {
+        "id": "a",
+        "text": "Directly behind the car"
+      },
+      {
+        "id": "b",
+        "text": "About 30 metres behind the car"
+      },
+      {
+        "id": "c",
+        "text": "About 100 metres behind the car"
+      },
+      {
+        "id": "d",
+        "text": "On the roof of the car"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "On a motorway, place the triangle about 100 metres behind the vehicle.",
       "examTip": "On normal roads 30 metres is enough; always put on a high-visibility vest first."
@@ -143,17 +261,34 @@
     "id": "safe-driving-emergencies-008",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-breakdown-accident",
-    "topicTags": ["accident", "first-actions"],
+    "topicTags": [
+      "accident",
+      "first-actions"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "You arrive first at the scene of an accident with injuries. What do you do first?",
     "choices": [
-      { "id": "a", "text": "Move the injured people to the side of the road" },
-      { "id": "b", "text": "Drive on; someone else will help" },
-      { "id": "c", "text": "Make the area safe, then call 112" },
-      { "id": "d", "text": "Take photos for insurance before doing anything else" }
+      {
+        "id": "a",
+        "text": "Move the injured people to the side of the road"
+      },
+      {
+        "id": "b",
+        "text": "Drive on; someone else will help"
+      },
+      {
+        "id": "c",
+        "text": "Make the area safe, then call 112"
+      },
+      {
+        "id": "d",
+        "text": "Take photos for insurance before doing anything else"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Secure the scene with hazards and triangle, then call 112.",
       "examTip": "Only move injured people if they are in immediate danger (fire, traffic)."
@@ -163,17 +298,34 @@
     "id": "safe-driving-emergencies-009",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-breakdown-accident",
-    "topicTags": ["accident", "legal-duty"],
+    "topicTags": [
+      "accident",
+      "legal-duty"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "After a minor collision with a parked car whose owner is not present, you must:",
     "choices": [
-      { "id": "a", "text": "Drive on if the damage looks small" },
-      { "id": "b", "text": "Leave a note with your name, address and registration, and inform the police if needed" },
-      { "id": "c", "text": "Wait only 5 minutes and then leave" },
-      { "id": "d", "text": "Repair the other car yourself" }
+      {
+        "id": "a",
+        "text": "Drive on if the damage looks small"
+      },
+      {
+        "id": "b",
+        "text": "Leave a note with your name, address and registration, and inform the police if needed"
+      },
+      {
+        "id": "c",
+        "text": "Wait only 5 minutes and then leave"
+      },
+      {
+        "id": "d",
+        "text": "Repair the other car yourself"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "You must always identify yourself after causing damage — leave your details if the owner is absent.",
       "examTip": "Driving away from any collision is a criminal offence (doorrijden na ongeval)."
@@ -183,17 +335,34 @@
     "id": "safe-driving-emergencies-010",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-emergency-vehicles-first-aid",
-    "topicTags": ["emergency-vehicles", "priority"],
+    "topicTags": [
+      "emergency-vehicles",
+      "priority"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "An ambulance approaches from behind with siren and blue lights. You should:",
     "choices": [
-      { "id": "a", "text": "Brake hard immediately" },
-      { "id": "b", "text": "Pull aside to the right and stop if necessary, making a clear path" },
-      { "id": "c", "text": "Speed up so it does not have to overtake" },
-      { "id": "d", "text": "Stay in the left lane to keep right clear" }
+      {
+        "id": "a",
+        "text": "Brake hard immediately"
+      },
+      {
+        "id": "b",
+        "text": "Pull aside to the right and stop if necessary, making a clear path"
+      },
+      {
+        "id": "c",
+        "text": "Speed up so it does not have to overtake"
+      },
+      {
+        "id": "d",
+        "text": "Stay in the left lane to keep right clear"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Make space to the right; stop if needed without blocking junctions.",
       "examTip": "Emergency vehicles with siren and blue lights always have priority."
@@ -203,17 +372,34 @@
     "id": "safe-driving-emergencies-011",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-emergency-vehicles-first-aid",
-    "topicTags": ["112", "emergency-call"],
+    "topicTags": [
+      "112",
+      "emergency-call"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Which is the correct emergency number for police, fire and ambulance in the Netherlands?",
     "choices": [
-      { "id": "a", "text": "911" },
-      { "id": "b", "text": "112" },
-      { "id": "c", "text": "0900-8844" },
-      { "id": "d", "text": "999" }
+      {
+        "id": "a",
+        "text": "911"
+      },
+      {
+        "id": "b",
+        "text": "112"
+      },
+      {
+        "id": "c",
+        "text": "0900-8844"
+      },
+      {
+        "id": "d",
+        "text": "999"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "112 reaches all emergency services and is free from any phone.",
       "examTip": "Start with the location, then describe what has happened."
@@ -223,17 +409,34 @@
     "id": "safe-driving-emergencies-012",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-emergency-vehicles-first-aid",
-    "topicTags": ["first-aid", "scene-safety"],
+    "topicTags": [
+      "first-aid",
+      "scene-safety"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "When helping at an accident, what is the most important thing to do before approaching the victims?",
     "choices": [
-      { "id": "a", "text": "Check the damage to the cars" },
-      { "id": "b", "text": "Make the scene safe and protect yourself (hazards, vest, triangle)" },
-      { "id": "c", "text": "Take statements from witnesses" },
-      { "id": "d", "text": "Move the vehicles off the road" }
+      {
+        "id": "a",
+        "text": "Check the damage to the cars"
+      },
+      {
+        "id": "b",
+        "text": "Make the scene safe and protect yourself (hazards, vest, triangle)"
+      },
+      {
+        "id": "c",
+        "text": "Take statements from witnesses"
+      },
+      {
+        "id": "d",
+        "text": "Move the vehicles off the road"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Secure the scene first — an unsafe helper quickly becomes a second casualty.",
       "examTip": "Keep injured people still and warm until professional help arrives."
@@ -243,17 +446,34 @@
     "id": "safe-driving-emergencies-013",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-alcohol-drugs-fatigue",
-    "topicTags": ["alcohol", "limit"],
+    "topicTags": [
+      "alcohol",
+      "limit"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "What is the blood-alcohol limit for an experienced Dutch driver (more than 5 years licensed)?",
     "choices": [
-      { "id": "a", "text": "0.0 ‰" },
-      { "id": "b", "text": "0.2 ‰" },
-      { "id": "c", "text": "0.5 ‰" },
-      { "id": "d", "text": "0.8 ‰" }
+      {
+        "id": "a",
+        "text": "0.0 ‰"
+      },
+      {
+        "id": "b",
+        "text": "0.2 ‰"
+      },
+      {
+        "id": "c",
+        "text": "0.5 ‰"
+      },
+      {
+        "id": "d",
+        "text": "0.8 ‰"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Experienced drivers: 0.5 ‰ (0.22 mg/L breath). Novice drivers in their first 5 years: 0.2 ‰.",
       "examTip": "When in doubt — don't drive. Any alcohol slows reactions and judgement."
@@ -263,17 +483,34 @@
     "id": "safe-driving-emergencies-014",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-alcohol-drugs-fatigue",
-    "topicTags": ["fatigue", "warning-signs"],
+    "topicTags": [
+      "fatigue",
+      "warning-signs"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Which is an early warning sign that you are too tired to keep driving?",
     "choices": [
-      { "id": "a", "text": "Yawning, drifting in the lane, missing exits" },
-      { "id": "b", "text": "Bright sunlight" },
-      { "id": "c", "text": "An empty fuel tank" },
-      { "id": "d", "text": "Hot weather alone" }
+      {
+        "id": "a",
+        "text": "Yawning, drifting in the lane, missing exits"
+      },
+      {
+        "id": "b",
+        "text": "Bright sunlight"
+      },
+      {
+        "id": "c",
+        "text": "An empty fuel tank"
+      },
+      {
+        "id": "d",
+        "text": "Hot weather alone"
+      }
     ],
-    "correctChoiceIds": ["a"],
+    "correctChoiceIds": [
+      "a"
+    ],
     "explanation": {
       "short": "Yawning, drifting, eye-strain and lapses in concentration mean it is time to stop.",
       "examTip": "Open windows and loud music are not real cures — take a real break."
@@ -283,17 +520,34 @@
     "id": "safe-driving-emergencies-015",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-breakdown-accident",
-    "topicTags": ["breakdown", "motorway"],
+    "topicTags": [
+      "breakdown",
+      "motorway"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Your car breaks down on the hard shoulder of a motorway. After stopping safely, what is the next step?",
     "choices": [
-      { "id": "a", "text": "Stay in the car with seat belt on" },
-      { "id": "b", "text": "Put on hazard lights, place the warning triangle ~30 m behind, get everyone out and behind the safety barrier" },
-      { "id": "c", "text": "Open the bonnet and start checking the engine" },
-      { "id": "d", "text": "Walk back along the carriageway to warn drivers" }
+      {
+        "id": "a",
+        "text": "Stay in the car with seat belt on"
+      },
+      {
+        "id": "b",
+        "text": "Put on hazard lights, place the warning triangle ~30 m behind, get everyone out and behind the safety barrier"
+      },
+      {
+        "id": "c",
+        "text": "Open the bonnet and start checking the engine"
+      },
+      {
+        "id": "d",
+        "text": "Walk back along the carriageway to warn drivers"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Hazards on, warning triangle behind the car, everyone out on the verge behind the barrier — then call for help.",
       "examTip": "Use the emergency lane only as a last resort; never stop there for non-emergency reasons."
@@ -303,20 +557,189 @@
     "id": "safe-driving-emergencies-016",
     "moduleId": "safe-driving-emergencies",
     "lessonId": "safe-driving-emergency-vehicles-first-aid",
-    "topicTags": ["accident", "first-aid"],
+    "topicTags": [
+      "accident",
+      "first-aid"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You are first at a road accident where someone is unconscious. What is the most important first action?",
     "choices": [
-      { "id": "a", "text": "Move the victim out of the car immediately" },
-      { "id": "b", "text": "Make the scene safe, then call 112 and check if the person is breathing" },
-      { "id": "c", "text": "Take photos for the insurance" },
-      { "id": "d", "text": "Drive on so as not to block traffic" }
+      {
+        "id": "a",
+        "text": "Move the victim out of the car immediately"
+      },
+      {
+        "id": "b",
+        "text": "Make the scene safe, then call 112 and check if the person is breathing"
+      },
+      {
+        "id": "c",
+        "text": "Take photos for the insurance"
+      },
+      {
+        "id": "d",
+        "text": "Drive on so as not to block traffic"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Secure the scene (hazards, warning triangle), call 112, then assess breathing and airway.",
       "examTip": "Move a casualty only when there is an immediate further danger such as fire."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-017",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-alcohol-drugs-fatigue",
+    "topicTags": [
+      "alcohol",
+      "beginner",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You passed your driving test 18 months ago. After dinner you have had two glasses of wine and feel fine. A friend asks for a lift home. What is the correct decision?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Drive — the legal limit is 0.5‰ and two glasses of wine are usually safe"
+      },
+      {
+        "id": "b",
+        "text": "Drive, but only slowly and on quiet streets"
+      },
+      {
+        "id": "c",
+        "text": "Do not drive — as a beginner driver the limit is 0.2‰ and two glasses very likely exceed that"
+      },
+      {
+        "id": "d",
+        "text": "Drive and accept that any breath test would have to prove it"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Beginner drivers (first 5 years) are bound by the 0.2‰ limit; two glasses almost certainly puts you over it.",
+      "examTip": "Feeling fine is not a defence — the law sets a numerical limit you cannot self-measure."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-018",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-eco-economical",
+    "topicTags": [
+      "eco-driving",
+      "anticipation",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You see a red traffic light 200 metres ahead with cars queued. What is the most fuel-efficient action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Maintain speed and brake hard at the last moment"
+      },
+      {
+        "id": "b",
+        "text": "Take your foot off the accelerator now and let the car roll, braking only if needed near the queue"
+      },
+      {
+        "id": "c",
+        "text": "Accelerate to reach the queue sooner so you spend less time idling"
+      },
+      {
+        "id": "d",
+        "text": "Switch off the engine and coast in neutral"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Releasing the accelerator early lets the engine slow the car for free; hard braking wastes kinetic energy.",
+      "examTip": "Coasting in neutral with the engine off is unsafe — steering and brakes lose assistance."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-019",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-breakdown-accident",
+    "topicTags": [
+      "breakdown",
+      "motorway",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Your car loses power and you manage to stop on the hard shoulder of a motorway. What is the correct sequence of actions before stepping out?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Step out, place the triangle 30 metres behind, then put on your vest"
+      },
+      {
+        "id": "b",
+        "text": "Switch on hazard lights, put on a high-visibility vest, then step out and place the triangle 100 metres behind"
+      },
+      {
+        "id": "c",
+        "text": "Step out, open the bonnet to signal a breakdown, then call for help"
+      },
+      {
+        "id": "d",
+        "text": "Stay in the car with the engine running until help arrives"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "On a motorway: hazards on, vest on before stepping out, triangle 100 metres behind, wait behind the barrier.",
+      "examTip": "The vest must be on before you leave the car — stepping onto the hard shoulder unseen is the most dangerous moment."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-020",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-emergency-vehicles-first-aid",
+    "topicTags": [
+      "emergency-vehicle",
+      "red-light",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are stopped at a red light. An ambulance approaches from behind with blue lights and siren. The light is still red. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stay where you are — the red light forbids you from moving"
+      },
+      {
+        "id": "b",
+        "text": "Move forward through the red light at normal speed to clear the intersection"
+      },
+      {
+        "id": "c",
+        "text": "Move forward carefully past the line at low speed if it is safe, to make a path for the ambulance"
+      },
+      {
+        "id": "d",
+        "text": "Reverse to create space for the ambulance to pass on the right"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "The duty to make way for an emergency vehicle overrides the red light, but only at walking pace and only when it is safe.",
+      "examTip": "Reversing is almost always wrong on an exam — you risk vehicles behind you."
     }
   }
 ]

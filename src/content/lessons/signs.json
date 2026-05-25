@@ -6,16 +6,28 @@
     "summary": "How to recognize Dutch warning signs by their shape and colour, and what they require you to do.",
     "sections": [
       {
-        "heading": "Shape and colour",
-        "body": "Warning signs in the Netherlands are triangular with a red border and a white background. The point of the triangle faces up. The red border tells you the sign is part of the warning category before you've even read the symbol inside."
+        "heading": "The rule: triangle with a red border = warning",
+        "body": "Warning signs in the Netherlands are triangular with a red border, white background and a point facing up. The shape alone tells you 'something ahead needs your attention' before you have even read the pictogram inside. There is no legal action attached — only a duty to adjust your speed and attention."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "On a warning sign, read shape and colour before the symbol. Triangle + red border = warning. Then read the symbol: bend, slippery surface, road works, children, cyclists, level crossing, falling rocks. Last, read any sub-plate that gives distance to the hazard."
       },
       {
         "heading": "Common examples",
-        "body": "Examples include warnings for a sharp bend, a slippery road, road works, children, cyclists crossing, and uneven road surfaces. The pictogram inside the triangle tells you exactly which hazard to expect."
+        "body": "Sharp bend left or right, slippery road, road works, children, cyclists crossing, uneven surface, opening bridge, level crossing without barriers, wild animals. A small accompanying plate may add 'over X metres' or 'next Y kilometres'."
       },
       {
         "heading": "What to do",
-        "body": "A warning sign does not give a hard rule like a prohibition or mandatory sign. It tells you to adjust your speed and attention so you can react safely if the hazard appears. Slow down, scan further ahead, and be ready to brake."
+        "body": "A warning sign does not impose a hard rule like a prohibition sign. It tells you to slow down, scan further ahead, and be ready to brake. Driving past at full speed because 'no rule was given' is the wrong answer; the rule is implicit in the warning itself."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A photo shows a triangular sign with children playing and asks what to do. The trap answer is 'continue at the speed limit'. The correct answer is: reduce speed and be ready to brake — a child can step out without warning."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You see a warning triangle with a slippery-road symbol and a sub-plate 'next 3 km'. The road looks dry. You still ease off the accelerator and increase following distance. The exam reasoning: the sign is placed because the surface becomes unpredictable, not because it is wet at this exact spot."
       }
     ]
   },
@@ -26,16 +38,28 @@
     "summary": "Round signs with a red border that restrict what you may do on the road.",
     "sections": [
       {
-        "heading": "Shape and colour",
-        "body": "Prohibitory signs are round with a red border and a white (or sometimes blue) background. The red border is the visual cue that the sign forbids or restricts something — entry, overtaking, parking, or a vehicle category."
+        "heading": "The rule: round + red border = prohibition",
+        "body": "Prohibitory signs are round with a red border, white (sometimes blue) background and a pictogram or number inside. The red border is the visual cue that the sign forbids or restricts something — entry, overtaking, parking, stopping, or a vehicle category."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "Identify the type of prohibition from the pictogram. Two cars side by side with a red diagonal: no overtaking. A truck symbol crossed out: no lorries. 'P' with a red border: no parking. 'P' crossed: no parking. Single red diagonal on blue: no stopping (and therefore also no parking)."
       },
       {
         "heading": "Common examples",
-        "body": "Typical prohibitions include no entry for vehicular traffic, no overtaking, no stopping, closed to motor vehicles, and category-specific bans such as no trucks or no mopeds."
+        "body": "No entry (white horizontal bar on a red disc), closed to motor vehicles, no overtaking, no overtaking by lorries, no stopping, no parking, no entry for mopeds, no entry for cyclists, weight or height limits."
       },
       {
-        "heading": "When the rule ends",
-        "body": "A prohibition applies from the sign onward until it is explicitly cancelled by an end-of-restriction sign, an intersection, or a built-up area boundary that overrides the rule."
+        "heading": "When the prohibition ends",
+        "body": "A prohibition applies from the sign onward until it is explicitly cancelled by an end-of-restriction sign (the same sign with a diagonal stripe), the next intersection, or a built-up area boundary that overrides the rule. 'I have driven a long way' is not enough to cancel a prohibition."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A photo shows the 'no stopping' sign (blue disc with red ring and a single red diagonal). The trap is to think you may stop briefly to drop a passenger. The correct answer: no stopping at all — not even briefly. The 'no parking' sign (two red diagonals) is the looser one."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You pass a 'no overtaking' sign on a rural road. Two kilometres later you have passed an intersection but no end sign. May you overtake? Yes — the intersection cancels the prohibition unless a new sign restates it. If there had been no intersection, the prohibition would still hold."
       }
     ]
   },
@@ -46,16 +70,28 @@
     "summary": "Round blue signs that oblige an action, and rectangular blue signs that only inform.",
     "sections": [
       {
-        "heading": "Round blue: mandatory",
-        "body": "Round signs with a solid blue background and a white symbol are mandatory: they tell you what you must do — follow a direction arrow, use a cycle path, take the roundabout, keep a minimum speed."
+        "heading": "The rule: shape decides obligation",
+        "body": "Round signs with a solid blue background and a white symbol are mandatory: they tell you what you must do — follow a direction arrow, use a cycle path, take the roundabout, keep a minimum speed. Rectangular blue signs only inform: parking, one-way streets, built-up area boundaries, services, route numbers."
       },
       {
-        "heading": "Rectangular blue: informational",
-        "body": "Rectangular blue signs only inform or guide: parking, one-way streets, built-up area boundaries, services, and route numbers. They do not impose a mandatory action by themselves."
+        "heading": "What to notice first",
+        "body": "Shape first. Round + blue = must. Rectangular + blue = information. The same symbol can appear on both shapes with different meaning. A bicycle on a round blue sign means 'cyclists must use this path'; a bicycle on a rectangular blue sign suggests a recommended cycle route without obligation."
+      },
+      {
+        "heading": "Built-up area signs",
+        "body": "The rectangular blue 'bebouwde kom' sign with a town name marks the start of a built-up area; the same sign with a red diagonal marks the end. These signs are not 'just decoration': they trigger the 50 km/h default limit, stricter keep-right rules and other built-up-area regulations."
       },
       {
         "heading": "Sub-plates",
-        "body": "A smaller plate under either sign can narrow or extend its meaning — vehicle categories, days and hours, distance to the situation, or exceptions for residents and cyclists. Always read sign and sub-plate together."
+        "body": "A smaller plate under either sign can narrow or extend the meaning — vehicle categories, days and hours, distance to the situation, exceptions for residents or cyclists. 'Behalve fietsers' below a no-entry sign means cyclists may still enter. Always read sign and sub-plate together."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A photo shows a one-way street rectangular blue sign (white arrow on blue, rectangular). The trap is to treat it as a 'must go in this direction' mandatory sign. It is informational: it tells you the street is one-way; the obligation comes from the no-entry sign at the other end."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You see a round blue sign with a white right-pointing arrow at a junction. The shape (round + blue) says it is mandatory; the symbol says you must turn right. Going straight on or turning left would be an offence, even if there is no physical barrier."
       }
     ]
   },
@@ -66,16 +102,32 @@
     "summary": "Signs that tell you who has the right of way at intersections.",
     "sections": [
       {
+        "heading": "The rule: shape and colour decide priority",
+        "body": "Four priority signs dominate Dutch intersections. A yellow diamond with a white border = priority road. An inverted triangle with a red border = give way. A red octagon with STOP = full stop. Rectangular signs with paired arrows = priority over (or under) oncoming traffic on a narrowing road."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "On any intersection question, look for a priority sign before anything else. If one of the four exists, it overrides the general 'right has priority' rule. Only if no sign is present and no marking applies does the right-has-priority rule kick in for cars."
+      },
+      {
         "heading": "Priority road",
-        "body": "A yellow diamond with a white border marks a priority road: traffic on this road has priority over traffic on crossing roads until the sign is cancelled by an end-of-priority variant with a diagonal stripe."
+        "body": "A yellow diamond means traffic on this road has priority over crossing roads. The same sign with a diagonal black stripe = end of priority road; from there the general rules apply again. The diamond is repeated after every intersection so it cannot be confused with a one-off."
       },
       {
         "heading": "Give way and stop",
-        "body": "An inverted triangle with a red border requires you to yield to crossing traffic, but you may roll through if it is clear. A red octagonal STOP sign requires you to come to a full stop before the line, every time, even when no other traffic is visible."
+        "body": "An inverted triangle with a red border requires you to yield to crossing traffic, but you may roll through if it is clear. A red octagonal STOP sign requires you to come to a full stop before the line, every time, even when no other traffic is visible. Failing to stop fully at a STOP sign is a common practical-test failure."
       },
       {
         "heading": "Priority over oncoming traffic",
-        "body": "Rectangular signs with paired arrows show priority on a narrowing road: one direction must wait for the other. Read the colour of the arrows — the red arrow yields."
+        "body": "Rectangular signs with paired arrows show priority on a narrowing road or bridge: one direction must wait for the other. Read the colour of the arrows — the red arrow yields, the black arrow has priority. The shape is rectangular but the meaning is strict, not informational."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A photo shows a STOP sign at a clear, quiet junction. The trap is to roll through because nothing is coming. The correct answer is: come to a full stop with the wheels not moving, then proceed. STOP is the only priority sign where 'rolling through' is wrong even with a clear road."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You approach a junction with shark's-teeth markings on the road and no other sign. Do you have priority? No — the shark's-teeth markings act as a give-way sign even without the inverted triangle on a pole. You must yield to crossing traffic."
       }
     ]
   },
@@ -86,16 +138,32 @@
     "summary": "How maximum, minimum, recommended, and zone speed limits are signed.",
     "sections": [
       {
+        "heading": "The rule: shape and border decide which kind of speed",
+        "body": "A round sign with a red border and a number = maximum legal speed. A round blue sign with a number = minimum required speed. A square or rectangular sign with a number = recommended speed (advice only). A speed number on a wider 'zone' plate applies to the whole zone, not just one road."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "Look at the border. Red border = legal maximum, enforceable by fine. No border, square shape = advisory, no fine for exceeding (but driving faster than advised into a bend remains your fault if you crash). Blue = obligation in the opposite direction (minimum)."
+      },
+      {
         "heading": "Maximum speed",
-        "body": "A round white sign with a red border and a number sets the maximum legal speed in km/h. It applies until cancelled by another speed sign, an end-of-restriction sign, or a road category change."
+        "body": "A round white sign with a red border sets the maximum legal speed in km/h. It applies until cancelled by another speed sign, an end-of-restriction sign (the same number with a diagonal stripe), or a change of road category (e.g. entering a built-up area or motorway)."
       },
       {
         "heading": "Minimum and recommended speed",
-        "body": "A round blue sign with a number is a minimum speed — you must not drive slower. A square or rectangular sign with a number is only a recommended speed, often shown ahead of a bend."
+        "body": "A round blue sign with a number is a minimum speed — you must not drive slower (typical on motorways). A square sign with a number is only a recommendation, often shown ahead of a bend; exceeding it is not punishable but ignoring it can make you liable if you crash."
       },
       {
         "heading": "Zone signs",
-        "body": "A speed sign on a wider rectangular plate with the word zone applies to the whole zone, not just one road. The limit holds until you pass the matching end-of-zone sign."
+        "body": "A speed sign on a wider rectangular plate with the word 'zone' applies to the whole zone, not just one road. A '30 zone' applies to every street inside the zone until you pass an end-of-zone sign. Within the zone you do not need repeat signs at every junction."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A photo shows a square sign with '70' and asks if exceeding 70 is an offence. The trap answer is yes. The correct answer is no — a square sign is advisory, not enforceable as a limit. The same '70' inside a red round border would be enforceable."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You enter a '30 zone' near a school. Two hundred metres later you see a side road. May you speed up to 50 there? No — the zone covers all roads inside it, including side streets, until you pass an end-of-zone sign. The absence of a repeat 30 sign does not lift the limit."
       }
     ]
   },
@@ -106,16 +174,32 @@
     "summary": "Lines and symbols painted on the road and how they interact with signs.",
     "sections": [
       {
+        "heading": "The rule: markings can carry the same force as signs",
+        "body": "Road markings are not just decoration. Shark's-teeth markings give way exactly like a give-way sign. A continuous centre line forbids overtaking exactly like a no-overtaking sign. Arrows on the lane oblige a direction at the next junction. Read markings with the same attention as signs."
+      },
+      {
         "heading": "Centre lines",
-        "body": "A broken white line in the centre may be crossed to overtake when safe. A continuous line may not be crossed or straddled except to avoid an obstacle. A combination line follows the rule on your own side."
+        "body": "A broken white centre line may be crossed to overtake when safe. A continuous line may not be crossed or straddled except to avoid an obstacle. A combination line (one broken, one continuous) follows the rule on your own side — broken on your side, you may overtake; continuous on your side, you may not."
       },
       {
         "heading": "Give-way markings",
-        "body": "Triangular markings pointing toward you ('shark's teeth') mean you must yield to traffic on the crossing road, even if no give-way sign is present. They are common at roundabout exits and where cycle paths cross."
+        "body": "Triangular markings pointing toward you ('shark's teeth') mean you must yield to traffic on the crossing road, even if no give-way sign is present. They are common at roundabout exits, where cycle paths cross, and at small junctions in residential areas."
       },
       {
         "heading": "Edge and lane lines",
-        "body": "A continuous white edge line marks the outer edge of the carriageway; the strip outside it is not a driving lane. Block markings divide lanes and may include arrows that oblige a direction at the next junction."
+        "body": "A continuous white edge line marks the outer edge of the carriageway; the strip outside it is not a driving lane and must not be used for normal driving. Block markings divide lanes and may include arrows that oblige a direction at the next junction."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "When markings and signs both appear, the stricter rule wins. A broken line under a no-overtaking sign still forbids overtaking — the sign is stricter. A continuous line with no sign still forbids overtaking — the marking is enough on its own."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A photo shows shark's-teeth markings but no sign. The trap is to think you have priority because there is no give-way triangle. The correct answer: shark's teeth give way on their own; the sign is not required for the rule to bind you."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You are in a left-turn lane with a painted left-turn arrow. Halfway to the junction you change your mind and want to go straight. May you switch lanes here? Only if the line between the lanes is broken and traffic allows; the arrow obliges your direction at the next junction, but the lane line decides whether you may move out."
       }
     ]
   }

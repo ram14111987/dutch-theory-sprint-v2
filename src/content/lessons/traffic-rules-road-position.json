@@ -6,16 +6,28 @@
     "summary": "Which lane to use on Dutch roads and the legal duty to keep right.",
     "sections": [
       {
-        "heading": "Keep right by default",
-        "body": "On every road with more than one lane in your direction, you must drive in the rightmost lane that is free. The left lane is for overtaking. Sitting in a middle or left lane when the right is free is a common test failure."
+        "heading": "The rule: keep right by default",
+        "body": "On every road outside a built-up area with more than one lane in your direction, you must drive in the rightmost lane that is free. Left and middle lanes are for overtaking. The rule (RVV article 3) does not allow you to 'choose' a left lane because it feels smoother or because you will turn left in two kilometres."
       },
       {
-        "heading": "Lane choice inside built-up areas",
-        "body": "In a built-up area with two or more lanes in your direction you may pick the lane that best suits your route, but you still keep right where practical. You may not weave between lanes."
+        "heading": "What to notice first",
+        "body": "Before you settle into a lane, scan the road category (motorway, autoweg, built-up area), the number of lanes in your direction, and whether the lane to your right is genuinely free. 'Free' means a vehicle would have to slow down to use it — not that no car is visible right now."
       },
       {
-        "heading": "Lane choice on motorways",
-        "body": "On a motorway always return to the right lane after overtaking. Slower traffic and lorries belong in the right lane. Using the left lane purely to drive faster is not allowed."
+        "heading": "Built-up areas: looser, but not free choice",
+        "body": "In a built-up area with two or more lanes in your direction you may pick the lane that suits your route, but the keep-right principle still applies where practical and weaving between lanes is forbidden. Choosing the left lane only to overtake parked cars on the right is wrong: those parked cars do not turn your lane into a left lane."
+      },
+      {
+        "heading": "Motorways: return after overtaking",
+        "body": "On a motorway the rule is strict: after overtaking you return to the right lane as soon as it is safe, even if you will overtake another vehicle in a kilometre. Lorries and slow traffic belong in the right lane. Using the left lane only to drive faster than the limit is not 'overtaking'."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "An image shows you cruising in the middle lane with an empty right lane and a lorry far behind. The 'comfortable' answer is to stay put; the correct answer is to move right. A test photo with an empty right lane is almost always a keep-right question."
+      },
+      {
+        "heading": "Scenario",
+        "body": "On a three-lane motorway you have just overtaken a lorry that is now 200 metres behind you. The middle and right lanes are empty. You should move from the left lane back to the right lane in one smooth step (signal, mirrors, blind spot, move). Stopping in the middle 'to be ready' for the next overtake is a keep-right violation."
       }
     ]
   },
@@ -26,16 +38,28 @@
     "summary": "When you may overtake, on which side, and where it is forbidden.",
     "sections": [
       {
-        "heading": "Overtake on the left",
-        "body": "You overtake on the left. The only common exceptions are: passing a vehicle that is signalling and turning left, passing trams (which you may pass on the right where space allows), and slow-moving congestion on a motorway where lanes may legally move at different speeds."
+        "heading": "The rule: overtake on the left",
+        "body": "Overtaking happens on the left. Exceptions are limited: you may pass on the right a vehicle that is clearly signalling and turning left, trams (on the right where space allows, on the left only when the right is blocked), and you may legally drive faster than a neighbouring lane on a motorway in slow-moving traffic — that is not overtaking."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "Before overtaking, scan three things: the road ahead (clear distance, no continuous line, no bend or hill), the vehicle in front (any sign it will turn or accelerate), and the vehicle behind (anyone already overtaking you). Only then check the lane you want to move into."
       },
       {
         "heading": "Where overtaking is forbidden",
-        "body": "You may not overtake on or just before a pedestrian crossing, at a railway crossing, in front of a brow of a hill or a blind bend, or where a continuous line or a 'no overtaking' sign applies."
+        "body": "Overtaking is forbidden on or just before a pedestrian crossing, at a railway crossing, in front of the brow of a hill or a blind bend, and where a continuous centre line or a 'no overtaking' sign applies. The ban is absolute — even when the road looks empty."
       },
       {
         "heading": "Being overtaken",
-        "body": "If another driver overtakes you, do not accelerate. Keep your line and, if needed, ease off slightly to let them complete the manoeuvre safely."
+        "body": "If another driver overtakes you, do not accelerate. Keep your line and ease off slightly if needed so they can complete the manoeuvre safely. On a narrow road, do not move so far right that you risk the verge."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A photo shows a lorry signalling to turn left and a clear stretch on its right. The right answer is: you may pass on the right because the lorry is turning left. The trap is to invoke the general 'overtake on the left' rule and refuse to pass."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You approach a slow tractor on a rural road. There is a broken centre line and 300 metres of clear straight road, but a junction on the left 100 metres ahead. You do not overtake: a vehicle could emerge from that junction, and you would meet it head-on in the wrong lane."
       }
     ]
   },
@@ -46,16 +70,28 @@
     "summary": "Which special lanes you may use, when, and which are off-limits to cars.",
     "sections": [
       {
-        "heading": "Cycle paths and cycle lanes",
-        "body": "A solid cycle path (separate from the road) is for cyclists and mopeds only. A cycle suggestion lane (broken line, often red) is part of the carriageway; you may drive on it when necessary but you must give cyclists priority."
+        "heading": "The rule: read the line type and the marking",
+        "body": "A solid cycle path (fietspad), separated from the road or marked with continuous lines and a bicycle symbol, is for cyclists and mopeds only — cars may not drive or stop on it. A cycle suggestion lane (fietsstrook) with a broken line is still part of the carriageway: you may drive on it when necessary but cyclists keep priority."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "Look at the colour and line type. Red surface with continuous white lines: separate cycle lane, off-limits. Red strip with broken lines: suggestion lane, shared. Blue rectangular sign with a bus symbol: lijnbus lane, off-limits to ordinary cars."
       },
       {
         "heading": "Bus and tram lanes",
-        "body": "A 'bus' or 'lijnbus' lane is reserved for line buses, trams and authorised vehicles. Cars may not drive in it. A 'bus/taxi' marking adds taxis. Cross such a lane only at marked breaks."
+        "body": "A 'lijnbus' or 'bus' lane is reserved for line buses, trams and authorised vehicles. Cars may not drive or stop in it. A 'bus/taxi' marking adds taxis. You may cross such a lane only at marked breaks (broken white lines), for example to reach a parking space or a side road."
       },
       {
         "heading": "Tram tracks",
-        "body": "You may drive on tram tracks only when no other safe option exists and you do not obstruct the tram. Trams cannot swerve, so leaving them room is a strict duty."
+        "body": "You may drive on tram tracks only when no other safe option exists and you do not obstruct the tram. Trams cannot swerve or brake quickly, so leaving them room is a strict duty. Stopping on tram tracks (even briefly) is forbidden."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A photo shows a red strip with a broken white line and a bicycle symbol. The trap answer is 'do not drive on it'. The correct answer is: you may use it when necessary, but cyclists have priority. Continuous lines around a red strip would change the answer."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You want to park on the right of a narrow road. Between you and the kerb is a red fietsstrook with broken lines. You may cross it to reach the parking space and you may stop on the carriageway side, but you may not park inside the suggestion lane itself — you would block cyclists."
       }
     ]
   },
@@ -66,16 +102,28 @@
     "summary": "How and when to indicate, and how to change lanes or merge safely.",
     "sections": [
       {
-        "heading": "When to indicate",
-        "body": "Always indicate when changing direction or lane, pulling out from a parking space, entering or leaving a roundabout, or leaving a motorway. Cancel the signal as soon as the manoeuvre is complete."
+        "heading": "The rule: indicate every direction change",
+        "body": "You must indicate when changing direction or lane, pulling out from a parking space, entering or leaving a roundabout, or leaving a motorway. Cancel the signal as soon as the manoeuvre is complete. An indicator announces intent — it does not create priority."
       },
       {
         "heading": "Mirror, blind spot, signal, move",
-        "body": "Before changing lane, check the inside and outside mirror, glance over the shoulder to clear the blind spot, then signal, then move. Indicating does not give priority; it only announces your intention."
+        "body": "The safe sequence for any lane change is: check inside mirror, check outside mirror on the side you move to, glance over your shoulder to clear the blind spot, signal, then move. Indicating before checking is dangerous — you may signal into a vehicle that is already alongside you."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "Before merging, identify the speed of traffic in the target lane and the size of the gap you can realistically reach. A 'gap' that requires the other driver to brake is not a gap. On a motorway acceleration lane, build up to the speed of traffic first; then look for the gap."
       },
       {
         "heading": "Merging onto a motorway",
-        "body": "On the acceleration lane, build up to the speed of the traffic on the motorway, then merge into a gap. Drivers already on the motorway are not obliged to make room, but they should help where they safely can."
+        "body": "On the acceleration lane (invoegstrook), accelerate to motorway speed before merging. Drivers already on the motorway are not legally obliged to make room, but they should help where they safely can. Stopping on the acceleration lane is dangerous and almost always wrong on a test."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A photo shows you on the acceleration lane next to a queue of slow traffic on the motorway. The trap is to think 'they have priority, so I must stop'. The correct answer is: keep moving and merge into a gap; coming to a full stop on the acceleration lane creates a far bigger hazard than slowing slightly."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You want to change from the middle to the right lane on a busy motorway. You check the inside mirror (clear), the right mirror (a car is closing), the blind spot (clear), and decide the right-mirror car is too close. You do not signal yet; you wait, recheck, and only signal once the gap is real. Signalling first would have invited that driver to brake hard."
       }
     ]
   }

@@ -3,17 +3,34 @@
     "id": "legislation-documents-001",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-driving-licence",
-    "topicTags": ["licence", "category-b"],
+    "topicTags": [
+      "licence",
+      "category-b"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "With a standard category B driving licence you may drive a passenger car up to:",
     "choices": [
-      { "id": "a", "text": "2,500 kg" },
-      { "id": "b", "text": "3,500 kg with up to 8 passenger seats besides the driver" },
-      { "id": "c", "text": "5,000 kg" },
-      { "id": "d", "text": "Any weight, as long as it has 4 wheels" }
+      {
+        "id": "a",
+        "text": "2,500 kg"
+      },
+      {
+        "id": "b",
+        "text": "3,500 kg with up to 8 passenger seats besides the driver"
+      },
+      {
+        "id": "c",
+        "text": "5,000 kg"
+      },
+      {
+        "id": "d",
+        "text": "Any weight, as long as it has 4 wheels"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Category B: passenger cars up to 3,500 kg with at most 8 passenger seats.",
       "examTip": "A trailer over 750 kg needs category BE."
@@ -23,17 +40,34 @@
     "id": "legislation-documents-002",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-driving-licence",
-    "topicTags": ["licence", "validity"],
+    "topicTags": [
+      "licence",
+      "validity"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "How long is a new category B driving licence normally valid?",
     "choices": [
-      { "id": "a", "text": "5 years" },
-      { "id": "b", "text": "10 years" },
-      { "id": "c", "text": "15 years" },
-      { "id": "d", "text": "For life" }
+      {
+        "id": "a",
+        "text": "5 years"
+      },
+      {
+        "id": "b",
+        "text": "10 years"
+      },
+      {
+        "id": "c",
+        "text": "15 years"
+      },
+      {
+        "id": "d",
+        "text": "For life"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "A new B licence is normally valid for 10 years.",
       "examTip": "From age 75 a medical declaration is required at renewal."
@@ -43,17 +77,34 @@
     "id": "legislation-documents-003",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-driving-licence",
-    "topicTags": ["beginner", "alcohol-limit"],
+    "topicTags": [
+      "beginner",
+      "alcohol-limit"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You passed your driving test 2 years ago. Which alcohol limit applies to you?",
     "choices": [
-      { "id": "a", "text": "0.5‰" },
-      { "id": "b", "text": "0.2‰" },
-      { "id": "c", "text": "0.8‰" },
-      { "id": "d", "text": "No limit applies in your case" }
+      {
+        "id": "a",
+        "text": "0.5‰"
+      },
+      {
+        "id": "b",
+        "text": "0.2‰"
+      },
+      {
+        "id": "c",
+        "text": "0.8‰"
+      },
+      {
+        "id": "d",
+        "text": "No limit applies in your case"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Beginner drivers face a 0.2‰ limit for the first 5 years after passing.",
       "examTip": "The beginner period is 7 years if you passed before age 18."
@@ -63,17 +114,33 @@
     "id": "legislation-documents-004",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-vehicle-papers",
-    "topicTags": ["kentekenbewijs"],
+    "topicTags": [
+      "kentekenbewijs"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "What does the kentekenbewijs prove?",
     "choices": [
-      { "id": "a", "text": "That a car is insured" },
-      { "id": "b", "text": "That a car has a valid APK" },
-      { "id": "c", "text": "Who is registered as responsible for the vehicle" },
-      { "id": "d", "text": "That the driver is licensed" }
+      {
+        "id": "a",
+        "text": "That a car is insured"
+      },
+      {
+        "id": "b",
+        "text": "That a car has a valid APK"
+      },
+      {
+        "id": "c",
+        "text": "Who is registered as responsible for the vehicle"
+      },
+      {
+        "id": "d",
+        "text": "That the driver is licensed"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "The kentekenbewijs shows the registered keeper, who is liable for tax and offences.",
       "examTip": "Always transfer the registration when you sell the car."
@@ -83,17 +150,33 @@
     "id": "legislation-documents-005",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-vehicle-papers",
-    "topicTags": ["insurance"],
+    "topicTags": [
+      "insurance"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Which insurance is the legal minimum for a motor vehicle on the public road?",
     "choices": [
-      { "id": "a", "text": "No insurance is required" },
-      { "id": "b", "text": "Third-party liability (WA)" },
-      { "id": "c", "text": "Full comprehensive (allrisk)" },
-      { "id": "d", "text": "Only legal-assistance insurance" }
+      {
+        "id": "a",
+        "text": "No insurance is required"
+      },
+      {
+        "id": "b",
+        "text": "Third-party liability (WA)"
+      },
+      {
+        "id": "c",
+        "text": "Full comprehensive (allrisk)"
+      },
+      {
+        "id": "d",
+        "text": "Only legal-assistance insurance"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "WA (third-party liability) is the legal minimum for any motor vehicle.",
       "examTip": "Without WA you may not even park the car on a public road."
@@ -103,17 +186,34 @@
     "id": "legislation-documents-006",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-vehicle-papers",
-    "topicTags": ["road-tax", "schorsen"],
+    "topicTags": [
+      "road-tax",
+      "schorsen"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You will not use your car for several months. How can you legally pause the road tax?",
     "choices": [
-      { "id": "a", "text": "By cancelling the insurance only" },
-      { "id": "b", "text": "By suspending the registration (schorsen) at the RDW and parking the car off the public road" },
-      { "id": "c", "text": "By removing the number plates" },
-      { "id": "d", "text": "By covering the car with a tarpaulin on the street" }
+      {
+        "id": "a",
+        "text": "By cancelling the insurance only"
+      },
+      {
+        "id": "b",
+        "text": "By suspending the registration (schorsen) at the RDW and parking the car off the public road"
+      },
+      {
+        "id": "c",
+        "text": "By removing the number plates"
+      },
+      {
+        "id": "d",
+        "text": "By covering the car with a tarpaulin on the street"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Schorsen at the RDW pauses road tax, but the car must then stay off the public road.",
       "examTip": "Parking a suspended car on the street is itself an offence."
@@ -123,17 +223,33 @@
     "id": "legislation-documents-007",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-alcohol-drugs-law",
-    "topicTags": ["alcohol-limit"],
+    "topicTags": [
+      "alcohol-limit"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "What is the general legal blood alcohol limit for experienced drivers in the Netherlands?",
     "choices": [
-      { "id": "a", "text": "0.2‰" },
-      { "id": "b", "text": "0.5‰" },
-      { "id": "c", "text": "0.8‰" },
-      { "id": "d", "text": "There is no general limit" }
+      {
+        "id": "a",
+        "text": "0.2‰"
+      },
+      {
+        "id": "b",
+        "text": "0.5‰"
+      },
+      {
+        "id": "c",
+        "text": "0.8‰"
+      },
+      {
+        "id": "d",
+        "text": "There is no general limit"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "The general limit is 0.5‰, or 0.22 mg/l in breath.",
       "examTip": "Beginner drivers have a stricter limit of 0.2‰."
@@ -143,17 +259,33 @@
     "id": "legislation-documents-008",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-alcohol-drugs-law",
-    "topicTags": ["medicines"],
+    "topicTags": [
+      "medicines"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Your prescription medicine has a yellow sticker warning that it may affect driving. You should:",
     "choices": [
-      { "id": "a", "text": "Drive as normal — the sticker is only advisory" },
-      { "id": "b", "text": "Check with the pharmacist or doctor before driving" },
-      { "id": "c", "text": "Take a double dose so it wears off faster" },
-      { "id": "d", "text": "Drive only on motorways" }
+      {
+        "id": "a",
+        "text": "Drive as normal — the sticker is only advisory"
+      },
+      {
+        "id": "b",
+        "text": "Check with the pharmacist or doctor before driving"
+      },
+      {
+        "id": "c",
+        "text": "Take a double dose so it wears off faster"
+      },
+      {
+        "id": "d",
+        "text": "Drive only on motorways"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Yellow-sticker medicines can impair driving — check before getting behind the wheel.",
       "examTip": "Driving while unfit is an offence even if the substance was prescribed."
@@ -163,17 +295,33 @@
     "id": "legislation-documents-009",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-alcohol-drugs-law",
-    "topicTags": ["breath-test"],
+    "topicTags": [
+      "breath-test"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You are stopped by the police and refuse to take a breath test. What is the legal consequence?",
     "choices": [
-      { "id": "a", "text": "Nothing — refusing is always allowed" },
-      { "id": "b", "text": "It is treated as if you had exceeded the alcohol limit" },
-      { "id": "c", "text": "Only a warning" },
-      { "id": "d", "text": "A small parking fine" }
+      {
+        "id": "a",
+        "text": "Nothing — refusing is always allowed"
+      },
+      {
+        "id": "b",
+        "text": "It is treated as if you had exceeded the alcohol limit"
+      },
+      {
+        "id": "c",
+        "text": "Only a warning"
+      },
+      {
+        "id": "d",
+        "text": "A small parking fine"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Refusing a breath test is punished as if you had exceeded the limit.",
       "examTip": "You can be required to give a blood sample as well."
@@ -183,17 +331,34 @@
     "id": "legislation-documents-010",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-fines-points",
-    "topicTags": ["wet-mulder", "fines"],
+    "topicTags": [
+      "wet-mulder",
+      "fines"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Most minor traffic offences in the Netherlands are dealt with under:",
     "choices": [
-      { "id": "a", "text": "Criminal law only" },
-      { "id": "b", "text": "Administrative law (Wet Mulder)" },
-      { "id": "c", "text": "Civil law between drivers" },
-      { "id": "d", "text": "European traffic court" }
+      {
+        "id": "a",
+        "text": "Criminal law only"
+      },
+      {
+        "id": "b",
+        "text": "Administrative law (Wet Mulder)"
+      },
+      {
+        "id": "c",
+        "text": "Civil law between drivers"
+      },
+      {
+        "id": "d",
+        "text": "European traffic court"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Minor offences are handled administratively under Wet Mulder.",
       "examTip": "Serious offences (drink-driving, dangerous driving) go through criminal court."
@@ -203,17 +368,34 @@
     "id": "legislation-documents-011",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-fines-points",
-    "topicTags": ["accident", "reporting"],
+    "topicTags": [
+      "accident",
+      "reporting"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "After a minor collision with another car you have:",
     "choices": [
-      { "id": "a", "text": "No duty to stop if nobody is hurt" },
-      { "id": "b", "text": "A duty to stop and exchange details with the other party" },
-      { "id": "c", "text": "A duty only to call the police" },
-      { "id": "d", "text": "A duty only to take a photo and drive on" }
+      {
+        "id": "a",
+        "text": "No duty to stop if nobody is hurt"
+      },
+      {
+        "id": "b",
+        "text": "A duty to stop and exchange details with the other party"
+      },
+      {
+        "id": "c",
+        "text": "A duty only to call the police"
+      },
+      {
+        "id": "d",
+        "text": "A duty only to take a photo and drive on"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "You must always stop after an accident and exchange details.",
       "examTip": "Leaving the scene of an accident is a criminal offence."
@@ -223,17 +405,33 @@
     "id": "legislation-documents-012",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-fines-points",
-    "topicTags": ["schadeformulier"],
+    "topicTags": [
+      "schadeformulier"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Both drivers sign the European accident form (schadeformulier) at the scene. By signing you:",
     "choices": [
-      { "id": "a", "text": "Admit you are at fault" },
-      { "id": "b", "text": "Confirm only the factual record of the accident" },
-      { "id": "c", "text": "Waive your right to any insurance claim" },
-      { "id": "d", "text": "Pay the other party on the spot" }
+      {
+        "id": "a",
+        "text": "Admit you are at fault"
+      },
+      {
+        "id": "b",
+        "text": "Confirm only the factual record of the accident"
+      },
+      {
+        "id": "c",
+        "text": "Waive your right to any insurance claim"
+      },
+      {
+        "id": "d",
+        "text": "Pay the other party on the spot"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Signing confirms the facts only; liability is decided by the insurers.",
       "examTip": "Never leave parts blank — fill in or cross out every box."
@@ -243,17 +441,34 @@
     "id": "legislation-documents-013",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-driving-licence",
-    "topicTags": ["validity", "renewal"],
+    "topicTags": [
+      "validity",
+      "renewal"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "How long is a category-B (passenger-car) driving licence in the Netherlands normally valid?",
     "choices": [
-      { "id": "a", "text": "5 years" },
-      { "id": "b", "text": "10 years" },
-      { "id": "c", "text": "15 years" },
-      { "id": "d", "text": "For life" }
+      {
+        "id": "a",
+        "text": "5 years"
+      },
+      {
+        "id": "b",
+        "text": "10 years"
+      },
+      {
+        "id": "c",
+        "text": "15 years"
+      },
+      {
+        "id": "d",
+        "text": "For life"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "A category-B licence is valid for 10 years; after 75 a shorter validity applies.",
       "examTip": "Renewing after expiry without taking action means driving without a valid licence."
@@ -263,17 +478,34 @@
     "id": "legislation-documents-014",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-vehicle-papers",
-    "topicTags": ["registration", "kentekencard"],
+    "topicTags": [
+      "registration",
+      "kentekencard"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Which document proves who is officially registered as the keeper of a Dutch vehicle?",
     "choices": [
-      { "id": "a", "text": "The driving licence" },
-      { "id": "b", "text": "The kentekencard (vehicle registration card)" },
-      { "id": "c", "text": "The APK certificate" },
-      { "id": "d", "text": "The insurance green card" }
+      {
+        "id": "a",
+        "text": "The driving licence"
+      },
+      {
+        "id": "b",
+        "text": "The kentekencard (vehicle registration card)"
+      },
+      {
+        "id": "c",
+        "text": "The APK certificate"
+      },
+      {
+        "id": "d",
+        "text": "The insurance green card"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "The kentekencard, issued by the RDW, identifies the registered keeper of the vehicle.",
       "examTip": "Carry the card while driving — together with your licence and insurance proof."
@@ -283,17 +515,34 @@
     "id": "legislation-documents-015",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-alcohol-drugs-law",
-    "topicTags": ["novice-driver", "alcohol"],
+    "topicTags": [
+      "novice-driver",
+      "alcohol"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "What is the blood-alcohol limit for a novice driver in the Netherlands during the first 5 years after passing?",
     "choices": [
-      { "id": "a", "text": "0.0 ‰" },
-      { "id": "b", "text": "0.2 ‰" },
-      { "id": "c", "text": "0.5 ‰" },
-      { "id": "d", "text": "0.8 ‰" }
+      {
+        "id": "a",
+        "text": "0.0 ‰"
+      },
+      {
+        "id": "b",
+        "text": "0.2 ‰"
+      },
+      {
+        "id": "c",
+        "text": "0.5 ‰"
+      },
+      {
+        "id": "d",
+        "text": "0.8 ‰"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Novice drivers: 0.2 ‰ (about 0.09 mg/L breath) for the first 5 years; experienced drivers: 0.5 ‰.",
       "examTip": "The novice limit also applies during the 'begeleid rijden' (2toDrive) period from age 17."
@@ -303,20 +552,189 @@
     "id": "legislation-documents-016",
     "moduleId": "legislation-documents",
     "lessonId": "legislation-documents-fines-points",
-    "topicTags": ["fines", "speeding"],
+    "topicTags": [
+      "fines",
+      "speeding"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "Generally, how is the size of a Dutch speeding fine calculated?",
     "choices": [
-      { "id": "a", "text": "A fixed amount regardless of speed" },
-      { "id": "b", "text": "Higher fines for greater excess over the limit, with bigger steps inside built-up areas" },
-      { "id": "c", "text": "Only based on the driver's income" },
-      { "id": "d", "text": "Always 1000 euro" }
+      {
+        "id": "a",
+        "text": "A fixed amount regardless of speed"
+      },
+      {
+        "id": "b",
+        "text": "Higher fines for greater excess over the limit, with bigger steps inside built-up areas"
+      },
+      {
+        "id": "c",
+        "text": "Only based on the driver's income"
+      },
+      {
+        "id": "d",
+        "text": "Always 1000 euro"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Fines scale with how much you exceed the limit and where (built-up vs. outside), with sharply higher amounts above ~30 km/h excess.",
       "examTip": "Going 30+ km/h over the limit usually triggers a court summons rather than just a fixed fine."
+    }
+  },
+  {
+    "id": "legislation-documents-017",
+    "moduleId": "legislation-documents",
+    "lessonId": "legislation-documents-driving-licence",
+    "topicTags": [
+      "beginner",
+      "alcohol",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You passed your B-test at age 17. You are now 22 years old and have driven for 5 years. Which alcohol limit applies to you?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0.5‰ — you have held the licence for 5 full years"
+      },
+      {
+        "id": "b",
+        "text": "0.2‰ — because you passed before age 18, the beginner period is 7 years and you are still inside it"
+      },
+      {
+        "id": "c",
+        "text": "0.0‰ — no alcohol is allowed under 25"
+      },
+      {
+        "id": "d",
+        "text": "0.8‰ — the standard limit for experienced drivers"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Drivers who passed before age 18 are subject to the 0.2‰ limit for 7 years, not 5.",
+      "examTip": "Always check both 'years held' and 'age at passing' on a beginner-limit question."
+    }
+  },
+  {
+    "id": "legislation-documents-018",
+    "moduleId": "legislation-documents",
+    "lessonId": "legislation-documents-vehicle-papers",
+    "topicTags": [
+      "registration",
+      "sale",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You sell your car at lunchtime and the buyer drives it away. That evening they get a speeding fine, but you have not yet transferred the kentekenbewijs at the RDW. Who receives the fine?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The buyer, because they were driving the car"
+      },
+      {
+        "id": "b",
+        "text": "You, because the registration is still in your name"
+      },
+      {
+        "id": "c",
+        "text": "Nobody — speed fines need a confirmed driver"
+      },
+      {
+        "id": "d",
+        "text": "The insurance company that covers the car"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "The kentekenbewijs determines responsibility; until transferred, fines come to the registered owner.",
+      "examTip": "Transfer the registration at the moment of sale, not 'later this week'."
+    }
+  },
+  {
+    "id": "legislation-documents-019",
+    "moduleId": "legislation-documents",
+    "lessonId": "legislation-documents-alcohol-drugs-law",
+    "topicTags": [
+      "breath-test",
+      "refusal",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "The police stop you for a routine check and ask you to blow into the breath tester. You have not been drinking but you politely refuse 'because you have not drunk anything'. What is the legal consequence?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nothing — you have the right to refuse if you have not been drinking"
+      },
+      {
+        "id": "b",
+        "text": "You are treated as if you exceeded the alcohol limit"
+      },
+      {
+        "id": "c",
+        "text": "You receive a small fine for being uncooperative"
+      },
+      {
+        "id": "d",
+        "text": "You may continue your journey but receive a written warning"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Refusing a traffic breath test is treated the same as exceeding the limit, regardless of your reason.",
+      "examTip": "There is no right to refuse a traffic breath test in the Netherlands."
+    }
+  },
+  {
+    "id": "legislation-documents-020",
+    "moduleId": "legislation-documents",
+    "lessonId": "legislation-documents-fines-points",
+    "topicTags": [
+      "accident",
+      "leaving-scene",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You reverse into a parked car in a quiet street and damage the bumper. No one is around. What does Dutch law require?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stick a note under the wiper with your details and drive off"
+      },
+      {
+        "id": "b",
+        "text": "Drive off — minor damage to a parked car is not your responsibility if no one saw"
+      },
+      {
+        "id": "c",
+        "text": "Make a real effort to find the owner; if you cannot, report the accident to the police"
+      },
+      {
+        "id": "d",
+        "text": "Leave only your phone number, not your name"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "You must try to find the owner and, failing that, report the accident — a note alone is not enough.",
+      "examTip": "Driving off without reporting is treated as leaving the scene of an accident, a criminal offence."
     }
   }
 ]

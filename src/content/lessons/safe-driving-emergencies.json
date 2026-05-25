@@ -6,16 +6,28 @@
     "summary": "How impairment affects driving and the legal limits that apply in the Netherlands.",
     "sections": [
       {
-        "heading": "Alcohol limits",
-        "body": "The legal limit is 0.5 promille (0.22 mg/l breath). For drivers with less than 5 years of experience, and for moped riders under 24, the limit is 0.2 promille (0.088 mg/l). Even small amounts slow reaction time."
+        "heading": "The rule: two alcohol limits",
+        "body": "The general legal limit is 0.5 promille blood alcohol (0.22 mg/l breath). For drivers in their first 5 years after passing — or 7 years if they passed under 18 — the limit is 0.2 promille (0.088 mg/l breath). Moped riders under 24 also fall under the 0.2‰ limit. Refusing a breath test is treated as exceeding the limit."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "The exam will tell you how long the driver has held a licence. If it says 'less than 5 years' or 'beginner', the answer involves 0.2‰. If it says 'experienced' or gives no period at all, 0.5‰ usually applies. Read this detail first; it is the trap on every alcohol question."
       },
       {
         "heading": "Drugs and medication",
-        "body": "Driving under the influence of drugs is forbidden, regardless of amount. Some prescription and over-the-counter medicines (sleep aids, strong painkillers, allergy tablets) carry a yellow sticker warning that they affect driving — do not drive if so."
+        "body": "Driving under the influence of any illegal drug is forbidden, regardless of amount. Many prescription and over-the-counter medicines (sleep aids, strong painkillers, allergy tablets) carry a yellow warning sticker — if so, do not drive. The responsibility to check is the driver's, not the pharmacist's."
       },
       {
         "heading": "Fatigue",
-        "body": "Tiredness has effects similar to alcohol: slower reactions, narrower attention, and microsleeps. If you feel drowsy, take a break of at least 15 minutes, drink coffee or get fresh air. Driving on is dangerous."
+        "body": "Tiredness has effects similar to alcohol: slower reactions, narrower attention, and microsleeps that can last several seconds. Open windows, loud music and coffee are short-term tricks; the only real fix is a 15-minute break or sleep. Driving through is the wrong answer on the exam, every time."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A scenario describes 'one beer two hours ago' and asks if you may drive. The trap is to estimate yourself fit. The exam answer is: the law sets a numerical limit, you cannot reliably measure your own level, so the only safe choice is not to drive if there is any doubt."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You passed your licence 18 months ago and had two glasses of wine over dinner. A friend asks for a lift home. You decline: you are a beginner driver, so the 0.2‰ limit applies, and two glasses almost certainly puts you over it. Feeling 'fine' is not a defence."
       }
     ]
   },
@@ -26,16 +38,28 @@
     "summary": "Techniques that reduce fuel use, wear and emissions while keeping you safe.",
     "sections": [
       {
-        "heading": "Smooth and early",
-        "body": "Accelerate gently, shift up early (around 2000 rpm for petrol, 1500 rpm for diesel) and look far ahead so you can roll towards traffic lights instead of braking hard. Smooth driving saves fuel and brakes."
+        "heading": "The rule: smooth, early, anticipative",
+        "body": "Economical driving rests on three habits: accelerate gently, shift up early (around 2000 rpm petrol, 1500 rpm diesel), and look far ahead so you can roll towards traffic lights instead of braking hard. Every hard brake is fuel turned into heat."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "On a fuel-economy question, look for cues about anticipation: 'a red light 200 metres ahead', 'a queue forming', 'a downhill stretch'. The eco answer is almost always 'release the accelerator early and coast' rather than 'brake later' or 'maintain speed and brake hard'."
       },
       {
         "heading": "Engine off when idle",
-        "body": "Switch the engine off if you expect to wait more than about a minute, for example at a long red light or a level crossing. Modern start-stop systems do this automatically."
+        "body": "Switch the engine off if you expect to wait more than about a minute, for example at a long red light, a level crossing with closed barriers, or a bridge opening. Modern start-stop systems do this automatically; in older cars it is your decision. Idling in a queue burns fuel for nothing."
       },
       {
-        "heading": "Tyres and load",
-        "body": "Underinflated tyres add rolling resistance and use more fuel. A roof box or unnecessary load also increases consumption. Check tyre pressure at least once a month and remove items you do not need."
+        "heading": "Tyres, load and shape",
+        "body": "Underinflated tyres add rolling resistance and use more fuel — check pressure at least monthly. A roof box, bike rack or unnecessary load increases air resistance, even when empty. Removing a roof box you no longer need is a cheap, large saving."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A question asks the cheapest way to drive on a motorway. The trap answer is 'drive in the highest possible gear at any speed'. The correct answer combines highest practical gear with a moderate speed (typically 100 km/h on a 120 km/h motorway saves significantly more fuel than driving at the limit)."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You approach a red light 200 metres away. The eco-driving answer is: take your foot off the accelerator now and let the car roll; brake only if needed near the light. If the light turns green while you are still rolling, you barely lose speed. Hard braking at the last moment wastes the kinetic energy you just paid for."
       }
     ]
   },
@@ -46,16 +70,28 @@
     "summary": "What to do if your vehicle breaks down or if you are involved in or witness an accident.",
     "sections": [
       {
-        "heading": "Breakdown",
-        "body": "Move the vehicle off the carriageway if possible, switch on hazard warning lights, put on a high-visibility vest before stepping out, and place the warning triangle 30 metres behind (100 metres on a motorway). Wait behind the barrier, not next to the car."
+        "heading": "The rule: secure, signal, summon",
+        "body": "In any breakdown or accident the order is the same. Secure the scene (move off the carriageway if possible, switch on hazard warning lights), signal it to others (warning triangle, high-visibility vest), and summon help (112 for injuries or major damage; ANWB or your insurer for a simple breakdown)."
+      },
+      {
+        "heading": "Breakdown on a normal road",
+        "body": "Move the vehicle off the carriageway if you can. Put on a high-visibility vest before stepping out. Place the warning triangle about 30 metres behind the car. Wait in a safe place — not next to the vehicle on the traffic side."
+      },
+      {
+        "heading": "Breakdown on a motorway",
+        "body": "If you can still drive, use the emergency lane to leave the motorway at the next exit. If you must stop, pull as far right as possible onto the hard shoulder, switch on hazards, put on a vest, place the triangle 100 metres behind and wait behind the crash barrier — never next to or in front of the car."
       },
       {
         "heading": "At the scene of an accident",
-        "body": "If you are involved or first on scene, stop and help. Make the area safe (hazards, triangle), check for injuries, and call 112 if anyone is hurt or there is significant damage. Do not move injured people unless there is immediate danger."
+        "body": "If you are involved or the first on scene, stop and help. Make the area safe (hazards, triangle), check for injuries, and call 112 if anyone is hurt or there is significant damage. Do not move injured people unless there is immediate danger such as fire."
       },
       {
-        "heading": "Exchanging details",
-        "body": "After any collision with another road user or property, you must give your name, address and vehicle registration. Use the European accident form (schadeformulier) to record what happened; do not admit liability on the spot."
+        "heading": "What to notice first",
+        "body": "On an exam question about a breakdown, the first detail to read is the road type. 'Motorway' triggers the 100-metre triangle, wear-vest-before-stepping-out, and stand-behind-the-barrier answers. 'Town' or 'rural road' triggers the 30-metre triangle and a slightly looser set of actions."
+      },
+      {
+        "heading": "Scenario",
+        "body": "Your car loses power on the motorway. You coast to the hard shoulder, switch on hazards, and your passenger asks why you are putting on a vest before opening the door. You explain: stepping onto the hard shoulder unseen is the most dangerous part of a motorway breakdown; the vest must be on before, not after, you leave the car."
       }
     ]
   },
@@ -66,16 +102,28 @@
     "summary": "How to react to sirens and blue lights, and the basics of helping at the scene.",
     "sections": [
       {
-        "heading": "Sirens and blue lights",
-        "body": "An emergency vehicle with both blue flashing lights and a siren always has priority. Pull aside to the right where possible and stop if necessary. Do not brake suddenly or block intersections; make a clear path."
+        "heading": "The rule: clear a path safely",
+        "body": "An emergency vehicle with both blue flashing lights and a siren always has priority. You must make a path for it. The verb is 'make room', not 'brake hard'. Pull to the right where possible and stop if needed, but never brake suddenly in front of following traffic or block an intersection."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "Check whether the emergency vehicle has both blue lights and a siren active. Blue lights alone (without siren) indicate a vehicle on the way back from a job or marking a stationary scene — you do not need to give priority, only be careful around it. Both signals together: full priority."
+      },
+      {
+        "heading": "Inside built-up areas and on motorways",
+        "body": "In a town, pull to the right kerb and stop if needed. On a multi-lane road, drivers in the left lane move slightly left, drivers in the right lane move slightly right, creating a 'rescue corridor' down the middle. Never use the hard shoulder unless directed."
       },
       {
         "heading": "Phone number 112",
-        "body": "112 is the single emergency number for police, fire and ambulance, free from any phone. State the location first, then what has happened and how many people are involved. Stay on the line until the operator releases you."
+        "body": "112 is the single emergency number for police, fire and ambulance, free from any phone. State the location first (road, kilometre marker, town), then what has happened, how many people are involved, and any specific dangers (fire, leaking fuel). Stay on the line until the operator releases you."
       },
       {
         "heading": "Helping safely",
-        "body": "Protect yourself before victims: park clear of traffic, switch on hazards and wear a high-visibility vest. Switch off the ignition of crashed vehicles if possible. Comfort injured people and keep them still until professional help arrives."
+        "body": "Protect yourself before victims: park clear of traffic, switch on hazards, wear a high-visibility vest. Switch off the ignition of crashed vehicles if you can reach it safely. Comfort injured people and keep them still until professional help arrives — moving someone with a back injury can paralyse them."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You are stopped at a red light when an ambulance approaches from behind with blue lights and siren. The light is still red. The correct action is to move forward carefully past the line if it is safe to do so, to clear a path. The instruction to wait at red yields to the duty to give way to an emergency vehicle — but only at walking pace, and only when oncoming traffic permits."
       }
     ]
   }

@@ -6,16 +6,28 @@
     "summary": "Which licence you need, how long it is valid, and when extra requirements apply.",
     "sections": [
       {
-        "heading": "Categories",
-        "body": "Category B is for passenger cars up to 3,500 kg and up to 8 passenger seats besides the driver. BE adds a trailer over 750 kg. AM is for mopeds. A driver who passes the B exam may tow a small trailer up to 750 kg without BE."
+        "heading": "The rule: drive what your licence allows",
+        "body": "Category B covers passenger cars up to 3,500 kg total mass and up to 8 passenger seats besides the driver. BE adds a heavier trailer (over 750 kg, with combined mass limits). AM is for mopeds. A B-licence holder may tow a light trailer up to 750 kg without BE — provided the combined mass stays within the car's rated limits."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "On any licence-category question, read the vehicle mass and trailer mass first. Above 3,500 kg or with a heavy trailer the answer is no longer 'B'. The exam often gives a borderline figure (3,499 kg vs 3,501 kg) to test whether you read the number."
       },
       {
         "heading": "Validity and renewal",
-        "body": "A new B licence is normally valid for 10 years. From age 75, a medical declaration is required at renewal. A licence is not valid if it is expired, lost, or if it has been confiscated by the court."
+        "body": "A new B-licence is normally valid for 10 years. From age 75 a medical declaration is required at renewal. A licence is invalid if it has expired, been lost (until you collect the replacement), or been confiscated by the court — driving on an invalid licence is treated the same as driving without one."
       },
       {
-        "heading": "Beginner drivers (2procent regeling)",
-        "body": "For the first 5 years after passing (7 years if you passed before age 18), a stricter alcohol limit of 0.2‰ applies instead of 0.5‰. A serious offence in this period can lead to loss of the licence."
+        "heading": "Beginner drivers (2-procent regeling)",
+        "body": "For the first 5 years after passing — 7 years if you passed under 18 — a stricter alcohol limit of 0.2‰ applies instead of 0.5‰. A serious offence in this period can lead to loss of the licence and a fresh exam. This is the single most common exam trap on this topic."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A scenario describes a driver in their fourth year with 'one beer'. The trap is to apply the 0.5‰ limit because that is the figure most people know. The correct limit is 0.2‰ — the driver is still inside the beginner period — and one beer is almost certainly over it."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You passed your B-test at age 17. You are now 22. Which alcohol limit applies? Because you passed under 18, the beginner period runs 7 years, so you are still inside it at 22. The limit is 0.2‰, not 0.5‰. The exam tests this specific case often."
       }
     ]
   },
@@ -26,16 +38,28 @@
     "summary": "The paperwork that keeps a car legal on Dutch roads.",
     "sections": [
       {
+        "heading": "The rule: three documents must be valid",
+        "body": "Three things must always be in order for a car to be legally on a Dutch public road: a current registration (kentekenbewijs), valid third-party liability insurance (WA), and paid road tax (MRB) where applicable. If any one is missing or invalid, the vehicle may not drive or even park on the public road."
+      },
+      {
         "heading": "Kentekenbewijs",
-        "body": "The kentekenbewijs (registration certificate) shows who is responsible for the vehicle. As long as your name is on it you pay road tax and are responsible for offences committed with the car. When you sell, transfer the registration at a RDW counter or post office."
+        "body": "The kentekenbewijs (registration certificate) shows who is responsible for the vehicle. As long as your name is on it you pay road tax and are responsible for fines incurred with the car. When you sell, transfer the registration at a RDW counter or post office on the day of sale — never later."
       },
       {
         "heading": "Insurance",
-        "body": "At minimum every motor vehicle must have third-party liability insurance (WA). Without valid insurance you may not drive or even park on a public road. The RDW checks this automatically against the register."
+        "body": "At minimum every motor vehicle must have third-party liability insurance (WA). Without valid insurance you may not drive or park on a public road, even if the car is stationary. The RDW checks this automatically against the insurance register and sends a fine if a gap is detected."
       },
       {
         "heading": "Road tax (MRB)",
-        "body": "Road tax is owed by whoever is on the registration on the first day of a tax period. Suspending the registration (schorsen) at the RDW pauses the tax, but the car must then be parked off the public road."
+        "body": "Road tax is owed by whoever is on the registration on the first day of a tax period. Suspending the registration (schorsen) at the RDW pauses the tax — but the car must then be parked off the public road, on private property or in a closed garage. Parking a schorsed car on the street is a separate offence."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "On any document question, identify which of the three (registration, insurance, road tax) is missing. 'Sold but not transferred': registration. 'Parked on the street while not in use': insurance and possibly road tax. 'Schorsed and parked on the street': road tax pause is void."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You sell your car at lunchtime and the buyer drives it away. That evening they receive a speeding fine. Who pays? If you transferred the registration at lunchtime, the buyer pays. If you did not, the fine is sent to you because the kentekenbewijs is still in your name. Transfer at the moment of sale, not 'later this week'."
       }
     ]
   },
@@ -46,16 +70,28 @@
     "summary": "The legal limits and what happens when you exceed them.",
     "sections": [
       {
-        "heading": "Alcohol limits",
-        "body": "The general limit is 0.5‰ blood alcohol (0.22 mg/l in breath). For drivers in their first 5 years (or 7 years if started under 18) the limit is 0.2‰. Refusing a breath test is treated as exceeding the limit."
+        "heading": "The rule: two limits, one zero-tolerance",
+        "body": "The general blood-alcohol limit is 0.5‰ (0.22 mg/l breath). For drivers in their first 5 years — 7 years if they passed under 18 — the limit is 0.2‰ (0.088 mg/l breath). For illegal drugs the limit is effectively zero. Refusing a breath or blood test is treated the same as exceeding the limit."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "Whenever the exam mentions an alcohol or drug situation, look for: (1) how long the driver has held the licence; (2) whether a test was offered. Beginner = 0.2‰. Refused test = treated as over the limit. Without those two cues, the default is 0.5‰."
       },
       {
         "heading": "Drugs and medicines",
-        "body": "Driving under the influence of illegal drugs is forbidden at any level. Many prescription medicines also affect driving — yellow stickers on the packaging warn of this. The driver is responsible for checking before driving."
+        "body": "Driving under the influence of illegal drugs is forbidden at any level. Many prescription medicines also affect driving — yellow stickers on the packaging warn of this. The driver is responsible for reading the packaging and asking the pharmacist or doctor if unsure. 'I didn't know' is not a legal defence."
       },
       {
-        "heading": "Educational measures and EMA/LEMA",
-        "body": "Offenders may be required to follow an educational course about alcohol (EMA, LEMA) or behaviour, at their own expense. Serious or repeat offences lead to invalidation of the licence and a fresh exam."
+        "heading": "Educational measures (EMA, LEMA)",
+        "body": "Offenders can be required to follow an educational programme about alcohol (LEMA for lower levels, EMA for higher) or behaviour (EMG), at their own expense. Serious or repeated offences lead to invalidation of the licence and a fresh theory and practical exam."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A scenario shows a driver politely declining a breath test 'because I haven't drunk anything'. The trap is to think this is fine. The correct answer: refusing a breath test is itself an offence, treated as exceeding the limit. The right to refuse does not exist for traffic breath tests."
+      },
+      {
+        "heading": "Scenario",
+        "body": "A driver in their second year of holding a licence is stopped after drinking 'just one glass of wine'. Breath test result: 0.3‰. Are they over the limit? Yes — the beginner limit is 0.2‰. The general 0.5‰ does not apply to them yet."
       }
     ]
   },
@@ -66,16 +102,28 @@
     "summary": "How traffic fines and accident reporting work in the Netherlands.",
     "sections": [
       {
-        "heading": "Administrative fines",
-        "body": "Most minor offences are handled administratively (Wet Mulder) — the fine is sent to the registered owner. Serious offences (high speed, alcohol, dangerous driving) are handled by criminal law and may add a court hearing and a driving ban."
+        "heading": "The rule: administrative for minor, criminal for serious",
+        "body": "Most minor offences (parking, small speeding, broken brake light) are handled administratively under the Wet Mulder — the fine is sent to the registered owner of the car. Serious offences (very high speed, alcohol, dangerous driving, hit-and-run) are handled by criminal law and may add a court hearing, a driving ban and a criminal record."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "Read the severity of the offence in the question. 'Speeding 12 km/h over the limit' = administrative. 'Driving with 1.0‰ alcohol' = criminal. 'Leaving the scene of an injury accident' = criminal, usually with a driving ban. The category determines who pays and whether a court appears."
       },
       {
         "heading": "Reporting an accident",
-        "body": "After any accident you must stop and exchange details. If there is injury or significant damage and no agreement is reached, the police must be called. Leaving the scene of an accident is a criminal offence."
+        "body": "After any accident you must stop and exchange details. If there is injury, significant damage, or no agreement is reached, the police must be called. Leaving the scene of an accident is a separate criminal offence, even if the accident itself was minor."
       },
       {
         "heading": "Liability and the European accident form",
-        "body": "Fill in the European accident form (schadeformulier) at the scene with the other party. Both sign it; it is not an admission of guilt but a factual record. Your insurer settles liability based on it."
+        "body": "Fill in the European accident form (schadeformulier) at the scene with the other party. Both sign it; it is not an admission of guilt but a factual record of what happened. Your insurer settles liability based on it. Do not admit fault verbally — the form is the only document that matters later."
+      },
+      {
+        "heading": "Common exam trap",
+        "body": "A scenario shows you bumping a parked car when no one is around. The trap answer is 'leave a note and drive on'. The correct answer is: you must make a real effort to find the owner, and if you cannot, report the accident to the police. A note alone is not enough under Dutch law."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You reverse into a parked car in a quiet street and damage a bumper. No one is around. You wait a few minutes, ask in nearby shops, leave a clearly visible note with your details — and report the accident at the local police station. Just sticking a note under the wiper and driving off is treated as leaving the scene."
       }
     ]
   }
