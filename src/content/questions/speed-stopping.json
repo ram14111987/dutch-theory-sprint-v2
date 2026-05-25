@@ -743,5 +743,81 @@
       "short": "Front fog lights below 200 m visibility; rear fog lights only below 50 m. At 40 m visibility both are allowed.",
       "examTip": "Switch rear fog lights off as soon as visibility improves \u2014 they dazzle the driver behind you."
     }
+  },
+  {
+    "id": "speed-stopping-021",
+    "moduleId": "speed-stopping",
+    "lessonId": "conditions-and-following",
+    "topicTags": [
+      "scenario",
+      "following-distance",
+      "wet-road"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are following another car on a wet provincial road at 80 km/h. Normally you would keep a two-second gap. What is the safer following distance now?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "One second \u2014 you are paying attention"
+      },
+      {
+        "id": "b",
+        "text": "Two seconds, unchanged"
+      },
+      {
+        "id": "c",
+        "text": "At least four seconds, because braking distance roughly doubles on wet roads"
+      },
+      {
+        "id": "d",
+        "text": "Match the car ahead exactly"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "On a wet surface braking distance roughly doubles, so the two-second rule should also double to about four seconds.",
+      "examTip": "Use a fixed point ahead and count 'twenty-one, twenty-two, twenty-three, twenty-four' after the car ahead passes it."
+    }
+  },
+  {
+    "id": "speed-stopping-022",
+    "moduleId": "speed-stopping",
+    "lessonId": "speed-limits",
+    "topicTags": [
+      "scenario",
+      "speed-limit",
+      "built-up"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You enter a residential street under a sign showing 'zone 30'. There are no further speed signs after the sign. What is the maximum speed and how should you adjust your driving?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "50 km/h, because it is built-up"
+      },
+      {
+        "id": "b",
+        "text": "30 km/h until an 'end of zone' sign, and you should expect children and play"
+      },
+      {
+        "id": "c",
+        "text": "30 km/h only at the sign itself, then back to 50 km/h"
+      },
+      {
+        "id": "d",
+        "text": "No limit unless a round red-and-white sign is posted"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A 'zone 30' sign sets 30 km/h for the entire zone until the cancellation sign; design and behaviour should match that limit.",
+      "examTip": "Do not confuse a 30 km/h zone with a woonerf — in a woonerf the limit is walking pace (about 15 km/h)."
+    }
   }
 ]

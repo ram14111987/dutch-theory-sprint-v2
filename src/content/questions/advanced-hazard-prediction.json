@@ -741,5 +741,195 @@
       "short": "Brake straight in your own lane; swerving risks a head-on collision or losing the car off the road.",
       "examTip": "Brake first, steer only if braking alone is not enough and there is a clear, safe space to steer into."
     }
+  },
+  {
+    "id": "advanced-hazard-prediction-021",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-reading-traffic",
+    "topicTags": [
+      "scenario",
+      "motorway",
+      "merging"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are driving in the right lane of a motorway at 100 km/h. A heavily loaded lorry is accelerating slowly up an entry slip road on your right. What is the best prediction and action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Maintain your speed and lane — the lorry must wait"
+      },
+      {
+        "id": "b",
+        "text": "Check your mirror and blind spot, then move to the left lane if safe to ease the lorry in"
+      },
+      {
+        "id": "c",
+        "text": "Brake hard so the lorry can merge in front of you"
+      },
+      {
+        "id": "d",
+        "text": "Accelerate to pass before the lorry reaches the merging point"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Cooperative merging keeps the flow safe; moving over (when safe) is preferred to sudden braking in the right lane.",
+      "examTip": "Heavy vehicles need a lot of space to accelerate — predict their slow climb early."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-022",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-weather-surface",
+    "topicTags": [
+      "scenario",
+      "aquaplaning",
+      "rain"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a motorway during heavy rain you feel the steering go suddenly light and the car feels like it is floating. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Brake hard and steer sharply to regain grip"
+      },
+      {
+        "id": "b",
+        "text": "Release the accelerator, hold the steering straight and let speed drop"
+      },
+      {
+        "id": "c",
+        "text": "Accelerate to push the water out from under the tyres"
+      },
+      {
+        "id": "d",
+        "text": "Pull the handbrake to slow down"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Aquaplaning is solved by smooth deceleration: release the throttle, no braking or steering input, wait for grip to return.",
+      "examTip": "Aquaplaning risk rises sharply above 80 km/h on standing water — slow down before it happens."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-023",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-vulnerable-users",
+    "topicTags": [
+      "scenario",
+      "cyclists",
+      "right-hook"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are about to turn right at a junction inside a built-up area. You have just overtaken a cyclist who is now slightly behind you on your right. What is the safest action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Turn right immediately — you are now ahead"
+      },
+      {
+        "id": "b",
+        "text": "Check your right blind spot, slow down, and let the cyclist pass or clear before turning"
+      },
+      {
+        "id": "c",
+        "text": "Signal late so the cyclist does not slow you down"
+      },
+      {
+        "id": "d",
+        "text": "Sound the horn and turn anyway"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "The 'right hook' — turning right across a cyclist you just passed — is one of the deadliest urban scenarios; never cut across.",
+      "examTip": "If in doubt, slow behind the cyclist, do not overtake, and turn after them."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-024",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-decision-making",
+    "topicTags": [
+      "scenario",
+      "tailgater",
+      "pressure"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a 80 km/h provincial road a car is tailgating you closely with full beams flashing. What is the correct decision?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Brake hard to teach the driver a lesson"
+      },
+      {
+        "id": "b",
+        "text": "Hold your speed, increase the gap to the car ahead, and let the tailgater pass at the first safe opportunity"
+      },
+      {
+        "id": "c",
+        "text": "Speed up well above the limit to escape"
+      },
+      {
+        "id": "d",
+        "text": "Drive on the shoulder so the tailgater can pass"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Never react aggressively to pressure; protect your own braking distance and remove the conflict by letting them past safely.",
+      "examTip": "A bigger gap in front compensates for the smaller gap behind."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-025",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-reading-traffic",
+    "topicTags": [
+      "scenario",
+      "blind-bend",
+      "rural"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a narrow rural road you approach a blind right-hand bend. There are no warning signs, but the verge is muddy and there are fresh tractor tracks crossing the road. What should you predict and do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Maintain speed — there are no warning signs"
+      },
+      {
+        "id": "b",
+        "text": "Reduce speed and stay close to the centre line for visibility"
+      },
+      {
+        "id": "c",
+        "text": "Reduce speed, move slightly toward your own edge, and expect mud, a tractor or slow traffic round the bend"
+      },
+      {
+        "id": "d",
+        "text": "Switch to high beam to see past the bend"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Tractor tracks and mud on a blind bend are strong cues for slow farm traffic and reduced grip — slow down and stay in your own half.",
+      "examTip": "Reading the road surface for cues is a key advanced-hazard skill."
+    }
   }
 ]

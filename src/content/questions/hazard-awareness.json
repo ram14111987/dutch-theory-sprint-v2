@@ -738,5 +738,195 @@
       "short": "Active scanning means tracking far, mid, near and mirror at the same time; all four cues matter.",
       "examTip": "The CBR hazard-perception part rewards drivers who name multiple early cues, not just the most obvious one."
     }
+  },
+  {
+    "id": "hazard-awareness-021",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-vulnerable-users",
+    "topicTags": [
+      "scenario",
+      "parked-cars",
+      "pedestrians"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are driving past a row of parked cars on your right. Between two of them you notice a ball roll into the road. What is the safest anticipation?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ignore it — the ball alone is not a hazard"
+      },
+      {
+        "id": "b",
+        "text": "Brake firmly and expect a child to run out after it"
+      },
+      {
+        "id": "c",
+        "text": "Swerve into the oncoming lane to avoid the ball"
+      },
+      {
+        "id": "d",
+        "text": "Sound the horn and continue at speed"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A ball in the road is a classic early cue that a child may follow — slow down sharply and be ready to stop.",
+      "examTip": "Always read what is behind a visible cue, not just the cue itself."
+    }
+  },
+  {
+    "id": "hazard-awareness-022",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-weather-visibility",
+    "topicTags": [
+      "scenario",
+      "low-sun",
+      "visibility"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a clear winter morning you are driving east and the sun is low and directly in your eyes, making it hard to see traffic lights and pedestrians ahead. What is the safest response?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Maintain speed but squint harder"
+      },
+      {
+        "id": "b",
+        "text": "Slow down, use the sun visor and increase following distance"
+      },
+      {
+        "id": "c",
+        "text": "Switch on your full beam to compete with the sun"
+      },
+      {
+        "id": "d",
+        "text": "Stop in the road until the sun is higher"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Reduced visibility means reduced speed and more space — combine the visor with a slower, more cautious pace.",
+      "examTip": "Other drivers facing the sun may also miss signals; expect mistakes from oncoming and crossing traffic."
+    }
+  },
+  {
+    "id": "hazard-awareness-023",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-scanning",
+    "topicTags": [
+      "scenario",
+      "scanning",
+      "side-streets"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Driving through a quiet residential area at 30 km/h you notice a car waiting at a side street on your right with its front wheels turned outward and the driver looking the other way. What is the best anticipation?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "You have priority — keep your speed"
+      },
+      {
+        "id": "b",
+        "text": "Ease off the accelerator and cover the brake in case the driver pulls out"
+      },
+      {
+        "id": "c",
+        "text": "Flash your headlights to claim priority"
+      },
+      {
+        "id": "d",
+        "text": "Speed up to pass before the driver looks back"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Turned wheels and the driver's attention elsewhere are strong cues that the car may pull out — prepare to brake.",
+      "examTip": "Legal priority is not safety — anticipate the mistake before it happens."
+    }
+  },
+  {
+    "id": "hazard-awareness-024",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-vulnerable-users",
+    "topicTags": [
+      "scenario",
+      "elderly",
+      "crossing"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "An elderly pedestrian with a walking frame is halfway across a zebra crossing and stops to rest. What is the correct action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sound your horn to encourage them to hurry"
+      },
+      {
+        "id": "b",
+        "text": "Wait patiently until they have fully cleared the crossing"
+      },
+      {
+        "id": "c",
+        "text": "Drive slowly around them"
+      },
+      {
+        "id": "d",
+        "text": "Continue once they are out of your lane"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Pedestrians on a zebra crossing always keep priority; vulnerable users may need extra time.",
+      "examTip": "Never pressure pedestrians by edging forward — give them the whole crossing."
+    }
+  },
+  {
+    "id": "hazard-awareness-025",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-reaction-anticipation",
+    "topicTags": [
+      "scenario",
+      "anticipation",
+      "brake-lights"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a 50 km/h road you see the brake lights of several cars two or three vehicles ahead come on, even though the car directly in front of you has not braked yet. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Wait until the car in front brakes, then react"
+      },
+      {
+        "id": "b",
+        "text": "Ease off the throttle and prepare to brake now"
+      },
+      {
+        "id": "c",
+        "text": "Change lanes immediately without looking"
+      },
+      {
+        "id": "d",
+        "text": "Sound your horn to warn the cars ahead"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Reading the traffic stream beyond the car in front gives you crucial extra seconds — start reacting before the driver ahead does.",
+      "examTip": "Looking through the windows of the car in front is a CBR-recommended scanning habit."
+    }
   }
 ]

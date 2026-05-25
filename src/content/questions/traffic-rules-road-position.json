@@ -737,5 +737,157 @@
       "short": "Match the speed of motorway traffic and merge into a real gap; stopping on the acceleration lane is dangerous.",
       "examTip": "Motorway traffic is not obliged to make room, but a stopped car at the end of the merge lane is the worst outcome."
     }
+  },
+  {
+    "id": "traffic-rules-road-position-021",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-lane-choice",
+    "topicTags": [
+      "scenario",
+      "lane-choice",
+      "motorway"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a quiet three-lane motorway with no other vehicles around you, which lane should you normally use?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The middle lane, for an even view"
+      },
+      {
+        "id": "b",
+        "text": "The left lane, for the highest speed"
+      },
+      {
+        "id": "c",
+        "text": "The right lane — always drive as far right as practical"
+      },
+      {
+        "id": "d",
+        "text": "Any lane you prefer"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "On Dutch roads you keep right whenever possible; the left and middle lanes are only for overtaking or when traffic dictates.",
+      "examTip": "Sitting in the middle lane on an empty motorway is a common scoring point for examiners."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-022",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-overtaking",
+    "topicTags": [
+      "scenario",
+      "overtaking",
+      "cyclists"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a 50 km/h road inside a built-up area you want to overtake a cyclist. Oncoming traffic is approaching but a gap is opening. What is the correct lateral distance?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Around 30 cm — keep close to save room"
+      },
+      {
+        "id": "b",
+        "text": "At least 1 to 1.5 metres of clear lateral space"
+      },
+      {
+        "id": "c",
+        "text": "As close as possible to avoid the oncoming car"
+      },
+      {
+        "id": "d",
+        "text": "Distance does not matter at 50 km/h"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Give cyclists about 1 to 1.5 metres of clearance; if there is not enough room because of oncoming traffic, wait.",
+      "examTip": "If the oncoming gap forces you to squeeze past, do not overtake — hold back behind the cyclist."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-023",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-signalling-merging",
+    "topicTags": [
+      "scenario",
+      "signalling",
+      "lane-change"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You want to change lanes on a busy motorway. In what order should you perform the steps?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Signal, change lanes, then check mirrors"
+      },
+      {
+        "id": "b",
+        "text": "Check interior and side mirrors, check the blind spot, signal, change lanes when safe"
+      },
+      {
+        "id": "c",
+        "text": "Change lanes first, then signal"
+      },
+      {
+        "id": "d",
+        "text": "Signal only if other cars are close"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "The CBR sequence is mirrors → blind spot → signal → manoeuvre, never the other way round.",
+      "examTip": "Skipping the blind-spot check is one of the most common fails on lane changes."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-024",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-special-lanes",
+    "topicTags": [
+      "scenario",
+      "bus-lane",
+      "special-lanes"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You see a lane on your right marked with the word 'BUS' and a solid line separating it from your lane. There is no other traffic. May you drive in it?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes, because there is no other traffic"
+      },
+      {
+        "id": "b",
+        "text": "Yes, but only at low speed"
+      },
+      {
+        "id": "c",
+        "text": "No — a bus lane is reserved for buses and other authorised vehicles only"
+      },
+      {
+        "id": "d",
+        "text": "Yes, but only to overtake"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "A bus lane is only for buses (and any other vehicles specified on the sign), regardless of how empty it looks.",
+      "examTip": "Driving in a bus lane attracts a fine even if there is no bus in sight."
+    }
   }
 ]

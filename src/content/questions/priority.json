@@ -744,5 +744,195 @@
       "short": "You must only make space within what is legal \u2014 never run a red light or drive onto a cycle path, even for an emergency vehicle.",
       "examTip": "If you cannot legally move aside, stay still \u2014 the ambulance driver expects this."
     }
+  },
+  {
+    "id": "priority-021",
+    "moduleId": "priority",
+    "lessonId": "priority-intersections",
+    "topicTags": [
+      "scenario",
+      "stop-sign",
+      "give-way"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You approach a junction with an octagonal STOP sign. The crossing road is completely empty as far as you can see. What is required of you?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Slow to walking pace and roll through because it is empty"
+      },
+      {
+        "id": "b",
+        "text": "Stop fully at the line, even if the road is empty, then proceed when safe"
+      },
+      {
+        "id": "c",
+        "text": "Continue at normal speed if no one is visible"
+      },
+      {
+        "id": "d",
+        "text": "Stop only if another car is approaching"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A STOP sign legally requires a full stop at the line every time, even when the crossing road appears empty.",
+      "examTip": "Examiners watch for the wheels coming to a complete standstill \u2014 a rolling stop counts as a fail."
+    }
+  },
+  {
+    "id": "priority-022",
+    "moduleId": "priority",
+    "lessonId": "priority-basic-rules",
+    "topicTags": [
+      "scenario",
+      "right-of-way",
+      "blocked-junction"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You have priority at a junction, but traffic on the far side of the crossing is at a standstill and your car would block the junction if you entered. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Drive in anyway \u2014 your priority is absolute"
+      },
+      {
+        "id": "b",
+        "text": "Wait before the junction until you can clear it completely"
+      },
+      {
+        "id": "c",
+        "text": "Stop in the middle of the junction and wait there"
+      },
+      {
+        "id": "d",
+        "text": "Sound your horn to clear the traffic ahead"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "You must never enter a junction you cannot clear, even with priority \u2014 blocking the crossing obstructs other traffic.",
+      "examTip": "Wait behind the line until you can see a clear path through to the other side."
+    }
+  },
+  {
+    "id": "priority-023",
+    "moduleId": "priority",
+    "lessonId": "priority-special-users",
+    "topicTags": [
+      "scenario",
+      "school-bus",
+      "children"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a residential road a stationary bus has stopped and children are getting off. Some are crossing in front of the bus toward your side. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Pass the bus at normal speed \u2014 you have priority"
+      },
+      {
+        "id": "b",
+        "text": "Slow right down, be ready to stop, and give way to children stepping out"
+      },
+      {
+        "id": "c",
+        "text": "Overtake quickly before any child appears"
+      },
+      {
+        "id": "d",
+        "text": "Sound the horn to warn the children"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Children behave unpredictably; near a stationary bus you must slow down and be ready to give way.",
+      "examTip": "Children stepping out from in front of a bus is one of the classic CBR hazard scenarios."
+    }
+  },
+  {
+    "id": "priority-024",
+    "moduleId": "priority",
+    "lessonId": "priority-intersections",
+    "topicTags": [
+      "scenario",
+      "traffic-officer",
+      "signals"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "At a junction the traffic light shows green for you, but a police officer in the middle of the junction is holding up a hand toward your direction. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Continue \u2014 the green light overrules the officer"
+      },
+      {
+        "id": "b",
+        "text": "Stop \u2014 instructions from a traffic officer override signals and signs"
+      },
+      {
+        "id": "c",
+        "text": "Sound the horn and drive through carefully"
+      },
+      {
+        "id": "d",
+        "text": "Ignore both and follow the car in front"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Directions from a traffic officer take priority over traffic lights, signs and road markings.",
+      "examTip": "Order of authority: officer > lights > signs > markings > rules of the road."
+    }
+  },
+  {
+    "id": "priority-025",
+    "moduleId": "priority",
+    "lessonId": "priority-roundabouts",
+    "topicTags": [
+      "scenario",
+      "roundabout",
+      "emergency-vehicle"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are circulating on a roundabout when an ambulance with sirens and blue lights enters from a side road and needs to join the ring. What is the correct action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Maintain speed \u2014 ring traffic always has priority"
+      },
+      {
+        "id": "b",
+        "text": "Slow down or stop safely so the ambulance can join and pass"
+      },
+      {
+        "id": "c",
+        "text": "Brake sharply in front of the ambulance"
+      },
+      {
+        "id": "d",
+        "text": "Speed up to clear the roundabout first"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Emergency vehicles with sirens and lights override the normal roundabout priority \u2014 yield safely.",
+      "examTip": "Adjust gradually so the cars behind you can also react \u2014 sudden braking is dangerous."
+    }
   }
 ]

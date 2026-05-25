@@ -741,5 +741,119 @@
       "short": "The duty to make way for an emergency vehicle overrides the red light, but only at walking pace and only when it is safe.",
       "examTip": "Reversing is almost always wrong on an exam — you risk vehicles behind you."
     }
+  },
+  {
+    "id": "safe-driving-emergencies-021",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-breakdown-accident",
+    "topicTags": [
+      "scenario",
+      "breakdown",
+      "motorway"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Your car suddenly loses power on the motorway. You manage to coast to the hard shoulder. What is the correct sequence of actions?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stay in the car with the engine running and call for help"
+      },
+      {
+        "id": "b",
+        "text": "Switch on hazard lights, get out via the passenger side, put on a high-visibility vest and wait behind the crash barrier"
+      },
+      {
+        "id": "c",
+        "text": "Place the warning triangle on the carriageway and stand next to the car"
+      },
+      {
+        "id": "d",
+        "text": "Open the bonnet and try to repair the car yourself in the lane"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "On a motorway hard shoulder you leave on the safer side, wear a hi-vis vest, and wait behind the barrier — not next to the car.",
+      "examTip": "Warning triangles are not used on motorways in the Netherlands; rely on hazard lights and ANWB/police assistance."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-022",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-emergency-vehicles-first-aid",
+    "topicTags": [
+      "scenario",
+      "first-aid",
+      "accident"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You arrive at an accident where a motorcyclist is lying in the road, unconscious but breathing, still wearing the helmet. What is the recommended action regarding the helmet?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Remove the helmet immediately so they can breathe better"
+      },
+      {
+        "id": "b",
+        "text": "Leave the helmet on unless they have stopped breathing and you cannot ventilate"
+      },
+      {
+        "id": "c",
+        "text": "Take off the visor only, leave the helmet"
+      },
+      {
+        "id": "d",
+        "text": "Move the rider to the verge first"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Removing a helmet risks worsening a spinal injury; only remove if you must reach the airway and breathing has stopped.",
+      "examTip": "Call 112 first and report 'motor accident, rider unconscious, helmet still on'."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-023",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-alcohol-drugs-fatigue",
+    "topicTags": [
+      "scenario",
+      "fatigue",
+      "long-drive"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a long motorway drive at night you feel your eyes growing heavy and you have caught yourself drifting toward the lane marking. What is the safest action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Open a window and increase your speed to stay alert"
+      },
+      {
+        "id": "b",
+        "text": "Drink coffee and continue without stopping"
+      },
+      {
+        "id": "c",
+        "text": "Take the next exit or service area and stop for a real break or short sleep"
+      },
+      {
+        "id": "d",
+        "text": "Turn up the music loudly and push on to your destination"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Drifting and heavy eyelids are late warning signs of microsleeps — only a real break or short sleep restores safe alertness.",
+      "examTip": "Coffee and air help briefly but do not undo fatigue; plan a stop every two hours on long trips."
+    }
   }
 ]
