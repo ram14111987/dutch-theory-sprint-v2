@@ -30,15 +30,6 @@
     "questionBankId": "priority"
   },
   {
-    "id": "hazard-perception",
-    "slug": "hazard-perception",
-    "title": "Hazard perception",
-    "description": "Spotting risks early and reacting safely in changing traffic situations.",
-    "lessonSlugs": [],
-    "quizEnabled": false,
-    "questionBankId": null
-  },
-  {
     "id": "speed-stopping",
     "slug": "speed-stopping",
     "title": "Speed and stopping distance",

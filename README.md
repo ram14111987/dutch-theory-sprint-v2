@@ -6,7 +6,7 @@ A React + Vite single-page app for practicing the Dutch (CBR) car driving theory
 
 ## Content
 
-- **12 quiz-enabled modules** (plus 2 placeholder modules — `hazard-perception` and `special-users` — that intentionally have no quiz yet)
+- **12 quiz-enabled modules** (plus 1 placeholder module — `special-users` — that intentionally has no quiz yet)
 - **49 total lessons**
 - **196 total questions** across the quiz-enabled modules
 
@@ -79,7 +79,7 @@ Pure logic for each mode lives in `src/quiz/` (`engine.js`, `selection.js`, `sco
 
 - No accounts, login, sync, or cloud backup — clearing browser storage clears all progress.
 - No images, audio, or video in lessons or questions.
-- Two placeholder modules (`hazard-perception`, `special-users`) have no lessons or quiz yet.
+- One placeholder module (`special-users`) has no lessons or quiz yet.
 - No localization — UI and content are English-only.
 - No automated test suite. Verification is via lint, build, and the [manual QA checklist](docs/manual-qa-checklist.md).
 - No PWA / offline install manifest. Works offline once loaded only because the SPA bundle is small and static.

@@ -59,7 +59,7 @@ The path to v1, summarized at a high level:
 - **No accounts or sync.** Clearing browser storage clears all progress. There is no cloud backup, no export/import.
 - **English only.** The UI and content are not localized.
 - **No images, audio, or video** in any lesson or question.
-- **Two placeholder modules** (`hazard-perception`, `special-users`) ship without lessons or quizzes.
+- **One placeholder module** (`special-users`) ships without lessons or quizzes.
 - **No automated test suite.** Verification is via ESLint, Vite build, and the [manual QA checklist](manual-qa-checklist.md).
 - **No PWA / installable offline mode.** The app is static and small, so it works offline once cached by the browser, but there is no service worker or manifest.
 - **No analytics or telemetry.**
