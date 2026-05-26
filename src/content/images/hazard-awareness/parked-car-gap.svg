@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Top-down view of a street with two parked vans and a hidden pedestrian in the gap between them</title>
+  <rect width="480" height="240" fill="#eaeef3"/>
+  <rect x="20" y="100" width="440" height="80" fill="#cfd6e0"/>
+  <line x1="20" y1="140" x2="460" y2="140" stroke="#ffffff" stroke-width="2" stroke-dasharray="10 10"/>
+  <rect x="60" y="50" width="120" height="40" rx="4" fill="#37474f"/>
+  <rect x="260" y="50" width="120" height="40" rx="4" fill="#37474f"/>
+  <text x="120" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">parked van</text>
+  <text x="320" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">parked van</text>
+  <circle cx="220" cy="80" r="8" fill="#d32f2f"/>
+  <text x="220" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#d32f2f">hidden pedestrian</text>
+  <path d="M220 90 L220 110" stroke="#d32f2f" stroke-width="2" marker-end="url(#arrow2)"/>
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/>
+    </marker>
+  </defs>
+  <rect x="380" y="150" width="50" height="30" rx="4" fill="#1565c0"/>
+  <text x="405" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fff">you</text>
+  <text x="240" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#222">Treat every gap between parked vehicles as a possible pedestrian.</text>
+</svg>

@@ -7,7 +7,12 @@
     "sections": [
       {
         "heading": "The rule: triangle with a red border = warning",
-        "body": "Warning signs in the Netherlands are triangular with a red border, white background and a point facing up. The shape alone tells you 'something ahead needs your attention' before you have even read the pictogram inside. There is no legal action attached — only a duty to adjust your speed and attention."
+        "body": "Warning signs in the Netherlands are triangular with a red border, white background and a point facing up. The shape alone tells you 'something ahead needs your attention' before you have even read the pictogram inside. There is no legal action attached — only a duty to adjust your speed and attention.",
+        "image": {
+          "src": "signs/warning-triangle.svg",
+          "alt": "Warning sign: an upward-pointing triangle with a red border and white background.",
+          "caption": "Triangle + red border = warning."
+        }
       },
       {
         "heading": "What to notice first",
@@ -39,7 +44,12 @@
     "sections": [
       {
         "heading": "The rule: round + red border = prohibition",
-        "body": "Prohibitory signs are round with a red border, white (sometimes blue) background and a pictogram or number inside. The red border is the visual cue that the sign forbids or restricts something — entry, overtaking, parking, stopping, or a vehicle category."
+        "body": "Prohibitory signs are round with a red border, white (sometimes blue) background and a pictogram or number inside. The red border is the visual cue that the sign forbids or restricts something — entry, overtaking, parking, stopping, or a vehicle category.",
+        "image": {
+          "src": "signs/prohibitory-disc.svg",
+          "alt": "Prohibitory sign: a round white disc with a thick red border and a red diagonal stripe across it.",
+          "caption": "Round + red border = something is forbidden."
+        }
       },
       {
         "heading": "What to notice first",
@@ -71,7 +81,12 @@
     "sections": [
       {
         "heading": "The rule: shape decides obligation",
-        "body": "Round signs with a solid blue background and a white symbol are mandatory: they tell you what you must do — follow a direction arrow, use a cycle path, take the roundabout, keep a minimum speed. Rectangular blue signs only inform: parking, one-way streets, built-up area boundaries, services, route numbers."
+        "body": "Round signs with a solid blue background and a white symbol are mandatory: they tell you what you must do — follow a direction arrow, use a cycle path, take the roundabout, keep a minimum speed. Rectangular blue signs only inform: parking, one-way streets, built-up area boundaries, services, route numbers.",
+        "image": {
+          "src": "signs/mandatory-blue.svg",
+          "alt": "Mandatory sign: a round solid-blue disc with a white arrow pointing right.",
+          "caption": "Round + solid blue = you must do this."
+        }
       },
       {
         "heading": "What to notice first",
@@ -111,11 +126,21 @@
       },
       {
         "heading": "Priority road",
-        "body": "A yellow diamond means traffic on this road has priority over crossing roads. The same sign with a diagonal black stripe = end of priority road; from there the general rules apply again. The diamond is repeated after every intersection so it cannot be confused with a one-off."
+        "body": "A yellow diamond means traffic on this road has priority over crossing roads. The same sign with a diagonal black stripe = end of priority road; from there the general rules apply again. The diamond is repeated after every intersection so it cannot be confused with a one-off.",
+        "image": {
+          "src": "signs/priority-diamond.svg",
+          "alt": "Priority road sign: a yellow diamond inside a white-bordered diamond.",
+          "caption": "Yellow diamond = you are on a priority road."
+        }
       },
       {
         "heading": "Give way and stop",
-        "body": "An inverted triangle with a red border requires you to yield to crossing traffic, but you may roll through if it is clear. A red octagonal STOP sign requires you to come to a full stop before the line, every time, even when no other traffic is visible. Failing to stop fully at a STOP sign is a common practical-test failure."
+        "body": "An inverted triangle with a red border requires you to yield to crossing traffic, but you may roll through if it is clear. A red octagonal STOP sign requires you to come to a full stop before the line, every time, even when no other traffic is visible. Failing to stop fully at a STOP sign is a common practical-test failure.",
+        "image": {
+          "src": "signs/give-way-triangle.svg",
+          "alt": "Give way sign: an inverted triangle (point down) with a thick red border and white centre.",
+          "caption": "Inverted triangle + red border = give way."
+        }
       },
       {
         "heading": "Priority over oncoming traffic",
@@ -147,7 +172,12 @@
       },
       {
         "heading": "Maximum speed",
-        "body": "A round white sign with a red border sets the maximum legal speed in km/h. It applies until cancelled by another speed sign, an end-of-restriction sign (the same number with a diagonal stripe), or a change of road category (e.g. entering a built-up area or motorway)."
+        "body": "A round white sign with a red border sets the maximum legal speed in km/h. It applies until cancelled by another speed sign, an end-of-restriction sign (the same number with a diagonal stripe), or a change of road category (e.g. entering a built-up area or motorway).",
+        "image": {
+          "src": "signs/speed-limit-50.svg",
+          "alt": "Speed limit sign: a round white disc with a red border showing the number 50.",
+          "caption": "Red-bordered round sign with a number = enforceable maximum speed in km/h."
+        }
       },
       {
         "heading": "Minimum and recommended speed",

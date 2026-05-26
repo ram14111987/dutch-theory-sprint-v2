@@ -373,6 +373,11 @@
     ],
     "type": "single",
     "difficulty": "easy",
+    "image": {
+      "src": "hazard-awareness/two-second-rule.svg",
+      "alt": "Diagram showing two cars with a 2-second following gap in dry conditions and a 4-second gap in wet conditions.",
+      "caption": "The 2-second baseline gap in dry conditions, doubled in wet."
+    },
     "stem": "In good conditions, what is the minimum recommended time-gap to the vehicle in front?",
     "choices": [
       {

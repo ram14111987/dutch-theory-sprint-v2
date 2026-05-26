@@ -527,6 +527,11 @@
     ],
     "type": "single",
     "difficulty": "easy",
+    "image": {
+      "src": "signs/stop-octagon.svg",
+      "alt": "A red octagonal sign with the white word STOP across the middle.",
+      "caption": "The STOP sign — full stop required, every time."
+    },
     "stem": "At a red octagonal STOP sign you must:",
     "choices": [
       {

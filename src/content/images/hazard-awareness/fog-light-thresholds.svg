@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" role="img" aria-labelledby="title">
+  <title id="title">Fog light thresholds: front fog lights allowed below 200 metres visibility, rear fog lights only below 50 metres</title>
+  <rect width="480" height="220" fill="#eef1f4"/>
+  <text x="240" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#222">Fog light thresholds</text>
+  <rect x="40" y="70" width="180" height="100" rx="8" fill="#ffffff" stroke="#1565c0" stroke-width="2"/>
+  <text x="130" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1565c0">Front fog</text>
+  <text x="130" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#222">visibility &lt; 200 m</text>
+  <text x="130" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#555">switch off when clear</text>
+  <rect x="260" y="70" width="180" height="100" rx="8" fill="#ffffff" stroke="#d32f2f" stroke-width="2"/>
+  <text x="350" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#d32f2f">Rear fog</text>
+  <text x="350" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#222">visibility &lt; 50 m</text>
+  <text x="350" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#555">off as soon as clearer</text>
+  <text x="240" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#444">Never main beam in fog — it reflects off the droplets.</text>
+</svg>

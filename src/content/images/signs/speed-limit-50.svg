@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Speed limit sign: round with red border and the number 50</title>
+  <circle cx="100" cy="100" r="85" fill="#ffffff" stroke="#d32f2f" stroke-width="14"/>
+  <text x="100" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="80" fill="#222">50</text>
+</svg>

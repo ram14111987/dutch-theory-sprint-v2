@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img" aria-labelledby="title">
+  <title id="title">Diagram of the far, mid, near and mirror scanning system from a driver's viewpoint</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <polygon points="160,250 320,250 280,90 200,90" fill="#dfe7f5" stroke="#7a8aa8" stroke-width="2"/>
+  <line x1="240" y1="90" x2="240" y2="250" stroke="#7a8aa8" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="240" cy="100" r="6" fill="#1565c0"/>
+  <text x="248" y="104" font-family="Arial, sans-serif" font-size="13" fill="#1565c0">Far (horizon)</text>
+  <circle cx="240" cy="160" r="6" fill="#2e7d32"/>
+  <text x="248" y="164" font-family="Arial, sans-serif" font-size="13" fill="#2e7d32">Mid</text>
+  <circle cx="240" cy="220" r="6" fill="#ef6c00"/>
+  <text x="248" y="224" font-family="Arial, sans-serif" font-size="13" fill="#ef6c00">Near</text>
+  <rect x="30" y="30" width="80" height="40" rx="6" fill="#ffffff" stroke="#444" stroke-width="2"/>
+  <text x="70" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#444">Mirror</text>
+  <path d="M70 70 L150 150" stroke="#444" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
+  <text x="240" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#222">Scan: far → mid → near → mirror</text>
+</svg>

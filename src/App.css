@@ -639,3 +639,42 @@ body {
     font-size: 15px;
   }
 }
+
+.content-image {
+  margin: 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.content-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.content-image--lesson img {
+  max-width: 360px;
+}
+
+.content-image--question img {
+  max-width: 320px;
+}
+
+.content-image__caption {
+  font-size: 13px;
+  color: #555;
+  text-align: center;
+  max-width: 480px;
+  line-height: 1.4;
+}
+
+@media (max-width: 480px) {
+  .content-image--lesson img,
+  .content-image--question img {
+    max-width: 100%;
+  }
+}

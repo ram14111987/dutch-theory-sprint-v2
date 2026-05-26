@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 180" role="img" aria-labelledby="title">
+  <title id="title">Warning sign: red-bordered triangle pointing up</title>
+  <polygon points="100,15 188,165 12,165" fill="#ffffff" stroke="#d32f2f" stroke-width="12" stroke-linejoin="round"/>
+  <polygon points="100,55 145,135 55,135" fill="none" stroke="#222" stroke-width="3"/>
+  <text x="100" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#222">!</text>
+</svg>

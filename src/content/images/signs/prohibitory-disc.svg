@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Prohibitory sign: round with red border</title>
+  <circle cx="100" cy="100" r="85" fill="#ffffff" stroke="#d32f2f" stroke-width="14"/>
+  <line x1="42" y1="42" x2="158" y2="158" stroke="#d32f2f" stroke-width="12" stroke-linecap="round"/>
+</svg>

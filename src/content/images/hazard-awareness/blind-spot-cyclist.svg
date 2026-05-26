@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img" aria-labelledby="title">
+  <title id="title">Top-down view of a car with a cyclist hidden in the right rear blind spot</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <rect x="200" y="80" width="80" height="140" rx="14" fill="#1565c0"/>
+  <rect x="215" y="95" width="50" height="30" rx="4" fill="#bbdefb"/>
+  <rect x="215" y="175" width="50" height="30" rx="4" fill="#bbdefb"/>
+  <path d="M280 110 L420 70" stroke="#ef6c00" stroke-width="2" stroke-dasharray="6 4" fill="none"/>
+  <path d="M280 190 L420 230" stroke="#ef6c00" stroke-width="2" stroke-dasharray="6 4" fill="none"/>
+  <polygon points="280,180 360,170 360,230 280,220" fill="#ef6c00" opacity="0.25"/>
+  <text x="320" y="205" font-family="Arial, sans-serif" font-size="12" fill="#ef6c00" font-weight="700">Blind spot</text>
+  <circle cx="335" cy="208" r="6" fill="#2e7d32"/>
+  <circle cx="345" cy="218" r="6" fill="#2e7d32"/>
+  <text x="305" y="245" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">cyclist hidden here</text>
+  <text x="240" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#222">Shoulder-check before turning across a cycle path</text>
+</svg>

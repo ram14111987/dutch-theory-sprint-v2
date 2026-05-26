@@ -23,7 +23,12 @@
       },
       {
         "heading": "The far-mid-near-mirror system",
-        "body": "Drivers who scan in a repeating pattern miss less. A simple system is far → mid → near → mirror, repeated every few seconds: the horizon for planning, the middle distance for likely movement, the immediate area for current threats, and the mirror for what is catching up. At every junction, add a left-right-left sweep before you cross. This is the kind of 'active scanning' the exam expects. Scenario: at a busy shopping street, far = traffic lights at the next junction, mid = a bus pulling away, near = a pedestrian at the kerb, mirror = a cyclist closing on your right. All four matter at the same time."
+        "body": "Drivers who scan in a repeating pattern miss less. A simple system is far → mid → near → mirror, repeated every few seconds: the horizon for planning, the middle distance for likely movement, the immediate area for current threats, and the mirror for what is catching up. At every junction, add a left-right-left sweep before you cross. This is the kind of 'active scanning' the exam expects. Scenario: at a busy shopping street, far = traffic lights at the next junction, mid = a bus pulling away, near = a pedestrian at the kerb, mirror = a cyclist closing on your right. All four matter at the same time.",
+        "image": {
+          "src": "hazard-awareness/scan-far-mid-near.svg",
+          "alt": "Diagram of the four scanning zones from the driver's seat: far for the horizon, mid for the middle distance, near for immediate area, plus the mirror for traffic behind.",
+          "caption": "Far → mid → near → mirror, repeated every few seconds."
+        }
       }
     ]
   },
@@ -47,7 +52,12 @@
       },
       {
         "heading": "Mopeds, motorcyclists, and common exam traps",
-        "body": "Mopeds (snorfiets, bromfiets) and motorcyclists are narrow and easy to miss in a mirror glance — they often sit in the blind spot for several seconds. Add a quick shoulder check before every lane change and every turn across their path. Trap one: assuming a quiet street means no cyclists. Trap two: assuming 'I have priority' means you don't need to slow for vulnerable users. Trap three: confusing a snorfiets (on cycle path, max 25 km/h) with a bromfiets (on the road, max 45 km/h) — their rules differ. As a memory hook: 'narrow, slow, or quiet' all mean 'check twice'."
+        "body": "Mopeds (snorfiets, bromfiets) and motorcyclists are narrow and easy to miss in a mirror glance — they often sit in the blind spot for several seconds. Add a quick shoulder check before every lane change and every turn across their path. Trap one: assuming a quiet street means no cyclists. Trap two: assuming 'I have priority' means you don't need to slow for vulnerable users. Trap three: confusing a snorfiets (on cycle path, max 25 km/h) with a bromfiets (on the road, max 45 km/h) — their rules differ. As a memory hook: 'narrow, slow, or quiet' all mean 'check twice'.",
+        "image": {
+          "src": "hazard-awareness/blind-spot-cyclist.svg",
+          "alt": "Top-down diagram of a car with a shaded blind-spot zone behind the right rear, and a cyclist drawn inside that zone.",
+          "caption": "Mirror glance is not enough — shoulder-check before turning across a cycle path."
+        }
       },
       {
         "heading": "Scenario walkthrough",
@@ -67,7 +77,12 @@
       },
       {
         "heading": "Fog and the 200 m / 50 m rule",
-        "body": "Use dipped headlights in fog, never main beam — main beam reflects off the droplets and blinds you. You may use front fog lights when visibility falls below 200 m, and rear fog lights only when visibility falls below 50 m. Switch rear fog lights off as soon as visibility improves — they dazzle the driver behind you and can hide your brake lights. The exam directly tests the two thresholds: 200 m for front fog lights, 50 m for rear. In dense fog, open the window briefly to listen for traffic you cannot yet see, and use the right-hand white edge line to keep your lane without staring at oncoming lights."
+        "body": "Use dipped headlights in fog, never main beam — main beam reflects off the droplets and blinds you. You may use front fog lights when visibility falls below 200 m, and rear fog lights only when visibility falls below 50 m. Switch rear fog lights off as soon as visibility improves — they dazzle the driver behind you and can hide your brake lights. The exam directly tests the two thresholds: 200 m for front fog lights, 50 m for rear. In dense fog, open the window briefly to listen for traffic you cannot yet see, and use the right-hand white edge line to keep your lane without staring at oncoming lights.",
+        "image": {
+          "src": "hazard-awareness/fog-light-thresholds.svg",
+          "alt": "Infographic showing the two fog-light visibility thresholds: front fog lights allowed when visibility is below 200 metres, rear fog lights only when visibility is below 50 metres.",
+          "caption": "200 m for front fog lights, 50 m for rear — and switch them off again as soon as visibility improves."
+        }
       },
       {
         "heading": "Night and low sun",
@@ -95,7 +110,12 @@
       },
       {
         "heading": "The 2-second rule",
-        "body": "Keep at least 2 seconds gap to the vehicle in front in good conditions. Pick a fixed point ahead (a sign, a tree, a shadow); when the vehicle in front passes it, you should not pass it until you have counted 'one-thousand-and-one, one-thousand-and-two'. Double this in rain, more in snow or fog, and add extra time behind a heavy vehicle whose driver cannot see you in their mirrors. If a tailgater pushes into your gap, slow gradually to recreate the gap in front rather than trying to outrun them. The exam treats the 2-second rule as the baseline, doubled to 4 in wet."
+        "body": "Keep at least 2 seconds gap to the vehicle in front in good conditions. Pick a fixed point ahead (a sign, a tree, a shadow); when the vehicle in front passes it, you should not pass it until you have counted 'one-thousand-and-one, one-thousand-and-two'. Double this in rain, more in snow or fog, and add extra time behind a heavy vehicle whose driver cannot see you in their mirrors. If a tailgater pushes into your gap, slow gradually to recreate the gap in front rather than trying to outrun them. The exam treats the 2-second rule as the baseline, doubled to 4 in wet.",
+        "image": {
+          "src": "hazard-awareness/two-second-rule.svg",
+          "alt": "Diagram comparing the 2-second following gap in dry conditions with a 4-second gap in wet conditions, both shown as two cars on the same stretch of road.",
+          "caption": "Baseline 2 seconds in the dry, doubled to 4 in the wet."
+        }
       },
       {
         "heading": "Anticipation over reaction",

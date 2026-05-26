@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { getLessonBySlug, getModuleBySlug } from '../content/index.js';
+import { resolveImageSrc } from '../content/imageRegistry.js';
 
 function Lesson() {
   const { slug } = useParams();
@@ -34,12 +35,24 @@ function Lesson() {
       </div>
 
       <div className="lesson-body">
-        {lesson.sections?.map((section, idx) => (
-          <article className="lesson-section" key={idx}>
-            {section.heading && <h3>{section.heading}</h3>}
-            {section.body && <p>{section.body}</p>}
-          </article>
-        ))}
+        {lesson.sections?.map((section, idx) => {
+          const sectionImage = section.image;
+          const sectionImageSrc = sectionImage ? resolveImageSrc(sectionImage.src) : null;
+          return (
+            <article className="lesson-section" key={idx}>
+              {section.heading && <h3>{section.heading}</h3>}
+              {sectionImage && sectionImageSrc && sectionImage.alt ? (
+                <figure className="content-image content-image--lesson">
+                  <img src={sectionImageSrc} alt={sectionImage.alt} loading="lazy" />
+                  {sectionImage.caption && (
+                    <figcaption className="content-image__caption">{sectionImage.caption}</figcaption>
+                  )}
+                </figure>
+              ) : null}
+              {section.body && <p>{section.body}</p>}
+            </article>
+          );
+        })}
       </div>
 
       {mod && (
