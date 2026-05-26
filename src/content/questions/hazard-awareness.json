@@ -1080,5 +1080,233 @@
       "short": "Open extra space ahead so you never need a hard brake — the tailgater needs the longer gap, not you.",
       "examTip": "In wet conditions extend the 2-second rule to 4 seconds; a tailgater means you need even more."
     }
+  },
+  {
+    "id": "hazard-awareness-030",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-scanning",
+    "topicTags": [
+      "scanning",
+      "junctions",
+      "anticipation"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You drive at 50 km/h on a busy shopping street. The traffic light 150 metres ahead has just turned green, but you see brake lights from cars between you and the light. Where should you mainly look?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Only at the green light, because that determines whether you can continue"
+      },
+      {
+        "id": "b",
+        "text": "Mainly at the brake lights, scanning further ahead for the reason behind them"
+      },
+      {
+        "id": "c",
+        "text": "At the pavement on your right, to spot pedestrians"
+      },
+      {
+        "id": "d",
+        "text": "At the rear-view mirror to plan a lane change"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Brake lights between you and a green light signal a hidden hazard — look past them to find the cause and react early.",
+      "examTip": "A green light only gives permission, never an obligation to drive forward; always read the cars in front first."
+    }
+  },
+  {
+    "id": "hazard-awareness-031",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-vulnerable-users",
+    "topicTags": [
+      "cyclists",
+      "elderly",
+      "rural"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "On a 60 km/h rural road you approach an elderly cyclist riding slightly into the carriageway. The road bends right ahead and you cannot see oncoming traffic. What is the safest action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Overtake at once before reaching the bend"
+      },
+      {
+        "id": "b",
+        "text": "Sound the horn and squeeze past, keeping close to the cyclist to leave room"
+      },
+      {
+        "id": "c",
+        "text": "Drop back, match the cyclist's speed, and wait until the road opens up and you can give 1.5 m of clearance"
+      },
+      {
+        "id": "d",
+        "text": "Flash your headlights so the cyclist moves further onto the verge"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Outside built-up areas you should leave at least 1.5 m when passing a cyclist — never overtake near a blind bend.",
+      "examTip": "Elderly cyclists can wobble or veer unexpectedly; assume they will not hold a perfectly straight line."
+    }
+  },
+  {
+    "id": "hazard-awareness-032",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-weather-visibility",
+    "topicTags": [
+      "night",
+      "dazzle",
+      "oncoming"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "At night on an unlit rural road, an oncoming driver leaves their high beams on and you are dazzled. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Flash your own high beams back to teach them a lesson"
+      },
+      {
+        "id": "b",
+        "text": "Look towards the right edge of your lane and slow down until your eyes recover"
+      },
+      {
+        "id": "c",
+        "text": "Close your eyes briefly to reset"
+      },
+      {
+        "id": "d",
+        "text": "Speed up so you pass the oncoming car faster"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Shift your gaze to the right kerb or lane marking and reduce speed — looking away from the headlights protects your night vision.",
+      "examTip": "Flashing high beams back blinds two drivers instead of one. Reduce speed and hold the lane."
+    }
+  },
+  {
+    "id": "hazard-awareness-033",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-reaction-anticipation",
+    "topicTags": [
+      "anticipation",
+      "queue",
+      "motorway"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "On a 100 km/h motorway you suddenly see a long stationary queue 200 metres ahead. There is no shoulder on your right and a lorry is close behind you. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Brake as hard as possible to stop as far from the queue as you can"
+      },
+      {
+        "id": "b",
+        "text": "Switch on hazard lights, brake firmly but progressively, and stop with extra space behind the last car"
+      },
+      {
+        "id": "c",
+        "text": "Steer onto the right verge so the lorry has more space"
+      },
+      {
+        "id": "d",
+        "text": "Maintain speed and change lane left without checking"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Hazard lights warn the lorry behind, progressive braking avoids a rear-end shunt, and extra buffer space gives you somewhere to go if hit from behind.",
+      "examTip": "Switching on hazards at the back of a sudden queue on a motorway is standard Dutch practice — it warns everyone behind, not just the next car."
+    }
+  },
+  {
+    "id": "hazard-awareness-034",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-vulnerable-users",
+    "topicTags": [
+      "children",
+      "residential",
+      "ball"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Driving at 30 km/h on a residential street, you see a football roll across the road from between parked cars on your right. No child is yet visible. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Continue at 30 km/h — the ball is no danger to your car"
+      },
+      {
+        "id": "b",
+        "text": "Cover the brake, reduce speed sharply, and expect a child to follow the ball"
+      },
+      {
+        "id": "c",
+        "text": "Swerve into the oncoming lane to miss the ball"
+      },
+      {
+        "id": "d",
+        "text": "Sound the horn to scare any child away from the road"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A ball on the road is a strong clue that a child may follow without looking — cover the brake and slow down at once.",
+      "examTip": "Always treat unattended balls, scooters, or pet toys near parked cars as a warning of a hidden child."
+    }
+  },
+  {
+    "id": "hazard-awareness-035",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-weather-visibility",
+    "topicTags": [
+      "rain",
+      "aquaplane",
+      "anticipation"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "After a hot dry week it begins to rain heavily on a motorway. In which window is the road surface usually most slippery?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Once the rain has been falling for over an hour"
+      },
+      {
+        "id": "b",
+        "text": "In the first 10 to 15 minutes, before rubber and oil are washed away"
+      },
+      {
+        "id": "c",
+        "text": "Only after the rain stops"
+      },
+      {
+        "id": "d",
+        "text": "Only at temperatures below 5 °C"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "The first 10–15 minutes of rain after a dry spell mix water with built-up oil and rubber on the surface, creating the most slippery conditions.",
+      "examTip": "Expect reduced grip and increase your following distance the moment it starts raining, not after the storm has settled."
+    }
   }
 ]

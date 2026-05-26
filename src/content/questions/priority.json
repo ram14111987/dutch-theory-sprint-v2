@@ -934,5 +934,230 @@
       "short": "Emergency vehicles with sirens and lights override the normal roundabout priority \u2014 yield safely.",
       "examTip": "Adjust gradually so the cars behind you can also react \u2014 sudden braking is dangerous."
     }
+  },
+  {
+    "id": "priority-026",
+    "moduleId": "priority",
+    "lessonId": "priority-basic-rules",
+    "topicTags": [
+      "equal-roads",
+      "right-before-left"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You approach an unsigned crossroads inside a built-up area. A car arrives from your right and a cyclist from your left at roughly the same time. Who must you let pass first?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Only the car from the right \u2014 the cyclist must yield to motor traffic"
+      },
+      {
+        "id": "b",
+        "text": "Only the cyclist from the left \u2014 cyclists always have priority"
+      },
+      {
+        "id": "c",
+        "text": "Both the car from the right and the cyclist from the right-before-left rule still applies to the car only"
+      },
+      {
+        "id": "d",
+        "text": "The car from the right; the cyclist from the left must yield to you"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "explanation": {
+      "short": "On an unsigned equal-status junction, right-before-left applies to all drivers, including cyclists. Traffic from the left yields; traffic from the right has priority.",
+      "examTip": "Bicycles are 'bestuurders' under Dutch traffic law and follow the same right-before-left rule as cars when no signs apply."
+    }
+  },
+  {
+    "id": "priority-027",
+    "moduleId": "priority",
+    "lessonId": "priority-intersections",
+    "topicTags": [
+      "give-way",
+      "cyclists",
+      "right-turn"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "You face shark's teeth at a junction and want to turn right. A car is approaching from your left on the priority road, and a cyclist on a two-way cycle path is approaching from your right on the priority road. What must you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yield to the car from the left only; the cyclist from the right must yield to you"
+      },
+      {
+        "id": "b",
+        "text": "Yield to the cyclist from the right only; cross before the car"
+      },
+      {
+        "id": "c",
+        "text": "Yield to both \u2014 the cyclist on the priority cycle path and the car"
+      },
+      {
+        "id": "d",
+        "text": "Edge out into the junction so other drivers know your intention"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Shark's teeth mean you yield to every road user on the priority road, including cyclists on a parallel cycle path \u2014 from either direction.",
+      "examTip": "Two-way cycle paths along a priority road often catch drivers out: check both ways for cyclists before turning."
+    }
+  },
+  {
+    "id": "priority-028",
+    "moduleId": "priority",
+    "lessonId": "priority-roundabouts",
+    "topicTags": [
+      "roundabouts",
+      "trams"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "You are already circulating on a single-lane roundabout. A tram is approaching the roundabout from a side road and shows no priority signs against you. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stop and let the tram enter \u2014 trams always have priority"
+      },
+      {
+        "id": "b",
+        "text": "Continue, because traffic already on the roundabout has priority over traffic entering"
+      },
+      {
+        "id": "c",
+        "text": "Wave the tram driver across to be polite"
+      },
+      {
+        "id": "d",
+        "text": "Stop in the middle of the roundabout and wait for the tram to clear"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "On a Dutch roundabout, traffic already on the ring has priority over all entering traffic \u2014 including trams \u2014 unless signs say otherwise.",
+      "examTip": "The 'trams always have priority' rule does not apply on roundabouts where the roundabout itself is the priority road."
+    }
+  },
+  {
+    "id": "priority-029",
+    "moduleId": "priority",
+    "lessonId": "priority-special-users",
+    "topicTags": [
+      "pedestrians",
+      "zebra",
+      "blind"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You approach a zebra crossing. A pedestrian with a white cane and a guide dog is standing at the kerb but has not yet stepped onto the road. What must you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Continue at normal speed \u2014 they have not yet started to cross"
+      },
+      {
+        "id": "b",
+        "text": "Sound the horn so they hear you and wait"
+      },
+      {
+        "id": "c",
+        "text": "Stop and let them cross \u2014 visually impaired pedestrians at the kerb count as crossing"
+      },
+      {
+        "id": "d",
+        "text": "Wait only if a second pedestrian is also waiting"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "A pedestrian with a white cane or guide dog who is clearly about to cross must always be given priority at a zebra crossing, even before stepping onto the road.",
+      "examTip": "Never sound the horn at a visually impaired pedestrian \u2014 it can disorient them. Stop, and stay stopped until they are fully across."
+    }
+  },
+  {
+    "id": "priority-030",
+    "moduleId": "priority",
+    "lessonId": "priority-intersections",
+    "topicTags": [
+      "traffic-lights",
+      "right-turn"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "At a junction your main light is red, but a small green arrow pointing right is lit beside it. A cyclist on the parallel cycle path also has a green light. You want to turn right. What must you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Turn right immediately because the green arrow gives you priority over the cyclist"
+      },
+      {
+        "id": "b",
+        "text": "Wait for the cyclist to cross first, then turn right while the arrow is still lit"
+      },
+      {
+        "id": "c",
+        "text": "Ignore the green arrow because the main light is red"
+      },
+      {
+        "id": "d",
+        "text": "Reverse to make space and turn after the next phase"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A green right-turn arrow permits you to turn, but you must still yield to other road users with a green light \u2014 including cyclists on a parallel path.",
+      "examTip": "Think of the green arrow as a 'you may, after yielding' permission, never as absolute priority."
+    }
+  },
+  {
+    "id": "priority-031",
+    "moduleId": "priority",
+    "lessonId": "priority-special-users",
+    "topicTags": [
+      "buses",
+      "built-up-area",
+      "pulling-away"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You are driving at 50 km/h inside a built-up area. A city bus at a stop ahead switches on its left indicator and starts to edge away from the kerb. You are about 30 metres behind. What must you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Speed up to pass before the bus pulls fully into the lane"
+      },
+      {
+        "id": "b",
+        "text": "Hold your speed and pass on the right if possible"
+      },
+      {
+        "id": "c",
+        "text": "Slow down and let the bus pull out \u2014 inside built-up areas a signalling bus has priority"
+      },
+      {
+        "id": "d",
+        "text": "Stop completely until the bus has finished its route"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Inside a built-up area, a bus that signals to leave a stop has priority. You must slow or stop to let it pull away.",
+      "examTip": "This rule only applies inside built-up areas (cities and villages). Outside them, the bus must yield to you."
+    }
   }
 ]

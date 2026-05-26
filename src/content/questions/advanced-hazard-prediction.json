@@ -931,5 +931,233 @@
       "short": "Tractor tracks and mud on a blind bend are strong cues for slow farm traffic and reduced grip — slow down and stay in your own half.",
       "examTip": "Reading the road surface for cues is a key advanced-hazard skill."
     }
+  },
+  {
+    "id": "advanced-hazard-prediction-026",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-reading-traffic",
+    "topicTags": [
+      "motorway",
+      "lorry",
+      "blind-spot"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "On a motorway you are about to overtake a long articulated lorry on the left. The lorry's front indicator suddenly flashes left even though there is no exit. What is the most likely reason and what should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It is a mistake — accelerate past quickly"
+      },
+      {
+        "id": "b",
+        "text": "The lorry driver has seen something ahead and intends to change lane; back off and let them move first"
+      },
+      {
+        "id": "c",
+        "text": "The lorry's indicator is broken; ignore it"
+      },
+      {
+        "id": "d",
+        "text": "Move closer to the lorry's side to be visible"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Lorry drivers have a higher viewpoint and often spot stationary or slow traffic before you do. An unexpected left indicator is a warning of a planned lane change.",
+      "examTip": "Reading other drivers' intent — not just the road — is core to advanced hazard prediction."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-027",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-vulnerable-users",
+    "topicTags": [
+      "motorcyclists",
+      "junctions",
+      "blind-spot"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You wait to turn left out of a side road onto a busy main road. A long stream of oncoming cars passes; a small gap appears and you start to roll. A motorcycle is now visible between two cars in the gap. What does this teach about junctions?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Motorcycles are always too slow to matter"
+      },
+      {
+        "id": "b",
+        "text": "Look twice and accept that a narrow vehicle can hide behind another until the last moment"
+      },
+      {
+        "id": "c",
+        "text": "Trust the first scan — a second look wastes time"
+      },
+      {
+        "id": "d",
+        "text": "Only check for cars; motorcycles will brake for you"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A motorcycle can be completely hidden behind another vehicle. A second, dedicated look just before pulling out is the only reliable defence.",
+      "examTip": "'Look twice — save a life' — the Dutch SMV (Motorcyclist Visibility) message — applies at every side-road exit."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-028",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-weather-surface",
+    "topicTags": [
+      "ice",
+      "bridges",
+      "winter"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "On a clear morning in February you have driven on dry tarmac for 10 km. You approach a long bridge spanning a river. The dashboard shows 1 °C. Which surface is most likely to surprise you?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The dry roadway on either side of the bridge"
+      },
+      {
+        "id": "b",
+        "text": "The bridge deck itself, because it cools faster than ground-supported road"
+      },
+      {
+        "id": "c",
+        "text": "The kerb stones beside the bridge"
+      },
+      {
+        "id": "d",
+        "text": "The painted markings only"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Bridge decks have cold air above and below them, so they freeze before nearby road. At temperatures near zero, expect ice on bridges first.",
+      "examTip": "Slow before the bridge, not on it — braking on a possibly icy span is what causes most crashes."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-029",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-decision-making",
+    "topicTags": [
+      "decision-making",
+      "rural",
+      "animals"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "On an 80 km/h rural road at dusk, a deer suddenly steps out 25 m ahead. You have a solid centre line, an oncoming car close on the other side and a deep ditch on your right. What is the safest decision?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Swerve into the oncoming lane to miss the deer"
+      },
+      {
+        "id": "b",
+        "text": "Swerve right into the ditch"
+      },
+      {
+        "id": "c",
+        "text": "Brake firmly in a straight line and accept the collision if unavoidable"
+      },
+      {
+        "id": "d",
+        "text": "Accelerate to clear the deer's path"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "When swerving creates a worse outcome (head-on, ditch), brake hard in a straight line. A controlled collision with an animal is usually less severe than losing control.",
+      "examTip": "ANWB and CBR teach: brake straight, do not swerve into oncoming traffic — your seatbelts and airbags are designed for forward impacts."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-030",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-reading-traffic",
+    "topicTags": [
+      "tailback",
+      "motorway",
+      "hazard-lights"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a 130 km/h motorway you crest a small rise and see brake lights flashing in the distance across all three lanes. You are not yet close. What does this combination of cues tell you?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Drivers are being polite and slowing for no reason"
+      },
+      {
+        "id": "b",
+        "text": "There is a tailback or incident ahead; ease off, increase distance, and check your mirrors"
+      },
+      {
+        "id": "c",
+        "text": "The speed limit must have changed; no other action is required"
+      },
+      {
+        "id": "d",
+        "text": "It is safe to switch to the left lane and overtake"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Brake lights across all lanes from a distance reliably indicate a tailback. Reading the wider traffic picture lets you slow gradually instead of braking hard at the back of the queue.",
+      "examTip": "Look at the third or fourth car ahead, not the one in front of you — it is the early warning."
+    }
+  },
+  {
+    "id": "advanced-hazard-prediction-031",
+    "moduleId": "advanced-hazard-prediction",
+    "lessonId": "advanced-hazard-prediction-vulnerable-users",
+    "topicTags": [
+      "cyclists",
+      "wind",
+      "rural"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On an open rural road in strong crosswind from the right, you approach a group of cyclists riding two-abreast on the cycle path. As you pass a gap in the hedge on the right, what extra risk should you expect?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cyclists may be blown sideways into the carriageway as the wind hits them"
+      },
+      {
+        "id": "b",
+        "text": "The cyclists will brake hard"
+      },
+      {
+        "id": "c",
+        "text": "The cycle path will become wider"
+      },
+      {
+        "id": "d",
+        "text": "No extra risk — the cycle path keeps them safe"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "Gusts at gaps in hedges or buildings can shove cyclists into the road. Widen your overtaking gap and slow down at these spots.",
+      "examTip": "Predict where the wind will be strongest — open gates, field entrances, bridges — and adjust before you reach them."
+    }
   }
 ]

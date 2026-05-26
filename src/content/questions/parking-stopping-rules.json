@@ -398,5 +398,85 @@
       "short": "The Dutch reach forces a shoulder twist that helps you see an approaching cyclist before opening.",
       "examTip": "The driver who opens the door is liable for any collision with a passing cyclist."
     }
+  },
+  {
+    "id": "parking-stopping-rules-021",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": ["scenario", "zebra", "distance"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You want to drop a passenger right before a zebra crossing. How close to a pedestrian crossing may you stop?",
+    "choices": [
+      { "id": "a", "text": "Immediately at the crossing, as long as you keep the engine running" },
+      { "id": "b", "text": "Not within 5 metres in front of the crossing — pedestrians must be able to see and be seen" },
+      { "id": "c", "text": "Anywhere, as long as you do not block other cars" },
+      { "id": "d", "text": "Only on a Sunday" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Stopping or parking within 5 metres of a zebra crossing is forbidden — it hides pedestrians from approaching drivers.",
+      "examTip": "Park or stop 5 m before, never on, a zebra: a child stepping out from behind a stopped car is a classic CBR scenario."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-022",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-paid-and-zones",
+    "topicTags": ["scenario", "blue-zone", "disc"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You arrive at a blue-zone bay at 11:47 with a 2-hour maximum, planning to stay 1 hour. To what time must you set your parking disc?",
+    "choices": [
+      { "id": "a", "text": "11:47 — the exact arrival time" },
+      { "id": "b", "text": "12:00 — the next full or half hour after arrival" },
+      { "id": "c", "text": "12:47 — one hour later, the planned departure" },
+      { "id": "d", "text": "13:47 — the maximum allowed end time" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "In Dutch blue zones, the parking disc must be set to the next full or half hour following your actual arrival time.",
+      "examTip": "Even if you intend to leave earlier, the disc must always be rounded forward — never backward."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-023",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-special-spaces",
+    "topicTags": ["scenario", "ev", "charging"],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "Your electric car has finished charging in a public bay marked 'opladen'. You are eating lunch nearby and the bay is the only one free for waiting EVs. What must you do?",
+    "choices": [
+      { "id": "a", "text": "Stay parked until you finish lunch — you paid for the bay" },
+      { "id": "b", "text": "Move the car as soon as charging has finished, so another EV driver can use the bay" },
+      { "id": "c", "text": "Leave the car overnight to be safe" },
+      { "id": "d", "text": "Only move it if another EV driver complains" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Bays marked 'opladen' are for active charging only. Once charging is complete, you must move the car so the bay stays available.",
+      "examTip": "Many Dutch municipalities will fine drivers who occupy a charging bay without actively charging."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-024",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-parking-position",
+    "topicTags": ["scenario", "one-way", "direction"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You park on a one-way street with cars on both sides. How should your car be facing?",
+    "choices": [
+      { "id": "a", "text": "Always with traffic flow" },
+      { "id": "b", "text": "Always against traffic flow" },
+      { "id": "c", "text": "Either direction is allowed on a one-way street" },
+      { "id": "d", "text": "Whichever side gives the better space, but always against traffic flow" }
+    ],
+    "correctChoiceIds": ["c"],
+    "explanation": {
+      "short": "On a one-way street you may park facing either direction, because there is no oncoming traffic to confuse.",
+      "examTip": "On two-way streets you must always park in the direction of travel — only one-way streets allow either direction."
+    }
   }
 ]

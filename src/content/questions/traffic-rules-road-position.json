@@ -889,5 +889,195 @@
       "short": "A bus lane is only for buses (and any other vehicles specified on the sign), regardless of how empty it looks.",
       "examTip": "Driving in a bus lane attracts a fine even if there is no bus in sight."
     }
+  },
+  {
+    "id": "traffic-rules-road-position-025",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-lane-choice",
+    "topicTags": [
+      "keep-right",
+      "rural",
+      "lane-choice"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a quiet 80 km/h provincial road with one lane in each direction and a wide soft shoulder, where should you position your car?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Half on the shoulder to give oncoming traffic more space"
+      },
+      {
+        "id": "b",
+        "text": "Centred in your lane, well clear of the verge"
+      },
+      {
+        "id": "c",
+        "text": "As close to the centre line as possible"
+      },
+      {
+        "id": "d",
+        "text": "Crossing the centre line on left-hand bends"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Stay centred in your own lane — the shoulder is for emergencies and pedestrians, and edging towards the centre line is dangerous on a narrow rural road.",
+      "examTip": "A soft shoulder can pull the car off the road if you put a wheel on it at speed."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-026",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-overtaking",
+    "topicTags": [
+      "overtaking",
+      "rural",
+      "blind-spot"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "On an 80 km/h rural road you have decided to overtake a slow lorry. The broken centre line allows it and the road is straight. Just before you pull out, what is the most important final check?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A glance over your left shoulder for a faster vehicle already overtaking you"
+      },
+      {
+        "id": "b",
+        "text": "Your fuel gauge"
+      },
+      {
+        "id": "c",
+        "text": "The right-side mirror only"
+      },
+      {
+        "id": "d",
+        "text": "Whether the lorry has indicated"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "A blind-spot check over the left shoulder catches a motorcycle or fast car already overtaking you — the most common cause of overtaking collisions.",
+      "examTip": "Mirror, signal, blind-spot, manoeuvre: the blind-spot check is the step most often skipped."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-027",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-special-lanes",
+    "topicTags": [
+      "cycle-lane",
+      "right-turn",
+      "built-up"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Inside a built-up area you signal to turn right into a side street. A red-coloured cycle suggestion lane (broken line) runs along the right side of the carriageway and a cyclist is on it, going straight on. What must you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cross the cycle lane and turn — cars have priority over a suggestion lane"
+      },
+      {
+        "id": "b",
+        "text": "Wait for the cyclist to pass, then turn across the cycle lane"
+      },
+      {
+        "id": "c",
+        "text": "Sound the horn and turn at the same time"
+      },
+      {
+        "id": "d",
+        "text": "Drive in the cycle lane up to the turn"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Cyclists going straight on have priority over a turning car, regardless of whether the cycle lane is a suggestion or a dedicated path.",
+      "examTip": "Most right-hook collisions happen because the driver did not look in the right-hand mirror just before turning. Always check it last."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-028",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-signalling-merging",
+    "topicTags": [
+      "zip-merging",
+      "roadworks",
+      "lane-end"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Traffic is dense and a lane ends 100 metres ahead due to roadworks. You are in the ending lane. What is the correct Dutch technique?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stop in the lane and wait for someone to flash you in"
+      },
+      {
+        "id": "b",
+        "text": "Drive to the very end of the lane, indicate, and zip-merge with the other lane"
+      },
+      {
+        "id": "c",
+        "text": "Merge as early as possible to be polite"
+      },
+      {
+        "id": "d",
+        "text": "Use the hard shoulder to bypass the queue"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "The Dutch 'ritsen' rule asks drivers to use the full length of the ending lane and merge alternately at the end — this keeps traffic moving smoothly.",
+      "examTip": "Merging early in dense traffic is widely seen as unhelpful — it wastes the available road and slows everyone behind."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-029",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-overtaking",
+    "topicTags": [
+      "right-passing",
+      "motorway",
+      "queue"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "On a motorway, traffic in the left lane is moving at walking pace while your right lane is moving at 60 km/h. May you stay at 60 km/h and pass cars on your left?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No — passing on the right is never allowed"
+      },
+      {
+        "id": "b",
+        "text": "Yes — when traffic on the left has formed a slow-moving queue, you may keep your normal lane and pass on the right"
+      },
+      {
+        "id": "c",
+        "text": "Only at night"
+      },
+      {
+        "id": "d",
+        "text": "Yes, but only if you flash your headlights first"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Dutch law permits passing on the right when the left-hand lane is queued. You stay in your lane at your normal speed.",
+      "examTip": "This is not the same as undertaking. You must keep your lane — weaving in and out to overtake on the right remains forbidden."
+    }
   }
 ]

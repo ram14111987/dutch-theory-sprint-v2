@@ -855,5 +855,195 @@
       "short": "Drifting and heavy eyelids are late warning signs of microsleeps — only a real break or short sleep restores safe alertness.",
       "examTip": "Coffee and air help briefly but do not undo fatigue; plan a stop every two hours on long trips."
     }
+  },
+  {
+    "id": "safe-driving-emergencies-024",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-alcohol-drugs-fatigue",
+    "topicTags": [
+      "medication",
+      "drugs",
+      "yellow-sticker"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You collect a prescription with a yellow warning sticker. You feel fine and are due to drive home 30 minutes later. What is the correct decision?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Drive as normal because you feel fine"
+      },
+      {
+        "id": "b",
+        "text": "Drive only on quiet roads"
+      },
+      {
+        "id": "c",
+        "text": "Do not drive — a yellow sticker means the medicine may impair driving ability; arrange another way home"
+      },
+      {
+        "id": "d",
+        "text": "Drive only if you take half the dose"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Yellow stickers on Dutch medication packaging warn the medicine can affect driving. Feeling fine is not proof that reaction time and judgement are unaffected.",
+      "examTip": "Driving under the influence of impairing medication can be treated as drug-driving — the legal consequences match those for illegal drugs."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-025",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-eco-economical",
+    "topicTags": [
+      "eco-driving",
+      "anticipation",
+      "town"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You drive through town and see the traffic light 150 m ahead turn red while several cars queue under it. To save fuel, what is the most efficient choice?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hold your speed and brake firmly close to the queue"
+      },
+      {
+        "id": "b",
+        "text": "Lift off the throttle early and let engine braking carry you, timing arrival as the queue moves"
+      },
+      {
+        "id": "c",
+        "text": "Press the clutch and coast in neutral"
+      },
+      {
+        "id": "d",
+        "text": "Accelerate to overtake the queue"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Lifting off in gear cuts fuel injection on most modern engines. Timing your arrival as the queue starts moving avoids a full stop and a hard restart.",
+      "examTip": "Coasting in neutral does NOT save fuel on modern petrol cars — leave it in gear off the throttle instead."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-026",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-breakdown-accident",
+    "topicTags": [
+      "breakdown",
+      "motorway",
+      "shoulder"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "Your engine cuts out and you coast onto the motorway hard shoulder. After stopping safely, what is the correct order of next actions?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stay in the car with the seatbelt on and call 112"
+      },
+      {
+        "id": "b",
+        "text": "Hazard lights on, passengers out via the kerb side, everyone behind the barrier, then call assistance"
+      },
+      {
+        "id": "c",
+        "text": "Put the warning triangle behind the car first, even before passengers exit"
+      },
+      {
+        "id": "d",
+        "text": "Open the bonnet to cool the engine, then call"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Get people to safety behind the crash barrier before anything else. A warning triangle is not mandatory on Dutch motorways and you should never walk into the lanes to place one.",
+      "examTip": "On Dutch motorways the ANWB and police advise: out of the car, behind the barrier, then phone — in that order."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-027",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-emergency-vehicles-first-aid",
+    "topicTags": [
+      "emergency-vehicles",
+      "narrow-street",
+      "town"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a narrow one-way street with cars parked on both sides, an ambulance with siren and blue lights approaches from behind. There is no obvious place to pull in. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stop in the middle of the street and put on hazard lights"
+      },
+      {
+        "id": "b",
+        "text": "Continue at your speed until a junction or wider section where you can pull aside, indicating clearly"
+      },
+      {
+        "id": "c",
+        "text": "Reverse to the previous junction so the ambulance can overtake"
+      },
+      {
+        "id": "d",
+        "text": "Mount the pavement to clear the lane"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Keep moving safely until you can pull aside without endangering pedestrians, parked cars or yourself. Stopping in the middle of a narrow street blocks the ambulance.",
+      "examTip": "Mounting the pavement may injure pedestrians and is forbidden — make space lawfully where possible."
+    }
+  },
+  {
+    "id": "safe-driving-emergencies-028",
+    "moduleId": "safe-driving-emergencies",
+    "lessonId": "safe-driving-emergency-vehicles-first-aid",
+    "topicTags": [
+      "first-aid",
+      "accident",
+      "helmet"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "You arrive first at an accident where a motorcyclist lies on the road, breathing but unconscious and still wearing a full-face helmet. What is the safest first action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Remove the helmet immediately so the airway is fully clear"
+      },
+      {
+        "id": "b",
+        "text": "Leave the helmet on, secure the scene, call 112, and only remove it if breathing stops"
+      },
+      {
+        "id": "c",
+        "text": "Sit the motorcyclist up against a kerb"
+      },
+      {
+        "id": "d",
+        "text": "Move them to the verge before doing anything else"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Removing a helmet from a breathing casualty risks aggravating neck injuries. Leave it on, secure the scene, and call 112 — only remove if breathing stops and you cannot otherwise help.",
+      "examTip": "Dutch first-aid (EHBO) guidance: do not move a casualty unless they are in immediate danger from fire, traffic, or water."
+    }
   }
 ]

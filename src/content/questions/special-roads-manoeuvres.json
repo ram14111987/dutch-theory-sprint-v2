@@ -398,5 +398,85 @@
       "short": "During a special manoeuvre (bijzondere verrichting) you yield to every other road user, including pedestrians and cyclists.",
       "examTip": "There is no \"I was here first\" defence during reversing or leaving a parking spot."
     }
+  },
+  {
+    "id": "special-roads-manoeuvres-021",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-entering-leaving",
+    "topicTags": ["scenario", "on-ramp", "short-lane"],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "You are on a short acceleration lane joining a busy motorway. Your lane runs out in 80 m and the right-hand motorway lane is full at 100 km/h. What is the safest decision?",
+    "choices": [
+      { "id": "a", "text": "Stop at the end of the lane and wait" },
+      { "id": "b", "text": "Match motorway speed, indicate, find any safe gap, and merge before the lane ends — adjust your speed up or down if needed" },
+      { "id": "c", "text": "Force your way in by edging across the line" },
+      { "id": "d", "text": "Use the hard shoulder to continue alongside until a gap opens" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "The merging driver must adapt — speed up, lift off, or both — to find a gap. Stopping at the end of an acceleration lane is dangerous and forbidden except as a last resort.",
+      "examTip": "Drivers in the right-hand motorway lane should ideally make space, but you cannot rely on it. You must adapt."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-022",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-tunnels-bridges",
+    "topicTags": ["scenario", "tunnel", "breakdown"],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "Your car suddenly loses power inside a long road tunnel. You manage to roll into the marked emergency bay. After stopping, what should you do first?",
+    "choices": [
+      { "id": "a", "text": "Open the bonnet and try to fix it yourself" },
+      { "id": "b", "text": "Switch on hazard lights, leave the car with the key in, walk to the nearest emergency exit and use the SOS phone" },
+      { "id": "c", "text": "Wait inside the car for help" },
+      { "id": "d", "text": "Walk back to the tunnel entrance to warn other drivers" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "In a tunnel emergency: hazard lights, leave the key so the car can be towed, walk to the marked exit and use the SOS phone. Staying inside or walking against traffic is dangerous.",
+      "examTip": "Dutch tunnels have SOS phones every 50–250 m and signed emergency exits — follow the green arrows."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-023",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-tunnels-bridges",
+    "topicTags": ["scenario", "level-crossing", "barrier"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You approach a railway level crossing. The red lights start flashing just as you arrive, but the half-barrier has not yet come down and the track looks clear. What must you do?",
+    "choices": [
+      { "id": "a", "text": "Drive across quickly before the barrier falls" },
+      { "id": "b", "text": "Stop at the line — flashing red lights mean a train is coming, regardless of the barrier" },
+      { "id": "c", "text": "Sound the horn and continue" },
+      { "id": "d", "text": "Reverse to the previous junction" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Flashing red lights at a level crossing mean stop and wait. A train can arrive within seconds, and trains often appear from blind angles.",
+      "examTip": "Never zig-zag around a half-barrier — most level-crossing deaths happen to drivers who 'thought they could make it'."
+    }
+  },
+  {
+    "id": "special-roads-manoeuvres-024",
+    "moduleId": "special-roads-manoeuvres",
+    "lessonId": "special-roads-motorway-expressway",
+    "topicTags": ["scenario", "shoulder", "stranded"],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a busy motorway you suffer a tyre blowout but coast safely to the hard shoulder. After stopping, what is the correct sequence?",
+    "choices": [
+      { "id": "a", "text": "Change the tyre yourself while traffic passes at 100 km/h" },
+      { "id": "b", "text": "Hazard lights on, exit via the passenger side, everyone behind the crash barrier, then call assistance" },
+      { "id": "c", "text": "Stay in the car with seatbelts on and call from the driver's seat" },
+      { "id": "d", "text": "Place a warning triangle on the motorway behind the car" }
+    ],
+    "correctChoiceIds": ["b"],
+    "explanation": {
+      "short": "Get out of the car on the kerb side and stand behind the crash barrier before calling. Changing a wheel beside live motorway lanes is highly dangerous.",
+      "examTip": "Warning triangles are not required on Dutch motorways and you should never walk into the lanes to place one."
+    }
   }
 ]
