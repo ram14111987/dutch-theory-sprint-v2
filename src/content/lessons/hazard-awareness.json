@@ -27,7 +27,14 @@
         "image": {
           "src": "hazard-awareness/scan-far-mid-near.svg",
           "alt": "Diagram of the four scanning zones from the driver's seat: far for the horizon, mid for the middle distance, near for immediate area, plus the mirror for traffic behind.",
-          "caption": "Far → mid → near → mirror, repeated every few seconds."
+          "caption": "Far → mid → near → mirror, repeated every few seconds.",
+          "steps": 4,
+          "stepLabels": [
+            "Far — scan the horizon for planning.",
+            "Mid — watch the middle distance for likely movement.",
+            "Near — check the immediate area for current threats.",
+            "Mirror — glance behind for what is catching up."
+          ]
         }
       }
     ]
@@ -114,7 +121,13 @@
         "image": {
           "src": "hazard-awareness/two-second-rule.svg",
           "alt": "Diagram comparing the 2-second following gap in dry conditions with a 4-second gap in wet conditions, both shown as two cars on the same stretch of road.",
-          "caption": "Baseline 2 seconds in the dry, doubled to 4 in the wet."
+          "caption": "Baseline 2 seconds in the dry, doubled to 4 in the wet.",
+          "steps": 3,
+          "stepLabels": [
+            "The road — pick a fixed point ahead like a sign, tree or shadow.",
+            "Dry conditions — keep a 2-second gap to the vehicle in front.",
+            "Wet conditions — double the gap to 4 seconds; more in snow or fog."
+          ]
         }
       },
       {

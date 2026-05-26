@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import { getLessonBySlug, getModuleBySlug } from '../content/index.js';
 import { resolveImageSrc } from '../content/imageRegistry.js';
+import StepRevealImage from '../components/StepRevealImage.jsx';
 
 function Lesson() {
   const { slug } = useParams();
@@ -37,11 +38,15 @@ function Lesson() {
       <div className="lesson-body">
         {lesson.sections?.map((section, idx) => {
           const sectionImage = section.image;
-          const sectionImageSrc = sectionImage ? resolveImageSrc(sectionImage.src) : null;
+          const isStepReveal = sectionImage && sectionImage.steps && sectionImage.steps > 1;
+          const sectionImageSrc =
+            sectionImage && !isStepReveal ? resolveImageSrc(sectionImage.src) : null;
           return (
             <article className="lesson-section" key={idx}>
               {section.heading && <h3>{section.heading}</h3>}
-              {sectionImage && sectionImageSrc && sectionImage.alt ? (
+              {isStepReveal ? (
+                <StepRevealImage image={sectionImage} />
+              ) : sectionImage && sectionImageSrc && sectionImage.alt ? (
                 <figure className="content-image content-image--lesson">
                   <img src={sectionImageSrc} alt={sectionImage.alt} loading="lazy" />
                   {sectionImage.caption && (

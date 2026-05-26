@@ -678,3 +678,62 @@ body {
     max-width: 100%;
   }
 }
+
+.step-reveal {
+  width: 100%;
+  max-width: 480px;
+  align-self: center;
+  gap: 10px;
+}
+
+.step-reveal__svg-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.step-reveal__svg-wrap svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 480px;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.step-reveal__status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  text-align: center;
+  font-size: 14px;
+  color: #1f2937;
+  min-height: 40px;
+  padding: 0 8px;
+}
+
+.step-reveal__counter {
+  font-weight: 600;
+  color: #1d4ed8;
+}
+
+.step-reveal__label {
+  font-size: 14px;
+  color: #1f2937;
+  line-height: 1.4;
+}
+
+.step-reveal__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  width: 100%;
+}
+
+.step-reveal__btn {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 10px 18px;
+}
