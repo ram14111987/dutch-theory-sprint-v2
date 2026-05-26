@@ -3,9 +3,39 @@ import { Link, useLocation, useParams } from 'react-router-dom';
 import { getModuleBySlug, getQuestionsForModule } from '../content/index.js';
 import { performanceLabel, isAnswerCorrect } from '../quiz/scoring.js';
 import { ResultContext } from '../quiz/ResultContext.js';
-import { getLatestAttempt } from '../storage/progressStore.js';
+import {
+  getLatestAttempt,
+  getQuizAttemptsForModule,
+  getReviewAttemptsForModule,
+} from '../storage/progressStore.js';
 import ResultSummary from '../components/ResultSummary.jsx';
 import EmptyState from '../components/EmptyState.jsx';
+
+function formatTimestamp(iso) {
+  if (!iso) return null;
+  try {
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return null;
+    return d.toLocaleString();
+  } catch {
+    return null;
+  }
+}
+
+function formatDuration(seconds) {
+  if (typeof seconds !== 'number' || !Number.isFinite(seconds) || seconds < 0) return null;
+  const s = Math.floor(seconds);
+  const m = Math.floor(s / 60);
+  const r = s % 60;
+  if (m === 0) return `${r}s`;
+  return `${m}m ${String(r).padStart(2, '0')}s`;
+}
+
+function formatDelta(delta) {
+  if (typeof delta !== 'number' || !Number.isFinite(delta)) return null;
+  if (delta === 0) return '±0';
+  return delta > 0 ? `+${delta}` : `${delta}`;
+}
 
 function hydrateFromAttempt(slug, mode) {
   const attempt = getLatestAttempt(slug, mode ? { mode } : undefined);
@@ -32,7 +62,30 @@ function hydrateFromAttempt(slug, mode) {
     correct: typeof attempt.correct === 'number' ? attempt.correct : 0,
     total: typeof attempt.total === 'number' ? attempt.total : questions.length,
     percentage: typeof attempt.percentage === 'number' ? attempt.percentage : 0,
+    finishedAt: attempt.finishedAt || null,
+    durationSeconds: typeof attempt.durationSeconds === 'number' ? attempt.durationSeconds : null,
     hydrated: true,
+  };
+}
+
+function computeAttemptStats(slug, isReview) {
+  if (!slug) return null;
+  const list = isReview ? getReviewAttemptsForModule(slug) : getQuizAttemptsForModule(slug);
+  if (!list.length) return null;
+  const latest = list[list.length - 1];
+  let best = 0;
+  for (const a of list) {
+    if (typeof a.percentage === 'number' && a.percentage > best) best = a.percentage;
+  }
+  const previous = list.length >= 2 ? list[list.length - 2] : null;
+  const previousPct = previous && typeof previous.percentage === 'number' ? previous.percentage : null;
+  const latestPct = typeof latest.percentage === 'number' ? latest.percentage : null;
+  const delta = previousPct != null && latestPct != null ? latestPct - previousPct : null;
+  return {
+    attemptNumber: list.length,
+    bestPercentage: best,
+    previousPercentage: previousPct,
+    delta,
   };
 }
 
@@ -46,8 +99,6 @@ function Results() {
 
   const effective = useMemo(() => {
     if (isSprint) {
-      // Sprint results live only in the in-memory ResultContext — there
-      // is no synthetic sprint module to hydrate from on refresh.
       if (result && result.mode === 'sprint') return result;
       return null;
     }
@@ -60,6 +111,11 @@ function Results() {
     }
     return hydrateFromAttempt(slug, isReview ? 'review' : 'quiz');
   }, [result, slug, isReview, isSprint]);
+
+  const attemptStats = useMemo(() => {
+    if (isSprint) return null;
+    return computeAttemptStats(slug, isReview);
+  }, [slug, isReview, isSprint]);
 
   if (!effective || !effective.questions.length) {
     const eyebrow = isSprint
@@ -110,6 +166,9 @@ function Results() {
 
   const { correct, total, percentage, questions, answers } = effective;
   const label = performanceLabel(percentage);
+  const finishedAtText = formatTimestamp(effective.finishedAt);
+  const durationText = formatDuration(effective.durationSeconds);
+  const deltaText = attemptStats ? formatDelta(attemptStats.delta) : null;
 
   return (
     <section className="panel results-page">
@@ -128,6 +187,22 @@ function Results() {
       </header>
 
       <ResultSummary correct={correct} total={total} percentage={percentage} />
+
+      {(finishedAtText || durationText || attemptStats) && (
+        <ul className="results-page__meta">
+          {attemptStats && (
+            <li>Attempt #{attemptStats.attemptNumber}</li>
+          )}
+          {attemptStats && (
+            <li>Best: {attemptStats.bestPercentage}%</li>
+          )}
+          {deltaText && (
+            <li>vs previous: {deltaText}%</li>
+          )}
+          {durationText && <li>Duration: {durationText}</li>}
+          {finishedAtText && <li>Finished: {finishedAtText}</li>}
+        </ul>
+      )}
 
       <div className="results-page__review">
         <h3>Review your answers</h3>

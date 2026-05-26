@@ -1,13 +1,36 @@
-import { useContext } from 'react';
+import { useContext, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ResultContext } from '../quiz/ResultContext.js';
 import { isAnswerCorrect } from '../quiz/scoring.js';
 import { formatDuration, getMockExamMode } from '../quiz/mockExam.js';
+import { getExamAttempts } from '../storage/progressStore.js';
 import ResultSummary from '../components/ResultSummary.jsx';
 import EmptyState from '../components/EmptyState.jsx';
 
+function formatTimestamp(iso) {
+  if (!iso) return null;
+  try {
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return null;
+    return d.toLocaleString();
+  } catch {
+    return null;
+  }
+}
+
+function formatDelta(delta) {
+  if (typeof delta !== 'number' || !Number.isFinite(delta)) return null;
+  if (delta === 0) return '±0';
+  return delta > 0 ? `+${delta}` : `${delta}`;
+}
+
 function MockExamResults() {
   const { result } = useContext(ResultContext);
+
+  const history = useMemo(() => {
+    if (!result || result.mode !== 'exam') return [];
+    return getExamAttempts({ examMode: result.examMode });
+  }, [result]);
 
   if (!result || result.mode !== 'exam') {
     return (
@@ -45,6 +68,10 @@ function MockExamResults() {
     durationSeconds,
     timeUsedSeconds,
     timedOut,
+    attemptNumber,
+    bestPriorPercentage,
+    previousPercentage,
+    finishedAt,
   } = result;
 
   const mode = getMockExamMode(examMode);
@@ -62,11 +89,22 @@ function MockExamResults() {
     timeLine = timedOut
       ? `Time expired after ${formatDuration(durationSeconds)}.`
       : `Time used: ${formatDuration(timeUsedSeconds)} of ${formatDuration(durationSeconds)}.`;
-  } else if (timeUsedSeconds != null) {
+  } else if (typeof timeUsedSeconds === 'number') {
     timeLine = `Time used: ${formatDuration(timeUsedSeconds)}.`;
   }
 
   const restartHref = mode.id === 'realistic' ? '/exam?mode=realistic' : '/exam';
+
+  const finishedAtText = formatTimestamp(finishedAt);
+  const bestSoFar = Math.max(
+    typeof bestPriorPercentage === 'number' ? bestPriorPercentage : 0,
+    typeof percentage === 'number' ? percentage : 0,
+  );
+  const delta =
+    typeof previousPercentage === 'number' && typeof percentage === 'number'
+      ? percentage - previousPercentage
+      : null;
+  const deltaText = formatDelta(delta);
 
   return (
     <section className="panel results-page">
@@ -78,6 +116,45 @@ function MockExamResults() {
       </header>
 
       <ResultSummary correct={correct} total={total} percentage={percentage} />
+
+      <ul className="results-page__meta">
+        {typeof attemptNumber === 'number' && (
+          <li>Attempt #{attemptNumber}</li>
+        )}
+        <li>Best: {bestSoFar}%</li>
+        {deltaText && <li>vs previous: {deltaText}%</li>}
+        {finishedAtText && <li>Finished: {finishedAtText}</li>}
+      </ul>
+
+      {history.length > 1 && (
+        <div className="results-page__review">
+          <h3>{mode.label} history ({history.length})</h3>
+          <ol className="review-list">
+            {history.slice().reverse().map((a) => {
+              const when = formatTimestamp(a.finishedAt);
+              const dur =
+                typeof a.durationSeconds === 'number'
+                  ? formatDuration(a.durationSeconds)
+                  : null;
+              const passedTag = a.passed ? 'Passed' : 'Did not pass';
+              return (
+                <li key={a.id} className="review-item">
+                  <p className="review-item__line">
+                    <strong>
+                      {a.correct}/{a.total} ({a.percentage}%) — {passedTag}
+                    </strong>
+                  </p>
+                  <p className="review-item__line">
+                    {when ? when : 'Unknown time'}
+                    {dur ? ` · ${dur}` : ''}
+                    {a.timedOut ? ' · timed out' : ''}
+                  </p>
+                </li>
+              );
+            })}
+          </ol>
+        </div>
+      )}
 
       {incorrect.length > 0 ? (
         <div className="results-page__review">

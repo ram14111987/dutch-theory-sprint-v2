@@ -13,6 +13,11 @@ import { ResultContext } from '../quiz/ResultContext.js';
 import ChoiceList from '../components/ChoiceList.jsx';
 import QuizProgress from '../components/QuizProgress.jsx';
 import EmptyState from '../components/EmptyState.jsx';
+import {
+  recordExamAttempt,
+  makeAttemptId,
+  getExamAttempts,
+} from '../storage/progressStore.js';
 
 const TIMES_UP_LINGER_MS = 900;
 
@@ -50,6 +55,35 @@ function MockExam() {
         passCorrect: mode.passCorrect,
       });
       const timeUsed = elapsedSeconds(startedAt);
+      const finishedAtMs = Date.now();
+      const timeUsedSeconds = opts.timedOut ? mode.durationSeconds : timeUsed;
+      const prior = getExamAttempts({ examMode: mode.id });
+      const attemptNumber = prior.length + 1;
+      let bestPriorPercentage = 0;
+      for (const a of prior) {
+        if (typeof a.percentage === 'number' && a.percentage > bestPriorPercentage) {
+          bestPriorPercentage = a.percentage;
+        }
+      }
+      const previousPercentage = prior.length
+        ? (typeof prior[prior.length - 1].percentage === 'number'
+            ? prior[prior.length - 1].percentage
+            : null)
+        : null;
+      recordExamAttempt({
+        id: makeAttemptId(),
+        examMode: mode.id,
+        startedAt: new Date(startedAt).toISOString(),
+        finishedAt: new Date(finishedAtMs).toISOString(),
+        durationSeconds: typeof timeUsedSeconds === 'number' ? timeUsedSeconds : null,
+        correct: score.correct,
+        total: score.total,
+        percentage: score.percentage,
+        passed: score.passed,
+        passPercentage: score.passPercentage,
+        passCorrect: score.passCorrect,
+        timedOut: Boolean(opts.timedOut),
+      });
       setResult({
         mode: 'exam',
         examMode: mode.id,
@@ -62,8 +96,12 @@ function MockExam() {
         passPercentage: score.passPercentage,
         passCorrect: score.passCorrect,
         durationSeconds: mode.durationSeconds,
-        timeUsedSeconds: opts.timedOut ? mode.durationSeconds : timeUsed,
+        timeUsedSeconds,
         timedOut: Boolean(opts.timedOut),
+        attemptNumber,
+        bestPriorPercentage,
+        previousPercentage,
+        finishedAt: new Date(finishedAtMs).toISOString(),
       });
       if (opts.timedOut) {
         setTimesUp(true);

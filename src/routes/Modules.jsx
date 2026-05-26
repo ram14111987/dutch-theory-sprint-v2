@@ -1,5 +1,6 @@
 import { getAllModules } from '../content/index.js';
 import ModuleCard from '../components/ModuleCard.jsx';
+import { getModuleStats } from '../storage/progressStore.js';
 
 function Modules() {
   const modules = getAllModules();
@@ -12,7 +13,11 @@ function Modules() {
 
       <div className="card-grid">
         {modules.map((module) => (
-          <ModuleCard module={module} key={module.slug} />
+          <ModuleCard
+            module={module}
+            stats={getModuleStats(module.slug)}
+            key={module.slug}
+          />
         ))}
       </div>
     </section>

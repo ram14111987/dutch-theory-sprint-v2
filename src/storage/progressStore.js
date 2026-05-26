@@ -1,6 +1,6 @@
 // Pure JS localStorage-backed progress store. No React imports.
 // Persistence key: dts.v1.progress
-// Schema version: 1
+// Schema version: 1 (additive — see normalize() for fields tolerated as missing)
 // Falls back to in-memory storage if localStorage is unavailable, parse fails,
 // or a write throws (e.g. QuotaExceededError).
 
@@ -8,9 +8,10 @@ export const STORAGE_KEY = 'dts.v1.progress';
 export const SCHEMA_VERSION = 1;
 export const COMPLETION_THRESHOLD = 80;
 export const ATTEMPTS_PER_MODULE_CAP = 20;
+export const EXAM_ATTEMPTS_CAP = 20;
 
 function emptyState() {
-  return { version: SCHEMA_VERSION, attemptsByModule: {} };
+  return { version: SCHEMA_VERSION, attemptsByModule: {}, examAttempts: [] };
 }
 
 let memoryState = emptyState();
@@ -31,14 +32,19 @@ function normalize(raw) {
   if (!raw || typeof raw !== 'object') return emptyState();
   if (raw.version !== SCHEMA_VERSION) return emptyState();
   const attemptsByModule = raw.attemptsByModule;
-  if (!attemptsByModule || typeof attemptsByModule !== 'object') return emptyState();
   const cleaned = {};
-  for (const [slug, attempts] of Object.entries(attemptsByModule)) {
-    if (Array.isArray(attempts)) {
-      cleaned[slug] = attempts.filter((a) => a && typeof a === 'object');
+  if (attemptsByModule && typeof attemptsByModule === 'object') {
+    for (const [slug, attempts] of Object.entries(attemptsByModule)) {
+      if (Array.isArray(attempts)) {
+        cleaned[slug] = attempts.filter((a) => a && typeof a === 'object');
+      }
     }
   }
-  return { version: SCHEMA_VERSION, attemptsByModule: cleaned };
+  // examAttempts is additive — older payloads without this field still load.
+  const exam = Array.isArray(raw.examAttempts)
+    ? raw.examAttempts.filter((a) => a && typeof a === 'object')
+    : [];
+  return { version: SCHEMA_VERSION, attemptsByModule: cleaned, examAttempts: exam };
 }
 
 export function loadAll() {
@@ -89,6 +95,7 @@ function clone(state) {
     attemptsByModule: Object.fromEntries(
       Object.entries(state.attemptsByModule).map(([k, v]) => [k, v.slice()]),
     ),
+    examAttempts: Array.isArray(state.examAttempts) ? state.examAttempts.slice() : [],
   };
 }
 
@@ -226,6 +233,35 @@ export function getGlobalStats() {
     weakestBestPercentage: weakest ? weakest.bestPercentage : 0,
     perModule,
   };
+}
+
+// --- Exam attempt history (Phase 20, additive) ----------------------------
+// Mock exam attempts are stored top-level (not per-module) because the exam
+// pool spans modules. Each entry is a small summary record, capped at
+// EXAM_ATTEMPTS_CAP (oldest dropped first), to mirror per-module caps.
+
+export function recordExamAttempt(attempt) {
+  if (!attempt || typeof attempt !== 'object') return loadAll();
+  const state = loadAll();
+  const list = Array.isArray(state.examAttempts) ? state.examAttempts.slice() : [];
+  list.push(attempt);
+  state.examAttempts = list.slice(-EXAM_ATTEMPTS_CAP);
+  return saveAll(state);
+}
+
+export function getExamAttempts({ examMode } = {}) {
+  const state = loadAll();
+  const list = Array.isArray(state.examAttempts) ? state.examAttempts.slice() : [];
+  return examMode ? list.filter((a) => a && a.examMode === examMode) : list;
+}
+
+export function getBestExamPercentage(examMode) {
+  const list = getExamAttempts(examMode ? { examMode } : undefined);
+  let best = 0;
+  for (const a of list) {
+    if (typeof a.percentage === 'number' && a.percentage > best) best = a.percentage;
+  }
+  return best;
 }
 
 export function resetAll() {

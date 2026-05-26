@@ -40,7 +40,10 @@ function Sprint() {
       if (finalizedRef.current) return;
       finalizedRef.current = true;
       const score = scoreSprint(entries, answers);
-      const finishedAt = new Date().toISOString();
+      const finishedAtMs = Date.now();
+      const finishedAt = new Date(finishedAtMs).toISOString();
+      const startedAtIso = new Date(startedAt).toISOString();
+      const durationSeconds = Math.max(0, Math.floor((finishedAtMs - startedAt) / 1000));
       // Persist one attempt per source module touched, tagged mode: 'sprint'.
       for (const [moduleSlug, perQuestion] of score.perModule.entries()) {
         const moduleCorrect = perQuestion.filter((p) => p.correct).length;
@@ -49,7 +52,9 @@ function Sprint() {
           id: makeAttemptId(),
           moduleSlug,
           mode: 'sprint',
+          startedAt: startedAtIso,
           finishedAt,
+          durationSeconds,
           correct: moduleCorrect,
           total: moduleTotal,
           percentage: moduleTotal === 0 ? 0 : Math.round((moduleCorrect / moduleTotal) * 100),
@@ -73,7 +78,7 @@ function Sprint() {
         navigate('/sprint/results');
       }
     },
-    [entries, answers, navigate, setResult],
+    [entries, answers, navigate, setResult, startedAt],
   );
 
   useEffect(() => {

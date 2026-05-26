@@ -6,6 +6,8 @@ import {
   getGlobalStats,
   resetAll,
   getAttemptsForModule,
+  getModuleStats,
+  getExamAttempts,
 } from '../storage/progressStore.js';
 import { getMistakeCount } from '../quiz/mistakes.js';
 
@@ -22,6 +24,7 @@ function Home() {
   const modules = getAllModules();
   const [stats, setStats] = useState(() => getGlobalStats());
   const [mistakeTotal, setMistakeTotal] = useState(() => computeMistakeTotal(modules));
+  const [examHistory, setExamHistory] = useState(() => getExamAttempts());
   const sprintPoolSize = getAllQuizQuestions().length;
 
   const handleReset = useCallback(() => {
@@ -32,7 +35,17 @@ function Home() {
     resetAll();
     setStats(getGlobalStats());
     setMistakeTotal(computeMistakeTotal(modules));
+    setExamHistory(getExamAttempts());
   }, [modules]);
+
+  const examSummary = (() => {
+    if (!examHistory.length) return null;
+    let best = 0;
+    for (const a of examHistory) {
+      if (typeof a.percentage === 'number' && a.percentage > best) best = a.percentage;
+    }
+    return { count: examHistory.length, best };
+  })();
 
   const weakestModule = stats.weakestModuleSlug
     ? modules.find((m) => m.slug === stats.weakestModuleSlug)
@@ -98,6 +111,11 @@ function Home() {
                       ? 'Practice: 25 questions, no timer, pass at 80%. Realistic: 50 questions, 30 minutes, pass at 44 correct (CBR rules).'
                       : 'No quiz-enabled modules yet — Mock Exam will unlock once questions are available.'}
                   </p>
+                  {enabled && examSummary && (
+                    <p className="eyebrow eyebrow--dark">
+                      {examSummary.count} attempt{examSummary.count === 1 ? '' : 's'} · best {examSummary.best}%
+                    </p>
+                  )}
                   {enabled ? (
                     <div className="card__links">
                       <Link to="/exam" className="card__link">
@@ -181,7 +199,11 @@ function Home() {
 
         <div className="card-grid">
           {modules.map((module) => (
-            <ModuleCard module={module} key={module.slug} />
+            <ModuleCard
+              module={module}
+              stats={getModuleStats(module.slug)}
+              key={module.slug}
+            />
           ))}
         </div>
       </section>

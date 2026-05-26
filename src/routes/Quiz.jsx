@@ -24,6 +24,7 @@ function Quiz() {
   const bank = useMemo(() => getQuestionsForModule(slug), [slug]);
 
   const [session, setSession] = useState(() => createSession(bank, { count: 5 }));
+  const [startedAt] = useState(() => Date.now());
 
   if (!mod) {
     return (
@@ -68,10 +69,13 @@ function Quiz() {
   const handleNext = () => {
     if (last) {
       const score = scoreSession(session.questions, session.answers);
+      const finishedAtMs = Date.now();
       const attempt = {
         id: makeAttemptId(),
         moduleSlug: mod.slug,
-        finishedAt: new Date().toISOString(),
+        startedAt: new Date(startedAt).toISOString(),
+        finishedAt: new Date(finishedAtMs).toISOString(),
+        durationSeconds: Math.max(0, Math.floor((finishedAtMs - startedAt) / 1000)),
         correct: score.correct,
         total: score.total,
         percentage: score.percentage,
