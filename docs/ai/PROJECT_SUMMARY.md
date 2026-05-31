@@ -22,12 +22,13 @@ The app currently supports:
 
 ## Current status
 As of the latest completed work:
-- Phase 0 through Phase 21 are complete and pushed to `origin/main`
+- Phase 0 through Phase 22B are complete and committed to `main`
 - the app has 13 modules
 - total question count is 328
 - `special-users` is now a real completed module, no longer a placeholder
-- a local usability/progress phase has already been completed
-- broader visual rollout has not yet happened
+- local usability/progress improvements are complete (Phase 20)
+- imageRegistry now uses `import.meta.glob` — new SVGs are auto-discovered without editing the registry file
+- broader visual rollout has not yet happened but is now unblocked
 
 ## Important recent phases
 ### Phase 18A — Static visual pilot
@@ -53,6 +54,18 @@ As of the latest completed work:
 - Added 24 questions
 - Enabled quiz support and content linkage
 - Total app question count increased to 328
+
+### Phase 22A — UI polish and code hygiene
+- Fixed module-card progress text color (readable on white cards)
+- Added Topic Practice informational banner
+- Added dismissible localStorage-unavailable warning banner in AppShell
+- Extracted shared format helpers (`formatTimestamp`, `formatDelta`) into `src/utils/format.js`
+- No schema, content, or storage-flow changes
+
+### Phase 22B — imageRegistry infrastructure
+- Replaced manual SVG import list with `import.meta.glob` (eager)
+- New SVGs under `src/content/images/` are now auto-discovered at build time
+- `resolveImageSrc()` API unchanged; no lesson/question JSON changes
 
 ## Current product priorities
 Short-term priorities:
