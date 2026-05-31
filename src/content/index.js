@@ -23,6 +23,8 @@ import responsibleEcoDrivingLessons from './lessons/responsible-eco-driving.json
 import responsibleEcoDrivingQuestions from './questions/responsible-eco-driving.json';
 import advancedHazardPredictionLessons from './lessons/advanced-hazard-prediction.json';
 import advancedHazardPredictionQuestions from './questions/advanced-hazard-prediction.json';
+import specialUsersLessons from './lessons/special-users.json';
+import specialUsersQuestions from './questions/special-users.json';
 
 export const studyModes = [
   'Quick Sprint',
@@ -44,6 +46,7 @@ const lessonsByModuleSlug = {
   'legislation-documents': legislationDocumentsLessons,
   'responsible-eco-driving': responsibleEcoDrivingLessons,
   'advanced-hazard-prediction': advancedHazardPredictionLessons,
+  'special-users': specialUsersLessons,
 };
 
 const questionBanks = {
@@ -59,6 +62,7 @@ const questionBanks = {
   'legislation-documents': legislationDocumentsQuestions,
   'responsible-eco-driving': responsibleEcoDrivingQuestions,
   'advanced-hazard-prediction': advancedHazardPredictionQuestions,
+  'special-users': specialUsersQuestions,
 };
 
 function allLessons() {

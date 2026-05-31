@@ -1,0 +1,114 @@
+[
+  {
+    "slug": "special-users-cyclists-mopeds",
+    "moduleSlug": "special-users",
+    "title": "Cyclists, mopeds and light mopeds",
+    "summary": "How to recognise the different two-wheelers on Dutch roads and share space with them safely.",
+    "sections": [
+      {
+        "heading": "The rule: know which two-wheeler you are dealing with",
+        "body": "Dutch roads carry three distinct light two-wheelers. A fiets (bicycle, including the electric pedelec) and a snorfiets (light moped, blue plate, max 25 km/h) belong on the cycle path. A bromfiets (moped, yellow plate, max 45 km/h) rides on the carriageway inside built-up areas and on the cycle path outside them where signed. Identifying the plate colour tells you where the rider belongs and how fast they close on you."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "On an exam picture, look for the licence-plate colour and whether the rider wears a helmet. A yellow plate plus helmet means a bromfiets that may reach 45 km/h, so it overtakes faster than you expect. A blue plate (snorfiets) needs no helmet from most riders and stays at 25 km/h. Misreading the plate is the classic mistake that makes you misjudge their speed."
+      },
+      {
+        "heading": "Passing distance and the door zone",
+        "body": "When you overtake a cyclist or moped, leave at least 1.5 metres of space; if the road is too narrow, wait. Parked cars create a hidden danger: a door may open into a cyclist's path. Anticipate this by giving parked cars a wide berth and watching for occupants. The cyclist swerving to avoid a door is your responsibility to predict, not theirs to prevent."
+      },
+      {
+        "heading": "Turning across a cycle path",
+        "body": "The most dangerous moment is turning right across a cycle path that runs alongside your road. Cyclists and mopeds going straight on keep priority over you. Before turning, check your right-hand mirror and blind spot for a two-wheeler coming up on your inside — a quick shoulder check, not just the mirror, because a cyclist can sit exactly where the mirror cannot see."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You approach a junction to turn right. A cyclist is riding up the cycle path on your right, slightly behind you. You wait and let the cyclist pass before turning, because a vehicle turning off has to give way to traffic continuing straight on the path it crosses. Cutting in front to 'beat' the cyclist is exactly the manoeuvre that causes right-hook collisions."
+      }
+    ]
+  },
+  {
+    "slug": "special-users-pedestrians-crossings",
+    "moduleSlug": "special-users",
+    "title": "Pedestrians and crossings",
+    "summary": "Your duties towards people on foot, from zebra crossings to children, elderly and people with disabilities.",
+    "sections": [
+      {
+        "heading": "The rule: at a zebra you must give way",
+        "body": "At a marked pedestrian crossing (zebrapad) you must give way to pedestrians who are crossing or clearly waiting to cross. Approach at a speed that lets you stop, and never overtake another vehicle that is slowing or stopped at a zebra — it may be stopping for a pedestrian you cannot yet see. There is no need for the pedestrian to make eye contact first; their presence is enough."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "Read whether the crossing is controlled by lights or is a plain zebra. At a plain zebra, the duty to give way is yours the moment a pedestrian steps on or waits at the edge. At a light-controlled crossing, you follow the signal, but you must still let people finish crossing when your light turns green. Spotting which type of crossing it is decides who must yield."
+      },
+      {
+        "heading": "Children, elderly and the white cane",
+        "body": "Treat vulnerable pedestrians with extra caution: children may run out without looking, elderly people move slowly and may misjudge your speed. A person carrying a white cane, or a white cane with red bands, is blind or deaf-blind and may not see or hear you — always stop and give them time. Sounding the horn at them is wrong; it can startle and disorient."
+      },
+      {
+        "heading": "Where pedestrians may walk",
+        "body": "Pedestrians use the pavement where one exists. On roads without a pavement they may walk on the carriageway, normally facing oncoming traffic so they can see vehicles. In a woonerf (home zone, signed with the white house symbol) pedestrians may use the full width of the street and children may play there, so you drive at walking pace and give way to everyone."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You are about to pass a stationary bus at a zebra crossing when a car in the next lane has already stopped. You stop too rather than driving on, because the stopped car may be yielding to a pedestrian hidden from your view behind it. Once you can see the crossing is clear, you may continue. Overtaking the stopped car would be the trap answer."
+      }
+    ]
+  },
+  {
+    "slug": "special-users-trams-buses-rail",
+    "moduleSlug": "special-users",
+    "title": "Trams, buses and rail crossings",
+    "summary": "Sharing the road with trams and buses, and crossing railway lines safely.",
+    "sections": [
+      {
+        "heading": "The rule: trams usually have priority",
+        "body": "A tram generally has priority over other traffic, including over you when you would otherwise have right of way, because it cannot steer around you and needs a long distance to stop. The exception is at a junction controlled by signs or signals, where the normal priority rules and lights apply to the tram as well. When in doubt at an uncontrolled meeting, give way to the tram."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "Look for tram rails in the road surface and for the tram's own signals (white bars: a horizontal bar means stop, a vertical or diagonal bar means go). Rails change how you brake and turn — they are slippery when wet and can catch a cyclist's wheel. Noticing the rails early tells you a tram may appear and that you should not stop on the tracks."
+      },
+      {
+        "heading": "Buses pulling away from a stop",
+        "body": "Inside a built-up area you must give way to a bus signalling to pull away from a marked bus stop, slowing if necessary to let it out. Outside built-up areas the bus does not have this priority. Never overtake a bus on the side where passengers get on or off, and watch for pedestrians crossing in front of or behind a stationary bus."
+      },
+      {
+        "heading": "Level crossings",
+        "body": "Approach a railway level crossing ready to stop. Flashing red lights, a ringing bell, or lowering barriers all mean stop and wait — never zig-zag around half-closed barriers. Cross only when the way is completely clear and you are sure you can get fully across without stopping on the rails. If your engine stalls on the crossing and a train is coming, leave the vehicle and get clear."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You reach an uncontrolled junction at the same time as a tram approaching from your right; there are no signs or signals. You give way to the tram even though traffic from the right would normally yield to you on equal roads, because a tram has priority where no signs decide otherwise. A tram cannot swerve, so the rule protects everyone by making your action predictable."
+      }
+    ]
+  },
+  {
+    "slug": "special-users-emergency-tricky",
+    "moduleSlug": "special-users",
+    "title": "Emergency vehicles and tricky situations",
+    "summary": "Reacting to priority vehicles and handling unusual users like horse riders, road workers and convoys.",
+    "sections": [
+      {
+        "heading": "The rule: make room for priority vehicles",
+        "body": "A vehicle showing both blue flashing lights and a siren (or two-tone horn) has priority and you must clear its path. Move calmly to the right and stop if needed, but do not brake violently or block a junction. Blue lights without a siren mean the vehicle is not currently claiming priority — stay alert but you need not give way. The verb is 'make room', never 'panic'."
+      },
+      {
+        "heading": "What to notice first",
+        "body": "Check for two signals together: blue light and siren. On a multi-lane road that combination triggers the rescue corridor — vehicles in the left lane edge left, vehicles in the right lane edge right, leaving a gap down the middle. On a single carriageway you pull right and slow or stop. Reading whether the siren is on decides whether priority actually applies."
+      },
+      {
+        "heading": "Horse riders and animals",
+        "body": "Pass horse riders and led animals slowly, widely and quietly: a startled horse is dangerous to itself, its rider and you. Do not sound the horn or rev the engine. If someone is leading animals across the road, wait. A person controlling animals may signal you to stop, and you must obey, just as you would a traffic controller."
+      },
+      {
+        "heading": "Road workers, convoys and directions",
+        "body": "A traffic controller or police officer directing traffic overrides signs, signals and normal rules — follow their instructions even if a light is green. Keep clear of road-work crews and obey temporary signs, which take priority over the permanent ones. Do not break into a marked military or funeral convoy that is being escorted; treat it as one long vehicle and wait."
+      },
+      {
+        "heading": "Scenario",
+        "body": "You are stopped at a red light when an ambulance approaches from behind with blue lights and siren. You move forward carefully past the stop line only if it is safe and clears a path, then let it pass. The duty to give way to a genuine priority vehicle outweighs the red signal, but you do it at walking pace and only when no one is endangered — never by lurching blindly into the junction."
+      }
+    ]
+  }
+]

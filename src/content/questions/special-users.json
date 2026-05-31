@@ -1,0 +1,890 @@
+[
+  {
+    "id": "special-users-001",
+    "moduleId": "special-users",
+    "lessonId": "special-users-cyclists-mopeds",
+    "topicTags": [
+      "moped",
+      "recognition"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A moped (bromfiets) in the Netherlands is identified by which licence-plate colour?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yellow"
+      },
+      {
+        "id": "b",
+        "text": "Blue"
+      },
+      {
+        "id": "c",
+        "text": "Green"
+      },
+      {
+        "id": "d",
+        "text": "White"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "A bromfiets (up to 45 km/h) carries a yellow plate; a snorfiets (25 km/h) carries a blue plate.",
+      "examTip": "Plate colour tells you the rider's top speed — a yellow plate closes on you faster than a blue one."
+    }
+  },
+  {
+    "id": "special-users-002",
+    "moduleId": "special-users",
+    "lessonId": "special-users-cyclists-mopeds",
+    "topicTags": [
+      "overtaking",
+      "passing-distance"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "How much space should you leave when overtaking a cyclist?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "At least 1.5 metres"
+      },
+      {
+        "id": "b",
+        "text": "About 30 centimetres"
+      },
+      {
+        "id": "c",
+        "text": "Exactly half a metre"
+      },
+      {
+        "id": "d",
+        "text": "No minimum, as long as you sound the horn"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "Leave at least 1.5 metres; if the road is too narrow to do so, wait.",
+      "examTip": "A cyclist may wobble or swerve around a pothole, so generous space protects you both."
+    }
+  },
+  {
+    "id": "special-users-003",
+    "moduleId": "special-users",
+    "lessonId": "special-users-cyclists-mopeds",
+    "topicTags": [
+      "right-turn",
+      "cycle-path"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You want to turn right, but a cyclist on the cycle path beside you is going straight on. What must you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Give way and let the cyclist pass before turning"
+      },
+      {
+        "id": "b",
+        "text": "Turn quickly in front of the cyclist to clear the junction"
+      },
+      {
+        "id": "c",
+        "text": "Sound the horn so the cyclist stops for you"
+      },
+      {
+        "id": "d",
+        "text": "Speed up because vehicles always have priority over cyclists"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "A vehicle turning off must give way to traffic continuing straight on the path it crosses.",
+      "examTip": "Check your right mirror and blind spot before turning — this prevents the classic right-hook crash."
+    }
+  },
+  {
+    "id": "special-users-004",
+    "moduleId": "special-users",
+    "lessonId": "special-users-cyclists-mopeds",
+    "topicTags": [
+      "door-zone",
+      "parked-cars"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are driving past a row of parked cars with a cyclist ahead of you on the same road. What is the main danger to anticipate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A car door opening into the cyclist's path"
+      },
+      {
+        "id": "b",
+        "text": "The parked cars rolling forward"
+      },
+      {
+        "id": "c",
+        "text": "The cyclist suddenly reversing"
+      },
+      {
+        "id": "d",
+        "text": "Nothing — parked cars pose no risk"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "An opening door can force the cyclist to swerve into your path, so give parked cars a wide berth.",
+      "examTip": "Watch for people sitting in parked cars; their presence is a warning a door may open."
+    }
+  },
+  {
+    "id": "special-users-005",
+    "moduleId": "special-users",
+    "lessonId": "special-users-cyclists-mopeds",
+    "topicTags": [
+      "snorfiets",
+      "speed"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "What is the maximum design speed of a snorfiets (light moped, blue plate)?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "25 km/h"
+      },
+      {
+        "id": "b",
+        "text": "45 km/h"
+      },
+      {
+        "id": "c",
+        "text": "60 km/h"
+      },
+      {
+        "id": "d",
+        "text": "15 km/h"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "A snorfiets is limited to 25 km/h; a bromfiets (yellow plate) may reach 45 km/h.",
+      "examTip": "Knowing the speed helps you judge how quickly a two-wheeler will reach the junction."
+    }
+  },
+  {
+    "id": "special-users-006",
+    "moduleId": "special-users",
+    "lessonId": "special-users-cyclists-mopeds",
+    "topicTags": [
+      "blind-spot",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "You check your mirror before turning right and see no cyclist, yet one is actually riding up close on your inside. Why might the mirror have missed them?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The cyclist was in your blind spot, which the mirror cannot show"
+      },
+      {
+        "id": "b",
+        "text": "Cyclists are never visible in mirrors"
+      },
+      {
+        "id": "c",
+        "text": "The mirror only shows vehicles with engines"
+      },
+      {
+        "id": "d",
+        "text": "Mirrors do not work at junctions"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "A two-wheeler can sit exactly in the blind spot the mirror cannot cover, so a shoulder check is needed.",
+      "examTip": "Always add a quick glance over your shoulder before turning across a cycle path."
+    }
+  },
+  {
+    "id": "special-users-007",
+    "moduleId": "special-users",
+    "lessonId": "special-users-pedestrians-crossings",
+    "topicTags": [
+      "zebra",
+      "give-way"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A pedestrian is clearly waiting to step onto a marked zebra crossing ahead of you. What must you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Give way and let them cross"
+      },
+      {
+        "id": "b",
+        "text": "Continue, because waiting pedestrians have no priority"
+      },
+      {
+        "id": "c",
+        "text": "Only stop if they make eye contact first"
+      },
+      {
+        "id": "d",
+        "text": "Speed up to clear the crossing before they step out"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "At a zebra you must give way to pedestrians crossing or clearly waiting to cross.",
+      "examTip": "Approach every zebra at a speed that lets you stop in time."
+    }
+  },
+  {
+    "id": "special-users-008",
+    "moduleId": "special-users",
+    "lessonId": "special-users-pedestrians-crossings",
+    "topicTags": [
+      "white-cane",
+      "vulnerable"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A pedestrian at the kerb is holding a white cane with red bands. What does this tell you?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The person is deaf-blind and may not see or hear you — give them time"
+      },
+      {
+        "id": "b",
+        "text": "The person is a traffic warden"
+      },
+      {
+        "id": "c",
+        "text": "The cane marks a temporary road closure"
+      },
+      {
+        "id": "d",
+        "text": "You should sound your horn to alert them"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "A white cane (with red bands for deaf-blind) marks a vulnerable pedestrian; stop and give them time.",
+      "examTip": "Never sound the horn at them — it can startle and disorient rather than help."
+    }
+  },
+  {
+    "id": "special-users-009",
+    "moduleId": "special-users",
+    "lessonId": "special-users-pedestrians-crossings",
+    "topicTags": [
+      "woonerf",
+      "home-zone"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You enter a woonerf (home zone) marked with the white house symbol. How should you drive?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "At walking pace, giving way to pedestrians who may use the full street"
+      },
+      {
+        "id": "b",
+        "text": "At the normal 50 km/h built-up limit"
+      },
+      {
+        "id": "c",
+        "text": "As fast as the road surface allows"
+      },
+      {
+        "id": "d",
+        "text": "At 30 km/h, ignoring pedestrians on the road"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "In a woonerf you drive at walking pace; pedestrians and playing children may use the whole width.",
+      "examTip": "The white house sign is the cue — treat the entire street as shared space."
+    }
+  },
+  {
+    "id": "special-users-010",
+    "moduleId": "special-users",
+    "lessonId": "special-users-pedestrians-crossings",
+    "topicTags": [
+      "overtaking",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "Approaching a zebra crossing, the car in the lane next to you has stopped though you cannot see why. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stop too, because it may be yielding to a pedestrian hidden from your view"
+      },
+      {
+        "id": "b",
+        "text": "Overtake it quickly while the crossing looks clear"
+      },
+      {
+        "id": "c",
+        "text": "Sound your horn so it moves on"
+      },
+      {
+        "id": "d",
+        "text": "Continue at the same speed in your own lane"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "Never pass a vehicle stopped at a zebra; it may be giving way to a pedestrian you cannot see.",
+      "examTip": "Only continue once you can see for yourself that the crossing is clear."
+    }
+  },
+  {
+    "id": "special-users-011",
+    "moduleId": "special-users",
+    "lessonId": "special-users-pedestrians-crossings",
+    "topicTags": [
+      "pedestrian-position",
+      "no-pavement"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "On a road with no pavement, where should pedestrians normally walk?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "On the carriageway facing oncoming traffic"
+      },
+      {
+        "id": "b",
+        "text": "In the middle of the lane"
+      },
+      {
+        "id": "c",
+        "text": "On the side with their back to traffic"
+      },
+      {
+        "id": "d",
+        "text": "Pedestrians are forbidden on such roads"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "Without a pavement, pedestrians walk facing oncoming traffic so they can see approaching vehicles.",
+      "examTip": "As a driver, expect people walking toward you on the edge of unpaved or rural roads."
+    }
+  },
+  {
+    "id": "special-users-012",
+    "moduleId": "special-users",
+    "lessonId": "special-users-pedestrians-crossings",
+    "topicTags": [
+      "children",
+      "anticipation"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Why do children require extra caution as pedestrians near the road?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "They may run out suddenly without checking for traffic"
+      },
+      {
+        "id": "b",
+        "text": "They always have right of way everywhere"
+      },
+      {
+        "id": "c",
+        "text": "They can hear cars from much further away"
+      },
+      {
+        "id": "d",
+        "text": "They never cross roads alone"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "Children can act unpredictably and run into the road, so reduce speed and stay ready to stop.",
+      "examTip": "Near schools, playgrounds and ice-cream vans, treat any child as likely to step out."
+    }
+  },
+  {
+    "id": "special-users-013",
+    "moduleId": "special-users",
+    "lessonId": "special-users-trams-buses-rail",
+    "topicTags": [
+      "tram",
+      "priority"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "At an uncontrolled meeting with no signs or signals, who generally has priority — you or an approaching tram?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The tram, because it cannot steer around you and needs a long distance to stop"
+      },
+      {
+        "id": "b",
+        "text": "You, because cars always have priority over rail vehicles"
+      },
+      {
+        "id": "c",
+        "text": "Whoever is travelling faster"
+      },
+      {
+        "id": "d",
+        "text": "Neither — both must stop completely"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "A tram generally has priority where no signs or signals decide otherwise.",
+      "examTip": "At signed or signalled junctions the normal rules apply to the tram as well."
+    }
+  },
+  {
+    "id": "special-users-014",
+    "moduleId": "special-users",
+    "lessonId": "special-users-trams-buses-rail",
+    "topicTags": [
+      "bus",
+      "pulling-away"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Inside a built-up area, a bus signals to pull away from a marked bus stop. What must you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Give way and let the bus pull out, slowing if necessary"
+      },
+      {
+        "id": "b",
+        "text": "Keep going, the bus must always wait for you"
+      },
+      {
+        "id": "c",
+        "text": "Overtake on the passenger side to get past quickly"
+      },
+      {
+        "id": "d",
+        "text": "Stop and wait until all passengers have left the area"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "Inside built-up areas you must give way to a bus signalling to leave a stop.",
+      "examTip": "Outside built-up areas the bus does not get this priority — read the location first."
+    }
+  },
+  {
+    "id": "special-users-015",
+    "moduleId": "special-users",
+    "lessonId": "special-users-trams-buses-rail",
+    "topicTags": [
+      "level-crossing",
+      "barriers"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You reach a railway level crossing where the red lights are flashing and the barriers are coming down. What must you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stop and wait; never zig-zag around the barriers"
+      },
+      {
+        "id": "b",
+        "text": "Cross quickly before the barriers fully close"
+      },
+      {
+        "id": "c",
+        "text": "Steer around the half-closed barriers if no train is visible"
+      },
+      {
+        "id": "d",
+        "text": "Stop only if you can actually see a train"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "Flashing red lights or lowering barriers mean stop and wait — going round them is forbidden.",
+      "examTip": "A second train may follow; only cross once the lights are off and barriers fully up."
+    }
+  },
+  {
+    "id": "special-users-016",
+    "moduleId": "special-users",
+    "lessonId": "special-users-trams-buses-rail",
+    "topicTags": [
+      "tram-signals",
+      "recognition"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "A tram driver sees a special signal showing a horizontal white bar. What does this mean for the tram?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stop"
+      },
+      {
+        "id": "b",
+        "text": "Proceed at full speed"
+      },
+      {
+        "id": "c",
+        "text": "Sound the bell and continue"
+      },
+      {
+        "id": "d",
+        "text": "Reverse out of the junction"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "On the tram's white-bar signals a horizontal bar means stop; a vertical or diagonal bar means go.",
+      "examTip": "Recognising tram signals helps you predict whether a tram will stop or move at a junction."
+    }
+  },
+  {
+    "id": "special-users-017",
+    "moduleId": "special-users",
+    "lessonId": "special-users-trams-buses-rail",
+    "topicTags": [
+      "rails",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "Your engine stalls while you are stopped on a railway level crossing and a train is approaching. What is the safest action?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Get everyone out of the vehicle and move well clear of the crossing"
+      },
+      {
+        "id": "b",
+        "text": "Stay in the car and keep trying to restart the engine"
+      },
+      {
+        "id": "c",
+        "text": "Stand beside the car and wave at the train"
+      },
+      {
+        "id": "d",
+        "text": "Push the car backwards onto the rails behind you"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "Your life matters more than the vehicle — leave it and get clear of the tracks immediately.",
+      "examTip": "Never stop on a crossing unless you are certain you can clear it completely first."
+    }
+  },
+  {
+    "id": "special-users-018",
+    "moduleId": "special-users",
+    "lessonId": "special-users-trams-buses-rail",
+    "topicTags": [
+      "bus-stop",
+      "passengers"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are passing a stationary bus at a stop. What is the key hazard to watch for?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Pedestrians crossing in front of or behind the bus"
+      },
+      {
+        "id": "b",
+        "text": "The bus suddenly reversing into you"
+      },
+      {
+        "id": "c",
+        "text": "The bus changing colour"
+      },
+      {
+        "id": "d",
+        "text": "Nothing, a stopped bus is never a hazard"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "Passengers may step out from in front of or behind the bus where you cannot see them.",
+      "examTip": "Never overtake a bus on the side where passengers board or alight."
+    }
+  },
+  {
+    "id": "special-users-019",
+    "moduleId": "special-users",
+    "lessonId": "special-users-emergency-tricky",
+    "topicTags": [
+      "emergency-vehicle",
+      "priority"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "Which combination of signals means an emergency vehicle is claiming priority and you must clear its path?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Blue flashing lights together with a siren"
+      },
+      {
+        "id": "b",
+        "text": "Blue flashing lights only, with no siren"
+      },
+      {
+        "id": "c",
+        "text": "Headlights flashed once"
+      },
+      {
+        "id": "d",
+        "text": "Hazard warning lights"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "Both blue lights and a siren together mean the vehicle has priority and you must make room.",
+      "examTip": "Blue lights without a siren mean it is not currently claiming priority — stay alert but you need not give way."
+    }
+  },
+  {
+    "id": "special-users-020",
+    "moduleId": "special-users",
+    "lessonId": "special-users-emergency-tricky",
+    "topicTags": [
+      "rescue-corridor",
+      "motorway"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a multi-lane road, how should drivers form a path for an approaching emergency vehicle?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Left-lane drivers move left, right-lane drivers move right, leaving a gap down the middle"
+      },
+      {
+        "id": "b",
+        "text": "Everyone moves into the left lane"
+      },
+      {
+        "id": "c",
+        "text": "Everyone brakes hard and stops where they are"
+      },
+      {
+        "id": "d",
+        "text": "Everyone drives onto the hard shoulder"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "This forms a rescue corridor down the centre so the emergency vehicle can pass.",
+      "examTip": "Do not use the hard shoulder unless specifically directed to."
+    }
+  },
+  {
+    "id": "special-users-021",
+    "moduleId": "special-users",
+    "lessonId": "special-users-emergency-tricky",
+    "topicTags": [
+      "horse-rider",
+      "animals"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are approaching a horse and rider on a country road. How should you pass?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Slowly, widely and quietly, without sounding the horn"
+      },
+      {
+        "id": "b",
+        "text": "Quickly so you spend less time alongside"
+      },
+      {
+        "id": "c",
+        "text": "While sounding the horn to warn the horse"
+      },
+      {
+        "id": "d",
+        "text": "By revving the engine to make the horse move aside"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "A startled horse is dangerous, so pass slowly, give plenty of room and keep noise down.",
+      "examTip": "If someone is leading animals across the road, wait until they are clear."
+    }
+  },
+  {
+    "id": "special-users-022",
+    "moduleId": "special-users",
+    "lessonId": "special-users-emergency-tricky",
+    "topicTags": [
+      "traffic-controller",
+      "directions"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "A police officer is directing traffic and signals you to stop, but the traffic light ahead is green. What do you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stop — the officer's instructions override the signal"
+      },
+      {
+        "id": "b",
+        "text": "Drive on, because a green light always takes priority"
+      },
+      {
+        "id": "c",
+        "text": "Stop only if other cars stop first"
+      },
+      {
+        "id": "d",
+        "text": "Ignore the officer and follow the road markings"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "A traffic controller's directions override signs, signals and the normal rules.",
+      "examTip": "Temporary signs and instructions always take priority over permanent ones."
+    }
+  },
+  {
+    "id": "special-users-023",
+    "moduleId": "special-users",
+    "lessonId": "special-users-emergency-tricky",
+    "topicTags": [
+      "convoy",
+      "escort"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "An escorted military or funeral convoy is passing through a junction. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Treat it as one long vehicle and wait until it has passed"
+      },
+      {
+        "id": "b",
+        "text": "Drive into a gap between the vehicles when one appears"
+      },
+      {
+        "id": "c",
+        "text": "Overtake the whole convoy as fast as possible"
+      },
+      {
+        "id": "d",
+        "text": "Sound the horn to make them speed up"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "Do not break into an escorted convoy; treat it as a single vehicle and let it pass.",
+      "examTip": "An escort vehicle may direct you to stop, and you must obey."
+    }
+  },
+  {
+    "id": "special-users-024",
+    "moduleId": "special-users",
+    "lessonId": "special-users-emergency-tricky",
+    "topicTags": [
+      "emergency-vehicle",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "You are first at a red light when an ambulance comes up behind with blue lights and siren. What is the correct response?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Move forward past the stop line only if it is safe, to clear a path, then let it pass"
+      },
+      {
+        "id": "b",
+        "text": "Stay still at the red light no matter what"
+      },
+      {
+        "id": "c",
+        "text": "Accelerate away at full speed to get out of the area"
+      },
+      {
+        "id": "d",
+        "text": "Reverse to make space behind you"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "explanation": {
+      "short": "The duty to give way to a genuine priority vehicle outweighs the red signal, done safely at walking pace.",
+      "examTip": "Only move when no one is endangered — never lurch blindly into the junction."
+    }
+  }
+]

@@ -89,9 +89,14 @@
     "slug": "special-users",
     "title": "Special road users and situations",
     "description": "Cyclists, mopeds, pedestrians, trams, emergency vehicles, and tricky situations.",
-    "lessonSlugs": [],
-    "quizEnabled": false,
-    "questionBankId": null
+    "lessonSlugs": [
+      "special-users-cyclists-mopeds",
+      "special-users-pedestrians-crossings",
+      "special-users-trams-buses-rail",
+      "special-users-emergency-tricky"
+    ],
+    "quizEnabled": true,
+    "questionBankId": "special-users"
   },
   {
     "id": "traffic-rules-road-position",

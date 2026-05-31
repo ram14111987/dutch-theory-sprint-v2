@@ -22,8 +22,8 @@ Assume a clean profile: open the app, then click **Reset progress** on the Home 
 
 ## 3. Modules and lessons
 
-- [ ] `#/modules` lists all 13 modules (12 quiz-enabled + 1 placeholder)
-- [ ] Placeholder module (`special-users`) does not show a "Start quiz" CTA
+- [ ] `#/modules` lists all 13 modules (all quiz-enabled)
+- [ ] `special-users` module shows its 4 lessons and an enabled **Start quiz** CTA
 - [ ] Each quiz-enabled module detail page shows its lessons and a **Start quiz** button
 - [ ] Every lesson route (`#/lessons/:slug`) renders the lesson body without errors
 
