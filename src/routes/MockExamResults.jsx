@@ -6,23 +6,9 @@ import { formatDuration, getMockExamMode } from '../quiz/mockExam.js';
 import { getExamAttempts } from '../storage/progressStore.js';
 import ResultSummary from '../components/ResultSummary.jsx';
 import EmptyState from '../components/EmptyState.jsx';
+import { formatTimestamp, formatDelta } from '../utils/format.js';
 
-function formatTimestamp(iso) {
-  if (!iso) return null;
-  try {
-    const d = new Date(iso);
-    if (Number.isNaN(d.getTime())) return null;
-    return d.toLocaleString();
-  } catch {
-    return null;
-  }
-}
 
-function formatDelta(delta) {
-  if (typeof delta !== 'number' || !Number.isFinite(delta)) return null;
-  if (delta === 0) return '±0';
-  return delta > 0 ? `+${delta}` : `${delta}`;
-}
 
 function MockExamResults() {
   const { result } = useContext(ResultContext);

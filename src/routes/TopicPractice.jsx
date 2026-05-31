@@ -76,6 +76,9 @@ function TopicPractice() {
 
   return (
     <section className="panel quiz-page">
+      <div className="topic-notice">
+        <strong>Practice mode</strong> — answers here don't count toward Mistake Review or module progress.
+      </div>
       <header className="quiz-page__header">
         <p className="eyebrow">Topic Deep Dive · {mod.title}</p>
         <QuizProgress current={currentIndex + 1} total={questions.length} />

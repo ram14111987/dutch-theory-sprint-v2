@@ -10,17 +10,8 @@ import {
 } from '../storage/progressStore.js';
 import ResultSummary from '../components/ResultSummary.jsx';
 import EmptyState from '../components/EmptyState.jsx';
+import { formatTimestamp, formatDelta } from '../utils/format.js';
 
-function formatTimestamp(iso) {
-  if (!iso) return null;
-  try {
-    const d = new Date(iso);
-    if (Number.isNaN(d.getTime())) return null;
-    return d.toLocaleString();
-  } catch {
-    return null;
-  }
-}
 
 function formatDuration(seconds) {
   if (typeof seconds !== 'number' || !Number.isFinite(seconds) || seconds < 0) return null;
@@ -31,11 +22,6 @@ function formatDuration(seconds) {
   return `${m}m ${String(r).padStart(2, '0')}s`;
 }
 
-function formatDelta(delta) {
-  if (typeof delta !== 'number' || !Number.isFinite(delta)) return null;
-  if (delta === 0) return '±0';
-  return delta > 0 ? `+${delta}` : `${delta}`;
-}
 
 function hydrateFromAttempt(slug, mode) {
   const attempt = getLatestAttempt(slug, mode ? { mode } : undefined);

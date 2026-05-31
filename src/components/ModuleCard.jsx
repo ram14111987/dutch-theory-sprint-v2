@@ -13,7 +13,7 @@ function ModuleCard({ module, stats }) {
     <article className="card">
       <h3>{module.title}</h3>
       {statusText && (
-        <p className="eyebrow eyebrow--dark">{statusText}</p>
+        <p className="eyebrow eyebrow--on-card">{statusText}</p>
       )}
       <p>{module.description}</p>
       <Link to={`/modules/${module.slug}`} className="card__link">
