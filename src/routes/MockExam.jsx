@@ -39,6 +39,11 @@ function MockExam() {
   const finalizedRef = useRef(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState({});
+  // answersRef is always kept in sync with the answers state (updated inside
+  // the setAnswers functional updater so it reflects the committed value).
+  // finalize reads from this ref so it always uses the latest selections
+  // regardless of when its useCallback closure was last recreated.
+  const answersRef = useRef({});
   const [timesUp, setTimesUp] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(() =>
     mode.durationSeconds
@@ -50,7 +55,11 @@ function MockExam() {
     (opts = {}) => {
       if (finalizedRef.current) return;
       finalizedRef.current = true;
-      const score = scoreMockExam(entries, answers, {
+      // Read from the ref so we always use the latest answers regardless of
+      // when this callback closure was created (avoids stale-closure issues
+      // for the timed-out path and rapid select→finish sequences).
+      const currentAnswers = answersRef.current;
+      const score = scoreMockExam(entries, currentAnswers, {
         passPercentage: mode.passPercentage,
         passCorrect: mode.passCorrect,
       });
@@ -88,7 +97,7 @@ function MockExam() {
         mode: 'exam',
         examMode: mode.id,
         questions: entries.map((e) => e.question),
-        answers,
+        answers: currentAnswers,
         correct: score.correct,
         total: score.total,
         percentage: score.percentage,
@@ -110,7 +119,11 @@ function MockExam() {
         navigate('/exam/results');
       }
     },
-    [entries, answers, mode, navigate, setResult, startedAt],
+    // answers intentionally omitted: finalize reads answersRef.current directly,
+    // so it does not need to be recreated on every answer change. This also
+    // prevents the timer useEffect from tearing down and recreating its interval
+    // on every selection.
+    [entries, mode, navigate, setResult, startedAt],
   );
 
   useEffect(() => {
@@ -167,7 +180,13 @@ function MockExam() {
       : `pass at ${mode.passPercentage}%`;
 
   const handleSelect = (choiceId) => {
-    setAnswers((prev) => ({ ...prev, [question.id]: choiceId }));
+    setAnswers((prev) => {
+      const next = { ...prev, [question.id]: choiceId };
+      // Keep the ref in sync inside the functional update so that finalize
+      // always reads the value that is actually being committed to state.
+      answersRef.current = next;
+      return next;
+    });
   };
 
   const handleNext = () => {
