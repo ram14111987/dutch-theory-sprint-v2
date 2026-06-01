@@ -1196,6 +1196,11 @@
     "explanation": {
       "short": "At an uncontrolled intersection, you must give way to vehicles coming from your right — the default right-has-right-of-way rule applies.",
       "examTip": "Remember: left yields to right at uncontrolled intersections, unless a sign or marking says otherwise."
+    },
+    "image": {
+      "src": "priority/uncontrolled-crossroads.svg",
+      "alt": "Top-down diagram of an uncontrolled crossroads. A blue car (you) approaches from the south heading north. A red car labelled ON YOUR RIGHT approaches from the east heading west.",
+      "caption": "Uncontrolled crossroads — no signs, no markings"
     }
   },
   {
@@ -1424,6 +1429,11 @@
     "explanation": {
       "short": "Trams always have right of way over motor vehicles at intersections, regardless of which direction they approach from.",
       "examTip": "Trams override the normal right-has-priority rule entirely. If a tram is approaching from any direction, yield."
+    },
+    "image": {
+      "src": "priority/tram-at-intersection.svg",
+      "alt": "Top-down diagram of an intersection. A blue car (you) approaches from the south. An amber tram with a priority badge approaches from the west heading east — from your left.",
+      "caption": "Tram approaching from your left"
     }
   },
   {
@@ -1462,6 +1472,11 @@
     "explanation": {
       "short": "On Dutch roundabouts, vehicles already circulating have priority over those entering — even if the entering vehicle is on your right. Shark-tooth markings at entries confirm who yields.",
       "examTip": "Dutch roundabout rule: circulating traffic has priority. Look for haaientanden (shark teeth) at the entry — they mark the give-way line for entering drivers."
+    },
+    "image": {
+      "src": "priority/roundabout-circulating.svg",
+      "alt": "Schematic Dutch roundabout showing a red car already circulating clockwise on the ring and a blue car (you) waiting to enter from the bottom with give-way markings.",
+      "caption": "Dutch roundabout — shark-teeth give-way markings at the entry"
     }
   },
   {

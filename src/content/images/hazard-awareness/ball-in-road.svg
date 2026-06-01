@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" role="img" aria-label="Top-down view of a road with parked cars and a ball rolling between them">
+  <title>Ball rolling into road between parked cars</title>
+  <!-- background / pavement -->
+  <rect width="300" height="180" fill="#f8fafc"/>
+  <!-- top pavement -->
+  <rect x="0" y="0" width="300" height="42" fill="#e2e8f0"/>
+  <!-- road surface -->
+  <rect x="0" y="42" width="300" height="96" fill="#94a3b8"/>
+  <!-- bottom pavement -->
+  <rect x="0" y="138" width="300" height="42" fill="#e2e8f0"/>
+
+  <!-- road centre dash -->
+  <line x1="10" y1="90" x2="290" y2="90" stroke="#fff" stroke-width="2" stroke-dasharray="20 14"/>
+
+  <!-- kerb lines -->
+  <line x1="0" y1="42"  x2="300" y2="42"  stroke="#cbd5e1" stroke-width="1.5"/>
+  <line x1="0" y1="138" x2="300" y2="138" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- PARKED CARS on top (parallel to road, in the road against the top kerb) -->
+  <!-- Car 1 -->
+  <rect x="20"  y="43" width="68" height="28" rx="4" fill="#94a3b8" stroke="#64748b" stroke-width="1.5"/>
+  <rect x="26"  y="47" width="22" height="12" rx="2" fill="#cbd5e1"/>
+  <rect x="54"  y="47" width="22" height="12" rx="2" fill="#cbd5e1"/>
+  <!-- Car 2 -->
+  <rect x="106" y="43" width="68" height="28" rx="4" fill="#94a3b8" stroke="#64748b" stroke-width="1.5"/>
+  <rect x="112" y="47" width="22" height="12" rx="2" fill="#cbd5e1"/>
+  <rect x="140" y="47" width="22" height="12" rx="2" fill="#cbd5e1"/>
+  <!-- Car 3 -->
+  <rect x="192" y="43" width="68" height="28" rx="4" fill="#94a3b8" stroke="#64748b" stroke-width="1.5"/>
+  <rect x="198" y="47" width="22" height="12" rx="2" fill="#cbd5e1"/>
+  <rect x="226" y="47" width="22" height="12" rx="2" fill="#cbd5e1"/>
+
+  <!-- BALL: orange circle between car 2 and car 3, rolling into road -->
+  <circle cx="183" cy="78" r="9" fill="#f97316" stroke="#ea580c" stroke-width="1.5"/>
+  <!-- motion lines on ball -->
+  <line x1="183" y1="56" x2="183" y2="66" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="3 2"/>
+
+  <!-- Child hint: small silhouette at the gap between cars 2 and 3 (top edge) -->
+  <!-- head -->
+  <circle cx="183" cy="32" r="7" fill="#fbbf24" stroke="#d97706" stroke-width="1"/>
+  <!-- body -->
+  <rect x="179" y="39" width="8" height="10" rx="2" fill="#fbbf24" stroke="#d97706" stroke-width="1"/>
+  <!-- "?" label near child -->
+  <text x="196" y="36" font-size="14" font-weight="bold" fill="#ef4444" font-family="Arial,Helvetica,sans-serif">?</text>
+
+  <!-- YOUR CAR approaching from left -->
+  <rect x="22" y="100" width="52" height="30" rx="4" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="28" y="104" width="16" height="14" rx="2" fill="#bfdbfe"/>
+  <polygon points="80,115 72,105 72,125" fill="#1d4ed8"/>
+  <!-- motion arrow -->
+  <line x1="88"  y1="115" x2="100" y2="115" stroke="#1d4ed8" stroke-width="2"/>
+  <polygon points="104,115 96,110 96,120" fill="#1d4ed8"/>
+
+  <text x="150" y="168" text-anchor="middle" font-size="9" fill="#64748b" font-family="Arial,Helvetica,sans-serif">Where the ball goes, a child often follows</text>
+</svg>

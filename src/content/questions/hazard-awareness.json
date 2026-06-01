@@ -1350,6 +1350,11 @@
     "explanation": {
       "short": "Where a ball goes, a child follows. A ball rolling into the road is one of the strongest pre-accident cues — brake immediately and expect a child to appear.",
       "examTip": "Hazard perception is about predicting what comes NEXT, not just reacting to what you can see. Ball = imminent child."
+    },
+    "image": {
+      "src": "hazard-awareness/ball-in-road.svg",
+      "alt": "Top-down view of a road with three parked cars along the top. An orange ball has rolled into the road between the second and third parked cars. A child silhouette stands behind the gap. A blue car approaches from the left.",
+      "caption": "Ball rolling into road — what follows?"
     }
   },
   {
@@ -1426,6 +1431,11 @@
     "explanation": {
       "short": "A dry-looking but shiny road surface near freezing temperature is a classic sign of black ice (zwart ijs). It is extremely slippery and nearly invisible.",
       "examTip": "Bridges and exposed stretches freeze first. If other drivers are moving unusually slowly or carefully, take the hint and reduce speed."
+    },
+    "image": {
+      "src": "hazard-awareness/black-ice-road.svg",
+      "alt": "A dark road surface with a subtle diagonal sheen, a thermometer showing minus one degree Celsius, a snowflake symbol, and text reading Black Ice Risk.",
+      "caption": "Dry-looking but shiny surface near 0 °C — suspect black ice"
     }
   },
   {
@@ -1578,6 +1588,11 @@
     "explanation": {
       "short": "Parked vehicles create blind zones at side streets. Reduce speed, watch for movement or shadows in the gap, and cover the brake — anything could emerge.",
       "examTip": "Urban scan pattern: near, middle, far. Repeat the near-zone scan especially where vision is blocked by vans or buses."
+    },
+    "image": {
+      "src": "hazard-awareness/blocked-side-street.svg",
+      "alt": "Top-down view of a main road with a large van parked at the entrance to a side street on the left, creating a blind zone marked with a question mark. A blue car (you) approaches from below.",
+      "caption": "Parked van creates a blind zone at the side street"
     }
   },
   {

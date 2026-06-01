@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 268" role="img" aria-label="Schematic Dutch roundabout showing a circulating car and an entering car">
+  <title>Dutch roundabout — circulating traffic has priority</title>
+  <!-- background -->
+  <rect width="260" height="268" fill="#f8fafc"/>
+
+  <!-- entry road stubs -->
+  <!-- bottom entry (you) -->
+  <rect x="100" y="172" width="60" height="88" fill="#94a3b8"/>
+  <!-- top exit -->
+  <rect x="100" y="0"   width="60" height="88" fill="#94a3b8"/>
+  <!-- left entry -->
+  <rect x="0"   y="100" width="88" height="60" fill="#94a3b8"/>
+  <!-- right entry -->
+  <rect x="172" y="100" width="88" height="60" fill="#94a3b8"/>
+
+  <!-- roundabout road ring (outer, then inner island on top) -->
+  <circle cx="130" cy="130" r="78" fill="#94a3b8"/>
+  <circle cx="130" cy="130" r="44" fill="#c7d2e0"/>
+  <!-- island texture -->
+  <circle cx="130" cy="130" r="40" fill="#d1fae5" stroke="#6ee7b7" stroke-width="1.5"/>
+
+  <!-- centre dashes on entry roads -->
+  <line x1="130" y1="8"   x2="130" y2="84"  stroke="#fff" stroke-width="2" stroke-dasharray="10 8"/>
+  <line x1="130" y1="176" x2="130" y2="252" stroke="#fff" stroke-width="2" stroke-dasharray="10 8"/>
+  <line x1="8"   y1="130" x2="84"  y2="130" stroke="#fff" stroke-width="2" stroke-dasharray="10 8"/>
+  <line x1="176" y1="130" x2="252" y2="130" stroke="#fff" stroke-width="2" stroke-dasharray="10 8"/>
+
+  <!-- clockwise circulation arrow on the ring -->
+  <path d="M 130,58 A 72,72 0 0,1 196,168" stroke="#fff" stroke-width="3" fill="none" stroke-dasharray="12 8"/>
+  <polygon points="196,168 182,162 193,152" fill="#fff"/>
+
+  <!-- Give-way shark-teeth at bottom entry -->
+  <polygon points="100,174 107,168 114,174" fill="#fff"/>
+  <polygon points="114,174 121,168 128,174" fill="#fff"/>
+  <polygon points="128,174 135,168 142,174" fill="#fff"/>
+  <polygon points="142,174 149,168 156,174" fill="#fff"/>
+  <polygon points="156,174 163,168 160,174" fill="#fff"/>
+
+  <!-- CIRCULATING CAR: red, heading south (down) on the right arc of the ring -->
+  <!-- Right side of ring: x ≈ 175–202, y ≈ 108–148 — car going downward -->
+  <rect x="174" y="109" width="26" height="40" rx="4" fill="#ef4444" stroke="#b91c1c" stroke-width="1.5"/>
+  <rect x="178" y="113" width="18" height="10" rx="2" fill="#fecaca"/>
+  <polygon points="187,155 175,149 199,149" fill="#b91c1c"/>
+
+  <!-- YOUR CAR: blue, at bottom entry, heading up (not yet entered) -->
+  <rect x="109" y="196" width="42" height="26" rx="4" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="116" y="200" width="28" height="10" rx="2" fill="#bfdbfe"/>
+  <polygon points="130,179 116,198 144,198" fill="#1d4ed8"/>
+  <text x="130" y="260" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e293b" font-family="Arial,Helvetica,sans-serif">YOU (entering)</text>
+
+  <!-- label for red car -->
+  <text x="218" y="122" text-anchor="start" font-size="9" font-weight="bold" fill="#ef4444" font-family="Arial,Helvetica,sans-serif">ALREADY</text>
+  <text x="218" y="133" text-anchor="start" font-size="9" font-weight="bold" fill="#ef4444" font-family="Arial,Helvetica,sans-serif">ON RING</text>
+
+  <text x="130" y="14" text-anchor="middle" font-size="9" fill="#64748b" font-family="Arial,Helvetica,sans-serif">Dutch roundabout — give way at entry</text>
+</svg>

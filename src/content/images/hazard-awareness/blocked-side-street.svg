@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 280" role="img" aria-label="Top-down view of a main road with a van blocking the view into a side street">
+  <title>Van blocking view of side street</title>
+  <!-- background -->
+  <rect width="260" height="280" fill="#f8fafc"/>
+
+  <!-- pavement blocks (everything outside roads) -->
+  <!-- right of main road, full height -->
+  <rect x="162" y="0"   width="98"  height="280" fill="#e2e8f0"/>
+  <!-- left of main road, above side street -->
+  <rect x="0"   y="0"   width="98"  height="86"  fill="#e2e8f0"/>
+  <!-- left of main road, below side street -->
+  <rect x="0"   y="150" width="98"  height="130" fill="#e2e8f0"/>
+
+  <!-- MAIN ROAD: vertical strip x=98 to x=162 -->
+  <rect x="98" y="0" width="64" height="280" fill="#94a3b8"/>
+  <!-- centre dashes on main road -->
+  <line x1="130" y1="10"  x2="130" y2="280" stroke="#fff" stroke-width="2" stroke-dasharray="16 10"/>
+
+  <!-- SIDE STREET: horizontal strip y=86 to y=150, going LEFT from main road -->
+  <rect x="0" y="86" width="98" height="64" fill="#94a3b8"/>
+  <!-- centre dash in side street -->
+  <line x1="10" y1="118" x2="91" y2="118" stroke="#fff" stroke-width="2" stroke-dasharray="10 8"/>
+
+  <!-- junction kerb radii (rounded corners where side street meets main road) -->
+  <!-- top-left corner of junction -->
+  <path d="M 98,86 Q 98,86 98,86" fill="#e2e8f0"/>
+
+  <!-- VAN: large, parked at the junction mouth blocking the side-street view -->
+  <!-- Van body: grey, large, positioned at the top-right corner of the side street entry -->
+  <!-- parked on the main road against the left kerb, just north of the side street opening -->
+  <rect x="99" y="28" width="44" height="58" rx="4" fill="#64748b" stroke="#475569" stroke-width="1.5"/>
+  <!-- van cab windows -->
+  <rect x="104" y="32" width="16" height="12" rx="2" fill="#94a3b8"/>
+  <rect x="124" y="32" width="14" height="12" rx="2" fill="#94a3b8"/>
+  <!-- van body side detail -->
+  <rect x="104" y="52" width="34" height="26" rx="2" fill="#78909c" stroke="#546e7a" stroke-width="1"/>
+  <!-- VAN label -->
+  <text x="121" y="98" text-anchor="middle" font-size="9" font-weight="bold" fill="#334155" font-family="Arial,Helvetica,sans-serif">VAN</text>
+
+  <!-- BLIND ZONE: hatched area in side street where view is blocked -->
+  <rect x="0" y="86" width="98" height="64" fill="#fef9c3" opacity="0.35"/>
+  <!-- "?" hazard symbol in side street -->
+  <circle cx="46" cy="118" r="18" fill="#fef9c3" stroke="#f59e0b" stroke-width="2"/>
+  <text x="46" y="124" text-anchor="middle" font-size="22" font-weight="bold" fill="#d97706" font-family="Arial,Helvetica,sans-serif">?</text>
+  <!-- HIDDEN label -->
+  <text x="46" y="148" text-anchor="middle" font-size="8" fill="#92400e" font-family="Arial,Helvetica,sans-serif">hidden view</text>
+
+  <!-- YOUR CAR: blue, approaching from bottom on main road -->
+  <rect x="109" y="210" width="42" height="26" rx="4" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="116" y="214" width="28" height="10" rx="2" fill="#bfdbfe"/>
+  <polygon points="130,193 116,212 144,212" fill="#1d4ed8"/>
+  <text x="130" y="252" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e293b" font-family="Arial,Helvetica,sans-serif">YOU</text>
+
+  <!-- direction arrow on main road -->
+  <line x1="130" y1="170" x2="130" y2="183" stroke="#1d4ed8" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <text x="130" y="270" text-anchor="middle" font-size="9" fill="#64748b" font-family="Arial,Helvetica,sans-serif">Van blocks your view of the side street</text>
+</svg>

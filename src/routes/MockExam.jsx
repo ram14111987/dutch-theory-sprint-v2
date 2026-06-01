@@ -10,6 +10,7 @@ import {
   formatDuration,
 } from '../quiz/mockExam.js';
 import { ResultContext } from '../quiz/ResultContext.js';
+import { resolveImageSrc } from '../content/imageRegistry.js';
 import ChoiceList from '../components/ChoiceList.jsx';
 import QuizProgress from '../components/QuizProgress.jsx';
 import EmptyState from '../components/EmptyState.jsx';
@@ -220,6 +221,21 @@ function MockExam() {
       </header>
 
       <article className="question-card">
+        {question.image && resolveImageSrc(question.image.src) && question.image.alt ? (
+          <figure className="content-image content-image--question">
+            <img
+              src={resolveImageSrc(question.image.src)}
+              alt={question.image.alt}
+              loading="lazy"
+            />
+            {question.image.caption && (
+              <figcaption className="content-image__caption">
+                {question.image.caption}
+              </figcaption>
+            )}
+          </figure>
+        ) : null}
+
         <h2 className="question-card__stem">{question.stem}</h2>
 
         <ChoiceList
