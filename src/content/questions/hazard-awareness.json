@@ -550,6 +550,11 @@
     "explanation": {
       "short": "Use dipped beam (high beam reflects in fog), front fog lights as needed, and the rear fog light only when visibility is under 50 m.",
       "examTip": "Switch the rear fog off the moment visibility improves — it dazzles drivers behind you."
+    },
+    "image": {
+      "src": "hazard-awareness/fog-light-thresholds.svg",
+      "alt": "Diagram showing visibility distance thresholds for fog light use, with 50 metres marked as the point below which rear fog lights should be switched on.",
+      "caption": "Fog light threshold — rear fog light required below 50 m visibility"
     }
   },
   {
@@ -587,6 +592,11 @@
     "explanation": {
       "short": "Brake lights, exhaust fumes, front wheels turned outward and a driver in the seat all signal a possible pull-out.",
       "examTip": "Open doors and pedestrians arriving with keys are other early warnings."
+    },
+    "image": {
+      "src": "hazard-awareness/parked-car-gap.svg",
+      "alt": "Diagram showing a gap between parked cars from the driver's perspective, highlighting the hazard zone where a vehicle may pull out.",
+      "caption": "Parked car about to pull out — watch the gap for cues"
     }
   },
   {
@@ -1008,6 +1018,11 @@
     "explanation": {
       "short": "A straight-going cyclist on a parallel cycle path has priority when you turn right across their line.",
       "examTip": "Always do a final blind-spot check over the right shoulder before turning right across a cycle path."
+    },
+    "image": {
+      "src": "hazard-awareness/blind-spot-cyclist.svg",
+      "alt": "Diagram showing a car about to turn right with a cyclist positioned in the right-side blind spot zone, unseen by the driver.",
+      "caption": "Cyclist in right-side blind spot when turning right"
     }
   },
   {

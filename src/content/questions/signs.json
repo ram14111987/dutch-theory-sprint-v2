@@ -34,6 +34,11 @@
     "explanation": {
       "short": "Triangular signs with a red border are warning signs and alert you to a hazard ahead.",
       "examTip": "Shape and colour tell you the category before you even read the symbol."
+    },
+    "image": {
+      "src": "signs/warning-triangle.svg",
+      "alt": "A red-bordered equilateral triangle pointing upward — the standard shape for Dutch warning signs.",
+      "caption": "Warning sign — red upward-pointing triangle"
     }
   },
   {
@@ -145,6 +150,11 @@
     "explanation": {
       "short": "The yellow diamond is the priority-road sign: traffic on this road has priority at intersections until cancelled.",
       "examTip": "The same sign with a black diagonal stripe means the priority road ends."
+    },
+    "image": {
+      "src": "signs/priority-diamond.svg",
+      "alt": "A yellow diamond-shaped sign with a white border indicating priority road status.",
+      "caption": "Priority road sign — yellow diamond"
     }
   },
   {
@@ -182,6 +192,11 @@
     "explanation": {
       "short": "The inverted triangle is the give-way (B6) sign: yield to traffic on the crossing road, but you do not have to stop if it is clear.",
       "examTip": "If the sign were octagonal and red (STOP), you would have to come to a full stop even with no traffic."
+    },
+    "image": {
+      "src": "signs/give-way-triangle.svg",
+      "alt": "An inverted triangle with a red border and white background — the Dutch give-way sign.",
+      "caption": "Give-way sign — inverted red-bordered triangle"
     }
   },
   {
