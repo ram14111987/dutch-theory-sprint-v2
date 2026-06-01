@@ -3,17 +3,33 @@
     "id": "parking-stopping-rules-001",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-where-forbidden",
-    "topicTags": ["definitions"],
+    "topicTags": [
+      "definitions"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "What is the legal difference between 'stopping' (stilstaan) and 'parking' (parkeren)?",
     "choices": [
-      { "id": "a", "text": "There is no legal difference" },
-      { "id": "b", "text": "Stopping is a brief halt to let someone in or out or to unload immediately; longer halts or leaving the vehicle counts as parking" },
-      { "id": "c", "text": "Stopping is only allowed at red lights" },
-      { "id": "d", "text": "Parking is only allowed at meters; stopping is allowed anywhere" }
+      {
+        "id": "a",
+        "text": "There is no legal difference"
+      },
+      {
+        "id": "b",
+        "text": "Stopping is a brief halt to let someone in or out or to unload immediately; longer halts or leaving the vehicle counts as parking"
+      },
+      {
+        "id": "c",
+        "text": "Stopping is only allowed at red lights"
+      },
+      {
+        "id": "d",
+        "text": "Parking is only allowed at meters; stopping is allowed anywhere"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Stopping is a brief halt for immediate boarding or unloading; anything longer is parking.",
       "examTip": "Some places forbid stopping; others forbid only parking — read the sign."
@@ -23,17 +39,33 @@
     "id": "parking-stopping-rules-002",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-where-forbidden",
-    "topicTags": ["yellow-line"],
+    "topicTags": [
+      "yellow-line"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "A continuous yellow line along the kerb means:",
     "choices": [
-      { "id": "a", "text": "Parking is forbidden, but you may stop briefly" },
-      { "id": "b", "text": "Stopping is forbidden, not even to let a passenger out" },
-      { "id": "c", "text": "Paid parking applies" },
-      { "id": "d", "text": "Reserved for residents" }
+      {
+        "id": "a",
+        "text": "Parking is forbidden, but you may stop briefly"
+      },
+      {
+        "id": "b",
+        "text": "Stopping is forbidden, not even to let a passenger out"
+      },
+      {
+        "id": "c",
+        "text": "Paid parking applies"
+      },
+      {
+        "id": "d",
+        "text": "Reserved for residents"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "A continuous yellow kerb line forbids stopping entirely.",
       "examTip": "A broken yellow line forbids only parking; brief stops are still allowed."
@@ -43,17 +75,33 @@
     "id": "parking-stopping-rules-003",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-where-forbidden",
-    "topicTags": ["junction"],
+    "topicTags": [
+      "junction"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "How close to a junction may you park?",
     "choices": [
-      { "id": "a", "text": "Up to the corner itself" },
-      { "id": "b", "text": "No closer than 5 metres" },
-      { "id": "c", "text": "No closer than 12 metres" },
-      { "id": "d", "text": "No closer than 25 metres" }
+      {
+        "id": "a",
+        "text": "Up to the corner itself"
+      },
+      {
+        "id": "b",
+        "text": "No closer than 5 metres"
+      },
+      {
+        "id": "c",
+        "text": "No closer than 12 metres"
+      },
+      {
+        "id": "d",
+        "text": "No closer than 25 metres"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "You may not park within 5 metres of a junction.",
       "examTip": "12 metres is the rule for bus stops, not junctions."
@@ -63,17 +111,33 @@
     "id": "parking-stopping-rules-004",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-where-forbidden",
-    "topicTags": ["bus-stop"],
+    "topicTags": [
+      "bus-stop"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "How far from a bus stop sign must you stay clear when parking?",
     "choices": [
-      { "id": "a", "text": "5 metres" },
-      { "id": "b", "text": "10 metres" },
-      { "id": "c", "text": "12 metres" },
-      { "id": "d", "text": "25 metres" }
+      {
+        "id": "a",
+        "text": "5 metres"
+      },
+      {
+        "id": "b",
+        "text": "10 metres"
+      },
+      {
+        "id": "c",
+        "text": "12 metres"
+      },
+      {
+        "id": "d",
+        "text": "25 metres"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "You must stay at least 12 metres clear of a bus stop sign.",
       "examTip": "This ensures the bus can pull in and out safely."
@@ -83,17 +147,33 @@
     "id": "parking-stopping-rules-005",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-where-forbidden",
-    "topicTags": ["pedestrian-crossing"],
+    "topicTags": [
+      "pedestrian-crossing"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "How close to a pedestrian crossing may you stop?",
     "choices": [
-      { "id": "a", "text": "Right at the crossing line" },
-      { "id": "b", "text": "Not within 5 metres before it" },
-      { "id": "c", "text": "Not within 10 metres before it" },
-      { "id": "d", "text": "Stopping there is always permitted" }
+      {
+        "id": "a",
+        "text": "Right at the crossing line"
+      },
+      {
+        "id": "b",
+        "text": "Not within 5 metres before it"
+      },
+      {
+        "id": "c",
+        "text": "Not within 10 metres before it"
+      },
+      {
+        "id": "d",
+        "text": "Stopping there is always permitted"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "You may not stop within 5 metres before a pedestrian crossing.",
       "examTip": "This rule preserves the sightline for both drivers and pedestrians."
@@ -103,17 +183,33 @@
     "id": "parking-stopping-rules-006",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-paid-and-zones",
-    "topicTags": ["blue-zone"],
+    "topicTags": [
+      "blue-zone"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "What does a blue line along the kerb indicate?",
     "choices": [
-      { "id": "a", "text": "Bus lane" },
-      { "id": "b", "text": "Disabled-only parking" },
-      { "id": "c", "text": "Blue zone — display a parking disc set to your arrival time" },
-      { "id": "d", "text": "No stopping at any time" }
+      {
+        "id": "a",
+        "text": "Bus lane"
+      },
+      {
+        "id": "b",
+        "text": "Disabled-only parking"
+      },
+      {
+        "id": "c",
+        "text": "Blue zone — display a parking disc set to your arrival time"
+      },
+      {
+        "id": "d",
+        "text": "No stopping at any time"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "A blue line marks a blue zone where a parking disc must be displayed.",
       "examTip": "Round the arrival time up to the next half-hour on the disc."
@@ -123,17 +219,33 @@
     "id": "parking-stopping-rules-007",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-paid-and-zones",
-    "topicTags": ["permit"],
+    "topicTags": [
+      "permit"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "A sign reads 'vergunninghouders'. As a visitor without a permit, may you park there?",
     "choices": [
-      { "id": "a", "text": "Yes, for up to 1 hour" },
-      { "id": "b", "text": "Yes, if you pay at a nearby meter" },
-      { "id": "c", "text": "No, the space is reserved for permit holders" },
-      { "id": "d", "text": "Yes, on Sundays only" }
+      {
+        "id": "a",
+        "text": "Yes, for up to 1 hour"
+      },
+      {
+        "id": "b",
+        "text": "Yes, if you pay at a nearby meter"
+      },
+      {
+        "id": "c",
+        "text": "No, the space is reserved for permit holders"
+      },
+      {
+        "id": "d",
+        "text": "Yes, on Sundays only"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "A 'vergunninghouders' sign reserves the space for permit holders only.",
       "examTip": "A combined sign with 'betaald' lets visitors pay; permit holders still park free."
@@ -143,17 +255,33 @@
     "id": "parking-stopping-rules-008",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-special-spaces",
-    "topicTags": ["disabled"],
+    "topicTags": [
+      "disabled"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "A bay shows the wheelchair symbol with no number plate on the sign. Who may use it?",
     "choices": [
-      { "id": "a", "text": "Any vehicle, briefly" },
-      { "id": "b", "text": "Only the specific permit holder whose plate is shown" },
-      { "id": "c", "text": "Any holder of a valid Dutch or European disabled parking card displaying it" },
-      { "id": "d", "text": "Electric vehicles only" }
+      {
+        "id": "a",
+        "text": "Any vehicle, briefly"
+      },
+      {
+        "id": "b",
+        "text": "Only the specific permit holder whose plate is shown"
+      },
+      {
+        "id": "c",
+        "text": "Any holder of a valid Dutch or European disabled parking card displaying it"
+      },
+      {
+        "id": "d",
+        "text": "Electric vehicles only"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "A general disabled bay is open to any valid cardholder displaying the card.",
       "examTip": "A bay with a specific plate on the sign is reserved for that one permit only."
@@ -163,17 +291,33 @@
     "id": "parking-stopping-rules-009",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-special-spaces",
-    "topicTags": ["ev-charging"],
+    "topicTags": [
+      "ev-charging"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You park an electric car in a bay marked 'opladen'. Once charging is finished you should:",
     "choices": [
-      { "id": "a", "text": "Leave the car there for the rest of the day" },
-      { "id": "b", "text": "Move the car so others can charge" },
-      { "id": "c", "text": "Disconnect the cable but leave the car" },
-      { "id": "d", "text": "Stay only if a permit is displayed" }
+      {
+        "id": "a",
+        "text": "Leave the car there for the rest of the day"
+      },
+      {
+        "id": "b",
+        "text": "Move the car so others can charge"
+      },
+      {
+        "id": "c",
+        "text": "Disconnect the cable but leave the car"
+      },
+      {
+        "id": "d",
+        "text": "Stay only if a permit is displayed"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Charging bays are for vehicles that are actively charging; move on when done.",
       "examTip": "Leaving a non-charging EV blocks the space and is fineable."
@@ -183,17 +327,33 @@
     "id": "parking-stopping-rules-010",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-special-spaces",
-    "topicTags": ["loading"],
+    "topicTags": [
+      "loading"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "A bay is signed 'laden en lossen'. You may park there to:",
     "choices": [
-      { "id": "a", "text": "Run a quick errand in a shop" },
-      { "id": "b", "text": "Actively load or unload goods, staying with the vehicle" },
-      { "id": "c", "text": "Wait for a passenger for up to 30 minutes" },
-      { "id": "d", "text": "Charge an electric vehicle" }
+      {
+        "id": "a",
+        "text": "Run a quick errand in a shop"
+      },
+      {
+        "id": "b",
+        "text": "Actively load or unload goods, staying with the vehicle"
+      },
+      {
+        "id": "c",
+        "text": "Wait for a passenger for up to 30 minutes"
+      },
+      {
+        "id": "d",
+        "text": "Charge an electric vehicle"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "A loading bay is for active loading or unloading only.",
       "examTip": "You must remain with the vehicle or be visibly handling goods."
@@ -203,17 +363,33 @@
     "id": "parking-stopping-rules-011",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-parking-position",
-    "topicTags": ["direction"],
+    "topicTags": [
+      "direction"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "On a normal two-way street, how must you park your car?",
     "choices": [
-      { "id": "a", "text": "Facing oncoming traffic on the left kerb" },
-      { "id": "b", "text": "Facing the direction of travel on your side of the road" },
-      { "id": "c", "text": "Either direction, on either side" },
-      { "id": "d", "text": "Only on the side with even house numbers" }
+      {
+        "id": "a",
+        "text": "Facing oncoming traffic on the left kerb"
+      },
+      {
+        "id": "b",
+        "text": "Facing the direction of travel on your side of the road"
+      },
+      {
+        "id": "c",
+        "text": "Either direction, on either side"
+      },
+      {
+        "id": "d",
+        "text": "Only on the side with even house numbers"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "You must park facing the direction of travel on your own side of the road.",
       "examTip": "On a one-way street you may park on either side, still facing forward."
@@ -223,17 +399,34 @@
     "id": "parking-stopping-rules-012",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-parking-position",
-    "topicTags": ["doors", "cyclists"],
+    "topicTags": [
+      "doors",
+      "cyclists"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "Before opening your door after parking, you must:",
     "choices": [
-      { "id": "a", "text": "Sound the horn to warn cyclists" },
-      { "id": "b", "text": "Open the door quickly to be visible" },
-      { "id": "c", "text": "Check the mirror and look over your shoulder for approaching cyclists" },
-      { "id": "d", "text": "Switch on the hazard lights" }
+      {
+        "id": "a",
+        "text": "Sound the horn to warn cyclists"
+      },
+      {
+        "id": "b",
+        "text": "Open the door quickly to be visible"
+      },
+      {
+        "id": "c",
+        "text": "Check the mirror and look over your shoulder for approaching cyclists"
+      },
+      {
+        "id": "d",
+        "text": "Switch on the hazard lights"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Always check mirror and blind spot before opening the door.",
       "examTip": "The driver who opens the door is liable for any collision."
@@ -243,17 +436,34 @@
     "id": "parking-stopping-rules-013",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-where-forbidden",
-    "topicTags": ["intersection", "distance"],
+    "topicTags": [
+      "intersection",
+      "distance"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "How close to an intersection may you park where parking is not separately signed?",
     "choices": [
-      { "id": "a", "text": "Up to the kerb of the intersection" },
-      { "id": "b", "text": "Not within 5 metres of the intersection" },
-      { "id": "c", "text": "Not within 50 metres of the intersection" },
-      { "id": "d", "text": "Anywhere as long as you do not block traffic" }
+      {
+        "id": "a",
+        "text": "Up to the kerb of the intersection"
+      },
+      {
+        "id": "b",
+        "text": "Not within 5 metres of the intersection"
+      },
+      {
+        "id": "c",
+        "text": "Not within 50 metres of the intersection"
+      },
+      {
+        "id": "d",
+        "text": "Anywhere as long as you do not block traffic"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Parking is forbidden within 5 metres of an intersection so other road users can see across it.",
       "examTip": "The same 5-metre rule applies near pedestrian crossings and bus stops."
@@ -263,17 +473,34 @@
     "id": "parking-stopping-rules-014",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-where-forbidden",
-    "topicTags": ["yellow-line", "broken"],
+    "topicTags": [
+      "yellow-line",
+      "broken"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "A broken yellow line is painted along the kerb. What does it mean?",
     "choices": [
-      { "id": "a", "text": "No stopping, even briefly" },
-      { "id": "b", "text": "No parking, but stopping (to drop off or pick up) is allowed" },
-      { "id": "c", "text": "Loading bay for trucks only" },
-      { "id": "d", "text": "Reserved for taxis" }
+      {
+        "id": "a",
+        "text": "No stopping, even briefly"
+      },
+      {
+        "id": "b",
+        "text": "No parking, but stopping (to drop off or pick up) is allowed"
+      },
+      {
+        "id": "c",
+        "text": "Loading bay for trucks only"
+      },
+      {
+        "id": "d",
+        "text": "Reserved for taxis"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Broken yellow line = no parking; a continuous yellow line = no stopping at all.",
       "examTip": "Remember: continuous = stricter."
@@ -283,17 +510,34 @@
     "id": "parking-stopping-rules-015",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-parking-position",
-    "topicTags": ["direction", "kerb"],
+    "topicTags": [
+      "direction",
+      "kerb"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "On a two-way road, you should park your car:",
     "choices": [
-      { "id": "a", "text": "On either side, in either direction" },
-      { "id": "b", "text": "On the right kerb, facing the direction of travel" },
-      { "id": "c", "text": "On the left kerb, facing oncoming traffic" },
-      { "id": "d", "text": "Diagonally across the kerb to save space" }
+      {
+        "id": "a",
+        "text": "On either side, in either direction"
+      },
+      {
+        "id": "b",
+        "text": "On the right kerb, facing the direction of travel"
+      },
+      {
+        "id": "c",
+        "text": "On the left kerb, facing oncoming traffic"
+      },
+      {
+        "id": "d",
+        "text": "Diagonally across the kerb to save space"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Park on the right-hand side facing the direction you were driving, parallel to the kerb.",
       "examTip": "Parking against the flow is allowed only in one-way streets where signed."
@@ -303,17 +547,34 @@
     "id": "parking-stopping-rules-016",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-special-spaces",
-    "topicTags": ["disabled-bay", "permit"],
+    "topicTags": [
+      "disabled-bay",
+      "permit"
+    ],
     "type": "single",
     "difficulty": "easy",
     "stem": "May you park briefly in a disabled bay to load shopping if you do not have a disabled permit?",
     "choices": [
-      { "id": "a", "text": "Yes, for up to 5 minutes" },
-      { "id": "b", "text": "Yes, if no disabled driver is around" },
-      { "id": "c", "text": "No — disabled bays are reserved at all times for permit holders" },
-      { "id": "d", "text": "Only after 19:00" }
+      {
+        "id": "a",
+        "text": "Yes, for up to 5 minutes"
+      },
+      {
+        "id": "b",
+        "text": "Yes, if no disabled driver is around"
+      },
+      {
+        "id": "c",
+        "text": "No — disabled bays are reserved at all times for permit holders"
+      },
+      {
+        "id": "d",
+        "text": "Only after 19:00"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "Disabled parking bays are reserved 24/7 for vehicles displaying a valid disabled parking permit.",
       "examTip": "Fines for misuse are high and the vehicle can be towed."
@@ -323,17 +584,35 @@
     "id": "parking-stopping-rules-017",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-where-forbidden",
-    "topicTags": ["scenario", "school", "zigzag"],
+    "topicTags": [
+      "scenario",
+      "school",
+      "zigzag"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You are dropping your child at school. The kerb outside has yellow zigzag markings and you would only stop for ten seconds. Is this allowed?",
     "choices": [
-      { "id": "a", "text": "Yes — brief stops on zigzags are allowed" },
-      { "id": "b", "text": "Yes — anywhere is allowed for under one minute" },
-      { "id": "c", "text": "No — yellow school zigzags forbid even brief stopping during school hours" },
-      { "id": "d", "text": "Only if you keep the engine running" }
+      {
+        "id": "a",
+        "text": "Yes — brief stops on zigzags are allowed"
+      },
+      {
+        "id": "b",
+        "text": "Yes — anywhere is allowed for under one minute"
+      },
+      {
+        "id": "c",
+        "text": "No — yellow school zigzags forbid even brief stopping during school hours"
+      },
+      {
+        "id": "d",
+        "text": "Only if you keep the engine running"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "School zigzag markings prohibit stopping during school hours — park elsewhere and walk the last metres.",
       "examTip": "Sight-lines for crossing children depend on these markings being clear."
@@ -343,17 +622,35 @@
     "id": "parking-stopping-rules-018",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-paid-and-zones",
-    "topicTags": ["scenario", "blue-zone", "disc"],
+    "topicTags": [
+      "scenario",
+      "blue-zone",
+      "disc"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You arrive at a blue zone bay at 14:08 with a 60-minute maximum. To what time must you set your parking disc?",
     "choices": [
-      { "id": "a", "text": "14:00, the previous hour" },
-      { "id": "b", "text": "14:08, your actual arrival time" },
-      { "id": "c", "text": "14:30, the next half-hour after arrival" },
-      { "id": "d", "text": "15:08, one hour after arrival" }
+      {
+        "id": "a",
+        "text": "14:00, the previous hour"
+      },
+      {
+        "id": "b",
+        "text": "14:08, your actual arrival time"
+      },
+      {
+        "id": "c",
+        "text": "14:30, the next half-hour after arrival"
+      },
+      {
+        "id": "d",
+        "text": "15:08, one hour after arrival"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "In a blue zone, set the disc to the next half-hour after you actually arrive — 14:30 in this case.",
       "examTip": "You must leave by 15:30; resetting the disc without moving the car is a fine."
@@ -363,17 +660,34 @@
     "id": "parking-stopping-rules-019",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-special-spaces",
-    "topicTags": ["scenario", "ev-charging"],
+    "topicTags": [
+      "scenario",
+      "ev-charging"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You drive an electric car. You finished charging at a public charging bay 30 minutes ago and the bay is busy at this hour. What is the correct action?",
     "choices": [
-      { "id": "a", "text": "Stay parked — the bay is yours until you leave" },
-      { "id": "b", "text": "Move the car to a normal parking bay so others can charge" },
-      { "id": "c", "text": "Restart the charging session for a few minutes to reset the timer" },
-      { "id": "d", "text": "Block the bay with a barrier to reserve it" }
+      {
+        "id": "a",
+        "text": "Stay parked — the bay is yours until you leave"
+      },
+      {
+        "id": "b",
+        "text": "Move the car to a normal parking bay so others can charge"
+      },
+      {
+        "id": "c",
+        "text": "Restart the charging session for a few minutes to reset the timer"
+      },
+      {
+        "id": "d",
+        "text": "Block the bay with a barrier to reserve it"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "EV charging bays are for vehicles that are actively charging — once full, move on.",
       "examTip": "Many cities apply an idle fee or fine for blocking a charger after charging has ended."
@@ -383,17 +697,35 @@
     "id": "parking-stopping-rules-020",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-parking-position",
-    "topicTags": ["scenario", "door", "cyclist"],
+    "topicTags": [
+      "scenario",
+      "door",
+      "cyclist"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You have parked at the kerb in a busy city street. Before opening the driver's door, what should you do?",
     "choices": [
-      { "id": "a", "text": "Open quickly to avoid blocking traffic" },
-      { "id": "b", "text": "Check the mirror and look over the shoulder for cyclists, then open with the far hand (Dutch reach)" },
-      { "id": "c", "text": "Sound the horn first" },
-      { "id": "d", "text": "Open the door wide so cyclists see it from a distance" }
+      {
+        "id": "a",
+        "text": "Open quickly to avoid blocking traffic"
+      },
+      {
+        "id": "b",
+        "text": "Check the mirror and look over the shoulder for cyclists, then open with the far hand (Dutch reach)"
+      },
+      {
+        "id": "c",
+        "text": "Sound the horn first"
+      },
+      {
+        "id": "d",
+        "text": "Open the door wide so cyclists see it from a distance"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "The Dutch reach forces a shoulder twist that helps you see an approaching cyclist before opening.",
       "examTip": "The driver who opens the door is liable for any collision with a passing cyclist."
@@ -403,17 +735,35 @@
     "id": "parking-stopping-rules-021",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-where-forbidden",
-    "topicTags": ["scenario", "zebra", "distance"],
+    "topicTags": [
+      "scenario",
+      "zebra",
+      "distance"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You want to drop a passenger right before a zebra crossing. How close to a pedestrian crossing may you stop?",
     "choices": [
-      { "id": "a", "text": "Immediately at the crossing, as long as you keep the engine running" },
-      { "id": "b", "text": "Not within 5 metres in front of the crossing — pedestrians must be able to see and be seen" },
-      { "id": "c", "text": "Anywhere, as long as you do not block other cars" },
-      { "id": "d", "text": "Only on a Sunday" }
+      {
+        "id": "a",
+        "text": "Immediately at the crossing, as long as you keep the engine running"
+      },
+      {
+        "id": "b",
+        "text": "Not within 5 metres in front of the crossing — pedestrians must be able to see and be seen"
+      },
+      {
+        "id": "c",
+        "text": "Anywhere, as long as you do not block other cars"
+      },
+      {
+        "id": "d",
+        "text": "Only on a Sunday"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Stopping or parking within 5 metres of a zebra crossing is forbidden — it hides pedestrians from approaching drivers.",
       "examTip": "Park or stop 5 m before, never on, a zebra: a child stepping out from behind a stopped car is a classic CBR scenario."
@@ -423,17 +773,35 @@
     "id": "parking-stopping-rules-022",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-paid-and-zones",
-    "topicTags": ["scenario", "blue-zone", "disc"],
+    "topicTags": [
+      "scenario",
+      "blue-zone",
+      "disc"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You arrive at a blue-zone bay at 11:47 with a 2-hour maximum, planning to stay 1 hour. To what time must you set your parking disc?",
     "choices": [
-      { "id": "a", "text": "11:47 — the exact arrival time" },
-      { "id": "b", "text": "12:00 — the next full or half hour after arrival" },
-      { "id": "c", "text": "12:47 — one hour later, the planned departure" },
-      { "id": "d", "text": "13:47 — the maximum allowed end time" }
+      {
+        "id": "a",
+        "text": "11:47 — the exact arrival time"
+      },
+      {
+        "id": "b",
+        "text": "12:00 — the next full or half hour after arrival"
+      },
+      {
+        "id": "c",
+        "text": "12:47 — one hour later, the planned departure"
+      },
+      {
+        "id": "d",
+        "text": "13:47 — the maximum allowed end time"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "In Dutch blue zones, the parking disc must be set to the next full or half hour following your actual arrival time.",
       "examTip": "Even if you intend to leave earlier, the disc must always be rounded forward — never backward."
@@ -443,17 +811,35 @@
     "id": "parking-stopping-rules-023",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-special-spaces",
-    "topicTags": ["scenario", "ev", "charging"],
+    "topicTags": [
+      "scenario",
+      "ev",
+      "charging"
+    ],
     "type": "single",
     "difficulty": "hard",
     "stem": "Your electric car has finished charging in a public bay marked 'opladen'. You are eating lunch nearby and the bay is the only one free for waiting EVs. What must you do?",
     "choices": [
-      { "id": "a", "text": "Stay parked until you finish lunch — you paid for the bay" },
-      { "id": "b", "text": "Move the car as soon as charging has finished, so another EV driver can use the bay" },
-      { "id": "c", "text": "Leave the car overnight to be safe" },
-      { "id": "d", "text": "Only move it if another EV driver complains" }
+      {
+        "id": "a",
+        "text": "Stay parked until you finish lunch — you paid for the bay"
+      },
+      {
+        "id": "b",
+        "text": "Move the car as soon as charging has finished, so another EV driver can use the bay"
+      },
+      {
+        "id": "c",
+        "text": "Leave the car overnight to be safe"
+      },
+      {
+        "id": "d",
+        "text": "Only move it if another EV driver complains"
+      }
     ],
-    "correctChoiceIds": ["b"],
+    "correctChoiceIds": [
+      "b"
+    ],
     "explanation": {
       "short": "Bays marked 'opladen' are for active charging only. Once charging is complete, you must move the car so the bay stays available.",
       "examTip": "Many Dutch municipalities will fine drivers who occupy a charging bay without actively charging."
@@ -463,20 +849,342 @@
     "id": "parking-stopping-rules-024",
     "moduleId": "parking-stopping-rules",
     "lessonId": "parking-stopping-parking-position",
-    "topicTags": ["scenario", "one-way", "direction"],
+    "topicTags": [
+      "scenario",
+      "one-way",
+      "direction"
+    ],
     "type": "single",
     "difficulty": "medium",
     "stem": "You park on a one-way street with cars on both sides. How should your car be facing?",
     "choices": [
-      { "id": "a", "text": "Always with traffic flow" },
-      { "id": "b", "text": "Always against traffic flow" },
-      { "id": "c", "text": "Either direction is allowed on a one-way street" },
-      { "id": "d", "text": "Whichever side gives the better space, but always against traffic flow" }
+      {
+        "id": "a",
+        "text": "Always with traffic flow"
+      },
+      {
+        "id": "b",
+        "text": "Always against traffic flow"
+      },
+      {
+        "id": "c",
+        "text": "Either direction is allowed on a one-way street"
+      },
+      {
+        "id": "d",
+        "text": "Whichever side gives the better space, but always against traffic flow"
+      }
     ],
-    "correctChoiceIds": ["c"],
+    "correctChoiceIds": [
+      "c"
+    ],
     "explanation": {
       "short": "On a one-way street you may park facing either direction, because there is no oncoming traffic to confuse.",
       "examTip": "On two-way streets you must always park in the direction of travel — only one-way streets allow either direction."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-025",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": [
+      "yellow-line",
+      "kerb",
+      "prohibition"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You see a continuous yellow line painted on the kerb of a road. What does this marking mean?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Loading and unloading is prohibited here"
+      },
+      {
+        "id": "b",
+        "text": "Stopping and parking are prohibited for all vehicles at all times"
+      },
+      {
+        "id": "c",
+        "text": "Parking is prohibited, but a brief stop to drop someone off is permitted"
+      },
+      {
+        "id": "d",
+        "text": "Parking is restricted to residents only"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "In the Netherlands, a continuous yellow line on the kerb means stopping and parking are both prohibited at all times.",
+      "examTip": "Yellow kerb line = no stopping at all, around the clock. It is a stronger prohibition than a no-parking sign, which allows brief stops."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-026",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": [
+      "tram-stop",
+      "distance",
+      "prohibition"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You want to park near a tram stop. The nearest tram stop sign is 10 metres away. Is this allowed?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes — 10 metres is a sufficient distance from a tram stop"
+      },
+      {
+        "id": "b",
+        "text": "No — you must not park within 12 metres of a tram or bus stop sign"
+      },
+      {
+        "id": "c",
+        "text": "Yes — distance rules only apply to bus stops, not tram stops"
+      },
+      {
+        "id": "d",
+        "text": "Yes, if you display a valid parking disc"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "You must not park within 12 metres of a tram or bus stop sign. At 10 metres, you are inside the prohibited zone.",
+      "examTip": "The 12-metre rule ensures passengers can board and alight safely without obstruction. It applies to both tram and bus stops."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-027",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": [
+      "narrow-road",
+      "three-metres",
+      "obstruction"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You want to park on a narrow two-way street. After parking, only 2.5 metres of road remain for other traffic. May you park here?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes — 2.5 metres is enough for a single car to pass"
+      },
+      {
+        "id": "b",
+        "text": "No — parking is forbidden if less than 3 metres of road remains free for traffic"
+      },
+      {
+        "id": "c",
+        "text": "Yes, but only if you turn your hazard lights on"
+      },
+      {
+        "id": "d",
+        "text": "Yes, as long as a fire truck can still pass"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Dutch law requires at least 3 metres of road to remain free for traffic when you park. Leaving only 2.5 metres means you are obstructing the road.",
+      "examTip": "3 metres is the minimum clearance for one lane of traffic. Emergency vehicles need even more — do not park where you create an obstruction."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-028",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": [
+      "junction",
+      "corner",
+      "visibility"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You want to park your car 4 metres from the corner of a junction. Is this allowed?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes — there is no minimum distance rule for parking near junctions"
+      },
+      {
+        "id": "b",
+        "text": "Yes — only bus stops and pedestrian crossings have distance restrictions"
+      },
+      {
+        "id": "c",
+        "text": "No — you must not park within 5 metres of a junction corner"
+      },
+      {
+        "id": "d",
+        "text": "Only if no no-parking signs are visible near the junction"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Parking is forbidden within 5 metres of a junction corner. At 4 metres you are inside this prohibited zone — parking here obstructs sight lines for all road users.",
+      "examTip": "The 5-metre junction rule protects visibility for drivers approaching from any direction. It applies automatically, even without a sign."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-029",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-special-spaces",
+    "topicTags": [
+      "loading-zone",
+      "private-car",
+      "restriction"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A parking space is marked 'laden en lossen' (loading and unloading). You want to park your private car here for 30 minutes to go shopping. Is this allowed?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes — 30 minutes is short enough for a loading zone"
+      },
+      {
+        "id": "b",
+        "text": "Yes, if no goods vehicle is waiting to use the space"
+      },
+      {
+        "id": "c",
+        "text": "No — loading zones are only for the active transfer of goods, not for general parking"
+      },
+      {
+        "id": "d",
+        "text": "Only if you display a parking disc showing your arrival time"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "A 'laden en lossen' bay is reserved for the active loading or unloading of goods. Using it to go shopping — even briefly — is not a permitted use.",
+      "examTip": "If you are actively transferring packages or goods between your vehicle and a building, you may use the bay. Shopping on foot does not count as loading."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-030",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-parking-position",
+    "topicTags": [
+      "hill",
+      "wheels",
+      "handbrake"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You park facing downhill with a kerb on your right side. Which way should you turn your front wheels before getting out?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Left — away from the kerb — so the car turns away from traffic if it rolls"
+      },
+      {
+        "id": "b",
+        "text": "Right — into the kerb — so the front wheel catches the kerb if the car rolls forward"
+      },
+      {
+        "id": "c",
+        "text": "Straight ahead — turning them makes the steering unnecessarily heavy"
+      },
+      {
+        "id": "d",
+        "text": "It does not matter as long as the handbrake is fully applied"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Facing downhill with a kerb to the right: turn wheels right (toward the kerb). If the car rolls forward, the right-front wheel catches the kerb and stops the vehicle.",
+      "examTip": "Simple rule — downhill with kerb: wheels INTO the kerb. Uphill with kerb: wheels AWAY from the kerb. No kerb: wheels toward the road edge in both cases."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-031",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": [
+      "motorway",
+      "hard-shoulder",
+      "breakdown"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Your car breaks down and you must stop on the motorway hard shoulder. What is the most important first action after stopping?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Phone your breakdown service and wait inside the car for help"
+      },
+      {
+        "id": "b",
+        "text": "Switch on hazard lights immediately, then get all occupants out of the car and behind the crash barrier"
+      },
+      {
+        "id": "c",
+        "text": "Stand behind the car to wave traffic past"
+      },
+      {
+        "id": "d",
+        "text": "Place the warning triangle 1 metre behind the car"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Hazard lights first, then get everyone out of the car and behind the safety barrier as quickly as possible. The hard shoulder is extremely dangerous — a drifting vehicle can hit a stationary car in seconds.",
+      "examTip": "Hard shoulder priority order: hazard lights → occupants behind barrier → warning triangle (at least 50 m back) → phone for help. Never stand between the car and moving traffic."
+    }
+  },
+  {
+    "id": "parking-stopping-rules-032",
+    "moduleId": "parking-stopping-rules",
+    "lessonId": "parking-stopping-where-forbidden",
+    "topicTags": [
+      "bus-stop",
+      "brief-stop",
+      "prohibition"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "You want to drop a passenger directly in front of a marked bus stop bay. No bus is currently present. Is a very brief stop of 30 seconds permitted?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes — dropping someone off is not parking, so it is allowed anywhere"
+      },
+      {
+        "id": "b",
+        "text": "Yes, but only outside bus operating hours"
+      },
+      {
+        "id": "c",
+        "text": "No — stopping in a marked bus stop bay is prohibited for non-buses regardless of duration"
+      },
+      {
+        "id": "d",
+        "text": "Only if another person stays in the car to move it immediately if a bus approaches"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "A marked bus stop bay is a no-stopping zone for all non-bus vehicles at all times. Even a 30-second drop-off is not permitted — stop elsewhere.",
+      "examTip": "The distinction between stopping and parking matters in many places, but not at bus stop bays — both are forbidden there."
     }
   }
 ]

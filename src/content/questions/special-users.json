@@ -886,5 +886,233 @@
       "short": "The duty to give way to a genuine priority vehicle outweighs the red signal, done safely at walking pace.",
       "examTip": "Only move when no one is endangered — never lurch blindly into the junction."
     }
+  },
+  {
+    "id": "special-users-025",
+    "moduleId": "special-users",
+    "lessonId": "special-users-cyclists-mopeds",
+    "topicTags": [
+      "snorfiets",
+      "cycle-path",
+      "speed"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A snorfiets (blue licence plate, maximum 25 km/h) reaches a stretch of road that has a cycle path alongside it. What must the rider do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Use the carriageway, because all mopeds are motor vehicles and must use the road"
+      },
+      {
+        "id": "b",
+        "text": "Use the cycle path, because snorfietsen must use the cycle path where one is available"
+      },
+      {
+        "id": "c",
+        "text": "Use either — the rider may choose whichever is more convenient"
+      },
+      {
+        "id": "d",
+        "text": "Use the cycle path only if a speed sign shows less than 30 km/h"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "In the Netherlands, snorfietsen (blue plate, max 25 km/h) must use the cycle path where one is available — they may not use the carriageway.",
+      "examTip": "Snorfiets (blue plate) = cycle path. Bromfiets (yellow plate, max 45 km/h) = carriageway. The plate colour tells you the rule."
+    }
+  },
+  {
+    "id": "special-users-026",
+    "moduleId": "special-users",
+    "lessonId": "special-users-cyclists-mopeds",
+    "topicTags": [
+      "cyclist",
+      "roundabout",
+      "priority"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "A cyclist is already on a Dutch roundabout crossing the exit you want to use to leave. Who has priority?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "You — you are in a car and leaving the roundabout"
+      },
+      {
+        "id": "b",
+        "text": "The cyclist — they are already on the roundabout and have priority over exiting vehicles"
+      },
+      {
+        "id": "c",
+        "text": "You — cars always have priority over cyclists on roundabouts"
+      },
+      {
+        "id": "d",
+        "text": "Whoever reaches the exit road first"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A cyclist circulating on a roundabout has priority over a car leaving it. The give-way markings at roundabout exits confirm this — yield to all circulating traffic, including cyclists.",
+      "examTip": "On many modern Dutch roundabouts, cycle paths cross each exit. Where a cycle path crosses your exit, the cyclist on that path also has priority."
+    }
+  },
+  {
+    "id": "special-users-027",
+    "moduleId": "special-users",
+    "lessonId": "special-users-cyclists-mopeds",
+    "topicTags": [
+      "horse",
+      "passing-distance",
+      "speed"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are on a country road and want to pass a horse and rider. The rider signals you to wait. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sound the horn gently to warn the horse you are there"
+      },
+      {
+        "id": "b",
+        "text": "Pass quickly to minimise the time the horse is near traffic"
+      },
+      {
+        "id": "c",
+        "text": "Wait until the rider signals it is safe to pass, then pass slowly giving as much space as possible"
+      },
+      {
+        "id": "d",
+        "text": "Move to the centre of the road and pass at 30 km/h"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Horses can spook suddenly from engine noise or quick movements. Always wait for the rider's signal, then pass very slowly — at walking pace if needed — with as much lateral space as possible.",
+      "examTip": "Never sound your horn near a horse. Slow, quiet, and wide is the rule. A startled horse can cause serious injury to both rider and driver."
+    }
+  },
+  {
+    "id": "special-users-028",
+    "moduleId": "special-users",
+    "lessonId": "special-users-trams-buses-rail",
+    "topicTags": [
+      "tram",
+      "intersection",
+      "priority"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You arrive at an intersection at the same time as a tram coming from your left. There are no lights or signs. Who must yield?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The tram — it is on your left, so you have right of way"
+      },
+      {
+        "id": "b",
+        "text": "You — trams always have priority over motor vehicles at intersections"
+      },
+      {
+        "id": "c",
+        "text": "Whoever arrived at the intersection first"
+      },
+      {
+        "id": "d",
+        "text": "The tram, if it is moving faster than you are"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Trams have priority over all motor vehicles at intersections, regardless of which direction they approach from. This rule overrides the normal right-of-way principle.",
+      "examTip": "Do not apply the right-has-priority rule to trams — trams always win at intersections."
+    }
+  },
+  {
+    "id": "special-users-029",
+    "moduleId": "special-users",
+    "lessonId": "special-users-pedestrians-crossings",
+    "topicTags": [
+      "pedestrian",
+      "pram",
+      "zebra"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A person pushing a pram is waiting at a zebra crossing and is about to step onto the road. Are they entitled to the same right of way as any other pedestrian?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No — only walking pedestrians have zebra-crossing rights"
+      },
+      {
+        "id": "b",
+        "text": "No — a pram counts as a vehicle"
+      },
+      {
+        "id": "c",
+        "text": "Yes — a person pushing a pram is a pedestrian and has full right of way at a zebra crossing"
+      },
+      {
+        "id": "d",
+        "text": "Only if the pram is not wider than 80 cm"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "A person pushing a pram, wheelchair, or mobility device is classified as a pedestrian. They have the same right of way at a zebra crossing as anyone on foot.",
+      "examTip": "Wheelchair users, people with pushchairs, and those using walking aids all count as pedestrians for right-of-way purposes."
+    }
+  },
+  {
+    "id": "special-users-030",
+    "moduleId": "special-users",
+    "lessonId": "special-users-cyclists-mopeds",
+    "topicTags": [
+      "cyclist",
+      "blind-spot",
+      "right-turn"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "You indicate to turn right. A cyclist is in the cycle lane to your right, travelling straight on at the same speed. You cannot see them in your mirrors. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Turn right — your indicator is on and the cyclist must yield to a turning vehicle"
+      },
+      {
+        "id": "b",
+        "text": "Check your right blind spot, let the cyclist pass, then turn"
+      },
+      {
+        "id": "c",
+        "text": "Accelerate slightly to turn before the cyclist draws level"
+      },
+      {
+        "id": "d",
+        "text": "Sound the horn so the cyclist knows you are turning"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A cyclist going straight on in a cycle lane always has priority over a car turning right. Check the right blind spot, confirm the cyclist has passed, and only then turn.",
+      "examTip": "The right hook — turning right across an unseen cyclist — is one of the most common fatal cycling accidents. Always check the right blind spot last, immediately before turning."
+    }
   }
 ]

@@ -255,7 +255,7 @@
     ],
     "explanation": {
       "short": "Total stopping distance is the sum of how far you travel while reacting and how far you travel while braking.",
-      "examTip": "Both components grow with speed, but braking grows much faster \u2014 so high speeds dominate the total."
+      "examTip": "Both components grow with speed, but braking grows much faster — so high speeds dominate the total."
     }
   },
   {
@@ -292,7 +292,7 @@
     ],
     "explanation": {
       "short": "A wet road can roughly double braking distance compared to dry tarmac.",
-      "examTip": "Worn tyres make the effect worse \u2014 reduce speed in advance rather than relying on hard braking."
+      "examTip": "Worn tyres make the effect worse — reduce speed in advance rather than relying on hard braking."
     }
   },
   {
@@ -329,7 +329,7 @@
     ],
     "explanation": {
       "short": "Your speed must always let you stop within the distance you can see to be clear, even well below the signed limit.",
-      "examTip": "Speed limits are upper bounds \u2014 conditions can require a much lower speed."
+      "examTip": "Speed limits are upper bounds — conditions can require a much lower speed."
     }
   },
   {
@@ -379,7 +379,7 @@
     ],
     "type": "single",
     "difficulty": "easy",
-    "stem": "What is the standard daytime (06:00\u201319:00) speed limit on Dutch motorways for cars?",
+    "stem": "What is the standard daytime (06:00–19:00) speed limit on Dutch motorways for cars?",
     "choices": [
       {
         "id": "a",
@@ -403,7 +403,7 @@
     ],
     "explanation": {
       "short": "Since 2020 the default daytime motorway limit is 100 km/h; higher limits apply only where signed and only at night.",
-      "examTip": "Always obey the signed limit \u2014 it overrides the default in either direction."
+      "examTip": "Always obey the signed limit — it overrides the default in either direction."
     }
   },
   {
@@ -440,7 +440,7 @@
     ],
     "explanation": {
       "short": "Inside a built-up area the default limit is 50 km/h unless lower limits (30 km/h zones) are signed.",
-      "examTip": "Leaving the area is shown by the same sign with a red diagonal bar \u2014 default rises to 80 km/h."
+      "examTip": "Leaving the area is shown by the same sign with a red diagonal bar — default rises to 80 km/h."
     }
   },
   {
@@ -514,7 +514,7 @@
     ],
     "explanation": {
       "short": "Braking distance grows with the square of speed, so doubling speed roughly quadruples it.",
-      "examTip": "Reaction distance only doubles \u2014 but the squared effect on braking is what makes high-speed crashes severe."
+      "examTip": "Reaction distance only doubles — but the squared effect on braking is what makes high-speed crashes severe."
     }
   },
   {
@@ -626,7 +626,7 @@
     ],
     "explanation": {
       "short": "Between 06:00 and 19:00 cars are capped at 100 km/h regardless of higher signed limits.",
-      "examTip": "The 130 km/h sign only applies at night \u2014 100 km/h is the legal max during the day."
+      "examTip": "The 130 km/h sign only applies at night — 100 km/h is the legal max during the day."
     }
   },
   {
@@ -644,19 +644,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "About 12 m \u2014 speed has not changed"
+        "text": "About 12 m — speed has not changed"
       },
       {
         "id": "b",
-        "text": "About 24 m \u2014 wet roads roughly double braking distance"
+        "text": "About 24 m — wet roads roughly double braking distance"
       },
       {
         "id": "c",
-        "text": "About 6 m \u2014 water lubricates the brakes"
+        "text": "About 6 m — water lubricates the brakes"
       },
       {
         "id": "d",
-        "text": "About 50 m \u2014 wet roads quadruple braking distance"
+        "text": "About 50 m — wet roads quadruple braking distance"
       }
     ],
     "correctChoiceIds": [
@@ -683,7 +683,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Keep the 2-second gap \u2014 it is correct for any speed"
+        "text": "Keep the 2-second gap — it is correct for any speed"
       },
       {
         "id": "b",
@@ -695,7 +695,7 @@
       },
       {
         "id": "d",
-        "text": "Overtake immediately \u2014 the first rain is always brief"
+        "text": "Overtake immediately — the first rain is always brief"
       }
     ],
     "correctChoiceIds": [
@@ -721,7 +721,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Main beam only \u2014 to cut through the fog"
+        "text": "Main beam only — to cut through the fog"
       },
       {
         "id": "b",
@@ -741,7 +741,7 @@
     ],
     "explanation": {
       "short": "Front fog lights below 200 m visibility; rear fog lights only below 50 m. At 40 m visibility both are allowed.",
-      "examTip": "Switch rear fog lights off as soon as visibility improves \u2014 they dazzle the driver behind you."
+      "examTip": "Switch rear fog lights off as soon as visibility improves — they dazzle the driver behind you."
     }
   },
   {
@@ -759,7 +759,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "One second \u2014 you are paying attention"
+        "text": "One second — you are paying attention"
       },
       {
         "id": "b",
@@ -818,6 +818,386 @@
     "explanation": {
       "short": "A 'zone 30' sign sets 30 km/h for the entire zone until the cancellation sign; design and behaviour should match that limit.",
       "examTip": "Do not confuse a 30 km/h zone with a woonerf — in a woonerf the limit is walking pace (about 15 km/h)."
+    }
+  },
+  {
+    "id": "speed-stopping-023",
+    "moduleId": "speed-stopping",
+    "lessonId": "stopping-distance",
+    "topicTags": [
+      "reaction-distance",
+      "speed",
+      "calculation"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Travelling at 50 km/h with a 1-second reaction time, approximately how far does your car travel before you even begin to brake?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Approximately 7 metres"
+      },
+      {
+        "id": "b",
+        "text": "Approximately 14 metres"
+      },
+      {
+        "id": "c",
+        "text": "Approximately 25 metres"
+      },
+      {
+        "id": "d",
+        "text": "Approximately 35 metres"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "At 50 km/h (roughly 14 m/s) you travel about 14 metres in 1 second before your foot reaches the brake.",
+      "examTip": "Quick formula: speed in km/h divided by 3.6 gives metres per second. At 50 km/h: 50 ÷ 3.6 ≈ 14 m/s."
+    }
+  },
+  {
+    "id": "speed-stopping-024",
+    "moduleId": "speed-stopping",
+    "lessonId": "stopping-distance",
+    "topicTags": [
+      "braking-distance",
+      "speed-squared",
+      "physics"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "If your braking distance at 50 km/h is 14 metres on a dry road, approximately what is it at 100 km/h on the same road?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "About 28 metres — braking distance doubles with speed"
+      },
+      {
+        "id": "b",
+        "text": "About 42 metres — braking distance triples with speed"
+      },
+      {
+        "id": "c",
+        "text": "About 56 metres — braking distance quadruples when speed doubles"
+      },
+      {
+        "id": "d",
+        "text": "About 70 metres — braking distance quintuples with speed"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Braking distance increases with the square of speed. Doubling speed from 50 to 100 km/h means 2² = 4 times the braking distance: 14 × 4 = 56 metres.",
+      "examTip": "Speed doubled → braking distance quadrupled. This is one of the most important physics principles on the CBR exam."
+    }
+  },
+  {
+    "id": "speed-stopping-025",
+    "moduleId": "speed-stopping",
+    "lessonId": "speed-limits",
+    "topicTags": [
+      "woonerf",
+      "shared-space",
+      "speed"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You drive into a street marked with a 'woonerf' (shared residential space) sign. What is the maximum permitted speed?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "10 km/h"
+      },
+      {
+        "id": "b",
+        "text": "15 km/h"
+      },
+      {
+        "id": "c",
+        "text": "20 km/h"
+      },
+      {
+        "id": "d",
+        "text": "30 km/h"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "In a woonerf (shared play-street), the maximum speed is 15 km/h — walking pace — because pedestrians, children, and play are expected on the road surface.",
+      "examTip": "Woonerf = 15 km/h. Do not confuse with a 30 km/h zone, which is an ordinary residential street, not a shared space."
+    }
+  },
+  {
+    "id": "speed-stopping-026",
+    "moduleId": "speed-stopping",
+    "lessonId": "speed-limits",
+    "topicTags": [
+      "motorway",
+      "night",
+      "limit"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a Dutch motorway with a permanent posted limit of 130 km/h, what is the maximum speed between 19:00 and 06:00?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "100 km/h — the daytime restriction still applies at night"
+      },
+      {
+        "id": "b",
+        "text": "120 km/h — all motorways are capped at 120 at night"
+      },
+      {
+        "id": "c",
+        "text": "130 km/h — the posted sign applies outside the daytime restriction hours"
+      },
+      {
+        "id": "d",
+        "text": "Unlimited — there is no national cap after 19:00"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "The 100 km/h restriction runs only from 06:00 to 19:00. Outside those hours the permanent signed limit applies — so 130 km/h on a 130-posted motorway.",
+      "examTip": "The 100 km/h rule is a time-of-day restriction, not the road's permanent limit. At night the road reverts to its posted sign."
+    }
+  },
+  {
+    "id": "speed-stopping-027",
+    "moduleId": "speed-stopping",
+    "lessonId": "conditions-and-following",
+    "topicTags": [
+      "following-distance",
+      "motorway",
+      "two-second"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "On a motorway at 100 km/h in dry conditions, what is the recommended minimum following distance behind the vehicle in front?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "At least 1 second"
+      },
+      {
+        "id": "b",
+        "text": "At least 2 seconds"
+      },
+      {
+        "id": "c",
+        "text": "At least 5 seconds"
+      },
+      {
+        "id": "d",
+        "text": "At least 10 metres regardless of speed"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "The 2-second rule gives you enough time to react and brake if the car ahead stops suddenly. Increase to 3 or more seconds in poor conditions or at higher speed.",
+      "examTip": "To check your gap: pick a fixed point. When the car ahead passes it, say 'one thousand and one, one thousand and two.' If you reach the point before finishing, you are too close."
+    }
+  },
+  {
+    "id": "speed-stopping-028",
+    "moduleId": "speed-stopping",
+    "lessonId": "conditions-and-following",
+    "topicTags": [
+      "fog",
+      "visibility",
+      "speed"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Fog reduces your forward visibility to 40 metres. What is the key speed principle you must apply?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Use the posted speed limit — fog lights compensate for reduced visibility"
+      },
+      {
+        "id": "b",
+        "text": "Drive at 50 km/h regardless of road type"
+      },
+      {
+        "id": "c",
+        "text": "Drive at a speed that allows you to stop safely within your range of vision"
+      },
+      {
+        "id": "d",
+        "text": "Reduce your speed by exactly half the posted limit"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "The rule is simple: if you cannot stop within the distance you can see, you are driving too fast. With 40 m visibility, your total stopping distance must stay under 40 m.",
+      "examTip": "At 50 km/h the total stopping distance in good conditions is about 28 m. In thick fog, add wet-road braking and the 40 m sight line — you should be well under 50 km/h."
+    }
+  },
+  {
+    "id": "speed-stopping-029",
+    "moduleId": "speed-stopping",
+    "lessonId": "speed-limits",
+    "topicTags": [
+      "advisory-speed",
+      "yellow-sign",
+      "interpretation"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You see a speed sign with a yellow background showing '70'. What does this mean?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The legal maximum speed is 70 km/h — you must not exceed it"
+      },
+      {
+        "id": "b",
+        "text": "This is an advisory speed for the conditions ahead — a recommendation, not a legal limit"
+      },
+      {
+        "id": "c",
+        "text": "This is the minimum speed — you must drive at least 70 km/h"
+      },
+      {
+        "id": "d",
+        "text": "This is a zone limit applying to both directions of the road"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A yellow-background speed sign is an advisory (aanbevolen snelheid), not a legal maximum. It suggests the conditions ahead — such as a sharp bend — call for that speed or less.",
+      "examTip": "White or black background = legal maximum. Yellow background = advice only. You will not be fined for exceeding it, but ignoring it is a safety risk."
+    }
+  },
+  {
+    "id": "speed-stopping-030",
+    "moduleId": "speed-stopping",
+    "lessonId": "speed-limits",
+    "topicTags": [
+      "trailer",
+      "motorway",
+      "towing"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are towing a caravan on a Dutch motorway with a posted limit of 130 km/h. What is your maximum legal speed?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "130 km/h — the posted limit applies to all vehicles"
+      },
+      {
+        "id": "b",
+        "text": "100 km/h — the daytime restriction applies to towing vehicles too"
+      },
+      {
+        "id": "c",
+        "text": "80 km/h — trailers cap all road types at 80 km/h"
+      },
+      {
+        "id": "d",
+        "text": "90 km/h — the limit for car-and-caravan combinations on motorways"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "explanation": {
+      "short": "A car towing a caravan or trailer on Dutch motorways is limited to 90 km/h, regardless of the posted sign or the daytime 100 km/h restriction.",
+      "examTip": "Car + caravan/trailer = 90 km/h maximum on a motorway. This applies day and night."
+    }
+  },
+  {
+    "id": "speed-stopping-031",
+    "moduleId": "speed-stopping",
+    "lessonId": "conditions-and-following",
+    "topicTags": [
+      "wet-road",
+      "stopping-distance",
+      "conditions"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are driving at 80 km/h on a wet road. How does your total stopping distance compare to the same speed on a dry road?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It is the same — ABS eliminates the difference between wet and dry"
+      },
+      {
+        "id": "b",
+        "text": "It is roughly the same — rain affects visibility but not braking"
+      },
+      {
+        "id": "c",
+        "text": "It is significantly longer — wet roads reduce tyre grip and increase braking distance"
+      },
+      {
+        "id": "d",
+        "text": "It is shorter — water cools the tyres and improves grip"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Wet surfaces significantly reduce tyre-road friction, meaning braking distance can be 50% or more longer than on a dry road at the same speed.",
+      "examTip": "ABS helps prevent wheel lock-up but does not restore grip lost on wet surfaces. Always increase following distance in rain."
+    }
+  },
+  {
+    "id": "speed-stopping-032",
+    "moduleId": "speed-stopping",
+    "lessonId": "stopping-distance",
+    "topicTags": [
+      "total-stopping-distance",
+      "scenario",
+      "30-zone"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A child runs onto the road 30 metres ahead and you react immediately. At what approximate maximum speed could you stop in time on a dry road?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "About 20 km/h"
+      },
+      {
+        "id": "b",
+        "text": "About 30 km/h"
+      },
+      {
+        "id": "c",
+        "text": "About 50 km/h"
+      },
+      {
+        "id": "d",
+        "text": "About 70 km/h"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "At 50 km/h, the total stopping distance (reaction + braking) is approximately 28–30 metres on a dry road. Any faster and 30 metres is not enough.",
+      "examTip": "This is why 30 km/h zones exist near schools — at 30 km/h total stopping distance is around 12–14 m, giving far more margin for unexpected events."
     }
   }
 ]

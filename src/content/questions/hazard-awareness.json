@@ -68,7 +68,7 @@
       "b"
     ],
     "explanation": {
-      "short": "Glance at the mirror roughly every 5\u20138 seconds and before each speed or direction change.",
+      "short": "Glance at the mirror roughly every 5–8 seconds and before each speed or direction change.",
       "examTip": "Examiners specifically watch your mirror-use rhythm."
     }
   },
@@ -126,7 +126,7 @@
       },
       {
         "id": "b",
-        "text": "About 30 cm \u2014 the same as parking"
+        "text": "About 30 cm — the same as parking"
       },
       {
         "id": "c",
@@ -141,7 +141,7 @@
       "a"
     ],
     "explanation": {
-      "short": "Give cyclists at least 1 metre of side space \u2014 1.5 m where speed is higher.",
+      "short": "Give cyclists at least 1 metre of side space — 1.5 m where speed is higher.",
       "examTip": "Cyclists may wobble or swerve around a parked car; expect it."
     }
   },
@@ -289,7 +289,7 @@
     ],
     "explanation": {
       "short": "Rear fog lights are allowed only when visibility falls below 50 m.",
-      "examTip": "Switch them off as soon as visibility improves \u2014 they dazzle the driver behind you."
+      "examTip": "Switch them off as soon as visibility improves — they dazzle the driver behind you."
     }
   },
   {
@@ -437,7 +437,7 @@
       "c"
     ],
     "explanation": {
-      "short": "Treat a ball as a warning that a child may follow \u2014 ease off and cover the brake.",
+      "short": "Treat a ball as a warning that a child may follow — ease off and cover the brake.",
       "examTip": "Anticipating like this means you almost never have to brake hard."
     }
   },
@@ -459,7 +459,7 @@
       },
       {
         "id": "b",
-        "text": "Roughly every 5\u20138 seconds and before every manoeuvre"
+        "text": "Roughly every 5–8 seconds and before every manoeuvre"
       },
       {
         "id": "c",
@@ -475,7 +475,7 @@
     ],
     "explanation": {
       "short": "Regular mirror checks every few seconds keep your picture of traffic behind you fresh.",
-      "examTip": "Mirrors\u2013signal\u2013manoeuvre is the standard sequence examiners look for."
+      "examTip": "Mirrors–signal–manoeuvre is the standard sequence examiners look for."
     }
   },
   {
@@ -549,7 +549,7 @@
     ],
     "explanation": {
       "short": "Use dipped beam (high beam reflects in fog), front fog lights as needed, and the rear fog light only when visibility is under 50 m.",
-      "examTip": "Switch the rear fog off the moment visibility improves \u2014 it dazzles drivers behind you."
+      "examTip": "Switch the rear fog off the moment visibility improves — it dazzles drivers behind you."
     }
   },
   {
@@ -605,7 +605,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Keep your speed \u2014 the children are on the pavement, not the road"
+        "text": "Keep your speed — the children are on the pavement, not the road"
       },
       {
         "id": "b",
@@ -625,7 +625,7 @@
     ],
     "explanation": {
       "short": "Children near a parked van are a high-risk hazard; slow early and warn the follower with brake lights, not the horn.",
-      "examTip": "Anticipate the hidden pedestrian \u2014 do not wait until a child steps out."
+      "examTip": "Anticipate the hidden pedestrian — do not wait until a child steps out."
     }
   },
   {
@@ -640,11 +640,11 @@
     ],
     "type": "single",
     "difficulty": "medium",
-    "stem": "On a winter morning the dashboard shows +2 \u00b0C. You approach a bridge in a shaded valley. The road looks dry. What should you do?",
+    "stem": "On a winter morning the dashboard shows +2 °C. You approach a bridge in a shaded valley. The road looks dry. What should you do?",
     "choices": [
       {
         "id": "a",
-        "text": "Maintain speed \u2014 +2 \u00b0C is above freezing, so no risk"
+        "text": "Maintain speed — +2 °C is above freezing, so no risk"
       },
       {
         "id": "b",
@@ -663,7 +663,7 @@
       "c"
     ],
     "explanation": {
-      "short": "Bridges and shaded patches freeze first; +2 \u00b0C is well within the surface-ice risk window.",
+      "short": "Bridges and shaded patches freeze first; +2 °C is well within the surface-ice risk window.",
       "examTip": "Treat shadowed tarmac and bridges in winter as potentially icy, even when the rest of the road looks dry."
     }
   },
@@ -703,7 +703,7 @@
     ],
     "explanation": {
       "short": "Restore the gap by dropping back, not by braking hard or accelerating.",
-      "examTip": "Tailgaters and cut-ins are managed by widening the gap in front of you \u2014 never by closing it."
+      "examTip": "Tailgaters and cut-ins are managed by widening the gap in front of you — never by closing it."
     }
   },
   {
@@ -721,7 +721,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Focus only on the traffic light \u2014 it is the legal control"
+        "text": "Focus only on the traffic light — it is the legal control"
       },
       {
         "id": "b",
@@ -729,7 +729,7 @@
       },
       {
         "id": "c",
-        "text": "Ignore the cyclist behind \u2014 what is ahead matters more"
+        "text": "Ignore the cyclist behind — what is ahead matters more"
       },
       {
         "id": "d",
@@ -1312,6 +1312,310 @@
     "explanation": {
       "short": "The first 10–15 minutes of rain after a dry spell mix water with built-up oil and rubber on the surface, creating the most slippery conditions.",
       "examTip": "Expect reduced grip and increase your following distance the moment it starts raining, not after the storm has settled."
+    }
+  },
+  {
+    "id": "hazard-awareness-036",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-vulnerable-users",
+    "topicTags": [
+      "children",
+      "parked-cars",
+      "scenario"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are passing parked cars on a residential street. A ball rolls from between two parked cars into your path. What is the most important hazard to anticipate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The ball itself — steer around it to avoid a puncture"
+      },
+      {
+        "id": "b",
+        "text": "A child running into the road after the ball"
+      },
+      {
+        "id": "c",
+        "text": "A car door opening from the vehicle the ball came from"
+      },
+      {
+        "id": "d",
+        "text": "Oncoming traffic swerving to avoid the ball"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Where a ball goes, a child follows. A ball rolling into the road is one of the strongest pre-accident cues — brake immediately and expect a child to appear.",
+      "examTip": "Hazard perception is about predicting what comes NEXT, not just reacting to what you can see. Ball = imminent child."
+    }
+  },
+  {
+    "id": "hazard-awareness-037",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-weather-visibility",
+    "topicTags": [
+      "aquaplaning",
+      "wet",
+      "technique"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "Your car suddenly begins to aquaplane — the steering feels very light and you lose directional control. What is the correct response?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Brake hard immediately to scrub off speed"
+      },
+      {
+        "id": "b",
+        "text": "Steer aggressively in the direction you want to go"
+      },
+      {
+        "id": "c",
+        "text": "Ease off the accelerator, keep the wheel straight, and let the car slow gradually until the tyres regain grip"
+      },
+      {
+        "id": "d",
+        "text": "Steer against the skid and apply light braking"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Aquaplaning means your tyres are riding on a water film with no grip. Hard braking or sharp steering inputs make it worse. Gently release the accelerator and hold the wheel straight until speed drops and grip returns.",
+      "examTip": "Aquaplaning typically happens above 80 km/h in standing water. The best prevention is to slow down in heavy rain before it occurs."
+    }
+  },
+  {
+    "id": "hazard-awareness-038",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-weather-visibility",
+    "topicTags": [
+      "black-ice",
+      "temperature",
+      "identification"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "The outside temperature is −1 °C and the road surface looks dry but has a slight sheen. What hazard should you suspect?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Wet road — the sheen is from recent rain"
+      },
+      {
+        "id": "b",
+        "text": "Black ice — invisible ice formed when moisture freezes on a cold surface"
+      },
+      {
+        "id": "c",
+        "text": "Oil spillage — a common cause of a shiny road surface"
+      },
+      {
+        "id": "d",
+        "text": "Sand on the road — a minor hazard at this temperature"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A dry-looking but shiny road surface near freezing temperature is a classic sign of black ice (zwart ijs). It is extremely slippery and nearly invisible.",
+      "examTip": "Bridges and exposed stretches freeze first. If other drivers are moving unusually slowly or carefully, take the hint and reduce speed."
+    }
+  },
+  {
+    "id": "hazard-awareness-039",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-reaction-anticipation",
+    "topicTags": [
+      "sun-glare",
+      "visibility",
+      "technique"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Low sun is directly in your eyes, making it very difficult to see the road and traffic ahead. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Drive normally — your reflexes are fast enough to compensate"
+      },
+      {
+        "id": "b",
+        "text": "Switch on hazard lights and continue at the same speed"
+      },
+      {
+        "id": "c",
+        "text": "Reduce speed, increase following distance, use the sun visor, and be prepared for hazards you may not see in time"
+      },
+      {
+        "id": "d",
+        "text": "Drive closer to the car in front so you can follow its tail-lights"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Sun glare is a significant hazard. Reduce speed, increase following distance, and use the sun visor. Anticipate hazards you might not see clearly in time.",
+      "examTip": "Sun glare at dawn and dusk causes many accidents. Other drivers may be blinded and not see you — be especially cautious at junctions."
+    }
+  },
+  {
+    "id": "hazard-awareness-040",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-reaction-anticipation",
+    "topicTags": [
+      "lorry",
+      "overtaking",
+      "anticipation"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "A large lorry ahead begins to signal and moves into the right lane to overtake a slower vehicle. What hazard should you anticipate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nothing — the lorry has indicated so the manoeuvre is safely declared"
+      },
+      {
+        "id": "b",
+        "text": "The lorry may need to brake if the overtake takes longer than expected, causing a sudden slowdown ahead of you"
+      },
+      {
+        "id": "c",
+        "text": "Oncoming traffic will move into the lorry lane to make space"
+      },
+      {
+        "id": "d",
+        "text": "The lorry load may shift during the lane change"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Large lorries accelerate slowly and an overtake can take a long time. If the speed difference is small, the lorry may need to abort and brake suddenly. Increase your following distance now.",
+      "examTip": "Lorry overtakes are long-duration hazards. Create space early so you have time to react if the lorry has to abandon the manoeuvre."
+    }
+  },
+  {
+    "id": "hazard-awareness-041",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-weather-visibility",
+    "topicTags": [
+      "rain",
+      "slippery",
+      "first-rain"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "It starts to rain after a long dry spell. During the first few minutes of rain, why is the road particularly dangerous?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Visibility drops immediately to dangerous levels"
+      },
+      {
+        "id": "b",
+        "text": "Water mixes with accumulated oil and rubber dust on the surface, creating an extremely slippery film"
+      },
+      {
+        "id": "c",
+        "text": "Car brakes overheat in rain"
+      },
+      {
+        "id": "d",
+        "text": "Puddles form that hide potholes"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "During the first minutes of rain after a dry period, water mixes with oil and tyre dust that built up on the road, forming a slick film — often more slippery than a road that has been wet for a while.",
+      "examTip": "The most dangerous wet-road window is the first 10–15 minutes of rain after a dry spell. Many accidents happen exactly then — reduce your speed."
+    }
+  },
+  {
+    "id": "hazard-awareness-042",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-scanning",
+    "topicTags": [
+      "scanning",
+      "side-streets",
+      "emerging"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are driving through a town at 50 km/h. Parked vans block your view of a side street on the left. What should you do as you approach?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sound the horn to warn anyone in the side street"
+      },
+      {
+        "id": "b",
+        "text": "Speed up to clear the blind section quickly"
+      },
+      {
+        "id": "c",
+        "text": "Ease off the accelerator, watch for any movement near the gap, and be ready to brake"
+      },
+      {
+        "id": "d",
+        "text": "Move to the centre of the road to get a better view"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Parked vehicles create blind zones at side streets. Reduce speed, watch for movement or shadows in the gap, and cover the brake — anything could emerge.",
+      "examTip": "Urban scan pattern: near, middle, far. Repeat the near-zone scan especially where vision is blocked by vans or buses."
+    }
+  },
+  {
+    "id": "hazard-awareness-043",
+    "moduleId": "hazard-awareness",
+    "lessonId": "hazard-awareness-vulnerable-users",
+    "topicTags": [
+      "bus",
+      "pedestrians",
+      "night"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "At dusk you drive past a bus stop where a bus has just pulled away. What specific hazard should you anticipate on the road ahead?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The bus accelerating and pulling back in front of you"
+      },
+      {
+        "id": "b",
+        "text": "Passengers from the bus crossing the road in front of or behind it"
+      },
+      {
+        "id": "c",
+        "text": "A second bus approaching from behind"
+      },
+      {
+        "id": "d",
+        "text": "Debris left by passengers at the bus stop"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Passengers alighting from a bus often cross the road immediately — some in front of, some behind the bus. The bus body blocks your view of these pedestrians.",
+      "examTip": "Always reduce speed when passing a stationary or departing bus. The pedestrian hazard exists whether the bus is stopped or just pulling away."
     }
   }
 ]

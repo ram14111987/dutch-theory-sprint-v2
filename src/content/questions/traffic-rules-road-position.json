@@ -1079,5 +1079,385 @@
       "short": "Dutch law permits passing on the right when the left-hand lane is queued. You stay in your lane at your normal speed.",
       "examTip": "This is not the same as undertaking. You must keep your lane — weaving in and out to overtake on the right remains forbidden."
     }
+  },
+  {
+    "id": "traffic-rules-road-position-030",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-overtaking",
+    "topicTags": [
+      "overtaking",
+      "solid-line",
+      "forbidden"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are behind a slow tractor on a rural road. There is a solid white centre line. The road ahead appears clear for 300 metres. May you overtake?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes — clear visibility of 300 metres makes it safe to cross a solid line"
+      },
+      {
+        "id": "b",
+        "text": "No — a solid centre line means no overtaking, regardless of visibility"
+      },
+      {
+        "id": "c",
+        "text": "Yes, if you complete the overtake before the next bend"
+      },
+      {
+        "id": "d",
+        "text": "Yes, but only if you use your hazard lights while overtaking"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "A solid white centre line is a no-overtaking marking. You may not cross it to overtake, no matter how good the visibility looks.",
+      "examTip": "Solid lines are placed where sight distance or conditions make crossing dangerous — trust the marking, not your own visual estimate."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-031",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-special-lanes",
+    "topicTags": [
+      "bus-lane",
+      "permitted-vehicles",
+      "private-car"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are driving a private car and the bus lane beside you is completely empty. Traffic in your lane is queued. May you use the bus lane to bypass the queue?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes — an empty bus lane may be used by any vehicle"
+      },
+      {
+        "id": "b",
+        "text": "Yes, but only if no bus is visible behind you"
+      },
+      {
+        "id": "c",
+        "text": "No — a bus lane is reserved for buses, taxis, and emergency vehicles; private cars are not permitted"
+      },
+      {
+        "id": "d",
+        "text": "Only if you drive below 30 km/h in the bus lane"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Bus lanes are reserved for buses and explicitly permitted vehicles (taxis, emergency services, sometimes cyclists). Private cars are not allowed, even when the lane is empty.",
+      "examTip": "Check the blue bus-lane sign carefully — it lists all permitted vehicle types. If your vehicle type is not shown, you may not enter."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-032",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-lane-choice",
+    "topicTags": [
+      "keep-right",
+      "two-lane",
+      "lane-choice"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "You are on a two-lane road outside a built-up area. Traffic is light. Which lane must you use when not overtaking?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Either lane — both are equally available in light traffic"
+      },
+      {
+        "id": "b",
+        "text": "The left (faster) lane, to stay away from roadside hazards"
+      },
+      {
+        "id": "c",
+        "text": "The right lane — you must keep right when not overtaking"
+      },
+      {
+        "id": "d",
+        "text": "The left lane, so overtaking vehicles can use the right lane"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Outside built-up areas on roads with two or more lanes, you must drive in the rightmost lane when not overtaking. This is the keep-right obligation.",
+      "examTip": "Left-lane hogging is illegal in the Netherlands and a common CBR topic. Keep right unless actively overtaking."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-033",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-overtaking",
+    "topicTags": [
+      "being-overtaken",
+      "side",
+      "space"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "A faster vehicle behind you begins to overtake you on a two-lane road. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Accelerate to maintain the gap between you and the overtaking vehicle"
+      },
+      {
+        "id": "b",
+        "text": "Keep your speed and lane — the overtaking driver must manage the whole manoeuvre"
+      },
+      {
+        "id": "c",
+        "text": "Move toward the right side of your lane and slightly reduce speed to help the overtake"
+      },
+      {
+        "id": "d",
+        "text": "Brake sharply to let them pass as quickly as possible"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "When being overtaken, move as far right as safe and marginally reduce speed to give the overtaking vehicle more space and time to complete the manoeuvre.",
+      "examTip": "Never accelerate when being overtaken — it is dangerous and deliberately obstructing an overtake can be an offence."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-034",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-special-lanes",
+    "topicTags": [
+      "trams",
+      "tracks",
+      "priority"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You are driving on a road that shares space with tram tracks. The tram behind you is catching up and wants to pass. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Maintain your speed — the tram must wait behind you"
+      },
+      {
+        "id": "b",
+        "text": "Move off the tram tracks as soon as it is safe to do so and let the tram pass"
+      },
+      {
+        "id": "c",
+        "text": "Accelerate to stay ahead of the tram"
+      },
+      {
+        "id": "d",
+        "text": "Use your hazard lights to warn the tram to slow down"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "Trams have priority on their tracks and cannot steer around obstacles. Move off the tracks as soon as it is safe and let the tram pass.",
+      "examTip": "Never race a tram or expect it to brake for you — trams need much longer distances to stop than cars do."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-035",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-overtaking",
+    "topicTags": [
+      "overtaking",
+      "forbidden",
+      "crest"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "You want to overtake a slow cyclist on a country road but you are approaching the brow of a hill with limited forward visibility. May you overtake?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes — cyclists are slow so there is enough time to overtake before the top"
+      },
+      {
+        "id": "b",
+        "text": "Yes, if you do it very quickly before reaching the hilltop"
+      },
+      {
+        "id": "c",
+        "text": "No — you must have a clear view ahead before beginning an overtake"
+      },
+      {
+        "id": "d",
+        "text": "Yes, by briefly using the oncoming lane"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "Overtaking when you cannot see far enough ahead is forbidden. The hilltop creates a blind zone — an oncoming vehicle could appear at any moment.",
+      "examTip": "Wait until you are past the hilltop and have a long, clear view ahead before overtaking any vehicle, including cyclists."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-036",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-signalling-merging",
+    "topicTags": [
+      "signalling",
+      "lane-change",
+      "mirrors"
+    ],
+    "type": "single",
+    "difficulty": "medium",
+    "stem": "Before changing lanes on a motorway, what is the correct sequence of actions?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Signal → mirror → blind spot check → move"
+      },
+      {
+        "id": "b",
+        "text": "Mirror → blind spot check → signal → move"
+      },
+      {
+        "id": "c",
+        "text": "Blind spot check → signal → mirror → move"
+      },
+      {
+        "id": "d",
+        "text": "Signal → move → mirror check"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "The correct sequence is: mirror (check following and adjacent traffic), blind spot (shoulder check), signal (inform others), then move.",
+      "examTip": "Signalling before checking your mirrors is a common mistake. Signal only once you are sure the move is safe — not as an announcement that you intend to check."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-037",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-lane-choice",
+    "topicTags": [
+      "motorway",
+      "lane-discipline",
+      "middle-lane"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "On a motorway with three lanes, you are cruising in the middle lane. The right lane is empty. What should you do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stay in the middle lane — it gives you more space on both sides"
+      },
+      {
+        "id": "b",
+        "text": "Move to the right lane — you must use the rightmost available lane when not overtaking"
+      },
+      {
+        "id": "c",
+        "text": "Move to the left lane to make room for overtakers behind you"
+      },
+      {
+        "id": "d",
+        "text": "It is the driver's choice which lane to use on a motorway"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "explanation": {
+      "short": "The keep-right rule applies on motorways too. When the right lane is clear you must move back to it, even if you plan to overtake again shortly.",
+      "examTip": "Sitting in the middle lane of a three-lane motorway when the right is empty is a common and fined offence in the Netherlands."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-038",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-overtaking",
+    "topicTags": [
+      "overtaking",
+      "night",
+      "visibility"
+    ],
+    "type": "single",
+    "difficulty": "hard",
+    "stem": "You are driving at night on an unlit rural road and want to overtake. What extra precaution is required compared to daytime?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No extra precautions — headlights provide all the visibility you need"
+      },
+      {
+        "id": "b",
+        "text": "Flash full-beam headlights at the vehicle ahead before starting"
+      },
+      {
+        "id": "c",
+        "text": "Ensure the oncoming lane is visible for a much greater distance, as headlight range is far less than the daylight sight distance needed for an overtake"
+      },
+      {
+        "id": "d",
+        "text": "Only overtake if the other driver waves you past"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "At night your stopping distance is unchanged but you can see much less far ahead. You need a far greater clear distance before overtaking than your headlights may reveal.",
+      "examTip": "Night overtaking is one of the most dangerous manoeuvres. If your headlights reach 100 m but your stopping distance is 75 m, an oncoming car at the edge of your beam leaves almost no margin."
+    }
+  },
+  {
+    "id": "traffic-rules-road-position-039",
+    "moduleId": "traffic-rules-road-position",
+    "lessonId": "road-position-special-lanes",
+    "topicTags": [
+      "cycle-lane",
+      "solid",
+      "motor-vehicle"
+    ],
+    "type": "single",
+    "difficulty": "easy",
+    "stem": "A cycle lane marked with a solid white line runs along the right side of the carriageway. May a car drive in it briefly to reach a parking space?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes — a cycle lane is not mandatory for cars, so cars may use it"
+      },
+      {
+        "id": "b",
+        "text": "Yes, but only for loading and unloading"
+      },
+      {
+        "id": "c",
+        "text": "No — a solid-line cycle lane may not be entered by motor vehicles"
+      },
+      {
+        "id": "d",
+        "text": "Only if no cyclist is visible in the lane at that moment"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "explanation": {
+      "short": "A cycle lane bordered by a solid white line is mandatory for cyclists and prohibited for motor vehicles. Only a dashed-line suggestion lane may be crossed.",
+      "examTip": "Solid line = mandatory cycle lane, no motor vehicles. Dashed line = suggestion lane, may be crossed with caution."
+    }
   }
 ]
