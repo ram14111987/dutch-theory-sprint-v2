@@ -300,6 +300,11 @@
     "explanation": {
       "short": "Rear fog lights are allowed only when visibility falls below 50 m.",
       "examTip": "Switch them off as soon as visibility improves — they dazzle the driver behind you."
+    },
+    "image": {
+      "src": "hazard-awareness/fog-light-thresholds.svg",
+      "alt": "A chart of fog-light thresholds: front fog lights are allowed below 200 metres visibility and rear fog lights only below 50 metres.",
+      "caption": "Rear fog light only when visibility is below 50 metres"
     }
   },
   {

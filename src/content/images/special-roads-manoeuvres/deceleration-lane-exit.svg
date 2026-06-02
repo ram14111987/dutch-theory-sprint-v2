@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">A motorway exit; the car moves onto the deceleration lane first and only begins braking there, not on the main carriageway</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <rect x="0" y="70" width="480" height="60" fill="#dfe7f5"/>
+  <line x1="0" y1="100" x2="480" y2="100" stroke="#ffffff" stroke-width="2" stroke-dasharray="12 10"/>
+  <line x1="0" y1="70" x2="480" y2="70" stroke="#ffffff" stroke-width="4"/>
+  <path d="M180 130 L300 130 L420 175 L480 175" fill="#dfe7f5"/>
+  <path d="M180 130 L300 130 L420 175" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="12 10"/>
+  <g id="you">
+    <rect x="340" y="148" width="44" height="22" rx="5" fill="#1565c0"/>
+    <text x="362" y="164" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">YOU</text>
+    <path d="M200 110 C260 110 280 130 330 150" fill="none" stroke="#1565c0" stroke-width="3" stroke-dasharray="6 5"/>
+    <path d="M330 150 L318 147 M330 150 L322 159" fill="none" stroke="#1565c0" stroke-width="3"/>
+  </g>
+  <text x="395" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d32f2f">brake only here</text>
+  <text x="150" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#33415c">keep speed on the carriageway</text>
+</svg>

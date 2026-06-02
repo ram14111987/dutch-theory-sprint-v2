@@ -77,6 +77,11 @@
     "explanation": {
       "short": "Match the speed of motorway traffic, signal, and merge smoothly.",
       "examTip": "Traffic already on the motorway has priority, so you fit in around it."
+    },
+    "image": {
+      "src": "special-roads-manoeuvres/acceleration-lane-merge.svg",
+      "alt": "Plan view of a motorway acceleration lane; your car builds up to motorway speed, signals left, and merges into a gap between vehicles.",
+      "caption": "Match speed, signal, and merge into a gap"
     }
   },
   {
@@ -97,6 +102,11 @@
     "explanation": {
       "short": "Brake only after moving onto the deceleration lane, so you do not slow traffic behind.",
       "examTip": "Signal right in good time so others know you are leaving."
+    },
+    "image": {
+      "src": "special-roads-manoeuvres/deceleration-lane-exit.svg",
+      "alt": "Plan view of a motorway exit; the car keeps speed on the carriageway, moves onto the deceleration lane, and only then begins braking.",
+      "caption": "Brake only once on the deceleration lane"
     }
   },
   {
@@ -137,6 +147,11 @@
     "explanation": {
       "short": "Dipped headlights are required in tunnels, even during the day.",
       "examTip": "A red cross above your lane means the lane is closed; follow the green arrows instead."
+    },
+    "image": {
+      "src": "special-roads-manoeuvres/tunnel-headlights.svg",
+      "alt": "A car approaching a road tunnel in daylight with its dipped headlights switched on before entering.",
+      "caption": "Switch on dipped headlights before entering a tunnel"
     }
   },
   {

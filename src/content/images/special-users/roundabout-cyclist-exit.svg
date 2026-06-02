@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">A roundabout where a cyclist already circulating crosses the exit you want to take; the exiting car must give way to the cyclist</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <circle cx="240" cy="130" r="95" fill="none" stroke="#dfe7f5" stroke-width="46"/>
+  <circle cx="240" cy="130" r="48" fill="#cfe3c4"/>
+  <rect x="216" y="0" width="48" height="35" fill="#dfe7f5"/>
+  <rect x="216" y="225" width="48" height="35" fill="#dfe7f5"/>
+  <rect x="0" y="106" width="35" height="48" fill="#dfe7f5"/>
+  <rect x="445" y="106" width="35" height="48" fill="#dfe7f5"/>
+  <g id="you">
+    <rect x="312" y="116" width="46" height="26" rx="6" fill="#1565c0"/>
+    <text x="335" y="133" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">YOU</text>
+  </g>
+  <g id="cyclist">
+    <circle cx="392" cy="120" r="9" fill="#2e7d32"/>
+    <text x="392" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2e7d32">cyclist</text>
+  </g>
+  <g id="give-way">
+    <path d="M358 129 L380 124" fill="none" stroke="#d32f2f" stroke-width="3"/>
+    <line x1="366" y1="118" x2="372" y2="135" stroke="#d32f2f" stroke-width="3"/>
+  </g>
+  <text x="240" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#d32f2f">Give way to the cyclist on the roundabout</text>
+</svg>

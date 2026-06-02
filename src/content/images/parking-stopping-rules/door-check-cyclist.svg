@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">A car parked at the kerb; before opening the driver's door the driver checks the mirror and looks over the shoulder for an approaching cyclist (the Dutch reach)</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <rect x="0" y="60" width="480" height="120" fill="#dfe7f5"/>
+  <rect x="0" y="180" width="480" height="30" fill="#cdd7ea"/>
+  <line x1="0" y1="120" x2="480" y2="120" stroke="#ffffff" stroke-width="2" stroke-dasharray="14 12"/>
+  <g id="parked-car">
+    <rect x="150" y="128" width="90" height="42" rx="8" fill="#1565c0"/>
+    <text x="195" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">parked</text>
+    <rect x="150" y="120" width="34" height="10" fill="#90b4dd"/>
+    <text x="167" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#33415c">door</text>
+  </g>
+  <g id="cyclist">
+    <circle cx="70" cy="98" r="9" fill="#2e7d32"/>
+    <text x="70" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2e7d32">cyclist</text>
+    <path d="M88 100 L130 100" fill="none" stroke="#2e7d32" stroke-width="3"/>
+    <path d="M130 100 L118 94 M130 100 L118 106" fill="none" stroke="#2e7d32" stroke-width="3"/>
+  </g>
+  <text x="300" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#33415c">look back before opening</text>
+  <text x="300" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#33415c">(Dutch reach — far hand)</text>
+</svg>

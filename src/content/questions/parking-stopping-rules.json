@@ -182,6 +182,11 @@
     "explanation": {
       "short": "You may not stop within 5 metres before a pedestrian crossing.",
       "examTip": "This rule preserves the sightline for both drivers and pedestrians."
+    },
+    "image": {
+      "src": "parking-stopping-rules/crossing-stop-distance.svg",
+      "alt": "A zebra pedestrian crossing with a five-metre no-stopping zone marked before it; a car must stop no closer than 5 metres ahead of the crossing.",
+      "caption": "Do not stop within 5 metres before a pedestrian crossing"
     }
   },
   {
@@ -739,6 +744,11 @@
     "explanation": {
       "short": "The Dutch reach forces a shoulder twist that helps you see an approaching cyclist before opening.",
       "examTip": "The driver who opens the door is liable for any collision with a passing cyclist."
+    },
+    "image": {
+      "src": "parking-stopping-rules/door-check-cyclist.svg",
+      "alt": "A car parked at the kerb; before opening the driver door the driver checks the mirror and looks over the shoulder for an approaching cyclist.",
+      "caption": "Look back for cyclists before opening the door (Dutch reach)"
     }
   },
   {

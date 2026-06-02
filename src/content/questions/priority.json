@@ -335,6 +335,11 @@
     "explanation": {
       "short": "Signal right just before the exit so other road users can predict you are leaving.",
       "examTip": "Failing to indicate at the exit is a common scoring point against learner drivers."
+    },
+    "image": {
+      "src": "priority/roundabout-exit-signal.svg",
+      "alt": "Plan view of a single-lane roundabout; your car signals to the right just before the exit it is about to leave by.",
+      "caption": "Signal right just before your roundabout exit"
     }
   },
   {

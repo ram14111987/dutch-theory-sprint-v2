@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">A motorway acceleration lane; your car builds up to motorway speed, signals left, and merges into a gap in the traffic</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <rect x="0" y="70" width="480" height="60" fill="#dfe7f5"/>
+  <line x1="0" y1="100" x2="480" y2="100" stroke="#ffffff" stroke-width="2" stroke-dasharray="12 10"/>
+  <line x1="0" y1="70" x2="480" y2="70" stroke="#ffffff" stroke-width="4"/>
+  <path d="M0 165 L300 165 L420 130 L480 130" fill="#dfe7f5"/>
+  <path d="M0 165 L300 165 L420 130" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="12 10"/>
+  <g id="traffic">
+    <rect x="60" y="105" width="44" height="22" rx="5" fill="#ef6c00"/>
+    <rect x="250" y="105" width="44" height="22" rx="5" fill="#ef6c00"/>
+  </g>
+  <g id="you">
+    <rect x="120" y="140" width="44" height="22" rx="5" fill="#1565c0"/>
+    <text x="142" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">YOU</text>
+    <path d="M164 145 C190 145 190 118 175 118" fill="none" stroke="#1565c0" stroke-width="3" stroke-dasharray="6 5"/>
+    <path d="M175 118 L186 113 M175 118 L184 124" fill="none" stroke="#1565c0" stroke-width="3"/>
+  </g>
+  <text x="170" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#33415c">match speed, signal, merge into the gap</text>
+</svg>

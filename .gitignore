@@ -29,3 +29,6 @@ dist-ssr
 !.dev.vars.example
 .env*
 !.env.example
+
+# Claude Code runtime lock files
+.claude/scheduled_tasks.lock

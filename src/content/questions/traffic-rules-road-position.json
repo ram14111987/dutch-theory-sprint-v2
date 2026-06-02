@@ -191,6 +191,11 @@
     "explanation": {
       "short": "Do not accelerate when being overtaken; ease off if needed to let them finish safely.",
       "examTip": "Speeding up while being overtaken is dangerous and a serious test fault."
+    },
+    "image": {
+      "src": "traffic-rules-road-position/being-overtaken.svg",
+      "alt": "Plan view of another car overtaking yours on a two-lane road; you hold your line and ease off rather than speeding up.",
+      "caption": "When overtaken, hold your line and do not accelerate"
     }
   },
   {
@@ -525,6 +530,11 @@
     "explanation": {
       "short": "Overtaking on the right is forbidden, but in dense traffic the right-hand lane may legitimately move faster than the lane to its left.",
       "examTip": "You should not weave between lanes to gain speed — that is overtaking on the right."
+    },
+    "image": {
+      "src": "traffic-rules-road-position/undertaking-queue.svg",
+      "alt": "Plan view of a motorway in dense traffic where the left lane is queued and slow while your right-hand lane moves faster; passing on the right is allowed here.",
+      "caption": "Passing on the right is allowed when dense lanes move faster than the left"
     }
   },
   {

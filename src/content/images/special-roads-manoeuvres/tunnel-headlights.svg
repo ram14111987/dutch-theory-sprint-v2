@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">A car approaching a road tunnel in daylight with its dipped headlights switched on before entering</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <rect x="40" y="170" width="400" height="50" fill="#dfe7f5"/>
+  <line x1="40" y1="195" x2="440" y2="195" stroke="#ffffff" stroke-width="2" stroke-dasharray="14 12"/>
+  <path d="M250 170 L250 70 Q340 40 430 70 L430 170 Z" fill="#5b6b86"/>
+  <path d="M285 170 L285 95 Q355 75 410 95 L410 170 Z" fill="#1c2433"/>
+  <text x="347" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#33415c">TUNNEL</text>
+  <g id="you">
+    <rect x="120" y="178" width="60" height="30" rx="7" fill="#1565c0"/>
+    <text x="150" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">YOU</text>
+    <polygon points="180,184 215,176 215,210 180,202" fill="#ffe08a" opacity="0.85"/>
+  </g>
+  <text x="150" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#33415c">dipped headlights ON before entering</text>
+</svg>

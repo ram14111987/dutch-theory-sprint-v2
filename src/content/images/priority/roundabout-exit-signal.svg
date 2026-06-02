@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">A single-lane roundabout; your car signals to the right just before the exit it is about to take</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <circle cx="240" cy="130" r="95" fill="none" stroke="#dfe7f5" stroke-width="46"/>
+  <circle cx="240" cy="130" r="48" fill="#cfe3c4"/>
+  <circle cx="240" cy="130" r="95" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="6 8"/>
+  <rect x="216" y="0" width="48" height="35" fill="#dfe7f5"/>
+  <rect x="216" y="225" width="48" height="35" fill="#dfe7f5"/>
+  <rect x="0" y="106" width="35" height="48" fill="#dfe7f5"/>
+  <rect x="445" y="106" width="35" height="48" fill="#dfe7f5"/>
+  <g id="you">
+    <rect x="322" y="118" width="46" height="26" rx="6" fill="#1565c0"/>
+    <text x="345" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">YOU</text>
+    <path d="M368 131 L405 131" fill="none" stroke="#f4c20d" stroke-width="4"/>
+    <path d="M405 131 L394 125 M405 131 L394 137" fill="none" stroke="#f4c20d" stroke-width="4"/>
+  </g>
+  <text x="430" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#33415c">signal right</text>
+  <text x="240" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#33415c">just before exit</text>
+</svg>

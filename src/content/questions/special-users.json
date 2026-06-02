@@ -961,6 +961,11 @@
     "explanation": {
       "short": "A cyclist circulating on a roundabout has priority over a car leaving it. The give-way markings at roundabout exits confirm this — yield to all circulating traffic, including cyclists.",
       "examTip": "On many modern Dutch roundabouts, cycle paths cross each exit. Where a cycle path crosses your exit, the cyclist on that path also has priority."
+    },
+    "image": {
+      "src": "special-users/roundabout-cyclist-exit.svg",
+      "alt": "Plan view of a roundabout where a cyclist already circulating crosses the exit you want to take; the exiting car must give way.",
+      "caption": "A circulating cyclist has priority over a car leaving the roundabout"
     }
   },
   {
