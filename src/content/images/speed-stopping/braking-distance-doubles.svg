@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">A bar comparison showing that doubling speed from 50 to 100 km/h makes the braking distance roughly four times as long</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <text x="240" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#33415c">Braking distance grows with the square of speed</text>
+  <g id="row1">
+    <text x="20" y="95" font-family="Arial, sans-serif" font-size="13" fill="#33415c">50 km/h</text>
+    <rect x="110" y="75" width="80" height="30" rx="4" fill="#1565c0"/>
+    <text x="200" y="95" font-family="Arial, sans-serif" font-size="12" fill="#33415c">×1</text>
+  </g>
+  <g id="row2">
+    <text x="20" y="165" font-family="Arial, sans-serif" font-size="13" fill="#33415c">100 km/h</text>
+    <rect x="110" y="145" width="320" height="30" rx="4" fill="#d32f2f"/>
+    <text x="440" y="165" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#d32f2f">×4</text>
+  </g>
+  <text x="240" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#33415c">Double the speed ≈ four times the braking distance</text>
+</svg>

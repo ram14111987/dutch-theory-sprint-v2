@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">A red-tinted cycle suggestion lane marked with a broken white line along the right of the carriageway; a car may use it when needed but cyclists keep priority</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <rect x="120" y="0" width="240" height="260" fill="#dfe7f5"/>
+  <rect x="288" y="0" width="72" height="260" fill="#e8b4ad"/>
+  <line x1="288" y1="0" x2="288" y2="260" stroke="#ffffff" stroke-width="2" stroke-dasharray="12 10"/>
+  <g id="cyclist">
+    <circle cx="324" cy="150" r="9" fill="#2e7d32"/>
+    <text x="324" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2e7d32">cyclist</text>
+    <text x="324" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2e7d32">priority</text>
+  </g>
+  <g id="you">
+    <rect x="186" y="150" width="36" height="50" rx="6" fill="#1565c0"/>
+    <text x="204" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">YOU</text>
+  </g>
+  <text x="204" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#33415c">use only when needed</text>
+</svg>

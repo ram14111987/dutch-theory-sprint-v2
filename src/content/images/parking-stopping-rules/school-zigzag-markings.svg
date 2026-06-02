@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">Yellow zigzag markings along the kerb outside a school where stopping is forbidden during school hours, even for a brief drop-off</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <rect x="0" y="90" width="480" height="80" fill="#dfe7f5"/>
+  <rect x="0" y="170" width="480" height="30" fill="#cdd7ea"/>
+  <rect x="40" y="205" width="400" height="45" rx="4" fill="#e6ecf7"/>
+  <text x="240" y="233" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#33415c">SCHOOL</text>
+  <polyline points="20,178 50,170 80,178 110,170 140,178 170,170 200,178 230,170 260,178 290,170 320,178 350,170 380,178 410,170 440,178 460,172"
+            fill="none" stroke="#f4c20d" stroke-width="4"/>
+  <g id="no-stop">
+    <rect x="200" y="100" width="50" height="26" rx="5" fill="#1565c0"/>
+    <path d="M196 113 L150 113" fill="none" stroke="#d32f2f" stroke-width="3"/>
+    <path d="M150 113 L162 107 M150 113 L162 119" fill="none" stroke="#d32f2f" stroke-width="3"/>
+  </g>
+  <text x="240" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#d32f2f">No stopping during school hours</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">A rural road with no pavement; the pedestrian walks on the left edge facing the oncoming car so they can see approaching traffic</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <rect x="0" y="90" width="480" height="80" fill="#dfe7f5"/>
+  <rect x="0" y="60" width="480" height="30" fill="#cfe3c4"/>
+  <rect x="0" y="170" width="480" height="30" fill="#cfe3c4"/>
+  <line x1="0" y1="130" x2="480" y2="130" stroke="#ffffff" stroke-width="2" stroke-dasharray="14 12"/>
+  <g id="car">
+    <rect x="360" y="135" width="50" height="26" rx="5" fill="#ef6c00"/>
+    <path d="M356 148 L300 148" fill="none" stroke="#ef6c00" stroke-width="3"/>
+    <path d="M300 148 L312 142 M300 148 L312 154" fill="none" stroke="#ef6c00" stroke-width="3"/>
+  </g>
+  <g id="pedestrian">
+    <circle cx="80" cy="105" r="8" fill="#1565c0"/>
+    <rect x="75" y="113" width="10" height="20" rx="3" fill="#1565c0"/>
+    <path d="M96 118 L140 118" fill="none" stroke="#1565c0" stroke-width="3"/>
+    <path d="M140 118 L128 112 M140 118 L128 124" fill="none" stroke="#1565c0" stroke-width="3"/>
+  </g>
+  <text x="240" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#33415c">Walk on the left, facing oncoming traffic</text>
+</svg>

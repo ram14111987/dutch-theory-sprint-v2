@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">Your car overtaking a slower vehicle by passing it on the left, then returning to the right</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <rect x="160" y="0" width="160" height="260" fill="#dfe7f5"/>
+  <line x1="240" y1="0" x2="240" y2="260" stroke="#ffffff" stroke-width="2" stroke-dasharray="10 10"/>
+  <g id="slower">
+    <rect x="252" y="150" width="36" height="50" rx="6" fill="#ef6c00"/>
+    <text x="270" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">slow</text>
+  </g>
+  <g id="you">
+    <rect x="192" y="90" width="36" height="50" rx="6" fill="#1565c0"/>
+    <text x="210" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">YOU</text>
+    <path d="M270 210 C210 210 210 150 210 140" fill="none" stroke="#1565c0" stroke-width="3" stroke-dasharray="6 5"/>
+    <path d="M210 140 L204 152 M210 140 L216 152" fill="none" stroke="#1565c0" stroke-width="3"/>
+  </g>
+  <text x="120" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#1565c0">overtake on the left</text>
+</svg>

@@ -323,6 +323,11 @@
     "explanation": {
       "short": "A solid centre line may not be crossed or straddled, except in narrowly defined situations such as avoiding an obstacle.",
       "examTip": "A broken line allows overtaking; a combination line follows the rule on your own side."
+    },
+    "image": {
+      "src": "signs/centre-line-continuous.svg",
+      "alt": "Plan view of a two-way road with a continuous solid white line down the centre; a red no-crossing symbol shows the line may not be crossed or straddled.",
+      "caption": "Solid centre line — do not cross or straddle"
     }
   },
   {
@@ -740,6 +745,11 @@
     "explanation": {
       "short": "A continuous edge line marks where the carriageway ends; the strip beyond it is not a driving lane.",
       "examTip": "On motorways the hard shoulder is for emergencies only; on other roads the strip outside the edge line is generally for cyclists or pedestrians."
+    },
+    "image": {
+      "src": "signs/edge-line-continuous.svg",
+      "alt": "Plan view of a carriageway with a continuous solid white line at its outer edge and a hatched strip beyond it that is not a driving lane.",
+      "caption": "Continuous edge line — marks the edge of the carriageway"
     }
   },
   {
@@ -777,6 +787,11 @@
     "explanation": {
       "short": "A directional arrow in a lane is mandatory: you must follow the indicated direction at the next junction.",
       "examTip": "If the arrow does not match your route, change lanes well before the junction while it is still allowed."
+    },
+    "image": {
+      "src": "signs/lane-arrow-right.svg",
+      "alt": "A driving lane with a white arrow painted on the road surface pointing only to the right, requiring drivers to turn right at the next junction.",
+      "caption": "Mandatory lane arrow — you must turn right"
     }
   },
   {

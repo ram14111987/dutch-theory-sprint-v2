@@ -34,6 +34,11 @@
     "explanation": {
       "short": "You must keep right; the left and middle lanes are for overtaking.",
       "examTip": "Sitting in the middle lane when the right is free is a classic test failure."
+    },
+    "image": {
+      "src": "traffic-rules-road-position/three-lane-keep-right.svg",
+      "alt": "Plan view of a three-lane motorway with light traffic; your car is in the right-hand lane while the middle and left lanes are reserved for overtaking.",
+      "caption": "Keep right — use the left and middle lanes only to overtake"
     }
   },
   {
@@ -108,6 +113,11 @@
     "explanation": {
       "short": "Overtaking is done on the left.",
       "examTip": "An exception is a vehicle signalling and turning left — pass it on the right."
+    },
+    "image": {
+      "src": "traffic-rules-road-position/overtake-on-left.svg",
+      "alt": "Plan view of your car pulling out to pass a slower vehicle on its left, then returning to the right.",
+      "caption": "Overtake on the left"
     }
   },
   {
@@ -217,6 +227,11 @@
     "explanation": {
       "short": "A suggestion lane is part of the carriageway; you may use it when needed but cyclists keep priority.",
       "examTip": "A solid (separated) cycle path, by contrast, is off-limits to cars."
+    },
+    "image": {
+      "src": "traffic-rules-road-position/cycle-suggestion-lane.svg",
+      "alt": "A red-tinted cycle suggestion lane marked with a broken white line along the right of the carriageway, with a cyclist who keeps priority; a car may use it only when needed.",
+      "caption": "Cycle suggestion lane — use only when needed, cyclists keep priority"
     }
   },
   {

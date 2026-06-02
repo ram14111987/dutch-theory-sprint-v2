@@ -105,6 +105,11 @@
     "explanation": {
       "short": "You may not park within 5 metres of a junction.",
       "examTip": "12 metres is the rule for bus stops, not junctions."
+    },
+    "image": {
+      "src": "parking-stopping-rules/junction-parking-distance.svg",
+      "alt": "Plan view of a T-junction with a five-metre no-parking zone marked at the corner; a legally parked car sits beyond the five-metre limit.",
+      "caption": "Keep at least 5 metres clear of a junction"
     }
   },
   {
@@ -616,6 +621,11 @@
     "explanation": {
       "short": "School zigzag markings prohibit stopping during school hours — park elsewhere and walk the last metres.",
       "examTip": "Sight-lines for crossing children depend on these markings being clear."
+    },
+    "image": {
+      "src": "parking-stopping-rules/school-zigzag-markings.svg",
+      "alt": "Yellow zigzag markings along the kerb outside a school where stopping is forbidden during school hours, even for a brief drop-off.",
+      "caption": "School zigzags — no stopping during school hours"
     }
   },
   {

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">A lane with a white arrow painted on the road surface pointing only to the right, meaning you must turn right at the next junction</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <rect x="180" y="60" width="120" height="200" fill="#dfe7f5"/>
+  <rect x="300" y="60" width="180" height="80" fill="#dfe7f5"/>
+  <line x1="240" y1="140" x2="240" y2="260" stroke="#ffffff" stroke-width="2" stroke-dasharray="8 8"/>
+  <g id="arrow" fill="#ffffff" stroke="#ffffff">
+    <path d="M240 200 L240 150 L300 150" fill="none" stroke-width="8"/>
+    <polygon points="300,138 300,162 322,150"/>
+  </g>
+  <g id="you">
+    <rect x="222" y="205" width="36" height="50" rx="6" fill="#1565c0"/>
+    <text x="240" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">YOU</text>
+  </g>
+  <text x="390" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#33415c">must turn right</text>
+</svg>

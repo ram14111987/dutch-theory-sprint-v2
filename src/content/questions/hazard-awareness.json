@@ -222,6 +222,11 @@
     "explanation": {
       "short": "Pedestrians walk on the left, facing oncoming traffic, so they can see vehicles.",
       "examTip": "Dip headlights and keep well to your side of the road at dusk."
+    },
+    "image": {
+      "src": "hazard-awareness/pedestrians-walk-left.svg",
+      "alt": "A rural road with no pavement; a pedestrian walks on the left edge facing an oncoming car so they can see approaching traffic.",
+      "caption": "On roads with no pavement, walk on the left facing traffic"
     }
   },
   {

@@ -520,6 +520,11 @@
     "explanation": {
       "short": "Braking distance grows with the square of speed, so doubling speed roughly quadruples it.",
       "examTip": "Reaction distance only doubles — but the squared effect on braking is what makes high-speed crashes severe."
+    },
+    "image": {
+      "src": "speed-stopping/braking-distance-doubles.svg",
+      "alt": "A bar chart comparing braking distance: a short bar for 50 km/h and a bar roughly four times longer for 100 km/h.",
+      "caption": "Double the speed, roughly four times the braking distance"
     }
   },
   {
