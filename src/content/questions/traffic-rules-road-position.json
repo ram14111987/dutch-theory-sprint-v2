@@ -547,6 +547,11 @@
     "explanation": {
       "short": "The zipper method — using both lanes to the very end and taking turns — keeps traffic flowing best.",
       "examTip": "Drivers in the through lane should leave a gap for one merging vehicle each."
+    },
+    "image": {
+      "src": "traffic-rules-road-position/zipper-merge.svg",
+      "alt": "Two lanes reducing to one where a lane ends; vehicles from both lanes alternate one-by-one at the merge point.",
+      "caption": "Zipper merge — use both lanes, then take turns"
     }
   },
   {

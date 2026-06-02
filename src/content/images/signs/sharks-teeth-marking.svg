@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">Shark's-teeth road markings — a row of white triangles pointing toward the driver — meaning give way to the crossing road</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <rect x="0" y="40" width="480" height="60" fill="#cdd7ea"/>
+  <text x="240" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#33415c">Crossing road (has priority)</text>
+  <rect x="190" y="100" width="100" height="160" fill="#dfe7f5"/>
+  <g id="teeth" fill="#ffffff">
+    <polygon points="198,130 214,130 206,150"/>
+    <polygon points="218,130 234,130 226,150"/>
+    <polygon points="238,130 254,130 246,150"/>
+    <polygon points="258,130 274,130 266,150"/>
+  </g>
+  <g id="you">
+    <rect x="222" y="200" width="36" height="50" rx="6" fill="#1565c0"/>
+    <text x="240" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">YOU</text>
+  </g>
+  <text x="240" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d32f2f">give way</text>
+</svg>

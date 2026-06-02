@@ -478,6 +478,11 @@
     "explanation": {
       "short": "Total stopping distance = reaction distance (before the brakes act) + braking distance (while the brakes act).",
       "examTip": "Fatigue, alcohol and phone use mainly stretch the reaction part, not the brake part."
+    },
+    "image": {
+      "src": "speed-stopping/stopping-distance-parts.svg",
+      "alt": "A bar split into two coloured segments — reaction distance and braking distance — which together make up the total stopping distance.",
+      "caption": "Stopping distance = reaction distance + braking distance"
     }
   },
   {

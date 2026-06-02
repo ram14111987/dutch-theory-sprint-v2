@@ -34,6 +34,11 @@
     "explanation": {
       "short": "Look as far ahead as you can; this gives you the most time to plan.",
       "examTip": "Short-sighted looking causes late reactions and is a frequent test fault."
+    },
+    "image": {
+      "src": "hazard-awareness/scan-far-mid-near.svg",
+      "alt": "A driver's-view diagram showing the eyes scanning from far (the horizon) to mid-distance to near, plus a mirror check.",
+      "caption": "Scan far first, then mid, near and mirrors"
     }
   },
   {

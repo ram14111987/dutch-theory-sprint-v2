@@ -71,6 +71,11 @@
     "explanation": {
       "short": "When turning left, you must yield to oncoming traffic going straight on.",
       "examTip": "Flashing headlights from another driver is not a legal sign of priority — never base a turn on it."
+    },
+    "image": {
+      "src": "priority/left-turn-oncoming.svg",
+      "alt": "Plan view of a junction: your car turning left must give way to an oncoming car continuing straight ahead.",
+      "caption": "Turning left: yield to oncoming traffic going straight"
     }
   },
   {
@@ -367,6 +372,11 @@
     "explanation": {
       "short": "Pedestrians crossing or clearly about to cross at a zebra have priority — let them cross.",
       "examTip": "Brake early and smoothly so they feel safe to cross, not pressured by your approach."
+    },
+    "image": {
+      "src": "priority/zebra-crossing-pedestrian.svg",
+      "alt": "A car slowing as it approaches a marked zebra crossing where a pedestrian is at the kerb about to step on.",
+      "caption": "Slow and let a waiting pedestrian cross at a zebra"
     }
   },
   {

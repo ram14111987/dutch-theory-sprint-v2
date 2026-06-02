@@ -1109,6 +1109,11 @@
     "explanation": {
       "short": "Facing downhill with a kerb to the right: turn wheels right (toward the kerb). If the car rolls forward, the right-front wheel catches the kerb and stops the vehicle.",
       "examTip": "Simple rule — downhill with kerb: wheels INTO the kerb. Uphill with kerb: wheels AWAY from the kerb. No kerb: wheels toward the road edge in both cases."
+    },
+    "image": {
+      "src": "parking-stopping-rules/downhill-parking-wheels.svg",
+      "alt": "A car parked facing downhill with a kerb on the right and its front wheels turned right, toward the kerb.",
+      "caption": "Downhill with a kerb: turn the front wheels into the kerb"
     }
   },
   {

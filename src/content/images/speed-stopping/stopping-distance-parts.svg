@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" width="480" height="200" role="img" aria-labelledby="title">
+  <title id="title">Total stopping distance is the sum of two parts: reaction distance plus braking distance</title>
+  <rect width="480" height="200" fill="#f4f6fa"/>
+  <text x="240" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#222">Stopping distance = reaction + braking</text>
+  <rect x="40" y="70" width="160" height="44" fill="#ef6c00"/>
+  <rect x="200" y="70" width="240" height="44" fill="#1565c0"/>
+  <text x="120" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#ffffff">Reaction distance</text>
+  <text x="320" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#ffffff">Braking distance</text>
+  <line x1="40" y1="132" x2="440" y2="132" stroke="#222" stroke-width="2"/>
+  <path d="M40 132 L48 127 M40 132 L48 137" fill="none" stroke="#222" stroke-width="2"/>
+  <path d="M440 132 L432 127 M440 132 L432 137" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="240" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#222">Total stopping distance</text>
+</svg>

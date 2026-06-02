@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">Parking downhill with a kerb on the right: turn the front wheels right, into the kerb, so a rolling car is stopped by the kerb</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <polygon points="0,60 480,180 480,260 0,260" fill="#dfe7f5"/>
+  <polygon points="0,200 480,260 0,260" fill="#b7c2d8"/>
+  <text x="60" y="70" font-family="Arial, sans-serif" font-size="12" fill="#33415c">downhill ↓</text>
+  <text x="430" y="210" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#33415c">kerb (right)</text>
+  <g id="car" transform="rotate(14 250 150)">
+    <rect x="180" y="120" width="140" height="44" rx="10" fill="#1565c0"/>
+    <rect x="300" y="150" width="22" height="10" rx="3" fill="#222"/>
+    <rect x="178" y="150" width="22" height="10" rx="3" fill="#222"/>
+  </g>
+  <g id="wheel-arrow">
+    <path d="M330 175 L372 200" fill="none" stroke="#d32f2f" stroke-width="3"/>
+    <path d="M372 200 L360 198 M372 200 L368 188" fill="none" stroke="#d32f2f" stroke-width="3"/>
+  </g>
+  <text x="240" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#222">Downhill + kerb: wheels turned INTO the kerb</text>
+</svg>

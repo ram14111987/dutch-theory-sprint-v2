@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title">
+  <title id="title">Zipper merge — vehicles use both lanes up to the point where one lane ends, then merge alternately one by one</title>
+  <rect width="480" height="260" fill="#f4f6fa"/>
+  <polygon points="0,90 360,90 460,140 0,140" fill="#dfe7f5"/>
+  <polygon points="0,150 300,150 360,150 0,150" fill="#dfe7f5"/>
+  <rect x="0" y="150" width="460" height="40" fill="#dfe7f5"/>
+  <line x1="0" y1="140" x2="300" y2="140" stroke="#ffffff" stroke-width="2" stroke-dasharray="10 8"/>
+  <path d="M300 140 L360 150" fill="none" stroke="#7a8aa8" stroke-width="2"/>
+  <text x="330" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#33415c">lane ends</text>
+  <g>
+    <rect x="40" y="100" width="40" height="26" rx="5" fill="#1565c0"/>
+    <rect x="140" y="100" width="40" height="26" rx="5" fill="#1565c0"/>
+  </g>
+  <g>
+    <rect x="40" y="158" width="40" height="26" rx="5" fill="#ef6c00"/>
+    <rect x="140" y="158" width="40" height="26" rx="5" fill="#ef6c00"/>
+  </g>
+  <g>
+    <rect x="250" y="129" width="40" height="26" rx="5" fill="#1565c0"/>
+    <rect x="320" y="129" width="40" height="26" rx="5" fill="#ef6c00"/>
+  </g>
+  <text x="240" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#222">Zipper merge: take turns at the merge point</text>
+</svg>
