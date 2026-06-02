@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" role="img" aria-labelledby="title">
+  <title id="title">Reaction distance grows in proportion to speed, so doubling the speed roughly doubles the reaction distance</title>
+  <rect width="480" height="200" fill="#f4f6fa"/>
+  <text x="240" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#222">Reaction distance scales with speed</text>
+  <text x="40" y="74" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#222">50 km/h</text>
+  <rect x="120" y="58" width="120" height="26" fill="#ef6c00"/>
+  <text x="180" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">reaction</text>
+  <text x="40" y="138" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#222">100 km/h</text>
+  <rect x="120" y="122" width="240" height="26" fill="#ef6c00"/>
+  <text x="240" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">reaction (≈ double)</text>
+  <text x="240" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#d32f2f">Double the speed ≈ double the reaction distance</text>
+</svg>

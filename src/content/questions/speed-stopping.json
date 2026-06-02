@@ -182,6 +182,11 @@
     "explanation": {
       "short": "Reaction distance grows in proportion to speed, so doubling speed roughly doubles it.",
       "examTip": "Reaction distance is fixed by your reaction time; only braking distance grows with the square of speed."
+    },
+    "image": {
+      "src": "speed-stopping/reaction-distance-doubles.svg",
+      "alt": "Bar comparison showing reaction distance at 100 km/h is roughly double that at 50 km/h.",
+      "caption": "Reaction distance grows in proportion to speed"
     }
   },
   {
@@ -904,6 +909,11 @@
     "explanation": {
       "short": "Braking distance increases with the square of speed. Doubling speed from 50 to 100 km/h means 2² = 4 times the braking distance: 14 × 4 = 56 metres.",
       "examTip": "Speed doubled → braking distance quadrupled. This is one of the most important physics principles on the CBR exam."
+    },
+    "image": {
+      "src": "speed-stopping/braking-distance-squared.svg",
+      "alt": "Bar comparison showing braking distance grows from 14 metres at 50 km/h to 56 metres at 100 km/h.",
+      "caption": "Double the speed means four times the braking distance"
     }
   },
   {

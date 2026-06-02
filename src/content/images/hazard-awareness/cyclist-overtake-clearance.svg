@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" role="img" aria-labelledby="title">
+  <title id="title">When overtaking a cyclist in a built-up area, leave at least one metre of sideways space</title>
+  <rect width="480" height="200" fill="#f4f6fa"/>
+  <rect x="0" y="40" width="480" height="120" fill="#dfe7f5"/>
+  <line x1="0" y1="100" x2="480" y2="100" stroke="#ffffff" stroke-width="2" stroke-dasharray="14 10"/>
+  <circle cx="150" cy="130" r="12" fill="none" stroke="#2e7d32" stroke-width="3"/>
+  <circle cx="190" cy="130" r="12" fill="none" stroke="#2e7d32" stroke-width="3"/>
+  <line x1="150" y1="130" x2="178" y2="110" stroke="#2e7d32" stroke-width="3"/>
+  <line x1="170" y1="130" x2="178" y2="110" stroke="#2e7d32" stroke-width="3"/>
+  <circle cx="178" cy="100" r="6" fill="#2e7d32"/>
+  <rect x="120" y="56" width="50" height="30" rx="5" fill="#1565c0"/>
+  <rect x="128" y="60" width="34" height="11" rx="2" fill="#bfdbfe"/>
+  <line x1="178" y1="116" x2="178" y2="92" stroke="#d32f2f" stroke-width="2"/>
+  <line x1="120" y1="92" x2="178" y2="92" stroke="#d32f2f" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="200" y="118" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#d32f2f">≥ 1 metre side space</text>
+  <text x="40" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#222">Overtaking a cyclist in town</text>
+</svg>

@@ -1053,6 +1053,11 @@
     "explanation": {
       "short": "Parking is forbidden within 5 metres of a junction corner. At 4 metres you are inside this prohibited zone — parking here obstructs sight lines for all road users.",
       "examTip": "The 5-metre junction rule protects visibility for drivers approaching from any direction. It applies automatically, even without a sign."
+    },
+    "image": {
+      "src": "parking-stopping-rules/corner-parking-5m.svg",
+      "alt": "Plan view of a junction with a five-metre no-parking zone; a car parked at four metres sits inside the prohibited zone.",
+      "caption": "No parking within 5 metres of a junction corner"
     }
   },
   {

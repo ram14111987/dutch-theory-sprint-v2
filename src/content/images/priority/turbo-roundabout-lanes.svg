@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 268" role="img" aria-labelledby="title">
+  <title id="title">On a turbo roundabout you stay in your chosen lane, separated by raised dividers, until your exit</title>
+  <rect width="260" height="268" fill="#f8fafc"/>
+  <rect x="92" y="188" width="76" height="80" fill="#94a3b8"/>
+  <rect x="92" y="0"   width="76" height="80" fill="#94a3b8"/>
+  <rect x="0"   y="96" width="80" height="76" fill="#94a3b8"/>
+  <rect x="180" y="96" width="80" height="76" fill="#94a3b8"/>
+  <circle cx="130" cy="130" r="88" fill="#94a3b8"/>
+  <circle cx="130" cy="130" r="58" fill="#94a3b8"/>
+  <circle cx="130" cy="130" r="36" fill="#d1fae5" stroke="#6ee7b7" stroke-width="1.5"/>
+  <circle cx="130" cy="130" r="58" fill="none" stroke="#facc15" stroke-width="3"/>
+  <text x="200" y="50" font-size="9" font-weight="bold" fill="#a16207" font-family="Arial,Helvetica,sans-serif">raised divider</text>
+  <path d="M 130,52 A 78,78 0 0,1 208,130" stroke="#fff" stroke-width="3" fill="none" stroke-dasharray="12 8"/>
+  <polygon points="208,130 200,118 213,121" fill="#fff"/>
+  <rect x="156" y="100" width="24" height="36" rx="4" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="160" y="104" width="16" height="9" rx="2" fill="#bfdbfe"/>
+  <text x="130" y="258" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e293b" font-family="Arial,Helvetica,sans-serif">Stay in lane until exit</text>
+</svg>

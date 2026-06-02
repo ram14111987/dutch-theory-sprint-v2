@@ -261,6 +261,11 @@
     "explanation": {
       "short": "On almost all Dutch roundabouts, traffic on the ring has priority over traffic entering.",
       "examTip": "Shark's teeth at the entry confirm the give-way duty."
+    },
+    "image": {
+      "src": "priority/roundabout-entry-yield.svg",
+      "alt": "Plan view of a Dutch roundabout; an entering car gives way to a car already circulating on the ring.",
+      "caption": "Ring traffic has priority over entering traffic"
     }
   },
   {
@@ -567,6 +572,11 @@
     "explanation": {
       "short": "Turbo roundabouts use raised lane separators; you must stay in your lane until the exit you pre-selected.",
       "examTip": "Picking the wrong entry lane usually means going around again rather than crossing a separator."
+    },
+    "image": {
+      "src": "priority/turbo-roundabout-lanes.svg",
+      "alt": "Turbo roundabout with raised lane dividers; a car stays in its chosen lane until reaching its exit.",
+      "caption": "Stay in your lane until your exit"
     }
   },
   {

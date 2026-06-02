@@ -293,6 +293,11 @@
     "explanation": {
       "short": "A white cane (with red bands for deaf-blind) marks a vulnerable pedestrian; stop and give them time.",
       "examTip": "Never sound the horn at them — it can startle and disorient rather than help."
+    },
+    "image": {
+      "src": "special-users/white-cane-bands.svg",
+      "alt": "A pedestrian holding a white cane with red bands, indicating a deaf-blind person who needs extra time.",
+      "caption": "White cane with red bands = deaf-blind"
     }
   },
   {

@@ -1488,6 +1488,11 @@
     "explanation": {
       "short": "A cycle lane bordered by a solid white line is mandatory for cyclists and prohibited for motor vehicles. Only a dashed-line suggestion lane may be crossed.",
       "examTip": "Solid line = mandatory cycle lane, no motor vehicles. Dashed line = suggestion lane, may be crossed with caution."
+    },
+    "image": {
+      "src": "traffic-rules-road-position/cycle-lane-solid-line.svg",
+      "alt": "A cycle lane bordered by a solid white line that motor vehicles may not enter, even briefly.",
+      "caption": "Solid-line cycle lane: no entry for cars"
     }
   }
 ]

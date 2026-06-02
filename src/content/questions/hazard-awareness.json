@@ -148,6 +148,11 @@
     "explanation": {
       "short": "Give cyclists at least 1 metre of side space — 1.5 m where speed is higher.",
       "examTip": "Cyclists may wobble or swerve around a parked car; expect it."
+    },
+    "image": {
+      "src": "hazard-awareness/cyclist-overtake-clearance.svg",
+      "alt": "A car overtaking a cyclist in a built-up area leaves at least one metre of sideways clearance.",
+      "caption": "Leave at least 1 metre when passing a cyclist"
     }
   },
   {
@@ -1076,6 +1081,11 @@
     "explanation": {
       "short": "Below 200 m you may use front fog lights; rear fog lights are only allowed below 50 m.",
       "examTip": "Main beam in fog reflects off the droplets and dazzles you — never use it."
+    },
+    "image": {
+      "src": "hazard-awareness/fog-visibility-thresholds.svg",
+      "alt": "Scale showing front fog lights allowed below 200 metres visibility and rear fog lights only below 50 metres.",
+      "caption": "At 80 m: front fog allowed, rear fog not yet"
     }
   },
   {

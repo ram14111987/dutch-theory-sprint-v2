@@ -432,6 +432,11 @@
     "explanation": {
       "short": "The merging driver must adapt — speed up, lift off, or both — to find a gap. Stopping at the end of an acceleration lane is dangerous and forbidden except as a last resort.",
       "examTip": "Drivers in the right-hand motorway lane should ideally make space, but you cannot rely on it. You must adapt."
+    },
+    "image": {
+      "src": "special-roads-manoeuvres/acceleration-lane-ending.svg",
+      "alt": "A car on a short acceleration lane matches motorway speed and merges into a gap before the lane ends in 80 metres.",
+      "caption": "Match speed and merge before the lane ends"
     }
   },
   {
